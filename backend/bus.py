@@ -3,6 +3,7 @@ from flask_cors import CORS
 import pandas as pd
 import os
 from datetime import datetime
+import re
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
@@ -10,6 +11,38 @@ CORS(app)  # Enable CORS for React frontend
 # Load CSV data
 CSV_PATH = os.path.join(os.path.dirname(__file__), 'mtc_bus_routes.csv')
 bus_data = None
+
+import re
+
+def extract_locations(query):
+    query = query.lower().strip()
+
+    # Pattern to detect: from A to B
+    pattern1 = r"from (.+?) to (.+)"
+    match = re.search(pattern1, query)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+
+    # Pattern: A to B (e.g., "anna nagar to alandur")
+    pattern2 = r"(.+?) to (.+)"
+    match = re.search(pattern2, query)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+
+    return None, None
+
+
+def format_row(row):
+    """Return clean JSON for each bus route row."""
+    return {
+        'bus_number': row['Bus Number'],
+        'start': row['Starting Point'],
+        'end': row['Ending Point'],
+        'via': row['Via'],
+        'high_frequency': 'Yes' if str(row['High Frequency Route']).strip().lower() == 'x' else 'No',
+        'night_service': 'Yes' if str(row['Night Service Route']).strip().lower() == 'x' else 'No',
+        'low_frequency': 'Yes' if str(row['Low Frequency Route']).strip().lower() == 'x' else 'No'
+    }
 
 def load_bus_data():
     """Load MTC bus routes from CSV"""
@@ -26,15 +59,58 @@ def load_bus_data():
         return False
 
 def search_bus_routes(query):
-    """Search bus routes based on user query"""
+    """Search bus routes based on user query including A → B routes"""
     query = query.lower()
     results = []
-    
+
     try:
-        # Search by bus number
+        # ------------------------------------------------------------
+        # 1️⃣ HANDLE "FROM A TO B" QUERIES
+        # ------------------------------------------------------------
+        if "from" in query and "to" in query:
+            try:
+                part = query.split("from")[1].strip()
+                src, dest = part.split("to")
+                src = src.strip()
+                dest = dest.strip()
+
+                # Search for start → end
+                matches = bus_data[
+                    bus_data['Starting Point'].str.contains(src, case=False, na=False) &
+                    bus_data['Ending Point'].str.contains(dest, case=False, na=False)
+                ]
+
+                # If no direct route, check if both appear in VIA list
+                if matches.empty:
+                    matches = bus_data[
+                        bus_data['Via'].str.contains(src, case=False, na=False) &
+                        bus_data['Via'].str.contains(dest, case=False, na=False)
+                    ]
+
+                if not matches.empty:
+                    for _, row in matches.head(10).iterrows():
+                        results.append({
+                            'bus_number': row['Bus Number'],
+                            'start': row['Starting Point'],
+                            'end': row['Ending Point'],
+                            'via': row['Via'],
+                            'high_frequency': 'Yes' if str(row['High Frequency Route']).strip().lower() == 'x' else 'No',
+                            'night_service': 'Yes' if str(row['Night Service Route']).strip().lower() == 'x' else 'No',
+                            'low_frequency': 'Yes' if str(row['Low Frequency Route']).strip().lower() == 'x' else 'No'
+                        })
+                return results
+
+            except Exception as e:
+                print("Error processing A→B query:", e)
+
+        # ------------------------------------------------------------
+        # 2️⃣ SEARCH BY BUS NUMBER
+        # ------------------------------------------------------------
         if any(char.isdigit() for char in query):
             bus_number = ''.join(filter(str.isalnum, query.split()[0]))
-            matches = bus_data[bus_data['Bus Number'].astype(str).str.contains(bus_number, case=False, na=False)]
+            matches = bus_data[
+                bus_data['Bus Number'].astype(str).str.contains(bus_number, case=False, na=False)
+            ]
             if not matches.empty:
                 for _, row in matches.head(5).iterrows():
                     results.append({
@@ -46,17 +122,17 @@ def search_bus_routes(query):
                         'night_service': 'Yes' if str(row['Night Service Route']).strip().lower() == 'x' else 'No',
                         'low_frequency': 'Yes' if str(row['Low Frequency Route']).strip().lower() == 'x' else 'No'
                     })
-        
-        # Search by location (Starting Point, Ending Point, or Via)
+
+        # ------------------------------------------------------------
+        # 3️⃣ SINGLE LOCATION SEARCH (from / to / via)
+        # ------------------------------------------------------------
         if not results:
-            location_keywords = ['from', 'to', 'via', 'through']
             search_term = query
-            for keyword in location_keywords:
+            for keyword in ['from', 'to', 'via', 'through']:
                 if keyword in query:
                     search_term = query.split(keyword)[-1].strip()
                     break
-            
-            # Search in all location columns
+
             matches = bus_data[
                 bus_data['Starting Point'].str.contains(search_term, case=False, na=False) |
                 bus_data['Ending Point'].str.contains(search_term, case=False, na=False) |
@@ -74,11 +150,12 @@ def search_bus_routes(query):
                         'night_service': 'Yes' if str(row['Night Service Route']).strip().lower() == 'x' else 'No',
                         'low_frequency': 'Yes' if str(row['Low Frequency Route']).strip().lower() == 'x' else 'No'
                     })
-    
+
     except Exception as e:
         print(f"Error in search: {e}")
-    
+
     return results
+
 
 def format_bus_response(results):
     """Format bus search results into readable response"""
