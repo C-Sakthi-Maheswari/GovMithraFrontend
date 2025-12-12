@@ -321,6 +321,15 @@ def get_bus_routes():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route("/api/student-schemes")
+def student_schemes():
+    with open("scraping/gov_schemes.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return jsonify(data)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+    
 if __name__ == '__main__':
     # Load bus data on startup
     if load_bus_data():
