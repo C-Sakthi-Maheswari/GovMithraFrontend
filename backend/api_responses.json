@@ -1,0 +1,5035 @@
+[
+  {
+    "url": "https://www.myscheme.gov.in/api/auth/digilocker/session",
+    "data": {
+      "token": null,
+      "message": "Not available"
+    }
+  },
+  {
+    "url": "https://www.myscheme.gov.in/api/auth/digilocker/session",
+    "data": {
+      "token": null,
+      "message": "Not available"
+    }
+  },
+  {
+    "url": "https://api.myscheme.gov.in/search/v6/schemes/facets?lang=en",
+    "data": {
+      "status": "Success",
+      "statusCode": 200,
+      "errorDescription": "",
+      "error": "null",
+      "data": {
+        "summary": {
+          "total": 4515,
+          "query": "",
+          "sortOptions": [
+            {
+              "id": "multiple_sort",
+              "label": "Relevance"
+            },
+            {
+              "id": "schemename-asc",
+              "label": "Scheme Name (A->Z)"
+            },
+            {
+              "id": "schemename-desc",
+              "label": "Scheme Name (Z->A)"
+            }
+          ],
+          "appliedFilters": [],
+          "disabledFilters": []
+        },
+        "facets": [
+          {
+            "identifier": "schemeCategory",
+            "label": "Scheme Category",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Social welfare & Empowerment",
+                "count": 1454
+              },
+              {
+                "label": "Education & Learning",
+                "count": 1074
+              },
+              {
+                "label": "Agriculture,Rural & Environment",
+                "count": 805
+              },
+              {
+                "label": "Business & Entrepreneurship",
+                "count": 672
+              },
+              {
+                "label": "Women and Child",
+                "count": 447
+              },
+              {
+                "label": "Skills & Employment",
+                "count": 368
+              },
+              {
+                "label": "Banking,Financial Services and Insurance",
+                "count": 304
+              },
+              {
+                "label": "Health & Wellness",
+                "count": 266
+              },
+              {
+                "label": "Sports & Culture",
+                "count": 248
+              },
+              {
+                "label": "Housing & Shelter",
+                "count": 128
+              },
+              {
+                "label": "Science, IT & Communications",
+                "count": 99
+              },
+              {
+                "label": "Transport & Infrastructure",
+                "count": 84
+              },
+              {
+                "label": "Travel & Tourism",
+                "count": 74
+              },
+              {
+                "label": "Utility & Sanitation",
+                "count": 58
+              },
+              {
+                "label": "Public Safety,Law & Justice",
+                "count": 29
+              }
+            ]
+          },
+          {
+            "identifier": "gender",
+            "label": "Gender",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3711
+              },
+              {
+                "label": "Female",
+                "count": 765
+              },
+              {
+                "label": "Male",
+                "count": 332
+              },
+              {
+                "label": "Transgender",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "identifier": "age-general",
+            "label": "Age",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 364
+              },
+              {
+                "label": 1,
+                "count": 498
+              },
+              {
+                "label": 2,
+                "count": 501
+              },
+              {
+                "label": 3,
+                "count": 514
+              },
+              {
+                "label": 4,
+                "count": 550
+              },
+              {
+                "label": 5,
+                "count": 616
+              },
+              {
+                "label": 6,
+                "count": 641
+              },
+              {
+                "label": 7,
+                "count": 633
+              },
+              {
+                "label": 8,
+                "count": 643
+              },
+              {
+                "label": 9,
+                "count": 652
+              },
+              {
+                "label": 10,
+                "count": 745
+              },
+              {
+                "label": 11,
+                "count": 757
+              },
+              {
+                "label": 12,
+                "count": 824
+              },
+              {
+                "label": 13,
+                "count": 844
+              },
+              {
+                "label": 14,
+                "count": 1023
+              },
+              {
+                "label": 15,
+                "count": 1143
+              },
+              {
+                "label": 16,
+                "count": 1207
+              },
+              {
+                "label": 17,
+                "count": 1229
+              },
+              {
+                "label": 18,
+                "count": 3590
+              },
+              {
+                "label": 19,
+                "count": 3545
+              },
+              {
+                "label": 20,
+                "count": 3567
+              },
+              {
+                "label": 21,
+                "count": 3623
+              },
+              {
+                "label": 22,
+                "count": 3586
+              },
+              {
+                "label": 23,
+                "count": 3589
+              },
+              {
+                "label": 24,
+                "count": 3584
+              },
+              {
+                "label": 25,
+                "count": 3593
+              },
+              {
+                "label": 26,
+                "count": 3571
+              },
+              {
+                "label": 27,
+                "count": 3575
+              },
+              {
+                "label": 28,
+                "count": 3575
+              },
+              {
+                "label": 29,
+                "count": 3571
+              },
+              {
+                "label": 30,
+                "count": 3577
+              },
+              {
+                "label": 31,
+                "count": 3502
+              },
+              {
+                "label": 32,
+                "count": 3500
+              },
+              {
+                "label": 33,
+                "count": 3493
+              },
+              {
+                "label": 34,
+                "count": 3493
+              },
+              {
+                "label": 35,
+                "count": 3494
+              },
+              {
+                "label": 36,
+                "count": 3406
+              },
+              {
+                "label": 37,
+                "count": 3405
+              },
+              {
+                "label": 38,
+                "count": 3402
+              },
+              {
+                "label": 39,
+                "count": 3400
+              },
+              {
+                "label": 40,
+                "count": 3416
+              },
+              {
+                "label": 41,
+                "count": 3309
+              },
+              {
+                "label": 42,
+                "count": 3308
+              },
+              {
+                "label": 43,
+                "count": 3306
+              },
+              {
+                "label": 44,
+                "count": 3306
+              },
+              {
+                "label": 45,
+                "count": 3317
+              },
+              {
+                "label": 46,
+                "count": 3156
+              },
+              {
+                "label": 47,
+                "count": 3156
+              },
+              {
+                "label": 48,
+                "count": 3156
+              },
+              {
+                "label": 49,
+                "count": 3155
+              },
+              {
+                "label": 50,
+                "count": 3165
+              },
+              {
+                "label": 51,
+                "count": 3092
+              },
+              {
+                "label": 52,
+                "count": 3092
+              },
+              {
+                "label": 53,
+                "count": 3091
+              },
+              {
+                "label": 54,
+                "count": 3091
+              },
+              {
+                "label": 55,
+                "count": 3098
+              },
+              {
+                "label": 56,
+                "count": 3017
+              },
+              {
+                "label": 57,
+                "count": 3016
+              },
+              {
+                "label": 58,
+                "count": 3018
+              },
+              {
+                "label": 59,
+                "count": 3009
+              },
+              {
+                "label": 60,
+                "count": 3061
+              },
+              {
+                "label": 61,
+                "count": 2124
+              },
+              {
+                "label": 62,
+                "count": 2124
+              },
+              {
+                "label": 63,
+                "count": 2123
+              },
+              {
+                "label": 64,
+                "count": 2123
+              },
+              {
+                "label": 65,
+                "count": 2131
+              },
+              {
+                "label": 66,
+                "count": 2090
+              },
+              {
+                "label": 67,
+                "count": 2090
+              },
+              {
+                "label": 68,
+                "count": 2089
+              },
+              {
+                "label": 69,
+                "count": 2088
+              },
+              {
+                "label": 70,
+                "count": 2089
+              },
+              {
+                "label": 71,
+                "count": 2049
+              },
+              {
+                "label": 72,
+                "count": 2049
+              },
+              {
+                "label": 73,
+                "count": 2049
+              },
+              {
+                "label": 74,
+                "count": 2049
+              },
+              {
+                "label": 75,
+                "count": 2049
+              },
+              {
+                "label": 76,
+                "count": 2024
+              },
+              {
+                "label": 77,
+                "count": 2024
+              },
+              {
+                "label": 78,
+                "count": 2024
+              },
+              {
+                "label": 79,
+                "count": 2024
+              },
+              {
+                "label": 80,
+                "count": 2015
+              },
+              {
+                "label": 81,
+                "count": 1969
+              },
+              {
+                "label": 82,
+                "count": 1969
+              },
+              {
+                "label": 83,
+                "count": 1969
+              },
+              {
+                "label": 84,
+                "count": 1969
+              },
+              {
+                "label": 85,
+                "count": 1969
+              },
+              {
+                "label": 86,
+                "count": 1969
+              },
+              {
+                "label": 87,
+                "count": 1969
+              },
+              {
+                "label": 88,
+                "count": 1969
+              },
+              {
+                "label": 89,
+                "count": 1969
+              },
+              {
+                "label": 90,
+                "count": 1970
+              },
+              {
+                "label": 91,
+                "count": 1938
+              },
+              {
+                "label": 92,
+                "count": 1938
+              },
+              {
+                "label": 93,
+                "count": 1938
+              },
+              {
+                "label": 94,
+                "count": 1938
+              },
+              {
+                "label": 95,
+                "count": 1938
+              },
+              {
+                "label": 96,
+                "count": 1938
+              },
+              {
+                "label": 97,
+                "count": 1938
+              },
+              {
+                "label": 98,
+                "count": 1937
+              },
+              {
+                "label": 99,
+                "count": 1936
+              },
+              {
+                "label": 100,
+                "count": 1929
+              },
+              {
+                "label": 101,
+                "count": 1
+              },
+              {
+                "label": 102,
+                "count": 1
+              },
+              {
+                "label": 103,
+                "count": 1
+              },
+              {
+                "label": 104,
+                "count": 1
+              },
+              {
+                "label": 105,
+                "count": 1
+              },
+              {
+                "label": 106,
+                "count": 1
+              },
+              {
+                "label": 107,
+                "count": 1
+              },
+              {
+                "label": 108,
+                "count": 1
+              },
+              {
+                "label": 109,
+                "count": 1
+              },
+              {
+                "label": 110,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "caste",
+            "label": "Caste",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3781
+              },
+              {
+                "label": "Scheduled Caste (SC)",
+                "count": 378
+              },
+              {
+                "label": "Scheduled Tribe (ST)",
+                "count": 317
+              },
+              {
+                "label": "Other Backward Class (OBC)",
+                "count": 179
+              },
+              {
+                "label": "General",
+                "count": 64
+              },
+              {
+                "label": "Particularly Vulnerable Tribal Group (PVTG)",
+                "count": 39
+              },
+              {
+                "label": "De-Notified, Nomadic, and Semi-Nomadic (DNT) communities",
+                "count": 13
+              }
+            ]
+          },
+          {
+            "identifier": "beneficiaryState",
+            "label": "State",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Gujarat",
+                "count": 638
+              },
+              {
+                "label": "All",
+                "count": 575
+              },
+              {
+                "label": "Uttarakhand",
+                "count": 441
+              },
+              {
+                "label": "Goa",
+                "count": 270
+              },
+              {
+                "label": "Puducherry",
+                "count": 258
+              },
+              {
+                "label": "Madhya Pradesh",
+                "count": 253
+              },
+              {
+                "label": "Haryana",
+                "count": 248
+              },
+              {
+                "label": "Tamil Nadu",
+                "count": 236
+              },
+              {
+                "label": "Rajasthan",
+                "count": 160
+              },
+              {
+                "label": "Bihar",
+                "count": 115
+              },
+              {
+                "label": "West Bengal",
+                "count": 109
+              },
+              {
+                "label": "Chhattisgarh",
+                "count": 108
+              },
+              {
+                "label": "Jharkhand",
+                "count": 97
+              },
+              {
+                "label": "Maharashtra",
+                "count": 85
+              },
+              {
+                "label": "Kerala",
+                "count": 83
+              },
+              {
+                "label": "Assam",
+                "count": 80
+              },
+              {
+                "label": "Odisha",
+                "count": 75
+              },
+              {
+                "label": "Himachal Pradesh",
+                "count": 65
+              },
+              {
+                "label": "Meghalaya",
+                "count": 64
+              },
+              {
+                "label": "Karnataka",
+                "count": 58
+              },
+              {
+                "label": "Andhra Pradesh",
+                "count": 52
+              },
+              {
+                "label": "Dadra & Nagar Haveli and Daman & Diu",
+                "count": 50
+              },
+              {
+                "label": "Delhi",
+                "count": 49
+              },
+              {
+                "label": "Jammu and Kashmir",
+                "count": 49
+              },
+              {
+                "label": "Uttar Pradesh",
+                "count": 47
+              },
+              {
+                "label": "Punjab",
+                "count": 41
+              },
+              {
+                "label": "Arunachal Pradesh",
+                "count": 40
+              },
+              {
+                "label": "Tripura",
+                "count": 39
+              },
+              {
+                "label": "Manipur",
+                "count": 30
+              },
+              {
+                "label": "Sikkim",
+                "count": 25
+              },
+              {
+                "label": "Telangana",
+                "count": 23
+              },
+              {
+                "label": "Nagaland",
+                "count": 22
+              },
+              {
+                "label": "Mizoram",
+                "count": 21
+              },
+              {
+                "label": "Andaman and Nicobar Islands",
+                "count": 20
+              },
+              {
+                "label": "Chandigarh",
+                "count": 20
+              },
+              {
+                "label": "Lakshadweep",
+                "count": 9
+              }
+            ]
+          },
+          {
+            "identifier": "nodalMinistryName",
+            "label": "Ministry Name",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Ministry Of Social Justice and Empowerment",
+                "count": 105
+              },
+              {
+                "label": "Ministry of Education",
+                "count": 79
+              },
+              {
+                "label": "Ministry Of Science And Technology",
+                "count": 69
+              },
+              {
+                "label": "Ministry Of Agriculture and Farmers Welfare",
+                "count": 42
+              },
+              {
+                "label": "Ministry Of Commerce And Industry",
+                "count": 30
+              },
+              {
+                "label": "Ministry Of Micro, Small and Medium Enterprises",
+                "count": 29
+              },
+              {
+                "label": "Ministry Of Finance",
+                "count": 18
+              },
+              {
+                "label": "Ministry Of Textiles",
+                "count": 17
+              },
+              {
+                "label": "Ministry Of Defence",
+                "count": 15
+              },
+              {
+                "label": "Ministry Of Health & Family Welfare",
+                "count": 15
+              },
+              {
+                "label": "Ministry Of Culture",
+                "count": 13
+              },
+              {
+                "label": "Ministry of Fisheries,Animal Husbandry and Dairying",
+                "count": 13
+              },
+              {
+                "label": "Ministry Of Home Affairs",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Minority Affairs",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Rural Development",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Labour and Employment",
+                "count": 10
+              },
+              {
+                "label": "Ministry of Electronics and Information Technology",
+                "count": 9
+              },
+              {
+                "label": "Ministry Of Tribal Affairs",
+                "count": 8
+              },
+              {
+                "label": "Ministry Of New and Renewable Energy",
+                "count": 7
+              },
+              {
+                "label": "Ministry Of Communication",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Jal Shakti",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Skill Development And Entrepreneurship",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Tourism",
+                "count": 6
+              },
+              {
+                "label": "Ministry of Women and Child Development",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of External Affairs",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Housing & Urban Affairs",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Youth Affairs & Sports",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Law and Justice",
+                "count": 3
+              },
+              {
+                "label": "Ministry Of Personnel, Public Grievances And Pensions",
+                "count": 3
+              },
+              {
+                "label": "Ministry Of Petroleum and Natural Gas",
+                "count": 3
+              },
+              {
+                "label": "Comptroller And Auditor General Of India",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Chemicals And Fertilizers",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Environment,forests and climate change",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Panchayati Raj",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Road Transport & Highways",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Statistics and Programme Implementation",
+                "count": 2
+              },
+              {
+                "label": "Ministry of Corporate Affairs",
+                "count": 2
+              },
+              {
+                "label": "Ministry of Heavy Industries",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Consumer Affairs, Food And Public Distribution",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Development Of North Eastern Region",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Earth Sciences",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Information And Broadcasting",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Railways",
+                "count": 1
+              },
+              {
+                "label": "Ministry of Food Processing Industries",
+                "count": 1
+              },
+              {
+                "label": "Ministry of Ports,Shipping and Waterways",
+                "count": 1
+              },
+              {
+                "label": "NITI Aayog (National Institution for Transforming India)",
+                "count": 1
+              },
+              {
+                "label": "The Lokpal of India",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "level",
+            "label": "Level",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "State",
+                "count": 3924
+              },
+              {
+                "label": "Central",
+                "count": 591
+              }
+            ]
+          },
+          {
+            "identifier": "residence",
+            "label": "Residence",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Both",
+                "count": 4286
+              },
+              {
+                "label": "Rural",
+                "count": 200
+              },
+              {
+                "label": "Urban",
+                "count": 41
+              }
+            ]
+          },
+          {
+            "identifier": "minority",
+            "label": "Minority",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4447
+              },
+              {
+                "label": "Yes",
+                "count": 68
+              }
+            ]
+          },
+          {
+            "identifier": "disability",
+            "label": "Differently Abled",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4218
+              },
+              {
+                "label": "Yes",
+                "count": 297
+              }
+            ]
+          },
+          {
+            "identifier": "benefitTypes",
+            "label": "Benefit Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Cash",
+                "count": 3136
+              },
+              {
+                "label": "In Kind",
+                "count": 755
+              },
+              {
+                "label": "Composite",
+                "count": 624
+              }
+            ]
+          },
+          {
+            "identifier": "dbtScheme",
+            "label": "DBT Scheme",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4059
+              },
+              {
+                "label": "Yes",
+                "count": 456
+              }
+            ]
+          },
+          {
+            "identifier": "maritalStatus",
+            "label": "Marital Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 4230
+              },
+              {
+                "label": "Never Married",
+                "count": 133
+              },
+              {
+                "label": "Widowed",
+                "count": 104
+              },
+              {
+                "label": "Married",
+                "count": 89
+              },
+              {
+                "label": "Divorced",
+                "count": 49
+              }
+            ]
+          },
+          {
+            "identifier": "disabilityPercentage",
+            "label": "Disability Percentage",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 22
+              },
+              {
+                "label": 10,
+                "count": 25
+              },
+              {
+                "label": 20,
+                "count": 29
+              },
+              {
+                "label": 30,
+                "count": 29
+              },
+              {
+                "label": 40,
+                "count": 157
+              },
+              {
+                "label": 50,
+                "count": 161
+              },
+              {
+                "label": 60,
+                "count": 167
+              },
+              {
+                "label": 70,
+                "count": 172
+              },
+              {
+                "label": 80,
+                "count": 184
+              },
+              {
+                "label": 90,
+                "count": 184
+              },
+              {
+                "label": 100,
+                "count": 194
+              }
+            ]
+          },
+          {
+            "identifier": "isBpl",
+            "label": "Below Poverty Line",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4350
+              },
+              {
+                "label": "Yes",
+                "count": 165
+              }
+            ]
+          },
+          {
+            "identifier": "isEconomicDistress",
+            "label": "Economic Distress",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4469
+              },
+              {
+                "label": "Yes",
+                "count": 46
+              }
+            ]
+          },
+          {
+            "identifier": "isGovEmployee",
+            "label": "Government Employee",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4502
+              },
+              {
+                "label": "Yes",
+                "count": 13
+              }
+            ]
+          },
+          {
+            "identifier": "employmentStatus",
+            "label": "Employment Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3445
+              },
+              {
+                "label": "Employed",
+                "count": 532
+              },
+              {
+                "label": "Self-Employed/ Entrepreneur",
+                "count": 383
+              },
+              {
+                "label": "Unemployed",
+                "count": 155
+              }
+            ]
+          },
+          {
+            "identifier": "isStudent",
+            "label": "Student",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4156
+              },
+              {
+                "label": "Yes",
+                "count": 359
+              }
+            ]
+          },
+          {
+            "identifier": "occupation",
+            "label": "Occupation",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 353
+              },
+              {
+                "label": "Farmer",
+                "count": 353
+              },
+              {
+                "label": "Construction Worker",
+                "count": 287
+              },
+              {
+                "label": "Unorganized Worker",
+                "count": 186
+              },
+              {
+                "label": "Fishermen",
+                "count": 102
+              }
+            ]
+          },
+          {
+            "identifier": "applicationMode",
+            "label": "Application Mode",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Offline",
+                "count": 2632
+              },
+              {
+                "label": "Online",
+                "count": 2189
+              },
+              {
+                "label": "Online - via CSC",
+                "count": 154
+              }
+            ]
+          },
+          {
+            "identifier": "schemeType",
+            "label": "Scheme Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Central Sector Scheme",
+                "count": 408
+              },
+              {
+                "label": "Centrally Sponsored Scheme",
+                "count": 92
+              }
+            ]
+          }
+        ],
+        "hits": {
+          "items": [
+            {
+              "id": "naGzF5gBXu-iUKXqInRl",
+              "fields": {},
+              "highlight": {}
+            }
+          ],
+          "page": {
+            "total": 4515,
+            "totalPages": 4515,
+            "pageNumber": 0,
+            "from": 0,
+            "size": 1
+          }
+        },
+        "sortedBy": "multiple_sort"
+      }
+    }
+  },
+  {
+    "url": "https://api.myscheme.gov.in/search/v6/schemes/facets?lang=en",
+    "data": {
+      "status": "Success",
+      "statusCode": 200,
+      "errorDescription": "",
+      "error": "null",
+      "data": {
+        "summary": {
+          "total": 4515,
+          "query": "",
+          "sortOptions": [
+            {
+              "id": "multiple_sort",
+              "label": "Relevance"
+            },
+            {
+              "id": "schemename-asc",
+              "label": "Scheme Name (A->Z)"
+            },
+            {
+              "id": "schemename-desc",
+              "label": "Scheme Name (Z->A)"
+            }
+          ],
+          "appliedFilters": [],
+          "disabledFilters": []
+        },
+        "facets": [
+          {
+            "identifier": "schemeCategory",
+            "label": "Scheme Category",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Social welfare & Empowerment",
+                "count": 1454
+              },
+              {
+                "label": "Education & Learning",
+                "count": 1074
+              },
+              {
+                "label": "Agriculture,Rural & Environment",
+                "count": 805
+              },
+              {
+                "label": "Business & Entrepreneurship",
+                "count": 672
+              },
+              {
+                "label": "Women and Child",
+                "count": 447
+              },
+              {
+                "label": "Skills & Employment",
+                "count": 368
+              },
+              {
+                "label": "Banking,Financial Services and Insurance",
+                "count": 304
+              },
+              {
+                "label": "Health & Wellness",
+                "count": 266
+              },
+              {
+                "label": "Sports & Culture",
+                "count": 248
+              },
+              {
+                "label": "Housing & Shelter",
+                "count": 128
+              },
+              {
+                "label": "Science, IT & Communications",
+                "count": 99
+              },
+              {
+                "label": "Transport & Infrastructure",
+                "count": 84
+              },
+              {
+                "label": "Travel & Tourism",
+                "count": 74
+              },
+              {
+                "label": "Utility & Sanitation",
+                "count": 58
+              },
+              {
+                "label": "Public Safety,Law & Justice",
+                "count": 29
+              }
+            ]
+          },
+          {
+            "identifier": "gender",
+            "label": "Gender",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3711
+              },
+              {
+                "label": "Female",
+                "count": 765
+              },
+              {
+                "label": "Male",
+                "count": 332
+              },
+              {
+                "label": "Transgender",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "identifier": "age-general",
+            "label": "Age",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 364
+              },
+              {
+                "label": 1,
+                "count": 498
+              },
+              {
+                "label": 2,
+                "count": 501
+              },
+              {
+                "label": 3,
+                "count": 514
+              },
+              {
+                "label": 4,
+                "count": 550
+              },
+              {
+                "label": 5,
+                "count": 616
+              },
+              {
+                "label": 6,
+                "count": 641
+              },
+              {
+                "label": 7,
+                "count": 633
+              },
+              {
+                "label": 8,
+                "count": 643
+              },
+              {
+                "label": 9,
+                "count": 652
+              },
+              {
+                "label": 10,
+                "count": 745
+              },
+              {
+                "label": 11,
+                "count": 757
+              },
+              {
+                "label": 12,
+                "count": 824
+              },
+              {
+                "label": 13,
+                "count": 844
+              },
+              {
+                "label": 14,
+                "count": 1023
+              },
+              {
+                "label": 15,
+                "count": 1143
+              },
+              {
+                "label": 16,
+                "count": 1207
+              },
+              {
+                "label": 17,
+                "count": 1229
+              },
+              {
+                "label": 18,
+                "count": 3590
+              },
+              {
+                "label": 19,
+                "count": 3545
+              },
+              {
+                "label": 20,
+                "count": 3567
+              },
+              {
+                "label": 21,
+                "count": 3623
+              },
+              {
+                "label": 22,
+                "count": 3586
+              },
+              {
+                "label": 23,
+                "count": 3589
+              },
+              {
+                "label": 24,
+                "count": 3584
+              },
+              {
+                "label": 25,
+                "count": 3593
+              },
+              {
+                "label": 26,
+                "count": 3571
+              },
+              {
+                "label": 27,
+                "count": 3575
+              },
+              {
+                "label": 28,
+                "count": 3575
+              },
+              {
+                "label": 29,
+                "count": 3571
+              },
+              {
+                "label": 30,
+                "count": 3577
+              },
+              {
+                "label": 31,
+                "count": 3502
+              },
+              {
+                "label": 32,
+                "count": 3500
+              },
+              {
+                "label": 33,
+                "count": 3493
+              },
+              {
+                "label": 34,
+                "count": 3493
+              },
+              {
+                "label": 35,
+                "count": 3494
+              },
+              {
+                "label": 36,
+                "count": 3406
+              },
+              {
+                "label": 37,
+                "count": 3405
+              },
+              {
+                "label": 38,
+                "count": 3402
+              },
+              {
+                "label": 39,
+                "count": 3400
+              },
+              {
+                "label": 40,
+                "count": 3416
+              },
+              {
+                "label": 41,
+                "count": 3309
+              },
+              {
+                "label": 42,
+                "count": 3308
+              },
+              {
+                "label": 43,
+                "count": 3306
+              },
+              {
+                "label": 44,
+                "count": 3306
+              },
+              {
+                "label": 45,
+                "count": 3317
+              },
+              {
+                "label": 46,
+                "count": 3156
+              },
+              {
+                "label": 47,
+                "count": 3156
+              },
+              {
+                "label": 48,
+                "count": 3156
+              },
+              {
+                "label": 49,
+                "count": 3155
+              },
+              {
+                "label": 50,
+                "count": 3165
+              },
+              {
+                "label": 51,
+                "count": 3092
+              },
+              {
+                "label": 52,
+                "count": 3092
+              },
+              {
+                "label": 53,
+                "count": 3091
+              },
+              {
+                "label": 54,
+                "count": 3091
+              },
+              {
+                "label": 55,
+                "count": 3098
+              },
+              {
+                "label": 56,
+                "count": 3017
+              },
+              {
+                "label": 57,
+                "count": 3016
+              },
+              {
+                "label": 58,
+                "count": 3018
+              },
+              {
+                "label": 59,
+                "count": 3009
+              },
+              {
+                "label": 60,
+                "count": 3061
+              },
+              {
+                "label": 61,
+                "count": 2124
+              },
+              {
+                "label": 62,
+                "count": 2124
+              },
+              {
+                "label": 63,
+                "count": 2123
+              },
+              {
+                "label": 64,
+                "count": 2123
+              },
+              {
+                "label": 65,
+                "count": 2131
+              },
+              {
+                "label": 66,
+                "count": 2090
+              },
+              {
+                "label": 67,
+                "count": 2090
+              },
+              {
+                "label": 68,
+                "count": 2089
+              },
+              {
+                "label": 69,
+                "count": 2088
+              },
+              {
+                "label": 70,
+                "count": 2089
+              },
+              {
+                "label": 71,
+                "count": 2049
+              },
+              {
+                "label": 72,
+                "count": 2049
+              },
+              {
+                "label": 73,
+                "count": 2049
+              },
+              {
+                "label": 74,
+                "count": 2049
+              },
+              {
+                "label": 75,
+                "count": 2049
+              },
+              {
+                "label": 76,
+                "count": 2024
+              },
+              {
+                "label": 77,
+                "count": 2024
+              },
+              {
+                "label": 78,
+                "count": 2024
+              },
+              {
+                "label": 79,
+                "count": 2024
+              },
+              {
+                "label": 80,
+                "count": 2015
+              },
+              {
+                "label": 81,
+                "count": 1969
+              },
+              {
+                "label": 82,
+                "count": 1969
+              },
+              {
+                "label": 83,
+                "count": 1969
+              },
+              {
+                "label": 84,
+                "count": 1969
+              },
+              {
+                "label": 85,
+                "count": 1969
+              },
+              {
+                "label": 86,
+                "count": 1969
+              },
+              {
+                "label": 87,
+                "count": 1969
+              },
+              {
+                "label": 88,
+                "count": 1969
+              },
+              {
+                "label": 89,
+                "count": 1969
+              },
+              {
+                "label": 90,
+                "count": 1970
+              },
+              {
+                "label": 91,
+                "count": 1938
+              },
+              {
+                "label": 92,
+                "count": 1938
+              },
+              {
+                "label": 93,
+                "count": 1938
+              },
+              {
+                "label": 94,
+                "count": 1938
+              },
+              {
+                "label": 95,
+                "count": 1938
+              },
+              {
+                "label": 96,
+                "count": 1938
+              },
+              {
+                "label": 97,
+                "count": 1938
+              },
+              {
+                "label": 98,
+                "count": 1937
+              },
+              {
+                "label": 99,
+                "count": 1936
+              },
+              {
+                "label": 100,
+                "count": 1929
+              },
+              {
+                "label": 101,
+                "count": 1
+              },
+              {
+                "label": 102,
+                "count": 1
+              },
+              {
+                "label": 103,
+                "count": 1
+              },
+              {
+                "label": 104,
+                "count": 1
+              },
+              {
+                "label": 105,
+                "count": 1
+              },
+              {
+                "label": 106,
+                "count": 1
+              },
+              {
+                "label": 107,
+                "count": 1
+              },
+              {
+                "label": 108,
+                "count": 1
+              },
+              {
+                "label": 109,
+                "count": 1
+              },
+              {
+                "label": 110,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "caste",
+            "label": "Caste",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3781
+              },
+              {
+                "label": "Scheduled Caste (SC)",
+                "count": 378
+              },
+              {
+                "label": "Scheduled Tribe (ST)",
+                "count": 317
+              },
+              {
+                "label": "Other Backward Class (OBC)",
+                "count": 179
+              },
+              {
+                "label": "General",
+                "count": 64
+              },
+              {
+                "label": "Particularly Vulnerable Tribal Group (PVTG)",
+                "count": 39
+              },
+              {
+                "label": "De-Notified, Nomadic, and Semi-Nomadic (DNT) communities",
+                "count": 13
+              }
+            ]
+          },
+          {
+            "identifier": "beneficiaryState",
+            "label": "State",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Gujarat",
+                "count": 638
+              },
+              {
+                "label": "All",
+                "count": 575
+              },
+              {
+                "label": "Uttarakhand",
+                "count": 441
+              },
+              {
+                "label": "Goa",
+                "count": 270
+              },
+              {
+                "label": "Puducherry",
+                "count": 258
+              },
+              {
+                "label": "Madhya Pradesh",
+                "count": 253
+              },
+              {
+                "label": "Haryana",
+                "count": 248
+              },
+              {
+                "label": "Tamil Nadu",
+                "count": 236
+              },
+              {
+                "label": "Rajasthan",
+                "count": 160
+              },
+              {
+                "label": "Bihar",
+                "count": 115
+              },
+              {
+                "label": "West Bengal",
+                "count": 109
+              },
+              {
+                "label": "Chhattisgarh",
+                "count": 108
+              },
+              {
+                "label": "Jharkhand",
+                "count": 97
+              },
+              {
+                "label": "Maharashtra",
+                "count": 85
+              },
+              {
+                "label": "Kerala",
+                "count": 83
+              },
+              {
+                "label": "Assam",
+                "count": 80
+              },
+              {
+                "label": "Odisha",
+                "count": 75
+              },
+              {
+                "label": "Himachal Pradesh",
+                "count": 65
+              },
+              {
+                "label": "Meghalaya",
+                "count": 64
+              },
+              {
+                "label": "Karnataka",
+                "count": 58
+              },
+              {
+                "label": "Andhra Pradesh",
+                "count": 52
+              },
+              {
+                "label": "Dadra & Nagar Haveli and Daman & Diu",
+                "count": 50
+              },
+              {
+                "label": "Delhi",
+                "count": 49
+              },
+              {
+                "label": "Jammu and Kashmir",
+                "count": 49
+              },
+              {
+                "label": "Uttar Pradesh",
+                "count": 47
+              },
+              {
+                "label": "Punjab",
+                "count": 41
+              },
+              {
+                "label": "Arunachal Pradesh",
+                "count": 40
+              },
+              {
+                "label": "Tripura",
+                "count": 39
+              },
+              {
+                "label": "Manipur",
+                "count": 30
+              },
+              {
+                "label": "Sikkim",
+                "count": 25
+              },
+              {
+                "label": "Telangana",
+                "count": 23
+              },
+              {
+                "label": "Nagaland",
+                "count": 22
+              },
+              {
+                "label": "Mizoram",
+                "count": 21
+              },
+              {
+                "label": "Andaman and Nicobar Islands",
+                "count": 20
+              },
+              {
+                "label": "Chandigarh",
+                "count": 20
+              },
+              {
+                "label": "Lakshadweep",
+                "count": 9
+              }
+            ]
+          },
+          {
+            "identifier": "nodalMinistryName",
+            "label": "Ministry Name",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Ministry Of Social Justice and Empowerment",
+                "count": 105
+              },
+              {
+                "label": "Ministry of Education",
+                "count": 79
+              },
+              {
+                "label": "Ministry Of Science And Technology",
+                "count": 69
+              },
+              {
+                "label": "Ministry Of Agriculture and Farmers Welfare",
+                "count": 42
+              },
+              {
+                "label": "Ministry Of Commerce And Industry",
+                "count": 30
+              },
+              {
+                "label": "Ministry Of Micro, Small and Medium Enterprises",
+                "count": 29
+              },
+              {
+                "label": "Ministry Of Finance",
+                "count": 18
+              },
+              {
+                "label": "Ministry Of Textiles",
+                "count": 17
+              },
+              {
+                "label": "Ministry Of Defence",
+                "count": 15
+              },
+              {
+                "label": "Ministry Of Health & Family Welfare",
+                "count": 15
+              },
+              {
+                "label": "Ministry Of Culture",
+                "count": 13
+              },
+              {
+                "label": "Ministry of Fisheries,Animal Husbandry and Dairying",
+                "count": 13
+              },
+              {
+                "label": "Ministry Of Home Affairs",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Minority Affairs",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Rural Development",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Labour and Employment",
+                "count": 10
+              },
+              {
+                "label": "Ministry of Electronics and Information Technology",
+                "count": 9
+              },
+              {
+                "label": "Ministry Of Tribal Affairs",
+                "count": 8
+              },
+              {
+                "label": "Ministry Of New and Renewable Energy",
+                "count": 7
+              },
+              {
+                "label": "Ministry Of Communication",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Jal Shakti",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Skill Development And Entrepreneurship",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Tourism",
+                "count": 6
+              },
+              {
+                "label": "Ministry of Women and Child Development",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of External Affairs",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Housing & Urban Affairs",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Youth Affairs & Sports",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Law and Justice",
+                "count": 3
+              },
+              {
+                "label": "Ministry Of Personnel, Public Grievances And Pensions",
+                "count": 3
+              },
+              {
+                "label": "Ministry Of Petroleum and Natural Gas",
+                "count": 3
+              },
+              {
+                "label": "Comptroller And Auditor General Of India",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Chemicals And Fertilizers",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Environment,forests and climate change",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Panchayati Raj",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Road Transport & Highways",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Statistics and Programme Implementation",
+                "count": 2
+              },
+              {
+                "label": "Ministry of Corporate Affairs",
+                "count": 2
+              },
+              {
+                "label": "Ministry of Heavy Industries",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Consumer Affairs, Food And Public Distribution",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Development Of North Eastern Region",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Earth Sciences",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Information And Broadcasting",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Railways",
+                "count": 1
+              },
+              {
+                "label": "Ministry of Food Processing Industries",
+                "count": 1
+              },
+              {
+                "label": "Ministry of Ports,Shipping and Waterways",
+                "count": 1
+              },
+              {
+                "label": "NITI Aayog (National Institution for Transforming India)",
+                "count": 1
+              },
+              {
+                "label": "The Lokpal of India",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "level",
+            "label": "Level",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "State",
+                "count": 3924
+              },
+              {
+                "label": "Central",
+                "count": 591
+              }
+            ]
+          },
+          {
+            "identifier": "residence",
+            "label": "Residence",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Both",
+                "count": 4286
+              },
+              {
+                "label": "Rural",
+                "count": 200
+              },
+              {
+                "label": "Urban",
+                "count": 41
+              }
+            ]
+          },
+          {
+            "identifier": "minority",
+            "label": "Minority",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4447
+              },
+              {
+                "label": "Yes",
+                "count": 68
+              }
+            ]
+          },
+          {
+            "identifier": "disability",
+            "label": "Differently Abled",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4218
+              },
+              {
+                "label": "Yes",
+                "count": 297
+              }
+            ]
+          },
+          {
+            "identifier": "benefitTypes",
+            "label": "Benefit Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Cash",
+                "count": 3136
+              },
+              {
+                "label": "In Kind",
+                "count": 755
+              },
+              {
+                "label": "Composite",
+                "count": 624
+              }
+            ]
+          },
+          {
+            "identifier": "dbtScheme",
+            "label": "DBT Scheme",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4059
+              },
+              {
+                "label": "Yes",
+                "count": 456
+              }
+            ]
+          },
+          {
+            "identifier": "maritalStatus",
+            "label": "Marital Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 4230
+              },
+              {
+                "label": "Never Married",
+                "count": 133
+              },
+              {
+                "label": "Widowed",
+                "count": 104
+              },
+              {
+                "label": "Married",
+                "count": 89
+              },
+              {
+                "label": "Divorced",
+                "count": 49
+              }
+            ]
+          },
+          {
+            "identifier": "disabilityPercentage",
+            "label": "Disability Percentage",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 22
+              },
+              {
+                "label": 10,
+                "count": 25
+              },
+              {
+                "label": 20,
+                "count": 29
+              },
+              {
+                "label": 30,
+                "count": 29
+              },
+              {
+                "label": 40,
+                "count": 157
+              },
+              {
+                "label": 50,
+                "count": 161
+              },
+              {
+                "label": 60,
+                "count": 167
+              },
+              {
+                "label": 70,
+                "count": 172
+              },
+              {
+                "label": 80,
+                "count": 184
+              },
+              {
+                "label": 90,
+                "count": 184
+              },
+              {
+                "label": 100,
+                "count": 194
+              }
+            ]
+          },
+          {
+            "identifier": "isBpl",
+            "label": "Below Poverty Line",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4350
+              },
+              {
+                "label": "Yes",
+                "count": 165
+              }
+            ]
+          },
+          {
+            "identifier": "isEconomicDistress",
+            "label": "Economic Distress",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4469
+              },
+              {
+                "label": "Yes",
+                "count": 46
+              }
+            ]
+          },
+          {
+            "identifier": "isGovEmployee",
+            "label": "Government Employee",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4502
+              },
+              {
+                "label": "Yes",
+                "count": 13
+              }
+            ]
+          },
+          {
+            "identifier": "employmentStatus",
+            "label": "Employment Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3445
+              },
+              {
+                "label": "Employed",
+                "count": 532
+              },
+              {
+                "label": "Self-Employed/ Entrepreneur",
+                "count": 383
+              },
+              {
+                "label": "Unemployed",
+                "count": 155
+              }
+            ]
+          },
+          {
+            "identifier": "isStudent",
+            "label": "Student",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 4156
+              },
+              {
+                "label": "Yes",
+                "count": 359
+              }
+            ]
+          },
+          {
+            "identifier": "occupation",
+            "label": "Occupation",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 353
+              },
+              {
+                "label": "Farmer",
+                "count": 353
+              },
+              {
+                "label": "Construction Worker",
+                "count": 287
+              },
+              {
+                "label": "Unorganized Worker",
+                "count": 186
+              },
+              {
+                "label": "Fishermen",
+                "count": 102
+              }
+            ]
+          },
+          {
+            "identifier": "applicationMode",
+            "label": "Application Mode",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Offline",
+                "count": 2632
+              },
+              {
+                "label": "Online",
+                "count": 2189
+              },
+              {
+                "label": "Online - via CSC",
+                "count": 154
+              }
+            ]
+          },
+          {
+            "identifier": "schemeType",
+            "label": "Scheme Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Central Sector Scheme",
+                "count": 408
+              },
+              {
+                "label": "Centrally Sponsored Scheme",
+                "count": 92
+              }
+            ]
+          }
+        ],
+        "hits": {
+          "items": [
+            {
+              "id": "naGzF5gBXu-iUKXqInRl",
+              "fields": {},
+              "highlight": {}
+            }
+          ],
+          "page": {
+            "total": 4515,
+            "totalPages": 4515,
+            "pageNumber": 0,
+            "from": 0,
+            "size": 1
+          }
+        },
+        "sortedBy": "multiple_sort"
+      }
+    }
+  },
+  {
+    "url": "https://api.myscheme.gov.in/search/v6/schemes/facets?lang=en&q=%5B%7B%22identifier%22%3A%22level%22%2C%22value%22%3A%22Central%22%7D%5D",
+    "data": {
+      "status": "Success",
+      "statusCode": 200,
+      "errorDescription": "",
+      "error": "null",
+      "data": {
+        "summary": {
+          "total": 591,
+          "query": "",
+          "sortOptions": [
+            {
+              "id": "multiple_sort",
+              "label": "Relevance"
+            },
+            {
+              "id": "schemename-asc",
+              "label": "Scheme Name (A->Z)"
+            },
+            {
+              "id": "schemename-desc",
+              "label": "Scheme Name (Z->A)"
+            }
+          ],
+          "appliedFilters": [
+            {
+              "identifier": "level",
+              "id": "level_Central",
+              "label": "Level",
+              "display": "ListFacet",
+              "type": "ValueSelectedFilter",
+              "value": "Central"
+            }
+          ],
+          "disabledFilters": []
+        },
+        "facets": [
+          {
+            "identifier": "schemeCategory",
+            "label": "Scheme Category",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Education & Learning",
+                "count": 247
+              },
+              {
+                "label": "Social welfare & Empowerment",
+                "count": 146
+              },
+              {
+                "label": "Business & Entrepreneurship",
+                "count": 74
+              },
+              {
+                "label": "Skills & Employment",
+                "count": 71
+              },
+              {
+                "label": "Agriculture,Rural & Environment",
+                "count": 65
+              },
+              {
+                "label": "Banking,Financial Services and Insurance",
+                "count": 64
+              },
+              {
+                "label": "Science, IT & Communications",
+                "count": 57
+              },
+              {
+                "label": "Women and Child",
+                "count": 40
+              },
+              {
+                "label": "Health & Wellness",
+                "count": 30
+              },
+              {
+                "label": "Sports & Culture",
+                "count": 20
+              },
+              {
+                "label": "Transport & Infrastructure",
+                "count": 19
+              },
+              {
+                "label": "Utility & Sanitation",
+                "count": 19
+              },
+              {
+                "label": "Housing & Shelter",
+                "count": 14
+              },
+              {
+                "label": "Public Safety,Law & Justice",
+                "count": 6
+              },
+              {
+                "label": "Travel & Tourism",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "identifier": "gender",
+            "label": "Gender",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 534
+              },
+              {
+                "label": "Female",
+                "count": 52
+              },
+              {
+                "label": "Male",
+                "count": 10
+              },
+              {
+                "label": "Transgender",
+                "count": 9
+              }
+            ]
+          },
+          {
+            "identifier": "age-general",
+            "label": "Age",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 94
+              },
+              {
+                "label": 1,
+                "count": 109
+              },
+              {
+                "label": 2,
+                "count": 109
+              },
+              {
+                "label": 3,
+                "count": 110
+              },
+              {
+                "label": 4,
+                "count": 113
+              },
+              {
+                "label": 5,
+                "count": 116
+              },
+              {
+                "label": 6,
+                "count": 116
+              },
+              {
+                "label": 7,
+                "count": 116
+              },
+              {
+                "label": 8,
+                "count": 117
+              },
+              {
+                "label": 9,
+                "count": 117
+              },
+              {
+                "label": 10,
+                "count": 139
+              },
+              {
+                "label": 11,
+                "count": 140
+              },
+              {
+                "label": 12,
+                "count": 150
+              },
+              {
+                "label": 13,
+                "count": 151
+              },
+              {
+                "label": 14,
+                "count": 210
+              },
+              {
+                "label": 15,
+                "count": 247
+              },
+              {
+                "label": 16,
+                "count": 256
+              },
+              {
+                "label": 17,
+                "count": 264
+              },
+              {
+                "label": 18,
+                "count": 491
+              },
+              {
+                "label": 19,
+                "count": 493
+              },
+              {
+                "label": 20,
+                "count": 499
+              },
+              {
+                "label": 21,
+                "count": 507
+              },
+              {
+                "label": 22,
+                "count": 506
+              },
+              {
+                "label": 23,
+                "count": 507
+              },
+              {
+                "label": 24,
+                "count": 505
+              },
+              {
+                "label": 25,
+                "count": 509
+              },
+              {
+                "label": 26,
+                "count": 505
+              },
+              {
+                "label": 27,
+                "count": 510
+              },
+              {
+                "label": 28,
+                "count": 510
+              },
+              {
+                "label": 29,
+                "count": 508
+              },
+              {
+                "label": 30,
+                "count": 510
+              },
+              {
+                "label": 31,
+                "count": 496
+              },
+              {
+                "label": 32,
+                "count": 495
+              },
+              {
+                "label": 33,
+                "count": 493
+              },
+              {
+                "label": 34,
+                "count": 493
+              },
+              {
+                "label": 35,
+                "count": 494
+              },
+              {
+                "label": 36,
+                "count": 481
+              },
+              {
+                "label": 37,
+                "count": 481
+              },
+              {
+                "label": 38,
+                "count": 481
+              },
+              {
+                "label": 39,
+                "count": 480
+              },
+              {
+                "label": 40,
+                "count": 482
+              },
+              {
+                "label": 41,
+                "count": 460
+              },
+              {
+                "label": 42,
+                "count": 460
+              },
+              {
+                "label": 43,
+                "count": 459
+              },
+              {
+                "label": 44,
+                "count": 459
+              },
+              {
+                "label": 45,
+                "count": 462
+              },
+              {
+                "label": 46,
+                "count": 434
+              },
+              {
+                "label": 47,
+                "count": 434
+              },
+              {
+                "label": 48,
+                "count": 434
+              },
+              {
+                "label": 49,
+                "count": 434
+              },
+              {
+                "label": 50,
+                "count": 436
+              },
+              {
+                "label": 51,
+                "count": 428
+              },
+              {
+                "label": 52,
+                "count": 428
+              },
+              {
+                "label": 53,
+                "count": 428
+              },
+              {
+                "label": 54,
+                "count": 428
+              },
+              {
+                "label": 55,
+                "count": 430
+              },
+              {
+                "label": 56,
+                "count": 423
+              },
+              {
+                "label": 57,
+                "count": 422
+              },
+              {
+                "label": 58,
+                "count": 421
+              },
+              {
+                "label": 59,
+                "count": 421
+              },
+              {
+                "label": 60,
+                "count": 419
+              },
+              {
+                "label": 61,
+                "count": 373
+              },
+              {
+                "label": 62,
+                "count": 373
+              },
+              {
+                "label": 63,
+                "count": 372
+              },
+              {
+                "label": 64,
+                "count": 372
+              },
+              {
+                "label": 65,
+                "count": 373
+              },
+              {
+                "label": 66,
+                "count": 362
+              },
+              {
+                "label": 67,
+                "count": 362
+              },
+              {
+                "label": 68,
+                "count": 361
+              },
+              {
+                "label": 69,
+                "count": 360
+              },
+              {
+                "label": 70,
+                "count": 361
+              },
+              {
+                "label": 71,
+                "count": 348
+              },
+              {
+                "label": 72,
+                "count": 348
+              },
+              {
+                "label": 73,
+                "count": 348
+              },
+              {
+                "label": 74,
+                "count": 348
+              },
+              {
+                "label": 75,
+                "count": 348
+              },
+              {
+                "label": 76,
+                "count": 345
+              },
+              {
+                "label": 77,
+                "count": 345
+              },
+              {
+                "label": 78,
+                "count": 345
+              },
+              {
+                "label": 79,
+                "count": 345
+              },
+              {
+                "label": 80,
+                "count": 344
+              },
+              {
+                "label": 81,
+                "count": 340
+              },
+              {
+                "label": 82,
+                "count": 340
+              },
+              {
+                "label": 83,
+                "count": 340
+              },
+              {
+                "label": 84,
+                "count": 340
+              },
+              {
+                "label": 85,
+                "count": 340
+              },
+              {
+                "label": 86,
+                "count": 340
+              },
+              {
+                "label": 87,
+                "count": 340
+              },
+              {
+                "label": 88,
+                "count": 340
+              },
+              {
+                "label": 89,
+                "count": 340
+              },
+              {
+                "label": 90,
+                "count": 341
+              },
+              {
+                "label": 91,
+                "count": 340
+              },
+              {
+                "label": 92,
+                "count": 340
+              },
+              {
+                "label": 93,
+                "count": 340
+              },
+              {
+                "label": 94,
+                "count": 340
+              },
+              {
+                "label": 95,
+                "count": 340
+              },
+              {
+                "label": 96,
+                "count": 340
+              },
+              {
+                "label": 97,
+                "count": 340
+              },
+              {
+                "label": 98,
+                "count": 340
+              },
+              {
+                "label": 99,
+                "count": 339
+              },
+              {
+                "label": 100,
+                "count": 337
+              }
+            ]
+          },
+          {
+            "identifier": "caste",
+            "label": "Caste",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 533
+              },
+              {
+                "label": "Scheduled Caste (SC)",
+                "count": 38
+              },
+              {
+                "label": "Scheduled Tribe (ST)",
+                "count": 25
+              },
+              {
+                "label": "Other Backward Class (OBC)",
+                "count": 21
+              },
+              {
+                "label": "Particularly Vulnerable Tribal Group (PVTG)",
+                "count": 10
+              },
+              {
+                "label": "General",
+                "count": 3
+              },
+              {
+                "label": "De-Notified, Nomadic, and Semi-Nomadic (DNT) communities",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "beneficiaryState",
+            "label": "State",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 575
+              },
+              {
+                "label": "Assam",
+                "count": 6
+              },
+              {
+                "label": "Jammu and Kashmir",
+                "count": 6
+              },
+              {
+                "label": "Arunachal Pradesh",
+                "count": 3
+              },
+              {
+                "label": "Manipur",
+                "count": 3
+              },
+              {
+                "label": "Mizoram",
+                "count": 3
+              },
+              {
+                "label": "Nagaland",
+                "count": 3
+              },
+              {
+                "label": "Tripura",
+                "count": 3
+              },
+              {
+                "label": "Bihar",
+                "count": 2
+              },
+              {
+                "label": "Chhattisgarh",
+                "count": 2
+              },
+              {
+                "label": "Gujarat",
+                "count": 2
+              },
+              {
+                "label": "Karnataka",
+                "count": 2
+              },
+              {
+                "label": "Kerala",
+                "count": 2
+              },
+              {
+                "label": "Madhya Pradesh",
+                "count": 2
+              },
+              {
+                "label": "Meghalaya",
+                "count": 2
+              },
+              {
+                "label": "Odisha",
+                "count": 2
+              },
+              {
+                "label": "Rajasthan",
+                "count": 2
+              },
+              {
+                "label": "Sikkim",
+                "count": 2
+              },
+              {
+                "label": "Tamil Nadu",
+                "count": 2
+              },
+              {
+                "label": "Uttar Pradesh",
+                "count": 2
+              },
+              {
+                "label": "Andaman and Nicobar Islands",
+                "count": 1
+              },
+              {
+                "label": "Andhra Pradesh",
+                "count": 1
+              },
+              {
+                "label": "Delhi",
+                "count": 1
+              },
+              {
+                "label": "Goa",
+                "count": 1
+              },
+              {
+                "label": "Jharkhand",
+                "count": 1
+              },
+              {
+                "label": "Ladakh",
+                "count": 1
+              },
+              {
+                "label": "Maharashtra",
+                "count": 1
+              },
+              {
+                "label": "Telangana",
+                "count": 1
+              },
+              {
+                "label": "Uttarakhand",
+                "count": 1
+              },
+              {
+                "label": "West Bengal",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "nodalMinistryName",
+            "label": "Ministry Name",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Ministry Of Social Justice and Empowerment",
+                "count": 105
+              },
+              {
+                "label": "Ministry of Education",
+                "count": 79
+              },
+              {
+                "label": "Ministry Of Science And Technology",
+                "count": 69
+              },
+              {
+                "label": "Ministry Of Agriculture and Farmers Welfare",
+                "count": 42
+              },
+              {
+                "label": "Ministry Of Commerce And Industry",
+                "count": 30
+              },
+              {
+                "label": "Ministry Of Micro, Small and Medium Enterprises",
+                "count": 29
+              },
+              {
+                "label": "Ministry Of Finance",
+                "count": 18
+              },
+              {
+                "label": "Ministry Of Textiles",
+                "count": 17
+              },
+              {
+                "label": "Ministry Of Defence",
+                "count": 15
+              },
+              {
+                "label": "Ministry Of Health & Family Welfare",
+                "count": 15
+              },
+              {
+                "label": "Ministry Of Culture",
+                "count": 13
+              },
+              {
+                "label": "Ministry of Fisheries,Animal Husbandry and Dairying",
+                "count": 13
+              },
+              {
+                "label": "Ministry Of Home Affairs",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Minority Affairs",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Rural Development",
+                "count": 11
+              },
+              {
+                "label": "Ministry Of Labour and Employment",
+                "count": 10
+              },
+              {
+                "label": "Ministry of Electronics and Information Technology",
+                "count": 9
+              },
+              {
+                "label": "Ministry Of Tribal Affairs",
+                "count": 8
+              },
+              {
+                "label": "Ministry Of New and Renewable Energy",
+                "count": 7
+              },
+              {
+                "label": "Ministry Of Communication",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Jal Shakti",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Skill Development And Entrepreneurship",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of Tourism",
+                "count": 6
+              },
+              {
+                "label": "Ministry of Women and Child Development",
+                "count": 6
+              },
+              {
+                "label": "Ministry Of External Affairs",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Housing & Urban Affairs",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Youth Affairs & Sports",
+                "count": 5
+              },
+              {
+                "label": "Ministry Of Law and Justice",
+                "count": 3
+              },
+              {
+                "label": "Ministry Of Personnel, Public Grievances And Pensions",
+                "count": 3
+              },
+              {
+                "label": "Ministry Of Petroleum and Natural Gas",
+                "count": 3
+              },
+              {
+                "label": "Comptroller And Auditor General Of India",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Chemicals And Fertilizers",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Environment,forests and climate change",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Panchayati Raj",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Road Transport & Highways",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Statistics and Programme Implementation",
+                "count": 2
+              },
+              {
+                "label": "Ministry of Corporate Affairs",
+                "count": 2
+              },
+              {
+                "label": "Ministry of Heavy Industries",
+                "count": 2
+              },
+              {
+                "label": "Ministry Of Consumer Affairs, Food And Public Distribution",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Development Of North Eastern Region",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Earth Sciences",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Information And Broadcasting",
+                "count": 1
+              },
+              {
+                "label": "Ministry Of Railways",
+                "count": 1
+              },
+              {
+                "label": "Ministry of Food Processing Industries",
+                "count": 1
+              },
+              {
+                "label": "Ministry of Ports,Shipping and Waterways",
+                "count": 1
+              },
+              {
+                "label": "NITI Aayog (National Institution for Transforming India)",
+                "count": 1
+              },
+              {
+                "label": "The Lokpal of India",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "level",
+            "label": "Level",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "State",
+                "count": 3924
+              },
+              {
+                "label": "Central",
+                "count": 591
+              }
+            ]
+          },
+          {
+            "identifier": "residence",
+            "label": "Residence",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Both",
+                "count": 556
+              },
+              {
+                "label": "Rural",
+                "count": 30
+              },
+              {
+                "label": "Urban",
+                "count": 15
+              }
+            ]
+          },
+          {
+            "identifier": "minority",
+            "label": "Minority",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 580
+              },
+              {
+                "label": "Yes",
+                "count": 11
+              }
+            ]
+          },
+          {
+            "identifier": "disability",
+            "label": "Differently Abled",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 569
+              },
+              {
+                "label": "Yes",
+                "count": 22
+              }
+            ]
+          },
+          {
+            "identifier": "benefitTypes",
+            "label": "Benefit Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Cash",
+                "count": 276
+              },
+              {
+                "label": "Composite",
+                "count": 228
+              },
+              {
+                "label": "In Kind",
+                "count": 87
+              }
+            ]
+          },
+          {
+            "identifier": "dbtScheme",
+            "label": "DBT Scheme",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 456
+              },
+              {
+                "label": "Yes",
+                "count": 135
+              }
+            ]
+          },
+          {
+            "identifier": "maritalStatus",
+            "label": "Marital Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 583
+              },
+              {
+                "label": "Divorced",
+                "count": 3
+              },
+              {
+                "label": "Married",
+                "count": 3
+              },
+              {
+                "label": "Never Married",
+                "count": 3
+              },
+              {
+                "label": "Widowed",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "identifier": "disabilityPercentage",
+            "label": "Disability Percentage",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 0
+              },
+              {
+                "label": 10,
+                "count": 0
+              },
+              {
+                "label": 20,
+                "count": 0
+              },
+              {
+                "label": 30,
+                "count": 0
+              },
+              {
+                "label": 40,
+                "count": 15
+              },
+              {
+                "label": 50,
+                "count": 15
+              },
+              {
+                "label": 60,
+                "count": 15
+              },
+              {
+                "label": 70,
+                "count": 15
+              },
+              {
+                "label": 80,
+                "count": 16
+              },
+              {
+                "label": 90,
+                "count": 16
+              },
+              {
+                "label": 100,
+                "count": 17
+              }
+            ]
+          },
+          {
+            "identifier": "isBpl",
+            "label": "Below Poverty Line",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 577
+              },
+              {
+                "label": "Yes",
+                "count": 14
+              }
+            ]
+          },
+          {
+            "identifier": "isEconomicDistress",
+            "label": "Economic Distress",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 584
+              },
+              {
+                "label": "Yes",
+                "count": 7
+              }
+            ]
+          },
+          {
+            "identifier": "isGovEmployee",
+            "label": "Government Employee",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 589
+              },
+              {
+                "label": "Yes",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "identifier": "employmentStatus",
+            "label": "Employment Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 541
+              },
+              {
+                "label": "Self-Employed/ Entrepreneur",
+                "count": 28
+              },
+              {
+                "label": "Employed",
+                "count": 16
+              },
+              {
+                "label": "Unemployed",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "identifier": "isStudent",
+            "label": "Student",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 531
+              },
+              {
+                "label": "Yes",
+                "count": 60
+              }
+            ]
+          },
+          {
+            "identifier": "occupation",
+            "label": "Occupation",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 88
+              },
+              {
+                "label": "Student",
+                "count": 46
+              },
+              {
+                "label": "Farmer",
+                "count": 17
+              },
+              {
+                "label": "Artisans, Spinners & Weavers",
+                "count": 8
+              },
+              {
+                "label": "Ex Servicemen",
+                "count": 7
+              }
+            ]
+          },
+          {
+            "identifier": "applicationMode",
+            "label": "Application Mode",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Online",
+                "count": 393
+              },
+              {
+                "label": "Offline",
+                "count": 241
+              },
+              {
+                "label": "Online - via CSC",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "identifier": "schemeType",
+            "label": "Scheme Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Central Sector Scheme",
+                "count": 408
+              },
+              {
+                "label": "Centrally Sponsored Scheme",
+                "count": 92
+              }
+            ]
+          }
+        ],
+        "hits": {
+          "items": [
+            {
+              "id": "naGzF5gBXu-iUKXqInRl",
+              "fields": {},
+              "highlight": {}
+            }
+          ],
+          "page": {
+            "total": 591,
+            "totalPages": 591,
+            "pageNumber": 0,
+            "from": 0,
+            "size": 1
+          }
+        },
+        "sortedBy": "multiple_sort"
+      }
+    }
+  },
+  {
+    "url": "https://api.myscheme.gov.in/search/v6/schemes/facets?lang=en&q=%5B%7B%22identifier%22%3A%22level%22%2C%22value%22%3A%22State%22%7D%5D",
+    "data": {
+      "status": "Success",
+      "statusCode": 200,
+      "errorDescription": "",
+      "error": "null",
+      "data": {
+        "summary": {
+          "total": 3924,
+          "query": "",
+          "sortOptions": [
+            {
+              "id": "multiple_sort",
+              "label": "Relevance"
+            },
+            {
+              "id": "schemename-asc",
+              "label": "Scheme Name (A->Z)"
+            },
+            {
+              "id": "schemename-desc",
+              "label": "Scheme Name (Z->A)"
+            }
+          ],
+          "appliedFilters": [
+            {
+              "identifier": "level",
+              "id": "level_State",
+              "label": "Level",
+              "display": "ListFacet",
+              "type": "ValueSelectedFilter",
+              "value": "State"
+            }
+          ],
+          "disabledFilters": []
+        },
+        "facets": [
+          {
+            "identifier": "schemeCategory",
+            "label": "Scheme Category",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Social welfare & Empowerment",
+                "count": 1308
+              },
+              {
+                "label": "Education & Learning",
+                "count": 827
+              },
+              {
+                "label": "Agriculture,Rural & Environment",
+                "count": 740
+              },
+              {
+                "label": "Business & Entrepreneurship",
+                "count": 598
+              },
+              {
+                "label": "Women and Child",
+                "count": 407
+              },
+              {
+                "label": "Skills & Employment",
+                "count": 297
+              },
+              {
+                "label": "Banking,Financial Services and Insurance",
+                "count": 240
+              },
+              {
+                "label": "Health & Wellness",
+                "count": 236
+              },
+              {
+                "label": "Sports & Culture",
+                "count": 228
+              },
+              {
+                "label": "Housing & Shelter",
+                "count": 114
+              },
+              {
+                "label": "Travel & Tourism",
+                "count": 69
+              },
+              {
+                "label": "Transport & Infrastructure",
+                "count": 65
+              },
+              {
+                "label": "Science, IT & Communications",
+                "count": 42
+              },
+              {
+                "label": "Utility & Sanitation",
+                "count": 39
+              },
+              {
+                "label": "Public Safety,Law & Justice",
+                "count": 23
+              }
+            ]
+          },
+          {
+            "identifier": "gender",
+            "label": "Gender",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3177
+              },
+              {
+                "label": "Female",
+                "count": 713
+              },
+              {
+                "label": "Male",
+                "count": 322
+              },
+              {
+                "label": "Transgender",
+                "count": 23
+              }
+            ]
+          },
+          {
+            "identifier": "age-general",
+            "label": "Age",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 270
+              },
+              {
+                "label": 1,
+                "count": 389
+              },
+              {
+                "label": 2,
+                "count": 392
+              },
+              {
+                "label": 3,
+                "count": 404
+              },
+              {
+                "label": 4,
+                "count": 437
+              },
+              {
+                "label": 5,
+                "count": 500
+              },
+              {
+                "label": 6,
+                "count": 525
+              },
+              {
+                "label": 7,
+                "count": 517
+              },
+              {
+                "label": 8,
+                "count": 526
+              },
+              {
+                "label": 9,
+                "count": 535
+              },
+              {
+                "label": 10,
+                "count": 606
+              },
+              {
+                "label": 11,
+                "count": 617
+              },
+              {
+                "label": 12,
+                "count": 674
+              },
+              {
+                "label": 13,
+                "count": 693
+              },
+              {
+                "label": 14,
+                "count": 813
+              },
+              {
+                "label": 15,
+                "count": 896
+              },
+              {
+                "label": 16,
+                "count": 951
+              },
+              {
+                "label": 17,
+                "count": 965
+              },
+              {
+                "label": 18,
+                "count": 3099
+              },
+              {
+                "label": 19,
+                "count": 3052
+              },
+              {
+                "label": 20,
+                "count": 3068
+              },
+              {
+                "label": 21,
+                "count": 3116
+              },
+              {
+                "label": 22,
+                "count": 3080
+              },
+              {
+                "label": 23,
+                "count": 3082
+              },
+              {
+                "label": 24,
+                "count": 3079
+              },
+              {
+                "label": 25,
+                "count": 3084
+              },
+              {
+                "label": 26,
+                "count": 3066
+              },
+              {
+                "label": 27,
+                "count": 3065
+              },
+              {
+                "label": 28,
+                "count": 3065
+              },
+              {
+                "label": 29,
+                "count": 3063
+              },
+              {
+                "label": 30,
+                "count": 3067
+              },
+              {
+                "label": 31,
+                "count": 3006
+              },
+              {
+                "label": 32,
+                "count": 3005
+              },
+              {
+                "label": 33,
+                "count": 3000
+              },
+              {
+                "label": 34,
+                "count": 3000
+              },
+              {
+                "label": 35,
+                "count": 3000
+              },
+              {
+                "label": 36,
+                "count": 2925
+              },
+              {
+                "label": 37,
+                "count": 2924
+              },
+              {
+                "label": 38,
+                "count": 2921
+              },
+              {
+                "label": 39,
+                "count": 2920
+              },
+              {
+                "label": 40,
+                "count": 2934
+              },
+              {
+                "label": 41,
+                "count": 2849
+              },
+              {
+                "label": 42,
+                "count": 2848
+              },
+              {
+                "label": 43,
+                "count": 2847
+              },
+              {
+                "label": 44,
+                "count": 2847
+              },
+              {
+                "label": 45,
+                "count": 2855
+              },
+              {
+                "label": 46,
+                "count": 2722
+              },
+              {
+                "label": 47,
+                "count": 2722
+              },
+              {
+                "label": 48,
+                "count": 2722
+              },
+              {
+                "label": 49,
+                "count": 2721
+              },
+              {
+                "label": 50,
+                "count": 2729
+              },
+              {
+                "label": 51,
+                "count": 2664
+              },
+              {
+                "label": 52,
+                "count": 2664
+              },
+              {
+                "label": 53,
+                "count": 2663
+              },
+              {
+                "label": 54,
+                "count": 2663
+              },
+              {
+                "label": 55,
+                "count": 2668
+              },
+              {
+                "label": 56,
+                "count": 2594
+              },
+              {
+                "label": 57,
+                "count": 2594
+              },
+              {
+                "label": 58,
+                "count": 2597
+              },
+              {
+                "label": 59,
+                "count": 2588
+              },
+              {
+                "label": 60,
+                "count": 2642
+              },
+              {
+                "label": 61,
+                "count": 1751
+              },
+              {
+                "label": 62,
+                "count": 1751
+              },
+              {
+                "label": 63,
+                "count": 1751
+              },
+              {
+                "label": 64,
+                "count": 1751
+              },
+              {
+                "label": 65,
+                "count": 1758
+              },
+              {
+                "label": 66,
+                "count": 1728
+              },
+              {
+                "label": 67,
+                "count": 1728
+              },
+              {
+                "label": 68,
+                "count": 1728
+              },
+              {
+                "label": 69,
+                "count": 1728
+              },
+              {
+                "label": 70,
+                "count": 1728
+              },
+              {
+                "label": 71,
+                "count": 1701
+              },
+              {
+                "label": 72,
+                "count": 1701
+              },
+              {
+                "label": 73,
+                "count": 1701
+              },
+              {
+                "label": 74,
+                "count": 1701
+              },
+              {
+                "label": 75,
+                "count": 1701
+              },
+              {
+                "label": 76,
+                "count": 1679
+              },
+              {
+                "label": 77,
+                "count": 1679
+              },
+              {
+                "label": 78,
+                "count": 1679
+              },
+              {
+                "label": 79,
+                "count": 1679
+              },
+              {
+                "label": 80,
+                "count": 1671
+              },
+              {
+                "label": 81,
+                "count": 1629
+              },
+              {
+                "label": 82,
+                "count": 1629
+              },
+              {
+                "label": 83,
+                "count": 1629
+              },
+              {
+                "label": 84,
+                "count": 1629
+              },
+              {
+                "label": 85,
+                "count": 1629
+              },
+              {
+                "label": 86,
+                "count": 1629
+              },
+              {
+                "label": 87,
+                "count": 1629
+              },
+              {
+                "label": 88,
+                "count": 1629
+              },
+              {
+                "label": 89,
+                "count": 1629
+              },
+              {
+                "label": 90,
+                "count": 1629
+              },
+              {
+                "label": 91,
+                "count": 1598
+              },
+              {
+                "label": 92,
+                "count": 1598
+              },
+              {
+                "label": 93,
+                "count": 1598
+              },
+              {
+                "label": 94,
+                "count": 1598
+              },
+              {
+                "label": 95,
+                "count": 1598
+              },
+              {
+                "label": 96,
+                "count": 1598
+              },
+              {
+                "label": 97,
+                "count": 1598
+              },
+              {
+                "label": 98,
+                "count": 1597
+              },
+              {
+                "label": 99,
+                "count": 1597
+              },
+              {
+                "label": 100,
+                "count": 1592
+              },
+              {
+                "label": 101,
+                "count": 1
+              },
+              {
+                "label": 102,
+                "count": 1
+              },
+              {
+                "label": 103,
+                "count": 1
+              },
+              {
+                "label": 104,
+                "count": 1
+              },
+              {
+                "label": 105,
+                "count": 1
+              },
+              {
+                "label": 106,
+                "count": 1
+              },
+              {
+                "label": 107,
+                "count": 1
+              },
+              {
+                "label": 108,
+                "count": 1
+              },
+              {
+                "label": 109,
+                "count": 1
+              },
+              {
+                "label": 110,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "identifier": "caste",
+            "label": "Caste",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3248
+              },
+              {
+                "label": "Scheduled Caste (SC)",
+                "count": 340
+              },
+              {
+                "label": "Scheduled Tribe (ST)",
+                "count": 292
+              },
+              {
+                "label": "Other Backward Class (OBC)",
+                "count": 158
+              },
+              {
+                "label": "General",
+                "count": 61
+              },
+              {
+                "label": "Particularly Vulnerable Tribal Group (PVTG)",
+                "count": 29
+              },
+              {
+                "label": "De-Notified, Nomadic, and Semi-Nomadic (DNT) communities",
+                "count": 12
+              }
+            ]
+          },
+          {
+            "identifier": "beneficiaryState",
+            "label": "State",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Gujarat",
+                "count": 636
+              },
+              {
+                "label": "Uttarakhand",
+                "count": 440
+              },
+              {
+                "label": "Goa",
+                "count": 269
+              },
+              {
+                "label": "Puducherry",
+                "count": 258
+              },
+              {
+                "label": "Madhya Pradesh",
+                "count": 251
+              },
+              {
+                "label": "Haryana",
+                "count": 248
+              },
+              {
+                "label": "Tamil Nadu",
+                "count": 234
+              },
+              {
+                "label": "Rajasthan",
+                "count": 158
+              },
+              {
+                "label": "Bihar",
+                "count": 113
+              },
+              {
+                "label": "West Bengal",
+                "count": 108
+              },
+              {
+                "label": "Chhattisgarh",
+                "count": 106
+              },
+              {
+                "label": "Jharkhand",
+                "count": 96
+              },
+              {
+                "label": "Maharashtra",
+                "count": 84
+              },
+              {
+                "label": "Kerala",
+                "count": 81
+              },
+              {
+                "label": "Assam",
+                "count": 74
+              },
+              {
+                "label": "Odisha",
+                "count": 73
+              },
+              {
+                "label": "Himachal Pradesh",
+                "count": 65
+              },
+              {
+                "label": "Meghalaya",
+                "count": 62
+              },
+              {
+                "label": "Karnataka",
+                "count": 56
+              },
+              {
+                "label": "Andhra Pradesh",
+                "count": 51
+              },
+              {
+                "label": "Dadra & Nagar Haveli and Daman & Diu",
+                "count": 50
+              },
+              {
+                "label": "Delhi",
+                "count": 48
+              },
+              {
+                "label": "Uttar Pradesh",
+                "count": 45
+              },
+              {
+                "label": "Jammu and Kashmir",
+                "count": 43
+              },
+              {
+                "label": "Punjab",
+                "count": 41
+              },
+              {
+                "label": "Arunachal Pradesh",
+                "count": 37
+              },
+              {
+                "label": "Tripura",
+                "count": 36
+              },
+              {
+                "label": "Manipur",
+                "count": 27
+              },
+              {
+                "label": "Sikkim",
+                "count": 23
+              },
+              {
+                "label": "Telangana",
+                "count": 22
+              },
+              {
+                "label": "Chandigarh",
+                "count": 20
+              },
+              {
+                "label": "Andaman and Nicobar Islands",
+                "count": 19
+              },
+              {
+                "label": "Nagaland",
+                "count": 19
+              },
+              {
+                "label": "Mizoram",
+                "count": 18
+              },
+              {
+                "label": "Lakshadweep",
+                "count": 9
+              },
+              {
+                "label": "Ladakh",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "identifier": "nodalMinistryName",
+            "label": "Ministry Name",
+            "display": "ComboBoxFacet",
+            "type": "RefinementSelectFacet",
+            "entries": []
+          },
+          {
+            "identifier": "level",
+            "label": "Level",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "State",
+                "count": 3924
+              },
+              {
+                "label": "Central",
+                "count": 591
+              }
+            ]
+          },
+          {
+            "identifier": "residence",
+            "label": "Residence",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Both",
+                "count": 3730
+              },
+              {
+                "label": "Rural",
+                "count": 170
+              },
+              {
+                "label": "Urban",
+                "count": 26
+              }
+            ]
+          },
+          {
+            "identifier": "minority",
+            "label": "Minority",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 3867
+              },
+              {
+                "label": "Yes",
+                "count": 57
+              }
+            ]
+          },
+          {
+            "identifier": "disability",
+            "label": "Differently Abled",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 3649
+              },
+              {
+                "label": "Yes",
+                "count": 275
+              }
+            ]
+          },
+          {
+            "identifier": "benefitTypes",
+            "label": "Benefit Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Cash",
+                "count": 2860
+              },
+              {
+                "label": "In Kind",
+                "count": 668
+              },
+              {
+                "label": "Composite",
+                "count": 396
+              }
+            ]
+          },
+          {
+            "identifier": "dbtScheme",
+            "label": "DBT Scheme",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 3603
+              },
+              {
+                "label": "Yes",
+                "count": 321
+              }
+            ]
+          },
+          {
+            "identifier": "maritalStatus",
+            "label": "Marital Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 3647
+              },
+              {
+                "label": "Never Married",
+                "count": 130
+              },
+              {
+                "label": "Widowed",
+                "count": 101
+              },
+              {
+                "label": "Married",
+                "count": 86
+              },
+              {
+                "label": "Divorced",
+                "count": 46
+              }
+            ]
+          },
+          {
+            "identifier": "disabilityPercentage",
+            "label": "Disability Percentage",
+            "display": "ComboBoxFacet",
+            "type": "RangeFacet",
+            "entries": [
+              {
+                "label": 0,
+                "count": 22
+              },
+              {
+                "label": 10,
+                "count": 25
+              },
+              {
+                "label": 20,
+                "count": 29
+              },
+              {
+                "label": 30,
+                "count": 29
+              },
+              {
+                "label": 40,
+                "count": 142
+              },
+              {
+                "label": 50,
+                "count": 146
+              },
+              {
+                "label": 60,
+                "count": 152
+              },
+              {
+                "label": 70,
+                "count": 157
+              },
+              {
+                "label": 80,
+                "count": 168
+              },
+              {
+                "label": 90,
+                "count": 168
+              },
+              {
+                "label": 100,
+                "count": 177
+              }
+            ]
+          },
+          {
+            "identifier": "isBpl",
+            "label": "Below Poverty Line",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 3773
+              },
+              {
+                "label": "Yes",
+                "count": 151
+              }
+            ]
+          },
+          {
+            "identifier": "isEconomicDistress",
+            "label": "Economic Distress",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 3885
+              },
+              {
+                "label": "Yes",
+                "count": 39
+              }
+            ]
+          },
+          {
+            "identifier": "isGovEmployee",
+            "label": "Government Employee",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 3913
+              },
+              {
+                "label": "Yes",
+                "count": 11
+              }
+            ]
+          },
+          {
+            "identifier": "employmentStatus",
+            "label": "Employment Status",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "All",
+                "count": 2904
+              },
+              {
+                "label": "Employed",
+                "count": 516
+              },
+              {
+                "label": "Self-Employed/ Entrepreneur",
+                "count": 355
+              },
+              {
+                "label": "Unemployed",
+                "count": 149
+              }
+            ]
+          },
+          {
+            "identifier": "isStudent",
+            "label": "Student",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "No",
+                "count": 3625
+              },
+              {
+                "label": "Yes",
+                "count": 299
+              }
+            ]
+          },
+          {
+            "identifier": "occupation",
+            "label": "Occupation",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Farmer",
+                "count": 336
+              },
+              {
+                "label": "Construction Worker",
+                "count": 287
+              },
+              {
+                "label": "All",
+                "count": 265
+              },
+              {
+                "label": "Unorganized Worker",
+                "count": 185
+              },
+              {
+                "label": "Fishermen",
+                "count": 99
+              }
+            ]
+          },
+          {
+            "identifier": "applicationMode",
+            "label": "Application Mode",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": [
+              {
+                "label": "Offline",
+                "count": 2391
+              },
+              {
+                "label": "Online",
+                "count": 1796
+              },
+              {
+                "label": "Online - via CSC",
+                "count": 148
+              }
+            ]
+          },
+          {
+            "identifier": "schemeType",
+            "label": "Scheme Type",
+            "display": "ListFacet",
+            "type": "RefinementSelectFacet",
+            "entries": []
+          }
+        ],
+        "hits": {
+          "items": [
+            {
+              "id": "3ca0F5gB0AGc0F0iDzOE",
+              "fields": {},
+              "highlight": {}
+            }
+          ],
+          "page": {
+            "total": 3924,
+            "totalPages": 3924,
+            "pageNumber": 0,
+            "from": 0,
+            "size": 1
+          }
+        },
+        "sortedBy": "multiple_sort"
+      }
+    }
+  },
+  {
+    "url": "https://aistore.myscheme.in/api/auth/digilocker/session",
+    "data": {
+      "token": null,
+      "message": "Not available"
+    }
+  }
+]
