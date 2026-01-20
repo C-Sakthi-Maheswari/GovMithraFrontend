@@ -25,7 +25,7 @@ for link in service_links:
 
     if "service_url_redirect" in href:
         service_name = link.get_text(strip=True)
-        service_url = "https://services.india.gov.in" + href
+        service_url =href
 
         new_services.append({
             "name": service_name,
