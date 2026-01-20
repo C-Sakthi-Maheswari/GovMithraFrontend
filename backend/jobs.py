@@ -4,7 +4,8 @@ import json
 import os
 
 # URL of the Jobs services page
-URL = "https://services.india.gov.in/service/listing?cat_id=61&ln=en&page_no=10"
+
+URL = "https://services.india.gov.in/service/listing?cat_id=5&ln=en&page_no=57"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
@@ -33,7 +34,7 @@ for link in service_links:
 
 # ---------- APPEND LOGIC STARTS HERE ----------
 
-file_name = "govt_job_services.json"
+file_name = "health_services.json"
 
 # If file exists, load existing data
 if os.path.exists(file_name):
