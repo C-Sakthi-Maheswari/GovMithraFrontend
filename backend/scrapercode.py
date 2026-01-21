@@ -2,42 +2,16 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import time
 
-# URL of the Jobs services page
-
-
-URL = "https://services.india.gov.in/service/listing?cat_id=114&ln=en&page_no=11"
-
+BASE_URL = "https://services.india.gov.in/service/listing"
 headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-response = requests.get(URL, headers=headers)
-response.raise_for_status()
+file_name = "justice_services.json"
 
-soup = BeautifulSoup(response.text, "html.parser")
-
-new_services = []
-
-service_links = soup.find_all("a", href=True)
-
-for link in service_links:
-    href = link["href"]
-
-    if "service_url_redirect" in href:
-        service_name = link.get_text(strip=True)
-        service_url =href
-
-        new_services.append({
-            "name": service_name,
-            "url": service_url
-        })
-
-# ---------- APPEND LOGIC STARTS HERE ----------
-
-file_name = "lpg_services.json"
-
-# If file exists, load existing data
+# Load existing data if file exists
 if os.path.exists(file_name):
     with open(file_name, "r", encoding="utf-8") as f:
         try:
@@ -47,11 +21,49 @@ if os.path.exists(file_name):
 else:
     existing_data = []
 
-# Append new data
-existing_data.extend(new_services)
+# Track URLs to avoid duplicates
+existing_urls = {item["url"] for item in existing_data}
 
-# Write back to JSON
+all_new_services = []
+
+# Loop through 120 pages
+for page in range(1, 121):
+    print(f"Scraping page {page}...")
+
+    params = {
+        "cat_id": 10,
+        "ln": "en",
+        "page_no": page
+    }
+
+    response = requests.get(BASE_URL, headers=headers, params=params)
+    response.raise_for_status()
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    service_links = soup.find_all("a", href=True)
+
+    for link in service_links:
+        href = link["href"]
+
+        if "service_url_redirect" in href:
+            service_name = link.get_text(strip=True)
+            service_url = href
+
+            if service_url not in existing_urls:
+                all_new_services.append({
+                    "name": service_name,
+                    "url": service_url
+                })
+                existing_urls.add(service_url)
+
+    time.sleep(1)  # polite delay
+
+# Save all services to JSON
+existing_data.extend(all_new_services)
+
 with open(file_name, "w", encoding="utf-8") as f:
     json.dump(existing_data, f, indent=4, ensure_ascii=False)
 
-print(f"Added {len(new_services)} services to {file_name}")
+print("\n✅ Justice services scraping completed!")
+print(f"🆕 New records added: {len(all_new_services)}")
+print(f"📁 Total records in {file_name}: {len(existing_data)}")
