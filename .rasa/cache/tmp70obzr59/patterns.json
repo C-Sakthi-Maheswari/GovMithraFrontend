@@ -1,0 +1,18 @@
+[
+  {
+    "name": "service_type",
+    "pattern": "(\\binternship\\b|\\bscholarship\\b|\\bexam\\b|\\bteacher\\b|\\bquestion\\ paper\\b|\\bcollege\\ admission\\b)"
+  },
+  {
+    "name": "state",
+    "pattern": "(\\bHaryana\\b|\\bTelangana\\b|\\bTamil\\ Nadu\\b|\\bKarnataka\\b|\\bKerala\\b|\\bMaharashtra\\b|\\bUttar\\ Pradesh\\b|\\bMadhya\\ Pradesh\\b|\\bRajasthan\\b|\\bGujarat\\b)"
+  },
+  {
+    "name": "category",
+    "pattern": "(\\bsc\\b|\\bst\\b|\\bbc\\b|\\bobc\\b|\\bgeneral\\b)"
+  },
+  {
+    "name": "user_role",
+    "pattern": "(\\bstudent\\b|\\bteacher\\b)"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-category",
+      "2": "I-category",
+      "3": "L-category",
+      "4": "U-category",
+      "5": "B-service_type",
+      "6": "I-service_type",
+      "7": "L-service_type",
+      "8": "U-service_type",
+      "9": "B-state",
+      "10": "I-state",
+      "11": "L-state",
+      "12": "U-state",
+      "13": "B-user_role",
+      "14": "I-user_role",
+      "15": "L-user_role",
+      "16": "U-user_role",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-category": 1,
+      "I-category": 2,
+      "L-category": 3,
+      "U-category": 4,
+      "B-service_type": 5,
+      "I-service_type": 6,
+      "L-service_type": 7,
+      "U-service_type": 8,
+      "B-state": 9,
+      "I-state": 10,
+      "L-state": 11,
+      "U-state": 12,
+      "B-user_role": 13,
+      "I-user_role": 14,
+      "L-user_role": 15,
+      "U-user_role": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

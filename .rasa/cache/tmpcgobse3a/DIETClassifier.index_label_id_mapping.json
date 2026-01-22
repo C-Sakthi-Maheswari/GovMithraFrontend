@@ -1,0 +1,11 @@
+{
+  "0": "affirm",
+  "1": "ask_service_type",
+  "2": "deny",
+  "3": "discover_services",
+  "4": "goodbye",
+  "5": "greet",
+  "6": "provide_constraints",
+  "7": "restart",
+  "8": "select_option"
+}

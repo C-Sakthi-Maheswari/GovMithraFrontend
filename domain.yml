@@ -1,0 +1,69 @@
+version: "3.1"
+
+intents:
+  - greet
+  - discover_services
+  - ask_service_type
+  - provide_constraints
+  - select_option
+  - affirm
+  - deny
+  - goodbye
+
+entities:
+  - service_type
+  - state
+  - category
+  - user_role
+
+slots:
+  service_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: service_type
+
+  state:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: state
+
+  category:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: category
+
+  user_role:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: user_role
+
+
+responses:
+  utter_greet:
+    - text: "Hey! How can I help you today? 😊"
+
+  utter_ask_more_details:
+    - text: >
+        To help you better, you can tell me:
+        • your state
+        • type of service (internship, scholarship, etc.)
+        • your category (SC/ST/BC)
+
+  utter_no_results:
+    - text: >
+        I couldn’t find services matching your request.
+        Would you like to explore related options?
+
+  utter_goodbye:
+    - text: "Glad I could help! 👋"
+
+actions:
+  - action_guide_services
