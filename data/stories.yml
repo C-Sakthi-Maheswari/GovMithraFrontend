@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+
+- story: internship discovery flow
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_service_type
+    - action: action_guide_services
+
+- story: education discovery with constraints
+  steps:
+    - intent: discover_services
+    - action: utter_ask_more_details
+    - intent: provide_constraints
+    - action: action_guide_services

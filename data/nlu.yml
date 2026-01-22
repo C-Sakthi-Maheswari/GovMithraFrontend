@@ -1,0 +1,153 @@
+version: "3.1"
+
+nlu:
+
+# ---------------- GREET ----------------
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+
+# ---------------- DISCOVER SERVICES ----------------
+- intent: discover_services
+  examples: |
+    - can you suggest schemes
+    - what government services are available
+    - help me with education services
+    - suggest some education schemes
+
+# ---------------- ASK SERVICE TYPE ----------------
+- intent: ask_service_type
+  examples: |
+    - i want [internship](service_type) scheme
+    - is there any [internship](service_type)
+    - information about [admission](service_type)
+    - college [admission](service_type) in Haryana
+    - [pm internship](service_type)
+    - [scholarship](service_type) for students
+    - [exam](service_type) related services
+    - [teacher](service_type) services
+    - [question paper](service_type) services
+    - I want [medical](service_type) college information in [Telangana](state)
+    - Tell me about [medical](service_type) colleges
+    - I need [engineering](service_type) colleges in [Tamil Nadu](state)
+    - Looking for [law](service_type) colleges
+    - Show [medical](service_type) education options
+    - information about [government college admissions](service_type)
+    - tell me about [government college admissions](service_type)
+    - info on [admissions](service_type) for government colleges
+    - details for [college admissions](service_type) in [Telangana](state)
+
+# ---------------- PROVIDE CONSTRAINTS ----------------
+- intent: provide_constraints
+  examples: |
+    - i am from [tamil nadu](state)
+    - any [state](state)
+    - i belong to [bc](category)
+    - [st](category) student
+    - i am [sc](category)
+    - i belong to [obc](category)
+    - i am a [bc](category) student
+    - [sc](category) category
+    - i belong to [st](category)
+    - i am a [student](user_role)
+    - i am a [teacher](user_role)
+    - tell me about college admission in [Haryana](state)
+    - information about medical colleges in [Haryana](state)
+    - i am a [st](category) [student](user_role)
+    - i am an [sc](category) [student](user_role)
+    - i want medical college information in [Telangana](state)
+    - show scholarships in [Haryana](state)
+    - details for colleges in [Madhya Pradesh](state)
+
+- intent: restart
+  examples: |
+    - restart
+    - new search
+    - start over
+    - clear
+# ---------------- SELECT OPTION ----------------
+- intent: select_option
+  examples: |
+    - 1
+    - option 2
+    - first one
+
+# ---------------- AFFIRM / DENY ----------------
+- intent: affirm
+  examples: |
+    - yes
+    - ok
+    - sure
+
+- intent: deny
+  examples: |
+    - no
+    - not needed
+
+# ---------------- GOODBYE ----------------
+- intent: goodbye
+  examples: |
+    - bye
+    - thanks
+    - exit
+
+- synonym: medical
+  examples: |
+    - mbbs
+    - bds
+    - medical college
+    - medicine
+    - medical education
+
+- synonym: ST
+  examples: |
+    - st
+    - scheduled tribe
+    - scheduled tribes
+
+- synonym: admission
+  examples: |
+    - college admission
+    - govt college admission
+    - university admission
+
+
+# ---------------- LOOKUP TABLES ----------------
+- lookup: service_type
+  examples: |
+    - internship
+    - scholarship
+    - exam
+    - teacher
+    - question paper
+    - college admission
+
+- lookup: state
+  examples: |
+    - Haryana
+    - Telangana
+    - Tamil Nadu
+    - Karnataka
+    - Kerala
+    - Maharashtra
+    - Uttar Pradesh
+    - Madhya Pradesh
+    - Rajasthan
+    - Gujarat
+
+
+- lookup: category
+  examples: |
+    - sc
+    - st
+    - bc
+    - obc
+    - general
+
+- lookup: user_role
+  examples: |
+    - student
+    - teacher
