@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import os
 import time
 
 BASE_URL = "https://services.india.gov.in/service/listing"
@@ -9,29 +8,15 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-file_name = "justice_services.json"
+output_file = "traveltourism_services.json"
+all_services = []
 
-# Load existing data if file exists
-if os.path.exists(file_name):
-    with open(file_name, "r", encoding="utf-8") as f:
-        try:
-            existing_data = json.load(f)
-        except json.JSONDecodeError:
-            existing_data = []
-else:
-    existing_data = []
-
-# Track URLs to avoid duplicates
-existing_urls = {item["url"] for item in existing_data}
-
-all_new_services = []
-
-# Loop through 120 pages
-for page in range(1, 121):
+# Loop through 27 pages
+for page in range(1, 28):
     print(f"Scraping page {page}...")
 
     params = {
-        "cat_id": 10,
+        "cat_id": 6,
         "ln": "en",
         "page_no": page
     }
@@ -40,30 +25,28 @@ for page in range(1, 121):
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
-    service_links = soup.find_all("a", href=True)
 
-    for link in service_links:
+    # Find all links
+    links = soup.find_all("a", href=True)
+
+    for link in links:
         href = link["href"]
 
         if "service_url_redirect" in href:
             service_name = link.get_text(strip=True)
             service_url = href
 
-            if service_url not in existing_urls:
-                all_new_services.append({
-                    "name": service_name,
-                    "url": service_url
-                })
-                existing_urls.add(service_url)
+            all_services.append({
+                "name": service_name,
+                "url": service_url
+            })
 
     time.sleep(1)  # polite delay
 
-# Save all services to JSON
-existing_data.extend(all_new_services)
+# Save to JSON
+with open(output_file, "w", encoding="utf-8") as f:
+    json.dump(all_services, f, indent=4, ensure_ascii=False)
 
-with open(file_name, "w", encoding="utf-8") as f:
-    json.dump(existing_data, f, indent=4, ensure_ascii=False)
-
-print("\n✅ Justice services scraping completed!")
-print(f"🆕 New records added: {len(all_new_services)}")
-print(f"📁 Total records in {file_name}: {len(existing_data)}")
+print(f"\n✅ Scraping completed!")
+print(f"📁 Total records saved: {len(all_services)}")
+print(f"📄 File created: {output_file}")
