@@ -1,0 +1,252 @@
+[
+    {
+        "ministry": "Ministry of Health & Family Welfare",
+        "scheme": "Pradhan Mantri Swasthya Suraksha Nidhi",
+        "objective_details": "Improve healthcare infrastructure and services."
+    },
+    {
+        "ministry": "",
+        "scheme": "Ayushman Bharat Pradhan Mantri Jan Aarogya Yojana",
+        "objective_details": "Provide health insurance coverage to economically vulnerable families."
+    },
+    {
+        "ministry": "",
+        "scheme": "National Digital Health Mission",
+        "objective_details": "Develop a digital health ecosystem and enhance healthcare delivery through technology."
+    },
+    {
+        "ministry": "",
+        "scheme": "Pradhan Mantri Swasthya Suraksha Yojna",
+        "objective_details": "Enhance healthcare infrastructure in rural areas."
+    },
+    {
+        "ministry": "",
+        "scheme": "Intensified Mission Indradhanush 3.0",
+        "objective_details": "Increase immunization coverage among children and pregnant women."
+    },
+    {
+        "ministry": "Ministry of Education",
+        "scheme": "STARS Project",
+        "objective_details": "Support the strengthening of school education systems."
+    },
+    {
+        "ministry": "",
+        "scheme": "Institutions of Eminence Scheme",
+        "objective_details": "Upgrade selected higher education institutions to world-class standards."
+    },
+    {
+        "ministry": "",
+        "scheme": "Mid-Day Meal",
+        "objective_details": "Provide nutritious meals to school children to improve their health and education."
+    },
+    {
+        "ministry": "",
+        "scheme": "Swach Vidyalaya Abhiyan",
+        "objective_details": "Ensure the availability of proper sanitation facilities in schools."
+    },
+    {
+        "ministry": "",
+        "scheme": "Kala Utsav",
+        "objective_details": "Promote and celebrate the cultural diversity of India through arts and crafts."
+    },
+    {
+        "ministry": "",
+        "scheme": "Shikshav Parv Initiative",
+        "objective_details": "Enhance the quality of education through various reforms and initiatives."
+    },
+    {
+        "ministry": "",
+        "scheme": "Scheme for Promotion of Academic and Research Collaboration (SPARC)",
+        "objective_details": "Foster collaboration between academic institutions and research organizations."
+    },
+    {
+        "ministry": "",
+        "scheme": "Higher Education Financing Agency (HEFA)",
+        "objective_details": "Provide financial support for the development of educational infrastructure."
+    },
+    {
+        "ministry": "Ministry of Women and Child Development",
+        "scheme": "Pradhan Mantri Matru Vandana Yojna",
+        "objective_details": "Provide financial support to pregnant and lactating mothers."
+    },
+    {
+        "ministry": "",
+        "scheme": "Poshan Abhiyan",
+        "objective_details": "Improve nutritional outcomes for children, pregnant women, and lactating mothers."
+    },
+    {
+        "ministry": "",
+        "scheme": "Rashtriya Poshan Maah",
+        "objective_details": "Focus on enhancing nutritional awareness and interventions."
+    },
+    {
+        "ministry": "Ministry of Skill Development & Entrepreneurship",
+        "scheme": "Pradhan Mantri Kaushal Vikas Yojna",
+        "objective_details": "Provide skill training to youth to enhance employability."
+    },
+    {
+        "ministry": "Ministry of Rural Development",
+        "scheme": "Unique Land Parcel Identification Number (ULPIN) Scheme",
+        "objective_details": "Provide a unique identification number for land parcels to improve land records."
+    },
+    {
+        "ministry": "",
+        "scheme": "National Social Assistance Programme (NSAP)",
+        "objective_details": "Provide social assistance to the elderly, widows, and disabled individuals."
+    },
+    {
+        "ministry": "",
+        "scheme": "Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS)",
+        "objective_details": "Guarantee employment to rural households and enhance their livelihoods."
+    },
+    {
+        "ministry": "",
+        "scheme": "Rashtriya Aajivika Mission",
+        "objective_details": "Promote self-employment and livelihood opportunities in rural areas."
+    },
+    {
+        "ministry": "",
+        "scheme": "Gram Panchayat Development Plans",
+        "objective_details": "Plan and implement development projects at the village level."
+    },
+    {
+        "ministry": "",
+        "scheme": "Startup Village Entrepreneurship Programme",
+        "objective_details": "Support entrepreneurship and startup initiatives in rural areas."
+    },
+    {
+        "ministry": "",
+        "scheme": "DDU Grameen Kaushalya Yojna",
+        "objective_details": "Provide skill development and employment opportunities to rural youth."
+    },
+    {
+        "ministry": "",
+        "scheme": "Pradhan Mantri Awas Yojna",
+        "objective_details": "Provide affordable housing to the urban and rural poor."
+    },
+    {
+        "ministry": "Ministry of Housing & Urban Affairs",
+        "scheme": "Global Housing Technology Challenge",
+        "objective_details": "Promote innovative housing technologies and solutions."
+    },
+    {
+        "ministry": "",
+        "scheme": "Safaimitra Suraksha Challenge",
+        "objective_details": "Improve sanitation and safety for sanitation workers."
+    },
+    {
+        "ministry": "",
+        "scheme": "PM SVANIDI",
+        "objective_details": "Provide street vendors with loans and financial support."
+    },
+    {
+        "ministry": "",
+        "scheme": "Climate-Smart City Assessment Framework",
+        "objective_details": "Assess and improve climate resilience of urban areas."
+    },
+    {
+        "ministry": "",
+        "scheme": "Swachh Sarvekshan 2021",
+        "objective_details": "Evaluate and improve urban sanitation and cleanliness."
+    },
+    {
+        "ministry": "Ministry of Jal Shakti",
+        "scheme": "Rashtriya Swachhta Kendra",
+        "objective_details": "Promote and maintain cleanliness and sanitation practices."
+    },
+    {
+        "ministry": "",
+        "scheme": "Grand ICT Challenge",
+        "objective_details": "Use information and communication technology for water management."
+    },
+    {
+        "ministry": "Ministry of Social Justice & Empowerment",
+        "scheme": "Ambekar Social Innovation & Incubation Mission",
+        "objective_details": "Foster social innovation and entrepreneurship for marginalized communities."
+    },
+    {
+        "ministry": "Ministry of Finance",
+        "scheme": "Saral Jeevan Bima",
+        "objective_details": "Provide simplified life insurance products."
+    },
+    {
+        "ministry": "Ministry of Commerce & Industry",
+        "scheme": "One District One Product Scheme",
+        "objective_details": "Promote local products and manufacturing in each district."
+    },
+    {
+        "ministry": "",
+        "scheme": "PRARAMBH: Startup India International Summit",
+        "objective_details": "Facilitate and promote international startup collaborations and investments."
+    },
+    {
+        "ministry": "",
+        "scheme": "Merchandise Export From India Scheme",
+        "objective_details": "Enhance merchandise exports from India."
+    },
+    {
+        "ministry": "Ministry of Textiles",
+        "scheme": "SAMARTH Scheme",
+        "objective_details": "Support skill development and employment in the textile sector."
+    },
+    {
+        "ministry": "",
+        "scheme": "National Technical Textile Mission",
+        "objective_details": "Promote research and development in technical textiles."
+    },
+    {
+        "ministry": "Ministry of Ports, Shipping & Waterways",
+        "scheme": "Sagarmala Sea Plane Services",
+        "objective_details": "Enhance sea plane connectivity and services."
+    },
+    {
+        "ministry": "",
+        "scheme": "National Authority For Recycling of Ships",
+        "objective_details": "Promote recycling of ships and sustainable practices."
+    },
+    {
+        "ministry": "Ministry of Labor & Employment",
+        "scheme": "Atal Beemit Vyakti Kalyan Yojna",
+        "objective_details": "Provide financial support to unemployed individuals."
+    },
+    {
+        "ministry": "",
+        "scheme": "Nation Career Service Project",
+        "objective_details": "Enhance career services and employment opportunities."
+    },
+    {
+        "ministry": "Ministry of Consumer Affairs, Food, and Public Distribution",
+        "scheme": "Bureau of Indian Standards",
+        "objective_details": "Develop and enforce quality standards for goods and services."
+    },
+    {
+        "ministry": "",
+        "scheme": "Consumer Protection (E-commerce) Rules, 2020",
+        "objective_details": "Regulate and protect consumer interests in the e-commerce sector."
+    },
+    {
+        "ministry": "Ministry of Statistics & Programme Implementation",
+        "scheme": "MPLADS (Members of Parliament Local Area Development Scheme)",
+        "objective_details": "Fund development projects in parliamentary constituencies."
+    },
+    {
+        "ministry": "NITI Aayog",
+        "scheme": "Vision 2035",
+        "objective_details": "Set long-term development goals and strategies for India."
+    },
+    {
+        "ministry": "",
+        "scheme": "NPMPF (National Program and Project Management Policy Framework)",
+        "objective_details": "Implement project management frameworks for efficient execution of government projects."
+    },
+    {
+        "ministry": "",
+        "scheme": "Aatmanirbhar Bharat ARISE-Atal New India Challenge",
+        "objective_details": "Promote innovation and research to drive self-reliance and development."
+    },
+    {
+        "ministry": "Minister of Railways, Commerce and Industry, Consumer Affairs and Food and Public Distribution",
+        "scheme": "Startup India Seed Fund Scheme (SISFS)",
+        "objective_details": "Provide seed funding to startups and encourage entrepreneurship."
+    }
+]

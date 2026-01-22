@@ -1,0 +1,369 @@
+[
+  {
+    "ministry": "Ministry of Health & Family Welfare",
+    "scheme_name": "Pradhan Mantri Swasthya Suraksha Nidhi",
+    "objective": "Improve healthcare infrastructure and services.",
+    "category": "health",
+    "keywords": ["healthcare", "hospital", "infrastructure", "medical"]
+  },
+  {
+    "ministry": "Ministry of Health & Family Welfare",
+    "scheme_name": "Ayushman Bharat Pradhan Mantri Jan Aarogya Yojana",
+    "objective": "Provide health insurance coverage to economically vulnerable families.",
+    "category": "health",
+    "keywords": ["health insurance", "ayushman", "pmjay", "hospital", "medical"]
+  },
+  {
+    "ministry": "Ministry of Health & Family Welfare",
+    "scheme_name": "National Digital Health Mission",
+    "objective": "Develop a digital health ecosystem and enhance healthcare delivery through technology.",
+    "category": "health",
+    "keywords": ["digital health", "health id", "technology", "medical records"]
+  },
+  {
+    "ministry": "Ministry of Health & Family Welfare",
+    "scheme_name": "Pradhan Mantri Swasthya Suraksha Yojana",
+    "objective": "Enhance healthcare infrastructure in rural areas.",
+    "category": "health",
+    "keywords": ["rural health", "hospital", "infrastructure"]
+  },
+  {
+    "ministry": "Ministry of Health & Family Welfare",
+    "scheme_name": "Intensified Mission Indradhanush 3.0",
+    "objective": "Increase immunization coverage among children and pregnant women.",
+    "category": "health",
+    "keywords": ["immunization", "vaccination", "children", "pregnant women"]
+  },
+
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "STARS Project",
+    "objective": "Support the strengthening of school education systems.",
+    "category": "education",
+    "keywords": ["school education", "teachers", "learning"]
+  },
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "Institutions of Eminence Scheme",
+    "objective": "Upgrade selected higher education institutions to world-class standards.",
+    "category": "education",
+    "keywords": ["higher education", "universities", "research"]
+  },
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "Mid-Day Meal",
+    "objective": "Provide nutritious meals to school children to improve their health and education.",
+    "category": "education",
+    "keywords": ["mid day meal", "nutrition", "school children", "food"]
+  },
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "Swach Vidyalaya Abhiyan",
+    "objective": "Ensure the availability of proper sanitation facilities in schools.",
+    "category": "sanitation",
+    "keywords": ["school sanitation", "toilets", "hygiene"]
+  },
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "Kala Utsav",
+    "objective": "Promote and celebrate the cultural diversity of India through arts and crafts.",
+    "category": "culture",
+    "keywords": ["art", "culture", "crafts", "students"]
+  },
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "Shikshav Parv Initiative",
+    "objective": "Enhance the quality of education through various reforms and initiatives.",
+    "category": "education",
+    "keywords": ["education reforms", "learning", "policy"]
+  },
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "Scheme for Promotion of Academic and Research Collaboration (SPARC)",
+    "objective": "Foster collaboration between academic institutions and research organizations.",
+    "category": "education",
+    "keywords": ["research", "academics", "collaboration"]
+  },
+  {
+    "ministry": "Ministry of Education",
+    "scheme_name": "Higher Education Financing Agency (HEFA)",
+    "objective": "Provide financial support for the development of educational infrastructure.",
+    "category": "education",
+    "keywords": ["education finance", "infrastructure", "universities"]
+  },
+
+  {
+    "ministry": "Ministry of Women and Child Development",
+    "scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+    "objective": "Provide financial support to pregnant and lactating mothers.",
+    "category": "women_child",
+    "keywords": ["pregnant women", "mothers", "maternity", "financial support"]
+  },
+  {
+    "ministry": "Ministry of Women and Child Development",
+    "scheme_name": "Poshan Abhiyan",
+    "objective": "Improve nutritional outcomes for children, pregnant women, and lactating mothers.",
+    "category": "women_child",
+    "keywords": ["nutrition", "children", "pregnant women"]
+  },
+  {
+    "ministry": "Ministry of Women and Child Development",
+    "scheme_name": "Rashtriya Poshan Maah",
+    "objective": "Focus on enhancing nutritional awareness and interventions.",
+    "category": "women_child",
+    "keywords": ["nutrition awareness", "health", "children"]
+  },
+
+  {
+    "ministry": "Ministry of Skill Development & Entrepreneurship",
+    "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana",
+    "objective": "Provide skill training to youth to enhance employability.",
+    "category": "skill",
+    "keywords": ["skill training", "jobs", "employment", "youth"]
+  },
+
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "Unique Land Parcel Identification Number (ULPIN) Scheme",
+    "objective": "Provide a unique identification number for land parcels to improve land records.",
+    "category": "land_records",
+    "keywords": ["land records", "property", "ulipn", "digital land"]
+  },
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "National Social Assistance Programme (NSAP)",
+    "objective": "Provide social assistance to the elderly, widows, and disabled individuals.",
+    "category": "social_welfare",
+    "keywords": ["pension", "elderly", "widow", "disabled"]
+  },
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS)",
+    "objective": "Guarantee employment to rural households and enhance their livelihoods.",
+    "category": "employment",
+    "keywords": ["employment", "job", "rural", "mgnregs"]
+  },
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "Rashtriya Aajivika Mission",
+    "objective": "Promote self-employment and livelihood opportunities in rural areas.",
+    "category": "livelihood",
+    "keywords": ["self employment", "livelihood", "rural"]
+  },
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "Gram Panchayat Development Plans",
+    "objective": "Plan and implement development projects at the village level.",
+    "category": "rural_development",
+    "keywords": ["village development", "panchayat", "local governance"]
+  },
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "Startup Village Entrepreneurship Programme",
+    "objective": "Support entrepreneurship and startup initiatives in rural areas.",
+    "category": "startup",
+    "keywords": ["rural startup", "entrepreneurship", "self employment"]
+  },
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "DDU Grameen Kaushalya Yojana",
+    "objective": "Provide skill development and employment opportunities to rural youth.",
+    "category": "skill",
+    "keywords": ["rural youth", "skill development", "jobs"]
+  },
+  {
+    "ministry": "Ministry of Rural Development",
+    "scheme_name": "Pradhan Mantri Awas Yojana",
+    "objective": "Provide affordable housing to the urban and rural poor.",
+    "category": "housing",
+    "keywords": ["housing", "home", "pmay", "urban poor", "rural poor"]
+  },
+
+  {
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "scheme_name": "Global Housing Technology Challenge",
+    "objective": "Promote innovative housing technologies and solutions.",
+    "category": "housing",
+    "keywords": ["housing technology", "innovation", "construction"]
+  },
+  {
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "scheme_name": "Safaimitra Suraksha Challenge",
+    "objective": "Improve sanitation and safety for sanitation workers.",
+    "category": "sanitation",
+    "keywords": ["sanitation workers", "safety", "hygiene"]
+  },
+  {
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "scheme_name": "PM SVANidhi",
+    "objective": "Provide street vendors with loans and financial support.",
+    "category": "finance",
+    "keywords": ["street vendors", "loan", "financial support"]
+  },
+  {
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "scheme_name": "Climate-Smart City Assessment Framework",
+    "objective": "Assess and improve climate resilience of urban areas.",
+    "category": "urban_development",
+    "keywords": ["climate resilience", "smart city", "urban planning"]
+  },
+  {
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "scheme_name": "Swachh Sarvekshan 2021",
+    "objective": "Evaluate and improve urban sanitation and cleanliness.",
+    "category": "sanitation",
+    "keywords": ["cleanliness", "urban sanitation", "survey"]
+  },
+
+  {
+    "ministry": "Ministry of Jal Shakti",
+    "scheme_name": "Rashtriya Swachhta Kendra",
+    "objective": "Promote and maintain cleanliness and sanitation practices.",
+    "category": "sanitation",
+    "keywords": ["cleanliness", "sanitation", "awareness"]
+  },
+  {
+    "ministry": "Ministry of Jal Shakti",
+    "scheme_name": "Grand ICT Challenge",
+    "objective": "Use information and communication technology for water management.",
+    "category": "water_management",
+    "keywords": ["water management", "ict", "technology"]
+  },
+
+  {
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "scheme_name": "Ambedkar Social Innovation & Incubation Mission",
+    "objective": "Foster social innovation and entrepreneurship for marginalized communities.",
+    "category": "social_welfare",
+    "keywords": ["social innovation", "marginalized communities", "entrepreneurship"]
+  },
+
+  {
+    "ministry": "Ministry of Finance",
+    "scheme_name": "Saral Jeevan Bima",
+    "objective": "Provide simplified life insurance products.",
+    "category": "insurance",
+    "keywords": ["life insurance", "financial security", "insurance"]
+  },
+
+  {
+    "ministry": "Ministry of Commerce & Industry",
+    "scheme_name": "One District One Product Scheme",
+    "objective": "Promote local products and manufacturing in each district.",
+    "category": "industry",
+    "keywords": ["local products", "manufacturing", "exports"]
+  },
+  {
+    "ministry": "Ministry of Commerce & Industry",
+    "scheme_name": "PRARAMBH: Startup India International Summit",
+    "objective": "Facilitate and promote international startup collaborations and investments.",
+    "category": "startup",
+    "keywords": ["startup", "international collaboration", "investment"]
+  },
+  {
+    "ministry": "Ministry of Commerce & Industry",
+    "scheme_name": "Merchandise Export From India Scheme",
+    "objective": "Enhance merchandise exports from India.",
+    "category": "exports",
+    "keywords": ["exports", "trade", "merchandise"]
+  },
+
+  {
+    "ministry": "Ministry of Textiles",
+    "scheme_name": "SAMARTH Scheme",
+    "objective": "Support skill development and employment in the textile sector.",
+    "category": "skill",
+    "keywords": ["textile", "skill development", "employment"]
+  },
+  {
+    "ministry": "Ministry of Textiles",
+    "scheme_name": "National Technical Textile Mission",
+    "objective": "Promote research and development in technical textiles.",
+    "category": "research",
+    "keywords": ["technical textiles", "research", "innovation"]
+  },
+
+  {
+    "ministry": "Ministry of Ports, Shipping & Waterways",
+    "scheme_name": "Sagarmala Sea Plane Services",
+    "objective": "Enhance sea plane connectivity and services.",
+    "category": "transport",
+    "keywords": ["sea plane", "connectivity", "ports"]
+  },
+  {
+    "ministry": "Ministry of Ports, Shipping & Waterways",
+    "scheme_name": "National Authority For Recycling of Ships",
+    "objective": "Promote recycling of ships and sustainable practices.",
+    "category": "environment",
+    "keywords": ["ship recycling", "sustainability", "environment"]
+  },
+
+  {
+    "ministry": "Ministry of Labor & Employment",
+    "scheme_name": "Atal Beemit Vyakti Kalyan Yojana",
+    "objective": "Provide financial support to unemployed individuals.",
+    "category": "employment",
+    "keywords": ["unemployment", "financial support", "workers"]
+  },
+  {
+    "ministry": "Ministry of Labor & Employment",
+    "scheme_name": "National Career Service Project",
+    "objective": "Enhance career services and employment opportunities.",
+    "category": "employment",
+    "keywords": ["career services", "jobs", "employment"]
+  },
+
+  {
+    "ministry": "Ministry of Consumer Affairs, Food, and Public Distribution",
+    "scheme_name": "Bureau of Indian Standards",
+    "objective": "Develop and enforce quality standards for goods and services.",
+    "category": "consumer_affairs",
+    "keywords": ["quality standards", "products", "consumer safety"]
+  },
+  {
+    "ministry": "Ministry of Consumer Affairs, Food, and Public Distribution",
+    "scheme_name": "Consumer Protection (E-commerce) Rules, 2020",
+    "objective": "Regulate and protect consumer interests in the e-commerce sector.",
+    "category": "consumer_protection",
+    "keywords": ["e-commerce", "consumer rights", "online shopping"]
+  },
+
+  {
+    "ministry": "Ministry of Statistics & Programme Implementation",
+    "scheme_name": "MPLADS (Members of Parliament Local Area Development Scheme)",
+    "objective": "Fund development projects in parliamentary constituencies.",
+    "category": "development",
+    "keywords": ["mplads", "local development", "infrastructure"]
+  },
+
+  {
+    "ministry": "NITI Aayog",
+    "scheme_name": "Vision 2035",
+    "objective": "Set long-term development goals and strategies for India.",
+    "category": "policy",
+    "keywords": ["long term vision", "policy", "development"]
+  },
+  {
+    "ministry": "NITI Aayog",
+    "scheme_name": "NPMPF (National Program and Project Management Policy Framework)",
+    "objective": "Implement project management frameworks for efficient execution of government projects.",
+    "category": "policy",
+    "keywords": ["project management", "governance", "execution"]
+  },
+  {
+    "ministry": "NITI Aayog",
+    "scheme_name": "Aatmanirbhar Bharat ARISE-Atal New India Challenge",
+    "objective": "Promote innovation and research to drive self-reliance and development.",
+    "category": "innovation",
+    "keywords": ["innovation", "research", "self reliance"]
+  },
+
+  {
+    "ministry": "Minister of Railways, Commerce and Industry, Consumer Affairs and Food and Public Distribution",
+    "scheme_name": "Startup India Seed Fund Scheme (SISFS)",
+    "objective": "Provide seed funding to startups and encourage entrepreneurship.",
+    "category": "startup",
+    "keywords": ["startup funding", "seed fund", "entrepreneurship"]
+  }
+]
+
