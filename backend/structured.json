@@ -1,0 +1,105 @@
+[
+  {
+    "id": "SCH_001",
+    "name": "Post Matric Scholarship Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkwNDU=",
+    "service_type": "scholarship",
+    "domain": "education",
+    "state": ["Jammu and Kashmir"],
+    "target_roles": ["student"],
+    "eligible_categories": ["OBC", "SC", "EBC", "DNT"],
+    "level": "post-matric",
+    "tags": ["post matric", "financial aid"]
+  },
+  {
+    "id": "SCH_002",
+    "name": "Pre-Matric & Merit Cum Means Scholarship",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjA2Nw==",
+    "service_type": "scholarship",
+    "domain": "education",
+    "state": ["Haryana"],
+    "target_roles": ["student"],
+    "eligible_categories": ["SC", "BC"],
+    "level": "pre-matric",
+    "tags": ["merit cum means"]
+  },
+  {
+    "id": "ADM_001",
+    "name": "Government College Admission via Atal Seva Kendra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjA1Mg==",
+    "service_type": "admission",
+    "domain": "education",
+    "state": ["Haryana"],
+    "target_roles": ["student"],
+    "eligible_categories": ["ANY"],
+    "tags": ["college admission", "government college"]
+  },
+  {
+    "id": "MED_001",
+    "name": "Medical Education Programs – Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE0MDk=",
+    "service_type": "medical_education",
+    "domain": "education",
+    "state": ["Telangana"],
+    "target_roles": ["student"],
+    "eligible_categories": ["ANY"],
+    "tags": ["medical", "dme"]
+  },
+  {
+    "id": "ADM_002",
+    "name": "Navodaya Vidyalaya Class VI Admission",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2NDc=",
+    "service_type": "school_admission",
+    "domain": "education",
+    "state": ["ANY"],
+    "target_roles": ["student"],
+    "eligible_categories": ["ANY"],
+    "level": "school",
+    "tags": ["navodaya", "class 6"]
+  },
+  {
+    "id": "SCH_003",
+    "name": "National Scholarship Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTMw",
+    "service_type": "scholarship",
+    "domain": "education",
+    "state": ["ANY"],
+    "target_roles": ["student"],
+    "eligible_categories": ["ANY"],
+    "tags": ["nsp", "central government"]
+  },
+  {
+    "id": "EXM_001",
+    "name": "Directorate of Government Examinations",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzMjQ=",
+    "service_type": "examination",
+    "domain": "education",
+    "state": ["Telangana"],
+    "target_roles": ["student"],
+    "eligible_categories": ["ANY"],
+    "tags": ["board exams", "results"]
+  },
+  {
+    "id": "MED_002",
+    "name": "PG Medical Counselling (NEET PG)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTI2NQ==",
+    "service_type": "medical_counselling",
+    "domain": "education",
+    "state": ["ANY"],
+    "target_roles": ["student"],
+    "eligible_categories": ["ANY"],
+    "tags": ["neet pg", "mcc"]
+  },
+  {
+  "id": "EDU_001",
+  "name": "Apply Certificate for Loss of Educational Records due to Disasters",
+  "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxOTk=",
+  "service_type": "certificate",
+  "domain": "education",
+  "state": ["Tamil Nadu"],
+  "target_roles": ["student"],
+  "eligible_categories": ["All"],
+  "tags": ["certificates", "disaster recovery", "educational records","recover certificates"]
+}
+
+]
