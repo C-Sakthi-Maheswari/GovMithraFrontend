@@ -17,7 +17,7 @@ def simple_stem(word):
     return word
 
 # -------------------- LOAD DATA --------------------
-with open("govt_schemes_structured.json", "r", encoding="utf-8") as f:
+with open("structured.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 print("🤖 Government Schemes Chatbot (Enhanced with Phrase Matching)")
