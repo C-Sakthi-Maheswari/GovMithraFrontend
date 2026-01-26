@@ -1,0 +1,145 @@
+[33mcommit 5a7810e3b96e7a6d7f46fc551e5483e4f6584a35[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Thu Jan 22 13:32:40 2026 +0530
+
+    Add files from repo B
+
+[33mcommit d597a09859f5a4a134e550a1f4698f5abd8f733c[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Thu Jan 22 11:21:14 2026 +0530
+
+    Add structured.json with education services data
+    
+    this is the actual data file
+
+[33mcommit 416e9c93500c7bf98076c4ef7bff68394a17141c[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Thu Jan 22 11:20:23 2026 +0530
+
+    Add files via upload
+
+[33mcommit 624ec5bc7c5170f590fa1377c01a6d6266d3a439[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Thu Jan 22 10:59:39 2026 +0530
+
+    Add files via upload
+    
+    structured json data for education
+
+[33mcommit c2889b83ac3462f41ebdfa890e79c6212e5f95bb[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Thu Jan 22 09:31:00 2026 +0530
+
+    govt exams scraped
+
+[33mcommit 49b3e2123f7741030c0e1fcbc34b26ce1e7c0961[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Wed Jan 21 21:01:29 2026 +0530
+
+    aicte internships scraped
+
+[33mcommit ab7d56b1b30ccc17f77d15eedb9e0038323b94fc[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Wed Jan 21 13:45:02 2026 +0530
+
+    water housing property  webscraped
+
+[33mcommit c3714cdce1d3fa134c8bb2cb288cf5366aa66d79[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Wed Jan 21 13:14:10 2026 +0530
+
+    electricity  webscraped
+
+[33mcommit c8287cb0f33cd1573825aa1c500b3423b6b351e6[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Tue Jan 20 22:21:03 2026 +0530
+
+    citizenship and passport  webscraped
+
+[33mcommit 362118c1e9d500f88dcfa48b33a8ff98b289b216[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Tue Jan 20 15:29:16 2026 +0530
+
+    citizenship and passport  webscraped
+
+[33mcommit 4df6fd873e78770073e4a6229963e934316625f3[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Tue Jan 20 15:23:11 2026 +0530
+
+    health webscraped
+
+[33mcommit 63f7370eb64df268e895d17ab990dfddc4f0637c[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Tue Jan 20 14:57:53 2026 +0530
+
+    jobs webscraped
+
+[33mcommit 0389195cb524115ab3f83a4ff6efba55e470374f[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Tue Jan 20 14:39:55 2026 +0530
+
+    Add files via upload
+    
+    web scrap code for education
+
+[33mcommit cda9f11be8eef8dba7588ebfc04f66a9a2239940[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Tue Jan 20 13:58:10 2026 +0530
+
+    Add files via upload
+    
+    this json sample file has few services along with the tags and state
+
+[33mcommit 4a3f7406937420b52d8447b5a832372b198547f8[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Tue Jan 20 13:56:53 2026 +0530
+
+    Add files via upload
+    
+    this is the json file with all education based services
+
+[33mcommit c9db37f01cfe7a552f42b73142b4191803076e6d[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Fri Jan 16 11:26:34 2026 +0530
+
+    Create schemes_chatbot.py
+    
+    added the basic chatbot for schemes
+
+[33mcommit 76de4eddc27bd7990dc76188cd90322bc5d3dabd[m
+Author: SheebaSharonA <163563695+SheebaSharonA@users.noreply.github.com>
+Date:   Fri Jan 16 11:25:41 2026 +0530
+
+    Create schemes.json
+    
+    added the structured json file
+
+[33mcommit 8ec3ff2839e9741d903c078af84e8470919bd0cc[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Fri Dec 12 23:46:48 2025 +0530
+
+    schemes webscraped
+
+[33mcommit 5c9457b5c7ebd8e7962000a73c4c463609e28579[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Fri Dec 12 22:02:33 2025 +0530
+
+    schemes webscraped
+
+[33mcommit c708763e0c4df4e9a8b167ac44984d0aacb887fd[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Fri Dec 12 20:24:32 2025 +0530
+
+    backend done
+
+[33mcommit fed6ab57e3ef531fa782c3f75f6e173239669790[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Mon Oct 6 11:57:00 2025 +0530
+
+    added frontned and bus routes backend
+
+[33mcommit cac42393d79764c6007c5c9cea7cb55ee9bc39cd[m
+Author: C-Sakthi-Maheswari <sakthi2k414@gmail.com>
+Date:   Sat Oct 4 11:00:59 2025 +0530
+
+    Initialize project using Create React App
