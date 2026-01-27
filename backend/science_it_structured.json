@@ -1,0 +1,2090 @@
+[
+  {
+    "id": "SCI_IT_001",
+    "name": "Track status of mails send through Indian Postal Servcies",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQ2",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_002",
+    "name": "Search Electronic Indian Postal Order details online",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2MQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_003",
+    "name": "Facilitating Digital Audit in Government Departments, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUyOTQ=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_004",
+    "name": "Right of Way (ROW) Grants Permission to the Telecom Service, Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxNjk=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_005",
+    "name": "Apply for RQP under the State Mining Department of Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2ODM=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_006",
+    "name": "NIC email account services",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjEzOQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_007",
+    "name": "Telangana: Web Mail Application",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU2NTA=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_008",
+    "name": "Haryana: NIC email account services",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTk4NA==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_009",
+    "name": "Thakur Pyarelal State Institute of Panchayat and Rural Development Nimora, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIxMDE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_010",
+    "name": "Wide Area Network Project (C.G. SWAN), Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIwNTE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_011",
+    "name": "Digital India Internship Scheme for NIC",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgwMjE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_012",
+    "name": "Check online status of newspaper title registration application",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTAyNQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_013",
+    "name": "Registration/Annual E - Filling with Registrar of Newspapers for India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTAyNw==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_014",
+    "name": "Register with Computer Complaint Management System of Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTc4",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_015",
+    "name": "Search for titles verified by Registrar of Newspapers for India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTY=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_016",
+    "name": "Check and search for registered titles with Registrar of Newspapers for India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTAyNg==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_017",
+    "name": "Online Submission for Women Scientist, DST",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjkxMg==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_018",
+    "name": "Holiday List - DoPT",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1MjI=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_019",
+    "name": "Secretary List, Govt. of India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1MjQ=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_020",
+    "name": "Chief Secretary List Govt. of India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1MjU=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_021",
+    "name": "Submission of Applications for Space Activities",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4NTg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_022",
+    "name": "Funding for Basic Research by Science and Engineering Research Board",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2Nzc=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_023",
+    "name": "Remote Sensing: Land Use/Cover Map of Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODY2NQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_024",
+    "name": "Remote Sensing: Drainage Map of Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODY2Ng==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_025",
+    "name": "Laboratory Search by National Accreditation Board for Testing and Calibration Laboratories",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg0Mjc=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_026",
+    "name": "Check Your Receipt No. / Complaint / Second Appeal Status with Odisha Information Commission, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkw",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_027",
+    "name": "Make an appointment with a Government Officer",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjg0Mw==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_028",
+    "name": "Visitor Login for Temporary Pass Appointment with Government",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg0MDg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_029",
+    "name": "e-Visitor System for Visitors",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg0MTA=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_030",
+    "name": "Track your postal consignments online",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDYx",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_031",
+    "name": "Lodge online RTI complaint and file appeal with Central Information Commission",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_032",
+    "name": "Check News Publication Details Provided by Department of Public Relations, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjM4",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_033",
+    "name": "View online Bharat Sanchar Nigam Limited Landline and Mobile Bill",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTAyNA==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_034",
+    "name": "Access Open Data APIs from Open Government Data Platform - OGD India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2MTg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_035",
+    "name": "Browse and Download Datasets from Open Government Data Platform - OGD India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2MTc=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_036",
+    "name": "Open Government Data Platform - OGD India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2MTY=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_037",
+    "name": "Pay and View MTNL's Landline Bills, Delhi",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mzk0MQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_038",
+    "name": "MyGov: A platform for citizen Engagement towards Good Governance",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODg4Nw==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_039",
+    "name": "Information Technology Policy, Puducherry",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTAyNQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_040",
+    "name": "Registration for Indian Journalist/Cameraperson",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2MjE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_041",
+    "name": "Register for Testing and Evaluation National Test House",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg0MjY=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_042",
+    "name": "Grievance Appellate Committee",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQzMzQ=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_043",
+    "name": "Check State Units of National Informatics Centre",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mzc3",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_044",
+    "name": "Registration for Tribal Research Institute",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0MzE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_045",
+    "name": "Login to UNESCO - Regional Centre for Biotechnology",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM3OTY=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_046",
+    "name": "Online submission information for Nanomission, DST",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjkxMQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_047",
+    "name": "e-Granthalaya: A Digital Agenda for Library Automation and Networking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjg1NQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_048",
+    "name": "Apply for Grants Under Extra Mural Funding and Outreach, Ministry of Earth Sciences",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2NzY=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_049",
+    "name": "Online submission of proposal to DBT",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjc3MQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_050",
+    "name": "Broadcast Seva - Dashboard",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyMjQ=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_051",
+    "name": "Digital India Internship Scheme, Ministry of Electronics & Information Technology",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgwMjA=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_052",
+    "name": "eAuthentication Service, Government of India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyMTI=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_053",
+    "name": "eProMIS - Department Of Bio Technology",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg0Njg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_054",
+    "name": "State Information Commission, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2NTM=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_055",
+    "name": "Check lost/stolen Mobile Request Status",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwNDY=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_056",
+    "name": "Request for un-blocking recovered/found mobile",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwNDQ=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_057",
+    "name": "Application for advertisements in souvenirs and special issues",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyODg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_058",
+    "name": "Chhattisgarh Council of Science & Technology (CCOST)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE5NTI=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_059",
+    "name": "e-Search in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk5Mzk=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_060",
+    "name": "Haryana: e-Stamping for Deed Registration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjAwMQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_061",
+    "name": "Book and check status of Instant Money Order by e-post office of India Post",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTUy",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_062",
+    "name": "Apply for Accrediation Media Personnels, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3ODg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_063",
+    "name": "Pension Application for Media Person, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3ODk=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_064",
+    "name": "Apply for UT Chandigarh Stipend Scheme of Govt. ITI, Chandigarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI0MTg=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_065",
+    "name": "Apply for ITC-PCTC Management Software, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI3NzI=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_066",
+    "name": "Information Technology & e-Governance Department, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkwMjA=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_067",
+    "name": "Infotech Promotion Society (CHiPS), Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4ODI=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_068",
+    "name": "Haryana: Policies  under the E-Mail service of the Government",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjE0Mg==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_069",
+    "name": "Telangana: IT, Electronics & Communications Department - Information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU4MzQ=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_070",
+    "name": "Search ISD codes of various countries",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzMw",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_071",
+    "name": "Common Services Centre Guidelines, Puducherry",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTAzMA==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_072",
+    "name": "Tamil Nadu State Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE5MTk=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_073",
+    "name": "e-Challan in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk5ODc=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_074",
+    "name": "Online Booking of Room, Conference Rooms etc. in Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk1ODU=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_075",
+    "name": "Chhattisgarh: Chhattisgarh State Website",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2NjE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_076",
+    "name": "Mail Services - Karnataka",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4NTE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_077",
+    "name": "Chhattisgarh: Chhattisgarh Infotech Promotion Society",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2NTc=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_078",
+    "name": "Chhattisgarh: Public Works Department",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE4NTE=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_079",
+    "name": "Check Kiosk Parameter, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc4NTY=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_080",
+    "name": "Chhattisgarh: E-Reservation Of CGSWAN Video Conferencing",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIwNTk=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_081",
+    "name": "Share suggestions of public interest, Lok Samvad, Bihar",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgxODI=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_082",
+    "name": "Request for demonstration of ServicePlus",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgwMjM=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_083",
+    "name": "NIC - Digital Payment Campaign",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgwMjI=",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_084",
+    "name": "Check list of National Speed Post Centres",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDU3",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_085",
+    "name": "Andhra Pradesh,CORRECTION IN COMPUTERIZED ADANGAL AND 1B",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTcxNA==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_086",
+    "name": "DigiLocker - Register online to store e-documents",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjU2MQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  },
+  {
+    "id": "SCI_IT_087",
+    "name": "ePost Office service of India Post",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA1MQ==",
+    "service_type": "government_service",
+    "domain": "science_it",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "official"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "science",
+      "technology",
+      "IT",
+      "digital services"
+    ]
+  }
+]
