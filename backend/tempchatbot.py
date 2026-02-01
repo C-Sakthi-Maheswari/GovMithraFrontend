@@ -17,9 +17,18 @@ def simple_stem(word):
     return word
 
 # -------------------- LOAD DATA --------------------
-with open("education_structured.json", "r", encoding="utf-8") as f:
+with open("transport_structured.json", "r", encoding="utf-8") as f:
     data = json.load(f)
-
+if isinstance(data, dict):
+    print("⚠️ Detected JSON is a Dictionary. Converting values to List.")
+    # Check if there is a specific wrapper key like "schemes" or "services"
+    if "schemes" in data and isinstance(data["schemes"], list):
+        data = data["schemes"]
+    elif "services" in data and isinstance(data["services"], list):
+        data = data["services"]
+    else:
+        # Otherwise, assume it's a dict of records and take the values
+        data = list(data.values())
 print("🤖 Government Schemes Chatbot (Enhanced with Phrase Matching)")
 print("Ask naturally: 'schemes for lost certificates in fire accident'")
 print("Type 'exit' to quit\n")
@@ -168,27 +177,34 @@ def display_record(record):
 # -------------------- MAIN LOOP --------------------
 while True:
     user_input = input("You: ").strip()
-
-    if user_input.lower() == "exit":
-        print("Bot: Goodbye 👋")
-        break
-
+    
     query_text = normalize_text(user_input)
     keywords = extract_keywords(user_input)
     original_keywords = keywords.copy()  # Keep original before expansion
     keywords = expand_keywords(keywords)
+    
+    if user_input.lower() == "exit":
+        print("Bot: Goodbye 👋")
+        break
+    
 
     if not keywords:
         print("Bot: Please enter a meaningful query.\n")
         continue
 
     scored_results = []
-
     for record in data:
+        # === ADD THIS SAFETY CHECK ===
+        if not isinstance(record, dict):
+            continue  # Skip this record if it is not a dictionary (e.g., it's a string)
+        # =============================
+
         record_text = flatten_json(record)
+        # Now this line is safe because we know record is a dict
         score = score_record(record, record_text, keywords, query_text)
         if score > 0:
             scored_results.append((score, record, record_text))
+
 
     if not scored_results:
         print("Bot: No relevant results found.\n")
