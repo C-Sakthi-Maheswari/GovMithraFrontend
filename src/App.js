@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 export default function GovMithra() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadingProgress, setLoadingProgress] = useState(0);
+  const [activeSource, setActiveSource] = useState("bus");
   const [messages, setMessages] = useState([
     {
       type: 'bot',
@@ -15,6 +16,26 @@ export default function GovMithra() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isBotTyping, setIsBotTyping] = useState(false);
   const messagesEndRef = useRef(null);
+  const categories = [
+  { id: "bus", label: "Bus Routes", icon: "🚌" },
+  { id: "education", label: "Education Schemes", icon: "🎓" },
+  { id: "internship", label: "AICTE Internships", icon: "💼" },
+  { id: "exams", label: "Upcoming Exams", icon: "📝" }
+];
+
+// In your JSX (Render)
+<div className="sidebar">
+  <h3>Chat Category</h3>
+  {categories.map((cat) => (
+    <button
+      key={cat.id}
+      className={activeSource === cat.id ? "active-btn" : "btn"}
+      onClick={() => setActiveSource(cat.id)}
+    >
+      {cat.icon} {cat.label}
+    </button>
+  ))}
+</div>
 
   // --- LOADING SIMULATION ---
   useEffect(() => {
@@ -180,6 +201,19 @@ const handleQuickAction = (query) => {
   };
 
   // --- RENDERING HELPERS ---
+  const sendMessage = async (userText) => {
+  const response = await fetch("http://localhost:5000/api/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      query: userText,
+      source: activeSource // This will be "bus", "exams", etc.
+    }),
+  });
+
+  const data = await response.json();
+  // Update your messages state with 'data.results'
+};
   const renderBotMessage = (message) => {
     if (message.isResults) {
       return (
@@ -394,6 +428,31 @@ function LoadingPage({ progress }) {
           transform: skewX(-20deg);
           animation: shine 1.5s infinite;
         }
+          .sidebar {
+  width: 250px;
+  background: #f4f4f4;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.active-btn {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
         @keyframes shine {
           0% { left: -50px; }
           100% { left: 100%; }
