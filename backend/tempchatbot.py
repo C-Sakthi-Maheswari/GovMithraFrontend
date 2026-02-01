@@ -228,3 +228,46 @@ while True:
         print(f"\nRelated results:\n")
         for i, rec in enumerate(close_results[1:], 1):
             display_record(rec)
+def chatbot_response(user_input):
+    query_text = normalize_text(user_input)
+    keywords = extract_keywords(user_input)
+    original_keywords = keywords.copy()
+    keywords = expand_keywords(keywords)
+
+    if not keywords:
+        return {
+            "response": "Please enter a meaningful query."
+        }
+
+    scored_results = []
+
+    for record in data:
+        record_text = flatten_json(record)
+        score = score_record(record, record_text, keywords, query_text)
+        if score > 0:
+            scored_results.append((score, record, record_text))
+
+    if not scored_results:
+        return {
+            "response": "No relevant government services found for your query."
+        }
+
+    # Boolean filtering
+    if len(original_keywords) >= 3:
+        filtered = []
+        for score, rec, rec_text in scored_results:
+            matches = count_keyword_matches(rec_text, original_keywords)
+            if matches >= MIN_KEYWORDS_MATCHED:
+                filtered.append((score, rec))
+        scored_results = filtered if filtered else [(s, r) for s, r, _ in scored_results]
+    else:
+        scored_results = [(s, r) for s, r, _ in scored_results]
+
+    scored_results.sort(key=lambda x: x[0], reverse=True)
+
+    best_score, best_record = scored_results[0]
+
+    return {
+        "response": best_record.get("name", "Relevant service found"),
+        "record": best_record
+    }
