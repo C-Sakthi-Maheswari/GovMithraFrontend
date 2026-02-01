@@ -1,0 +1,642 @@
+[
+  {
+    "id": "EXM_IBPS_001",
+    "name": "IBPS Clerk (Clerical Cadre)",
+    "url": "https://www.ibps.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ibps",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_IBPS_002",
+    "name": "IBPS PO (Probationary Officer/Management Trainee)",
+    "url": "https://www.ibps.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ibps",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_IBPS_003",
+    "name": "IBPS RRB Clerk (Office Assistant)",
+    "url": "https://www.ibps.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ibps",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_IBPS_004",
+    "name": "IBPS RRB PO (Officer Scale I, II, III)",
+    "url": "https://www.ibps.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ibps",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_IBPS_005",
+    "name": "IBPS SO (Specialist Officer)",
+    "url": "https://www.ibps.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ibps",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_IITIISCROT_006",
+    "name": "GATE (Graduate Aptitude Test in Engineering)",
+    "url": "https://gate.iitm.ac.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "iit/iisc (rotational)",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_NATIONALTE_007",
+    "name": "UGC NET (National Eligibility Test)",
+    "url": "https://ugcnet.nta.ac.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national testing agency",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_RAILWAYREC_008",
+    "name": "RRB ALP (Assistant Loco Pilot)",
+    "url": "https://www.rrbcdg.gov.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "railway recruitment board",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_RAILWAYREC_009",
+    "name": "RRB Group D (Level 1)",
+    "url": "https://www.rrbcdg.gov.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "railway recruitment board",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_RAILWAYREC_010",
+    "name": "RRB JE (Junior Engineer)",
+    "url": "https://www.rrbcdg.gov.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "railway recruitment board",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_RAILWAYREC_011",
+    "name": "RRB NTPC (Non-Technical Popular Categories)",
+    "url": "https://www.rrbcdg.gov.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "railway recruitment board",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_RAILWAYREC_012",
+    "name": "RRB Technician",
+    "url": "https://www.rrbcdg.gov.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "railway recruitment board",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_RESERVEBAN_013",
+    "name": "RBI Grade B Officer",
+    "url": "https://www.rbi.org.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "reserve bank of india",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_SSC_014",
+    "name": "Combined Graduate Level Examination (CGL)",
+    "url": "https://ssc.nic.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ssc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_SSC_015",
+    "name": "Combined Higher Secondary Level Examination (CHSL)",
+    "url": "https://ssc.nic.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ssc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_SSC_016",
+    "name": "Junior Engineer Examination (JE)",
+    "url": "https://ssc.nic.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ssc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_SSC_017",
+    "name": "Multi-Tasking Staff Examination (MTS)",
+    "url": "https://ssc.nic.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ssc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_SSC_018",
+    "name": "Selection Post Examination",
+    "url": "https://ssc.nic.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ssc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_SSC_019",
+    "name": "Stenographer Grade C & D Examination",
+    "url": "https://ssc.nic.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ssc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_SSC_020",
+    "name": "Sub-Inspector in Delhi Police and Central Armed Police Forces Examination",
+    "url": "https://ssc.nic.in",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ssc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_STATEBANKO_021",
+    "name": "SBI Clerk (Junior Associate)",
+    "url": "https://sbi.co.in/careers",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "state bank of india",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_STATEBANKO_022",
+    "name": "SBI PO (Probationary Officer)",
+    "url": "https://sbi.co.in/careers",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "state bank of india",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_023",
+    "name": "Central Armed Police Forces (Assistant Commandants) Examination",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_024",
+    "name": "Civil Services Examination (IAS/IPS/IFS)",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_025",
+    "name": "Combined Defence Services Examination (CDS)",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_026",
+    "name": "Combined Geo-Scientist Examination",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_027",
+    "name": "Combined Medical Services Examination",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_028",
+    "name": "Engineering Services Examination (ESE)",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_029",
+    "name": "Indian Economic Service/Indian Statistical Service Examination",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_030",
+    "name": "Indian Forest Service Examination (IFoS)",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_031",
+    "name": "National Defence Academy and Naval Academy Examination (NDA-NA)",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  },
+  {
+    "id": "EXM_UPSC_032",
+    "name": "Special Class Railway Apprentices Examination (SCRA)",
+    "url": "https://upsc.gov.in/examinations/active-exams",
+    "service_type": "examination",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "job_seeker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "upsc",
+      "government exam"
+    ]
+  }
+]

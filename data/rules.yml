@@ -1,34 +1,32 @@
 version: "3.1"
 
 rules:
-
-- rule: Greet user
+- rule: Handle tax queries
   steps:
-    - intent: greet
-    - action: utter_greet
+    - intent: tax
+    - action: action_search_tax
 
-- rule: Start service discovery
+- rule: Handle certificate queries
   steps:
-    - intent: discover_services
-    - action: utter_ask_more_details
+    - intent: certificates
+    - action: action_search_certificates
 
-- rule: Handle service request
+- rule: Handle education
   steps:
-    - intent: ask_service_type
-    - action: action_guide_services
+    - intent: education
+    - action: action_search_education
 
-- rule: Restart conversation
+- rule: Handle passports
   steps:
-  - intent: restart
-  - action: action_restart
+    - intent: passports
+    - action: action_search_passports
 
-
-- rule: Update constraints and re-guide
+- rule: Handle exams
   steps:
-    - intent: provide_constraints
-    - action: action_guide_services
+    - intent: exams
+    - action: action_search_exams
 
-- rule: End conversation
+- rule: Handle sports
   steps:
-    - intent: goodbye
-    - action: utter_goodbye
+    - intent: sports
+    - action: action_search_sports

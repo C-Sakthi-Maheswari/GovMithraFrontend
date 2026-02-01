@@ -1,0 +1,4620 @@
+[
+  {
+    "id": "EDU_001",
+    "name": "DPI : Subject Group Increment Online Request Form, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzNDY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "teacher"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Teacher Management"
+    ]
+  },
+  {
+    "id": "EDU_002",
+    "name": "Question Paper requisition Form for Govt. Schools for 9th and 11th Class, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzNTI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Exams"
+    ]
+  },
+  {
+    "id": "EDU_003",
+    "name": "Online Application for Allotment of Teachers in SoE and SoM Schools, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1MjE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "teacher"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Teacher Management"
+    ]
+  },
+  {
+    "id": "EDU_004",
+    "name": "Online Application for Student Increment in Schools, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1MjQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Student Records"
+    ]
+  },
+  {
+    "id": "EDU_005",
+    "name": "Check Examination Results Online/Online Result Display, Tripura",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQyNzE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Tripura"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Exams"
+    ]
+  },
+  {
+    "id": "EDU_006",
+    "name": "State Scholarship Portal for Students, Karnataka",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5NzM=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Karnataka"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships"
+    ]
+  },
+  {
+    "id": "EDU_007",
+    "name": "Gujarat-Scholarship to the disable students (Director, Social Defense)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU3OTI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Welfare"
+    ]
+  },
+  {
+    "id": "EDU_008",
+    "name": "Gujarat-Free Uniform assistance to Students of Std.I to VIII of Scheduled Caste",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU3MDA=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Welfare",
+      "Scholarships"
+    ]
+  },
+  {
+    "id": "EDU_009",
+    "name": "Recognition of Private Upper Primary Schools  (Class 6 to 8), Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUyMzU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Uttar Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Recognition"
+    ]
+  },
+  {
+    "id": "EDU_010",
+    "name": "Recognition of Private Primary Schools  (Class 1 to 5), Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUyMzQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Uttar Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Recognition"
+    ]
+  },
+  {
+    "id": "EDU_011",
+    "name": "Apply for Residential School Scheme, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MDY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Residential Schools"
+    ]
+  },
+  {
+    "id": "EDU_012",
+    "name": "Post Matric Scholarship for Scheduled Tribes, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4OTg=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "ST Students"
+    ]
+  },
+  {
+    "id": "EDU_013",
+    "name": "Apply for Dr. Ambedkar Economically Backward Classes Post Matric Scholarship Scheme, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4OTk=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "OBC Students"
+    ]
+  },
+  {
+    "id": "EDU_014",
+    "name": "Apply for Dr. Ambedkar Vimukta, Nomadic and Semi-Nomadic (DNTs) Post Matric Scholarship Scheme, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MDA=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "DNT Students"
+    ]
+  },
+  {
+    "id": "EDU_015",
+    "name": "Apply for Post Matric Scholarship for Other Backward Classes, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MDE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "OBC Students"
+    ]
+  },
+  {
+    "id": "EDU_016",
+    "name": "Apply for Post Matric Scholarship for Scheduled Castes, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MDI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "SC Students"
+    ]
+  },
+  {
+    "id": "EDU_017",
+    "name": "Apply for Post Matric Scholarship Scheme, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MDM=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships"
+    ]
+  },
+  {
+    "id": "EDU_018",
+    "name": "Apply for Chief Minister's Universal Higher Education Scholarship Scheme, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MDQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Higher Education"
+    ]
+  },
+  {
+    "id": "EDU_019",
+    "name": "Apply for Centrally Sponsored Book Bank Scheme, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MDU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Study Materials"
+    ]
+  },
+  {
+    "id": "EDU_020",
+    "name": "Students Apply for Hostel Facility, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MTQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Hostel Facility",
+      "Student Welfare"
+    ]
+  },
+  {
+    "id": "EDU_021",
+    "name": "Apply for Civil Service Examination Conducted by the Union Public Service Commission, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MTU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Examinations",
+      "Government Jobs"
+    ]
+  },
+  {
+    "id": "EDU_022",
+    "name": "Apply for Admission in National Level Educational Institutions in Professional/Technical Courses, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MTc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Admissions",
+      "Higher Education",
+      "Professional Courses"
+    ]
+  },
+  {
+    "id": "EDU_023",
+    "name": "Student apply for Admission in the State Government Engineering and Government Medical colleges, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5MTg=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Admissions",
+      "Engineering",
+      "Medical Colleges"
+    ]
+  },
+  {
+    "id": "EDU_024",
+    "name": "Integrated Platform for School Expert System, Ladakh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwNTY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Ladakh"
+    ],
+    "target_roles": [
+      "teacher"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Management",
+      "Teacher Support"
+    ]
+  },
+  {
+    "id": "EDU_025",
+    "name": "Learning Support Platform for Students and Teachers, Ladakh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwNTc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Ladakh"
+    ],
+    "target_roles": [
+      "teacher"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Student Support",
+      "Teacher Support",
+      "Learning Resources"
+    ]
+  },
+  {
+    "id": "EDU_026",
+    "name": "Integrated Platform for School, Teachers and Students, Ladakh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwNTU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Ladakh"
+    ],
+    "target_roles": [
+      "teacher"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Management",
+      "Student Support",
+      "Teacher Support"
+    ]
+  },
+  {
+    "id": "EDU_027",
+    "name": "Private Schools Opening Permission and New/Renewal Recognition, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE3MjY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Recognition",
+      "Permissions"
+    ]
+  },
+  {
+    "id": "EDU_028",
+    "name": "Information on the School List in Leh, Ladakh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwNTg=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Ladakh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Information",
+      "School List"
+    ]
+  },
+  {
+    "id": "EDU_029",
+    "name": "Maharashtra: Renewal of Registration Certificate for Granted Special Schools/Workshop/Matimand Balgruh/Activity for Rehabilitation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Njc3MQ==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Maharashtra"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Special Schools",
+      "Rehabilitation",
+      "Registration"
+    ]
+  },
+  {
+    "id": "EDU_030",
+    "name": "Maharashtra: Admission to Special Schools/Workshop for Person with Disability",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Njc3Ng==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Maharashtra"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Special Schools",
+      "Admissions",
+      "Disability Support"
+    ]
+  },
+  {
+    "id": "EDU_031",
+    "name": "Maharashtra: Foreign Scholarship",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Njc3Nw==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Maharashtra"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Foreign Studies"
+    ]
+  },
+  {
+    "id": "EDU_032",
+    "name": "Maharashtra: Scholarship within India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Njc3OA==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Maharashtra"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Domestic Studies"
+    ]
+  },
+  {
+    "id": "EDU_033",
+    "name": "Maharashtra: Admission to Residential Schools",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Njc4MA==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Maharashtra"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Admissions",
+      "Residential Schools"
+    ]
+  },
+  {
+    "id": "EDU_034",
+    "name": "Maharashtra: Admission to Government Hostel",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Njc4Mg==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Maharashtra"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Admissions",
+      "Hostel Facility"
+    ]
+  },
+  {
+    "id": "EDU_035",
+    "name": "My Jammu - Online Gateway to City of Temples",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxODg=",
+    "service_type": "tourism_information",
+    "domain": "education",
+    "state": [
+      "Jammu"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "City Information",
+      "Tourism"
+    ]
+  },
+  {
+    "id": "EDU_036",
+    "name": "Institute Student Management System - Rajeev Gandhi Institute Raipura, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTUwMjI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Student Management",
+      "Institute Portal"
+    ]
+  },
+  {
+    "id": "EDU_037",
+    "name": "Apply for Scholarships and Fellowship with University Grants Commission",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODcz",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Fellowship",
+      "UGC"
+    ]
+  },
+  {
+    "id": "EDU_038",
+    "name": "All India Sainik Schools Entrance Exam Information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ1NjE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Examinations",
+      "School Admission"
+    ]
+  },
+  {
+    "id": "EDU_039",
+    "name": "Apply for National Eligibility Cum Entrance Test (UG)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5NzI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Examinations",
+      "Medical/Professional Courses"
+    ]
+  },
+  {
+    "id": "EDU_040",
+    "name": "Apply online for Training of Livestock Farming, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIwMDk=",
+    "service_type": "agriculture_training",
+    "domain": "education",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Livestock Farming",
+      "Training Programs"
+    ]
+  },
+  {
+    "id": "EDU_041",
+    "name": "Online Seat Allotment Candidate Registration, Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIyMTc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Admissions",
+      "Seat Allotment",
+      "Higher Education"
+    ]
+  },
+  {
+    "id": "EDU_042",
+    "name": "Thakur Pyarelal State Institute of Panchayat and Rural Development Nimora, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIxMDE=",
+    "service_type": "education_training",
+    "domain": "education",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Rural Development",
+      "Institute Training"
+    ]
+  },
+  {
+    "id": "EDU_043",
+    "name": "Apply Online Scholarships for Meritorious Students belonging to the Minority Communities",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY2Mw==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Minority Students"
+    ]
+  },
+  {
+    "id": "EDU_044",
+    "name": "Apply Certificate for Loss of Educational Records due to Disasters, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxOTk=",
+    "service_type": "education_student_records",
+    "domain": "education",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Certificates",
+      "Disaster Recovery"
+    ]
+  },
+  {
+    "id": "EDU_045",
+    "name": "Student apply for First Graduate Certificate, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxOTM=",
+    "service_type": "education_student_records",
+    "domain": "education",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Certificates",
+      "Graduation"
+    ]
+  },
+  {
+    "id": "EDU_046",
+    "name": "Check Online Examination Results, General Education Department, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQyMDA=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Examinations",
+      "Results"
+    ]
+  },
+  {
+    "id": "EDU_047",
+    "name": "Department of School Education a School Registration: Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODgxNg==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Registration"
+    ]
+  },
+  {
+    "id": "EDU_048",
+    "name": "Registration or Renewal of Tutorial or Coaching Institutions Application Form, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI0Ng==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Coaching Institutes",
+      "Registration"
+    ]
+  },
+  {
+    "id": "EDU_049",
+    "name": "Telangana: Department of School Education a School Registration Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA3Nzg=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Registration"
+    ]
+  },
+  {
+    "id": "EDU_050",
+    "name": "Telangana: Registration or Renewal of Tutorial or Coaching Institutions Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA5NDY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Coaching Institutes",
+      "Registration"
+    ]
+  },
+  {
+    "id": "EDU_051",
+    "name": "Social Welfare Residential Educational Institutions Society (TSWREIS) - Information, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2MTk=",
+    "service_type": "education_welfare",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Residential Schools",
+      "Student Welfare"
+    ]
+  },
+  {
+    "id": "EDU_052",
+    "name": "Commissionerate of Intermediate Education - Vocational Courses - Location Service, Telangana:",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU5ODE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Vocational Courses",
+      "Institute Locations"
+    ]
+  },
+  {
+    "id": "EDU_053",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg5NTQ=",
+    "service_type": "skill_development_training",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Skill Development",
+      "Government Scheme"
+    ]
+  },
+  {
+    "id": "EDU_054",
+    "name": "Student Apply for National Apprenticeship Training Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxNjk=",
+    "service_type": "education_training",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Apprenticeship",
+      "Skill Development"
+    ]
+  },
+  {
+    "id": "EDU_055",
+    "name": "Online Registration of Students for Applying Scholarship via Portal, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxNTU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Online Registration"
+    ]
+  },
+  {
+    "id": "EDU_056",
+    "name": "Jharkhand State Open School",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0ODA=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Jharkhand"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Open Schooling",
+      "Distance Education"
+    ]
+  },
+  {
+    "id": "EDU_057",
+    "name": "Online application for Scholarship, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTcxOTQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships"
+    ]
+  },
+  {
+    "id": "EDU_058",
+    "name": "CBSE Exam Results - Previous Years",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzODQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Examinations",
+      "Results",
+      "CBSE"
+    ]
+  },
+  {
+    "id": "EDU_059",
+    "name": "Professional Examination Board, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIwNDc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Examinations",
+      "Board"
+    ]
+  },
+  {
+    "id": "EDU_060",
+    "name": "View High School and Intermediate Exam Result, Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgxOTU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Uttar Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Examinations",
+      "Results"
+    ]
+  },
+  {
+    "id": "EDU_061",
+    "name": "Telangana State Council of Science and Technology (TSCOST)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTYwMTk=",
+    "service_type": "science_technology",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Research",
+      "Science Council",
+      "Technology"
+    ]
+  },
+  {
+    "id": "EDU_062",
+    "name": "Application of Swami Vivekananda Merit Cum Means Scholarship, West Bengal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExNjg=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Merit Cum Means"
+    ]
+  },
+  {
+    "id": "EDU_063",
+    "name": "Student Services, Board of Intermediate Education, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgxNzc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Student Services",
+      "Board Education"
+    ]
+  },
+  {
+    "id": "EDU_064",
+    "name": "Online Training Program on Various Financial Matters, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxNDk=",
+    "service_type": "skill_development_training",
+    "domain": "education",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Financial Training",
+      "Online Program"
+    ]
+  },
+  {
+    "id": "EDU_065",
+    "name": "Skill India Digital Hub",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgxOTQ=",
+    "service_type": "skill_development_training",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Skill Development",
+      "Digital Training"
+    ]
+  },
+  {
+    "id": "EDU_066",
+    "name": "Post Matric Scholarship for ST Student, Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTc1NQ==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "ST Students",
+      "Post Matric"
+    ]
+  },
+  {
+    "id": "EDU_067",
+    "name": "Online application for Scholarship, Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTYyMg==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Mizoram"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships"
+    ]
+  },
+  {
+    "id": "EDU_068",
+    "name": "Seekho aur Kamao (Learn and Earn) - The Scheme for Skill Development of Minorities",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjI1MA==",
+    "service_type": "skill_development_training",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Skill Development",
+      "Minority Welfare",
+      "Government Scheme"
+    ]
+  },
+  {
+    "id": "EDU_069",
+    "name": "Apply for School and Mass Education, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxNDU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Management",
+      "Mass Education"
+    ]
+  },
+  {
+    "id": "EDU_070",
+    "name": "Submit Compliance before Inspection of CBSE Affiliate School",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzOTY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Compliance",
+      "CBSE"
+    ]
+  },
+  {
+    "id": "EDU_071",
+    "name": "Submit Compliance after Inspection of CBSE Affiliate School",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzOTc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Compliance",
+      "CBSE"
+    ]
+  },
+  {
+    "id": "EDU_072",
+    "name": "Pre-Ponement of Session of CBSE Affiliate School",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzOTU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Management",
+      "CBSE"
+    ]
+  },
+  {
+    "id": "EDU_073",
+    "name": "Affiliate School Online Application Status",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzOTM=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Affiliation",
+      "Application Status",
+      "CBSE"
+    ]
+  },
+  {
+    "id": "EDU_074",
+    "name": "List of Affiliated Schools As on Today",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzOTQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Affiliation",
+      "CBSE"
+    ]
+  },
+  {
+    "id": "EDU_075",
+    "name": "Find Registration Number: CBSE School Affiliation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzOTI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Affiliation",
+      "CBSE",
+      "Registration"
+    ]
+  },
+  {
+    "id": "EDU_076",
+    "name": "School Information Management System, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxMjc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Management",
+      "Information System"
+    ]
+  },
+  {
+    "id": "EDU_077",
+    "name": "Instructions for New Registration/ Already / Registerd Candidates",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkxMTQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Student Registration",
+      "Instructions"
+    ]
+  },
+  {
+    "id": "EDU_078",
+    "name": "Instructions for Student New Registration/ Already / Registerd, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkxMTU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Student Registration",
+      "Instructions"
+    ]
+  },
+  {
+    "id": "EDU_079",
+    "name": "Nai Manzil - An integrated Education and Livelihood initiative for the Minority Communities",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjIzMg==",
+    "service_type": "education_skill_development",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Minority Welfare",
+      "Education",
+      "Livelihood"
+    ]
+  },
+  {
+    "id": "EDU_080",
+    "name": "Online Application Form for New ITI  SCVT College Affiliation for Private Colleges of MP.",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ3MzQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "College Affiliation",
+      "Vocational Training"
+    ]
+  },
+  {
+    "id": "EDU_081",
+    "name": "Online Choice Filling of ITI Colleges for Admission in NCVT/SCVT Courses in ITI Colleges of MP.",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMyMzY=",
+    "service_type": "education_vocational_training",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "ITI Admission",
+      "NCVT",
+      "SCVT",
+      "Course Selection"
+    ]
+  },
+  {
+    "id": "EDU_082",
+    "name": "Online system for Mutual Inter-District Teachers Transfer, Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5NTg=",
+    "service_type": "education_teacher_services",
+    "domain": "education",
+    "state": [
+      "Uttar Pradesh"
+    ],
+    "target_roles": [
+      "teacher"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Teacher Transfer",
+      "Online System",
+      "UP"
+    ]
+  },
+  {
+    "id": "EDU_083",
+    "name": "Apply for Trainings / Workshops by Online Training Nomination System",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg3NDA=",
+    "service_type": "skill_development_training",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Training",
+      "Workshops",
+      "Nomination"
+    ]
+  },
+  {
+    "id": "EDU_084",
+    "name": "Apply Online for Partial Funding of Foreign Study under the Plan Scheme of DFFT",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NQ==",
+    "service_type": "education_scholarships",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Foreign Study",
+      "Partial Funding",
+      "DFFT"
+    ]
+  },
+  {
+    "id": "EDU_085",
+    "name": "Online Centre Supdt. Bill Performa for Secondary /Sr Secondary (Regular/Open) Examination, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkxMTc=",
+    "service_type": "education_examinations",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Exam Administration",
+      "Bill Performa",
+      "Haryana"
+    ]
+  },
+  {
+    "id": "EDU_086",
+    "name": "South Andaman College, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTM2Nw==",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "College Information",
+      "Andaman and Nicobar Islands"
+    ]
+  },
+  {
+    "id": "EDU_087",
+    "name": "Telangana: Department of Youth Services - Information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE5MzY=",
+    "service_type": "youth_services",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "youth"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Youth Programs",
+      "Information Portal"
+    ]
+  },
+  {
+    "id": "EDU_088",
+    "name": "Apply for scholarships through National Scholarships Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjc1Mg==",
+    "service_type": "education_scholarships",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "National Portal"
+    ]
+  },
+  {
+    "id": "EDU_089",
+    "name": "View Dashboard of Department of Atomic Energy",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwODU=",
+    "service_type": "science_technology",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Atomic Energy",
+      "Dashboard"
+    ]
+  },
+  {
+    "id": "EDU_090",
+    "name": "Check results of school examinations of Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjMz",
+    "service_type": "education_examinations",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Exam Results",
+      "School Education",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_091",
+    "name": "Online Virtual Classrooms of Indira Gandhi National Open University for students",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEwNg==",
+    "service_type": "education_online_learning",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Virtual Classrooms",
+      "IGNOU",
+      "Distance Education"
+    ]
+  },
+  {
+    "id": "EDU_092",
+    "name": "Student Registration for Scholarship in Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk1ODM=",
+    "service_type": "education_scholarships",
+    "domain": "education",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Student Registration",
+      "Scholarships",
+      "Punjab"
+    ]
+  },
+  {
+    "id": "EDU_093",
+    "name": "Telangana Tribal Welfare Residential Educational Institutions Society, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTYwNTc=",
+    "service_type": "education_welfare",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Tribal Welfare",
+      "Residential Schools",
+      "Telangana"
+    ]
+  },
+  {
+    "id": "EDU_094",
+    "name": "Telangana Tribal Welfare Residential Educational Institutions society Gurukulam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU5OTk=",
+    "service_type": "education_welfare",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Tribal Welfare",
+      "Residential Schools",
+      "Gurukulam",
+      "Telangana"
+    ]
+  },
+  {
+    "id": "EDU_095",
+    "name": "Online application form for student scholarship in Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NQ==",
+    "service_type": "education_scholarships",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarships",
+      "Student Application",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_096",
+    "name": "Registered User Login  of CBSE Affiliate School",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgzOTE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Login",
+      "CBSE",
+      "Affiliate School"
+    ]
+  },
+  {
+    "id": "EDU_097",
+    "name": "Department Of Higher Education BA BED Choice Filling (Second Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2Mzk=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "Choice Filling",
+      "BA BEd"
+    ]
+  },
+  {
+    "id": "EDU_098",
+    "name": "Department Of Higher EducationM.Ed Registration Edit",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3NzQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.Ed Registration"
+    ]
+  },
+  {
+    "id": "EDU_099",
+    "name": "Online Counseling of BEd and 7 other professional courses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMxNzM=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Counseling",
+      "BEd",
+      "Professional Courses"
+    ]
+  },
+  {
+    "id": "EDU_100",
+    "name": "Department Of Higher Education B.P.Ed. Registration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2MjY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.P.Ed Registration"
+    ]
+  },
+  {
+    "id": "EDU_101",
+    "name": "Department Of Higher EducationB.P.Ed Registration Edit",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2Mjk=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.P.Ed Registration",
+      "Edit"
+    ]
+  },
+  {
+    "id": "EDU_102",
+    "name": "Department Of Higher Education B.A.B.Ed. Choice Filling (First Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2MzY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "BA B.Ed",
+      "Choice Filling",
+      "First Round"
+    ]
+  },
+  {
+    "id": "EDU_103",
+    "name": "Department Of Higher Education B.EL.Ed. Choice Filling (First Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2NDY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.El.Ed",
+      "Choice Filling",
+      "First Round"
+    ]
+  },
+  {
+    "id": "EDU_104",
+    "name": "Department Of Higher Education BELED Choice Filling (Second Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2NDk=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.El.Ed",
+      "Choice Filling",
+      "Second Round"
+    ]
+  },
+  {
+    "id": "EDU_105",
+    "name": "Department Of Higher Education B.Ed-M.Ed (Integrated) Choice Filling (First Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2NTQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.Ed-M.Ed Integrated",
+      "Choice Filling",
+      "First Round"
+    ]
+  },
+  {
+    "id": "EDU_106",
+    "name": "Department Of Higher Education B.P.Ed. Choice Filling (First Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2NjE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.P.Ed",
+      "Choice Filling",
+      "First Round"
+    ]
+  },
+  {
+    "id": "EDU_107",
+    "name": "Department Of Higher Education BPED Choice Filling (Second Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2NjY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.P.Ed",
+      "Choice Filling",
+      "Second Round"
+    ]
+  },
+  {
+    "id": "EDU_108",
+    "name": "Department Of Higher Education B.S.C.B.Ed. Choice Filling (First Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2NzU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.Sc B.Ed",
+      "Choice Filling",
+      "First Round"
+    ]
+  },
+  {
+    "id": "EDU_109",
+    "name": "Department Of Higher Education BSC BED Choice Filling (Second Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3MTk=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.Sc B.Ed",
+      "Choice Filling",
+      "Second Round"
+    ]
+  },
+  {
+    "id": "EDU_110",
+    "name": "Department Of Higher Education M.Ed. Choice Filling (First Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3Mjc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.Ed",
+      "Choice Filling",
+      "First Round"
+    ]
+  },
+  {
+    "id": "EDU_111",
+    "name": "Department Of Higher Education MED Choice Filling (Second Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3Mzc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.Ed",
+      "Choice Filling",
+      "Second Round"
+    ]
+  },
+  {
+    "id": "EDU_112",
+    "name": "Department Of Higher Education M.P.Ed. Choice Filling (First Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3NDY=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.P.Ed",
+      "Choice Filling",
+      "First Round"
+    ]
+  },
+  {
+    "id": "EDU_113",
+    "name": "Department Of Higher EducationMPED Choice Filling (Second Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3NTE=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.P.Ed",
+      "Choice Filling",
+      "Second Round"
+    ]
+  },
+  {
+    "id": "EDU_114",
+    "name": "Department Of Higher Education M.Ed. Registration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3NTg=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.Ed Registration"
+    ]
+  },
+  {
+    "id": "EDU_115",
+    "name": "Department Of Higher Education M.P.Ed. Registration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3ODM=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.P.Ed Registration"
+    ]
+  },
+  {
+    "id": "EDU_116",
+    "name": "Department Of Higher Education M.P.Ed. Registration Edit",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM3ODk=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "M.P.Ed Registration",
+      "Edit"
+    ]
+  },
+  {
+    "id": "EDU_117",
+    "name": "Department Of Higher Education BEd Choice Filling (Second Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwMTU=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.Ed",
+      "Choice Filling",
+      "Second Round"
+    ]
+  },
+  {
+    "id": "EDU_118",
+    "name": "Department Of Higher Education BEd Choice Filling (Third Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwMjQ=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.Ed",
+      "Choice Filling",
+      "Third Round"
+    ]
+  },
+  {
+    "id": "EDU_119",
+    "name": "Department Of Higher Education BEd Choice Filling (Additional Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwMzI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.Ed",
+      "Choice Filling",
+      "Additional Round"
+    ]
+  },
+  {
+    "id": "EDU_120",
+    "name": "Department Of Higher Education BEd Choice Filling (Extra Round)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwMzc=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Higher Education",
+      "B.Ed",
+      "Choice Filling",
+      "Extra Round"
+    ]
+  },
+  {
+    "id": "EDU_121",
+    "name": "School Description Search in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNjI=",
+    "service_type": "education",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Information",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_122",
+    "name": "E-Content for Vocational School in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNjM=",
+    "service_type": "education_vocational_training",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "E-Content",
+      "Vocational School",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_123",
+    "name": "State Initiative for Quality Education (SIQE), Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNjQ=",
+    "service_type": "education_quality_initiatives",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "SIQE",
+      "Quality Education",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_124",
+    "name": "SIQE Source Books in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNjU=",
+    "service_type": "education_quality_initiatives",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "SIQE",
+      "Source Books",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_125",
+    "name": "SIQE Training Material in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNjY=",
+    "service_type": "education_quality_initiatives",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "SIQE",
+      "Training Material",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_126",
+    "name": "SIQE Special Learning Support Package, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNjg=",
+    "service_type": "education_quality_initiatives",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "SIQE",
+      "Special Learning Support",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_127",
+    "name": "B.Ed. Internship  in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNjk=",
+    "service_type": "education_teacher_training",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "B.Ed Internship",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_128",
+    "name": "5th Board Exam information in Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNzE=",
+    "service_type": "education_exams",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "5th Board Exam",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_129",
+    "name": "Haryana: Online Admission application form for School children",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjA3Ng==",
+    "service_type": "education_admission",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Online Admission",
+      "Haryana",
+      "School"
+    ]
+  },
+  {
+    "id": "EDU_130",
+    "name": "Cooperative Educational and Training Programme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNzU=",
+    "service_type": "education_training",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Cooperative Education",
+      "Training Programme"
+    ]
+  },
+  {
+    "id": "EDU_131",
+    "name": "AIQ Seats of Private Institutions Ayush AIAPGET-PG Counselling, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjk=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Ayush",
+      "AIAPGET-PG",
+      "Counselling",
+      "Madhya Pradesh",
+      "Private Institutions"
+    ]
+  },
+  {
+    "id": "EDU_132",
+    "name": "Online Ayush (MD, Naturopathy and Yoga) Post Graduate Counselling, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjg=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Ayush",
+      "MD",
+      "Naturopathy",
+      "Yoga",
+      "Post Graduate",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_133",
+    "name": "Online Ayush AIAPGET Post Graduate Counselling, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjc=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Ayush",
+      "AIAPGET",
+      "Post Graduate",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_134",
+    "name": "Online Ayush BNYS Under Graduate Counselling, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjU=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Ayush",
+      "BNYS",
+      "Under Graduate",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_135",
+    "name": "Online Ayush NEET Under Graduate Counselling, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjQ=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Ayush",
+      "NEET",
+      "Under Graduate",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_136",
+    "name": "Ayush Admissions Central Counseling Committee",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjI=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Ayush",
+      "Admissions",
+      "Central Counseling Committee"
+    ]
+  },
+  {
+    "id": "EDU_137",
+    "name": "Online Post Graduate (MD/ MS) Courses Counselling",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjE=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Post Graduate",
+      "MD",
+      "MS",
+      "Counselling"
+    ]
+  },
+  {
+    "id": "EDU_138",
+    "name": "Online Under Graduate Ayurveda/ Siddha/ Unani/ Homoeopathy Courses Counselling",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNjA=",
+    "service_type": "education_counselling",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Under Graduate",
+      "Ayurveda",
+      "Siddha",
+      "Unani",
+      "Homoeopathy",
+      "Counselling"
+    ]
+  },
+  {
+    "id": "EDU_139",
+    "name": "UG and PG courses Admission, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI5ODI=",
+    "service_type": "education_admission",
+    "domain": "education",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "UG",
+      "PG",
+      "Admission",
+      "Kerala"
+    ]
+  },
+  {
+    "id": "EDU_140",
+    "name": "Search Government Scholarship Scheme, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNTg=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship",
+      "Gujarat",
+      "Government Scheme"
+    ]
+  },
+  {
+    "id": "EDU_141",
+    "name": "Know Your School by Ministry of Education",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNTc=",
+    "service_type": "education_school_information",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Search",
+      "Ministry of Education",
+      "School Details"
+    ]
+  },
+  {
+    "id": "EDU_142",
+    "name": "Higher Education Scholarship, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMxNTU=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship",
+      "Higher Education",
+      "Kerala"
+    ]
+  },
+  {
+    "id": "EDU_143",
+    "name": "Website of Information Technology Digital Agency (ITDA), Uttarakhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQyNTk=",
+    "service_type": "education_digital_services",
+    "domain": "education",
+    "state": [
+      "Uttarakhand"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "IT Services",
+      "Digital Agency",
+      "Uttarakhand"
+    ]
+  },
+  {
+    "id": "EDU_144",
+    "name": "Check Status of Previous Year Scholarship Applications",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ1NzA=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship Status",
+      "Application Tracking",
+      "Education"
+    ]
+  },
+  {
+    "id": "EDU_145",
+    "name": "Apply for Post Matric Scholarship SC and ST, Bihar",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQzNDE=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Post Matric Scholarship",
+      "SC ST",
+      "Bihar"
+    ]
+  },
+  {
+    "id": "EDU_146",
+    "name": "Apply for Bonafide Certificate, Chandigarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5NzY=",
+    "service_type": "education_certificates",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Bonafide Certificate",
+      "Student Certificate",
+      "Chandigarh"
+    ]
+  },
+  {
+    "id": "EDU_147",
+    "name": "Apply for School Leaving Certificate, Chandigarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5NzU=",
+    "service_type": "education_certificates",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Leaving Certificate",
+      "Education Records",
+      "Chandigarh"
+    ]
+  },
+  {
+    "id": "EDU_148",
+    "name": "School Management Information System, Chandigarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5NzQ=",
+    "service_type": "education_school_administration",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "SMIS",
+      "School Management",
+      "Chandigarh"
+    ]
+  },
+  {
+    "id": "EDU_149",
+    "name": "Chhattisgarh: Institute Change For Government Engineering/PolyTechnic College",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI3OA==",
+    "service_type": "education_college_admissions",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Institute Change",
+      "Engineering College",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_150",
+    "name": "Chhattisgarh: Fee Refund For Government Engineering/PolyTechnic College",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI4MA==",
+    "service_type": "education_fee_services",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Fee Refund",
+      "Engineering College",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_151",
+    "name": "Chhattisgarh: Fee Refund For Government Engineering/PolyTechnic College Persons With Disability",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI4Mg==",
+    "service_type": "education_fee_services",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Fee Refund",
+      "Engineering College",
+      "Polytechnic",
+      "Persons with Disability",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_152",
+    "name": "Chhattisgarh: Transfer & Character Certificate For Government Engineering/PolyTechnic College",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI4NA==",
+    "service_type": "education_certificates",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Transfer Certificate",
+      "Character Certificate",
+      "Engineering College",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_153",
+    "name": "Chhattisgarh: Complaint For Government Engineering/PolyTechnic College Persons With Disability",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI5MA==",
+    "service_type": "education_grievance",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Complaint",
+      "Engineering College",
+      "Persons with Disability",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_154",
+    "name": "Chhattisgarh: Branch Change For Government Engineering/PolyTechnic College",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI5NQ==",
+    "service_type": "education_college_services",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Branch Change",
+      "Engineering College",
+      "Polytechnic",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_155",
+    "name": "Chhattisgarh: Janshakti - Transfer Certificate",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTg4NQ==",
+    "service_type": "education_certificates",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Transfer Certificate",
+      "Janshakti",
+      "Education Records",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_156",
+    "name": "Chhattisgarh: Janshakti -Marksheet",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTg4Ng==",
+    "service_type": "education_certificates",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Marksheet",
+      "Janshakti",
+      "Education Records",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_157",
+    "name": "Chhattisgarh: Janshakti - Marksheet For Person With Disability",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTg5Nw==",
+    "service_type": "education_certificates",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Marksheet",
+      "Persons with Disability",
+      "Janshakti",
+      "Chhattisgarh"
+    ]
+  },
+  {
+    "id": "EDU_158",
+    "name": "Super Speciality Counseling by Medical Counselling Committee",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1MDc=",
+    "service_type": "education_medical_admissions",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Medical Counseling",
+      "Super Speciality",
+      "Admissions",
+      "Medical Education"
+    ]
+  },
+  {
+    "id": "EDU_159",
+    "name": "Registration for Telangana Polytechnic Common Entrance Test, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ5NDk=",
+    "service_type": "education_entrance_examination",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Polytechnic Entrance Exam",
+      "Telangana",
+      "Exam Registration"
+    ]
+  },
+  {
+    "id": "EDU_160",
+    "name": "View Application Status on National Scholarship Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2MDE=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship Status",
+      "National Scholarship Portal",
+      "Application Tracking"
+    ]
+  },
+  {
+    "id": "EDU_161",
+    "name": "Login for Fresh Application by National Scholarship Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1OTQ=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "National Scholarship Portal",
+      "Fresh Application",
+      "Student Login"
+    ]
+  },
+  {
+    "id": "EDU_162",
+    "name": "Renewal of Pre-Matric and Post-Matric Scholarship",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1OTU=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship Renewal",
+      "Pre-Matric",
+      "Post-Matric",
+      "National Scholarship Portal"
+    ]
+  },
+  {
+    "id": "EDU_163",
+    "name": "Search Institute/ School/ ITI registered with National Scholarship Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1OTg=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Institute Search",
+      "School Search",
+      "ITI",
+      "National Scholarship Portal"
+    ]
+  },
+  {
+    "id": "EDU_164",
+    "name": "Scheme-Wise list of Applicants processed for Scholarship",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1OTk=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship Schemes",
+      "Applicant List",
+      "National Scholarship Portal"
+    ]
+  },
+  {
+    "id": "EDU_165",
+    "name": "Login for District/ State/ Ministry Officials in National Scholarship Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2MDI=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Official Login",
+      "District Officials",
+      "State Officials",
+      "National Scholarship Portal"
+    ]
+  },
+  {
+    "id": "EDU_166",
+    "name": "Coaching and Allied Scheme by Naya Savera",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2MTA=",
+    "service_type": "education_coaching",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Free Coaching",
+      "Naya Savera",
+      "Government Scheme"
+    ]
+  },
+  {
+    "id": "EDU_167",
+    "name": "Apply for Free Coaching and Allied Scheme for Minority Communities Students",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2MTE=",
+    "service_type": "education_coaching",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Free Coaching",
+      "Minority Students",
+      "Naya Savera",
+      "Government Scheme"
+    ]
+  },
+  {
+    "id": "EDU_168",
+    "name": "Citizen Survey Application",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM2NzA=",
+    "service_type": "governance_citizen_engagement",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Citizen Survey",
+      "Public Feedback",
+      "Government Services"
+    ]
+  },
+  {
+    "id": "EDU_169",
+    "name": "National Service Scheme- Suggestions",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg3Mzc=",
+    "service_type": "youth_volunteering",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "youth"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "NSS",
+      "Suggestions",
+      "Youth Programs"
+    ]
+  },
+  {
+    "id": "EDU_170",
+    "name": "National Service Scheme Directory",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg3Mzg=",
+    "service_type": "youth_volunteering",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "youth"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "NSS Directory",
+      "Youth Programs",
+      "Volunteering"
+    ]
+  },
+  {
+    "id": "EDU_171",
+    "name": "Board of Secondary Education, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4OTc=",
+    "service_type": "education_boards",
+    "domain": "education",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Secondary Education",
+      "School Board",
+      "Rajasthan"
+    ]
+  },
+  {
+    "id": "EDU_172",
+    "name": "Register for PM Internship Scheme by Ministry of Corporate Affairs",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4MTI=",
+    "service_type": "education_internship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "youth"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "PM Internship",
+      "Skill Development",
+      "Ministry of Corporate Affairs",
+      "Youth Employment"
+    ]
+  },
+  {
+    "id": "EDU_173",
+    "name": "Student apply for Undergraduate and Postgraduate Programs by University of Delhi",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4ODg=",
+    "service_type": "education_admissions",
+    "domain": "education",
+    "state": [
+      "Delhi"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "University Admission",
+      "UG Admission",
+      "PG Admission",
+      "Delhi University"
+    ]
+  },
+  {
+    "id": "EDU_174",
+    "name": "Laptop Distribution Scheme for Meritorious Students of Class 12th, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4ODU=",
+    "service_type": "education_student_welfare",
+    "domain": "education",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Laptop Scheme",
+      "Meritorious Students",
+      "Class 12",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_175",
+    "name": "Application for Scholarship General and SC/ST, Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ4NjI=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Uttar Pradesh"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship",
+      "SC ST Scholarship",
+      "General Category",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_176",
+    "name": "Online Test/Calibration Date Booking Request by Central Power Research Institute (CPRI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0MjQ=",
+    "service_type": "education_technical_services",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "CPRI",
+      "Test Booking",
+      "Calibration",
+      "Technical Certification"
+    ]
+  },
+  {
+    "id": "EDU_177",
+    "name": "Test Report Verification for Central Power Research Institute (CPRI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0Mjc=",
+    "service_type": "education_technical_services",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "CPRI",
+      "Report Verification",
+      "Technical Testing"
+    ]
+  },
+  {
+    "id": "EDU_178",
+    "name": "Online Payment for Central Power Research Institute (CPRI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0MjY=",
+    "service_type": "education_technical_services",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "CPRI",
+      "Online Payment",
+      "Testing Services"
+    ]
+  },
+  {
+    "id": "EDU_179",
+    "name": "Diploma Certificate Genuineness Verification, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE4ODQ=",
+    "service_type": "education_certificate_verification",
+    "domain": "education",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Diploma Verification",
+      "Certificate Validation",
+      "Tamil Nadu"
+    ]
+  },
+  {
+    "id": "EDU_180",
+    "name": "BC, MBC and Minorities Welfare Scholarship Status, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE4NzA=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship Status",
+      "BC MBC Scholarship",
+      "Minority Welfare",
+      "Tamil Nadu"
+    ]
+  },
+  {
+    "id": "EDU_181",
+    "name": "Results and Notifications of Examinations of TRB, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE5MDk=",
+    "service_type": "education_examinations",
+    "domain": "education",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "teacher"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Exam Results",
+      "TRB",
+      "Teacher Recruitment",
+      "Tamil Nadu"
+    ]
+  },
+  {
+    "id": "EDU_182",
+    "name": "Adi Dravidar and Tribal Welfare Scholarship System, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE4Njk=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Scholarship",
+      "Adi Dravidar Welfare",
+      "Tribal Welfare",
+      "Tamil Nadu"
+    ]
+  },
+  {
+    "id": "EDU_183",
+    "name": "Apply for Administrative Recognition - Higher Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNTc=",
+    "service_type": "education_institution_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Administrative Recognition",
+      "Higher Education",
+      "Assam",
+      "Educational Institutions"
+    ]
+  },
+  {
+    "id": "EDU_184",
+    "name": "Apply for Registration - Higher Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNTg=",
+    "service_type": "education_institution_registration",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Institution Registration",
+      "Higher Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_185",
+    "name": "Apply for Prior Permission to Establish and Run Private Educational Institutions - Higher Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNTk=",
+    "service_type": "education_institution_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Private Institutions",
+      "Permission",
+      "Higher Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_186",
+    "name": "Apply for Administrative Recognition Under Section 5 and 6 of the Assam Non-Govt. Educational Institutions - Secondary Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNjQ=",
+    "service_type": "education_institution_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Administrative Recognition",
+      "Secondary Education",
+      "Non-Government Institutions",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_187",
+    "name": "Apply for Essentiality Certificate for Nursing College, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNzc=",
+    "service_type": "education_medical_education_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Essentiality Certificate",
+      "Nursing College",
+      "Medical Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_188",
+    "name": "Apply for Essentiality Certificate for Dental College, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNzg=",
+    "service_type": "education_medical_education_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Essentiality Certificate",
+      "Dental College",
+      "Medical Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_189",
+    "name": "Apply for Essentiality Certificate for Medical College, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNzk=",
+    "service_type": "education_medical_education_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Essentiality Certificate",
+      "Medical College",
+      "Medical Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_190",
+    "name": "Apply for Registration Under Section 6 of the Assam Non-Govt. Educational Institutions - Secondary Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNjU=",
+    "service_type": "education_institution_registration",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Institution Registration",
+      "Secondary Education",
+      "Non-Government Institutions",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_191",
+    "name": "Apply for Prior Permission to Establish and Run Private Educational Institutions - Secondary Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNjY=",
+    "service_type": "education_institution_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Private Institutions",
+      "Permission",
+      "Secondary Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_192",
+    "name": "Apply for Administrative Recognition - Elementary Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNjc=",
+    "service_type": "education_institution_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Administrative Recognition",
+      "Elementary Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_193",
+    "name": "Apply for Registration - Elementary Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNjg=",
+    "service_type": "education_institution_registration",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Institution Registration",
+      "Elementary Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_194",
+    "name": "Apply for Prior Permission to Establish and Run Private Educational Institutions - Elementary Education, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzNjk=",
+    "service_type": "education_institution_approval",
+    "domain": "education",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Private Institutions",
+      "Permission",
+      "Elementary Education",
+      "Assam"
+    ]
+  },
+  {
+    "id": "EDU_195",
+    "name": "Know your application status, Board of Intermediate Education, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgxNzg=",
+    "service_type": "education_application_status",
+    "domain": "education",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Application Status",
+      "Board of Intermediate Education",
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "id": "EDU_196",
+    "name": "Check Board Examination Results Online, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NzE=",
+    "service_type": "education_examinations",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Exam Results",
+      "Board Examination",
+      "Jammu and Kashmir"
+    ]
+  },
+  {
+    "id": "EDU_197",
+    "name": "Apply for Xerox Copies of Answer Sheets, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NjY=",
+    "service_type": "education_examination_services",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Answer Sheet Copy",
+      "Xerox",
+      "Examinations",
+      "Jammu and Kashmir"
+    ]
+  },
+  {
+    "id": "EDU_198",
+    "name": "Apply for Online Eligibility and Migration Certificate, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NjU=",
+    "service_type": "education_certificates",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Eligibility Certificate",
+      "Migration Certificate",
+      "School Education",
+      "Jammu and Kashmir"
+    ]
+  },
+  {
+    "id": "EDU_199",
+    "name": "Apply for Online School Examination Form Filling, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NjQ=",
+    "service_type": "education_examinations",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Exam Form",
+      "School Examination",
+      "Online Application",
+      "Jammu and Kashmir"
+    ]
+  },
+  {
+    "id": "EDU_200",
+    "name": "Apply for School Education Online Registration Process, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NjM=",
+    "service_type": "education_student_registration",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "School Registration",
+      "Online Application",
+      "Jammu and Kashmir"
+    ]
+  },
+  {
+    "id": "EDU_201",
+    "name": "Apply for Post Matric Scholarship Scheme, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NjE=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Post Matric Scholarship",
+      "Jammu and Kashmir",
+      "Higher Education",
+      "Government Scheme"
+    ]
+  },
+  {
+    "id": "EDU_202",
+    "name": "Apply for Pre Matric Scholarship Scheme, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3NjA=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Pre Matric Scholarship",
+      "School Education",
+      "Jammu and Kashmir",
+      "Government Scheme"
+    ]
+  },
+  {
+    "id": "EDU_203",
+    "name": "Apply for State Research Scholarship, Nagaland",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3MTE=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Nagaland"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Research Scholarship",
+      "Higher Education",
+      "Nagaland",
+      "State Scholarship"
+    ]
+  },
+  {
+    "id": "EDU_204",
+    "name": "Apply for State Post Matric Scholarship (ST), Nagaland",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3MTA=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Nagaland"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Post Matric Scholarship",
+      "Scheduled Tribe",
+      "Nagaland",
+      "State Scholarship"
+    ]
+  },
+  {
+    "id": "EDU_205",
+    "name": "Apply for State Merit Scholarship, Nagaland",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3MDk=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Nagaland"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Merit Scholarship",
+      "Nagaland",
+      "Higher Education",
+      "State Scholarship"
+    ]
+  },
+  {
+    "id": "EDU_206",
+    "name": "Apply for Post Matric Scholarship Scheme (OBC/PCP/SC/DNT/EBC), Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkwNDU=",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Jammu and Kashmir"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Post Matric Scholarship",
+      "OBC",
+      "SC",
+      "EBC",
+      "DNT",
+      "Jammu and Kashmir"
+    ]
+  },
+  {
+    "id": "EDU_207",
+    "name": "Application Form for PMS, Pre-Matric and Merit Cum Means Scholarship for Students of SC-BC Category, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjA2Nw==",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "PMS Scholarship",
+      "Merit Cum Means",
+      "SC",
+      "BC",
+      "Haryana"
+    ]
+  },
+  {
+    "id": "EDU_208",
+    "name": "Online Admission Application in Government Colleges through Atal Seva Kendra (ASK), Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjA1Mg==",
+    "service_type": "education_admissions",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "College Admission",
+      "Government Colleges",
+      "Atal Seva Kendra",
+      "Haryana"
+    ]
+  },
+  {
+    "id": "EDU_209",
+    "name": "Directorate of Medical Education - Initiatives & Programs of DME - Information, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE0MDk=",
+    "service_type": "education_medical_education",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Medical Education",
+      "DME",
+      "Government Programs",
+      "Telangana"
+    ]
+  },
+  {
+    "id": "EDU_210",
+    "name": "Medical Education and Research in Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU4OTE=",
+    "service_type": "education_medical_education",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Medical Education",
+      "Medical Research",
+      "Telangana",
+      "Health Education"
+    ]
+  },
+  {
+    "id": "EDU_211",
+    "name": "Online Application for Admission to Class VI by Navodaya Vidyalaya Samiti",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2NDc=",
+    "service_type": "education_school_admission",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Navodaya Vidyalaya",
+      "Class VI Admission",
+      "School Education",
+      "Entrance परीक्षा"
+    ]
+  },
+  {
+    "id": "EDU_212",
+    "name": "Schemes of Education Department, Chandigarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMwOQ==",
+    "service_type": "education_government_schemes",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Education Schemes",
+      "Chandigarh",
+      "School Education",
+      "Government Benefits"
+    ]
+  },
+  {
+    "id": "EDU_213",
+    "name": "Board of Secondary Education in Raipur, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIxMDk=",
+    "service_type": "education_examination_board",
+    "domain": "education",
+    "state": [
+      "Chandigarh"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Secondary Education",
+      "Board Exams",
+      "Chhattisgarh",
+      "Raipur"
+    ]
+  },
+  {
+    "id": "EDU_214",
+    "name": "Directorate of Government Examinations, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzMjQ=",
+    "service_type": "education_examinations",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Government Exams",
+      "Board Exams",
+      "Telangana",
+      "Results"
+    ]
+  },
+  {
+    "id": "EDU_215",
+    "name": "State Board of Technical Education and Training, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ1MTc=",
+    "service_type": "education_technical_education",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Technical Education",
+      "Polytechnic",
+      "Diploma Courses",
+      "Telangana"
+    ]
+  },
+  {
+    "id": "EDU_216",
+    "name": "Pradhan Mantri Gramin Digital Saksharta Abhiyan Scheme, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE5MDk=",
+    "service_type": "education_digital_literacy",
+    "domain": "education",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "PMGDISHA",
+      "Digital Literacy",
+      "Rural Education",
+      "Telangana"
+    ]
+  },
+  {
+    "id": "EDU_217",
+    "name": "Important Instructions for Students B.E/ B.Tech and B.Architecture, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkxMTI=",
+    "service_type": "education_higher_education",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Engineering Education",
+      "BTech",
+      "BArch",
+      "Haryana",
+      "Student Guidelines"
+    ]
+  },
+  {
+    "id": "EDU_218",
+    "name": "Technical Education by Directorate of Technical Education, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkxMTE=",
+    "service_type": "education_technical_education",
+    "domain": "education",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "Technical Education",
+      "Engineering",
+      "Polytechnic",
+      "Haryana"
+    ]
+  },
+  {
+    "id": "EDU_219",
+    "name": "Students Apply for Scholarship on National Scholarship Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTMw",
+    "service_type": "education_scholarship",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "National Scholarship Portal",
+      "Student Scholarship",
+      "Central Government",
+      "NSP"
+    ]
+  },
+  {
+    "id": "EDU_220",
+    "name": "PG Medical Counselling by Medical Counselling Committee",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTI2NQ==",
+    "service_type": "education_medical_counselling",
+    "domain": "education",
+    "state": [
+      "ANY"
+    ],
+    "target_roles": [
+      "any"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "PG Medical Counselling",
+      "NEET PG",
+      "Medical Education",
+      "MCC"
+    ]
+  }
+]
