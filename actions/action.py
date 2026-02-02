@@ -170,27 +170,185 @@
 
 
 
-from rasa_sdk import Action, Tracker
 
+
+
+
+
+
+
+
+
+# from rasa_sdk import Action, Tracker
+
+# from rasa_sdk.executor import CollectingDispatcher
+# from actions.data_search import search
+# import json
+# def format_as_pretty_string(data):
+#     """
+#     Convert a JSON dictionary into a clean, human-readable
+#     Markdown-style string.
+#     """
+#     formatted_lines = []
+
+#     for key, value in data.items():
+#         # Make keys more readable: replace underscores and capitalize words
+#         readable_key = key.replace("_", " ").title()
+#         formatted_lines.append(f"{readable_key}:  {value}")
+
+#     return "\n".join(formatted_lines) + "\n\n---\n"
+
+# # -------------------- TEMPLATE ACTION --------------------
+
+
+# class ActionSearchEducation(Action):
+#     def name(self):
+#         return "action_search_education"
+
+#     def run(self, dispatcher, tracker, domain):
+#         query = tracker.latest_message.get("text")
+#         results = search(query, "actions/education_list.json")  # JSON for education
+
+#         if not results:
+#             dispatcher.utter_message(text=f"No education results found for '{query}'")
+#             return []
+#         output = f"Top education results for '{query}':\n\n"
+#         for rec in results:
+#             output += format_as_pretty_string(rec)
+
+#         dispatcher.utter_message(text=output)
+#         return []
+
+# class ActionSearchExams(Action):
+#     def name(self):
+#         return "action_search_exams"
+
+#     def run(self, dispatcher, tracker, domain):
+#         query = tracker.latest_message.get("text")
+#         results = search(query, "actions/exams_structured.json")  # JSON for exams
+
+#         if not results:
+#             dispatcher.utter_message(text=f"No exam results found for '{query}'")
+#             return []
+
+#         dispatcher.utter_message(text=f"Top exam results for '{query}':")
+#         for rec in results:
+#             dispatcher.utter_message(text=json.dumps(rec, indent=2))
+#         return []
+
+# class ActionSearchExams(Action):
+#     def name(self):
+#         return "action_search_exams"
+
+#     def run(self, dispatcher, tracker, domain):
+#         query = tracker.latest_message.get("text")
+#         results = search(query, "actions/exams_structured.json")
+
+#         if not results:
+#             dispatcher.utter_message(text=f"❌ No exam results found for '{query}'.")
+#             return []
+
+#         # 1. Start with a clear header
+#         output = f"📝Exam results for '{query}':**\n\n"
+
+#         # 2. Use the formatter to build the string
+#         for rec in results:
+#             output += format_as_pretty_string(rec)
+
+#         # 3. Send the formatted string to the frontend
+#         dispatcher.utter_message(text=output)
+#         return []
+    
+# class ActionSearchPassports(Action):
+#     def name(self):
+#         return "action_search_passports"
+
+#     def run(self, dispatcher, tracker, domain):
+#         query = tracker.latest_message.get("text")
+#         results = search(query, "actions/passports_structured.json")
+
+#         if not results:
+#             dispatcher.utter_message(text=f"🛂 No passport information found for '{query}'.")
+#             return []
+
+#         # Start the formatted message
+#         output = f"🛂 Passport Information for '{query}':\n\n"
+        
+#         # Build the neat result string
+#         for rec in results:
+#             output += format_as_pretty_string(rec)
+
+#         dispatcher.utter_message(text=output)
+#         return []
+    
+# class ActionSearchTax(Action):
+#     def name(self):
+#         return "action_search_tax"
+
+#     def run(self, dispatcher, tracker, domain):
+#         query = tracker.latest_message.get("text")
+        
+#         # Connect to your tax data source
+#         results = search(query, "actions/tax_structured.json") 
+
+#         if not results:
+#             dispatcher.utter_message(text=f"📊 No tax-related information found for '{query}'.")
+#             return []
+
+#         # Build the header
+#         output = f"📊 Tax Database Results for '{query}':\n\n"
+        
+#         # Use the helper function to make it look professional
+#         for rec in results:
+#             output += format_as_pretty_string(rec)
+
+#         dispatcher.utter_message(text=output)
+#         return []
+    
+# class ActionSearchCertificates(Action):
+#     def name(self):
+#         return "action_search_certificates"
+
+#     def run(self, dispatcher, tracker, domain):
+#         query = tracker.latest_message.get("text")
+#         dispatcher.utter_message(
+#             text=f"Searching in our certificates database for: '{query}'"
+#         )
+#         return []
+
+from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.data_search import search
 import json
-def format_as_pretty_string(data):
+
+# ----------------------------------------------------------------
+# HELPERS
+# ----------------------------------------------------------------
+
+def send_card_results(dispatcher, query, results, category_name):
     """
-    Convert a JSON dictionary into a clean, human-readable
-    Markdown-style string.
+    Helper function to send a text intro and a custom JSON payload
+    that the React frontend will catch to render as cards.
     """
-    formatted_lines = []
+    if not results:
+        dispatcher.utter_message(text=f"❌ No {category_name} information found for '{query}'.")
+        return []
 
-    for key, value in data.items():
-        # Make keys more readable: replace underscores and capitalize words
-        readable_key = key.replace("_", " ").title()
-        formatted_lines.append(f"{readable_key}:  {value}")
+    # 1. Send text message
+    dispatcher.utter_message(text=f"I found {len(results)} results for '{query}' in {category_name}:")
 
-    return "\n".join(formatted_lines) + "\n\n---\n"
+    # 2. Send custom payload for Card rendering in React
+    dispatcher.utter_message(
+        json_message={
+            "display_type": "card_list",
+            "data": results
+        }
+    )
+    return []
 
-# -------------------- TEMPLATE ACTION --------------------
-
+# ----------------------------------------------------------------
+# ACTIONS
+# ----------------------------------------------------------------
 
 class ActionSearchEducation(Action):
     def name(self):
@@ -198,34 +356,8 @@ class ActionSearchEducation(Action):
 
     def run(self, dispatcher, tracker, domain):
         query = tracker.latest_message.get("text")
-        results = search(query, "actions/education_list.json")  # JSON for education
-
-        if not results:
-            dispatcher.utter_message(text=f"No education results found for '{query}'")
-            return []
-        output = f"Top education results for '{query}':\n\n"
-        for rec in results:
-            output += format_as_pretty_string(rec)
-
-        dispatcher.utter_message(text=output)
-        return []
-
-class ActionSearchExams(Action):
-    def name(self):
-        return "action_search_exams"
-
-    def run(self, dispatcher, tracker, domain):
-        query = tracker.latest_message.get("text")
-        results = search(query, "actions/exams_structured.json")  # JSON for exams
-
-        if not results:
-            dispatcher.utter_message(text=f"No exam results found for '{query}'")
-            return []
-
-        dispatcher.utter_message(text=f"Top exam results for '{query}':")
-        for rec in results:
-            dispatcher.utter_message(text=json.dumps(rec, indent=2))
-        return []
+        results = search(query, "actions/education_list.json")
+        return send_card_results(dispatcher, query, results, "Education")
 
 class ActionSearchExams(Action):
     def name(self):
@@ -234,22 +366,8 @@ class ActionSearchExams(Action):
     def run(self, dispatcher, tracker, domain):
         query = tracker.latest_message.get("text")
         results = search(query, "actions/exams_structured.json")
+        return send_card_results(dispatcher, query, results, "Exams")
 
-        if not results:
-            dispatcher.utter_message(text=f"❌ No exam results found for '{query}'.")
-            return []
-
-        # 1. Start with a clear header
-        output = f"📝Exam results for '{query}':**\n\n"
-
-        # 2. Use the formatter to build the string
-        for rec in results:
-            output += format_as_pretty_string(rec)
-
-        # 3. Send the formatted string to the frontend
-        dispatcher.utter_message(text=output)
-        return []
-    
 class ActionSearchPassports(Action):
     def name(self):
         return "action_search_passports"
@@ -257,53 +375,32 @@ class ActionSearchPassports(Action):
     def run(self, dispatcher, tracker, domain):
         query = tracker.latest_message.get("text")
         results = search(query, "actions/passports_structured.json")
+        return send_card_results(dispatcher, query, results, "Passports")
 
-        if not results:
-            dispatcher.utter_message(text=f"🛂 No passport information found for '{query}'.")
-            return []
-
-        # Start the formatted message
-        output = f"🛂 Passport Information for '{query}':\n\n"
-        
-        # Build the neat result string
-        for rec in results:
-            output += format_as_pretty_string(rec)
-
-        dispatcher.utter_message(text=output)
-        return []
-    
 class ActionSearchTax(Action):
     def name(self):
         return "action_search_tax"
 
     def run(self, dispatcher, tracker, domain):
         query = tracker.latest_message.get("text")
-        
-        # Connect to your tax data source
-        results = search(query, "actions/tax_structured.json") 
+        results = search(query, "actions/tax_structured.json")
+        return send_card_results(dispatcher, query, results, "Tax")
 
-        if not results:
-            dispatcher.utter_message(text=f"📊 No tax-related information found for '{query}'.")
-            return []
-
-        # Build the header
-        output = f"📊 Tax Database Results for '{query}':\n\n"
-        
-        # Use the helper function to make it look professional
-        for rec in results:
-            output += format_as_pretty_string(rec)
-
-        dispatcher.utter_message(text=output)
-        return []
-    
 class ActionSearchCertificates(Action):
     def name(self):
         return "action_search_certificates"
 
     def run(self, dispatcher, tracker, domain):
+        # Assuming you have a certificates JSON, otherwise adjust path
         query = tracker.latest_message.get("text")
-        dispatcher.utter_message(
-            text=f"Searching in our certificates database for: '{query}'"
-        )
-        return []
+        results = search(query, "actions/certificates_structured.json")
+        return send_card_results(dispatcher, query, results, "Certificates")
 
+class ActionSearchSports(Action):
+    def name(self):
+        return "action_search_sports"
+
+    def run(self, dispatcher, tracker, domain):
+        query = tracker.latest_message.get("text")
+        results = search(query, "actions/sports_structured.json")
+        return send_card_results(dispatcher, query, results, "Sports")
