@@ -711,7 +711,8 @@ export default function GovMithra() {
     { icon: '🎓', label: 'Education Schemes', q: 'Scholarships for higher education' },
     { icon: '📝', label: 'Exams', q: 'Upcoming government exam schedule' },
     { icon: '🛂', label: 'Passports', q: 'Documents needed for passport renewal' },
-    { icon: '🎾', label: 'Sports Services', q: 'Sports scholarships and training programs' }
+    { icon: '🎾', label: 'Sports Services', q: 'Sports scholarships and training programs' },
+    { icon: '🚌', label: 'MTC Bus Routes', q: 'Bus from Tambaram to Adyar' } // ADDED THIS
   ];
 
   const renderValue = (val) => {
@@ -783,7 +784,8 @@ export default function GovMithra() {
     botBubble: { background: '#f1f5f9', color: '#1e293b', padding: '12px 18px', borderRadius: '18px 18px 18px 2px', alignSelf: 'flex-start' },
     card: { background: 'white', borderRadius: '12px', padding: '15px', marginTop: '12px', border: '1px solid #eef2f6', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' },
     inputContainer: { padding: '20px 30px', background: 'white', borderTop: '1px solid #f1f5f9', display: 'flex', gap: '15px' },
-    actionBtn: { width: '100%', textAlign: 'left', padding: '12px 15px', marginBottom: '10px', border: 'none', borderRadius: '12px', cursor: 'pointer', background: '#f8fafc', transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '12px', color: '#475569', fontWeight: '500' }
+    actionBtn: { width: '100%', textAlign: 'left', padding: '12px 15px', marginBottom: '10px', border: 'none', borderRadius: '12px', cursor: 'pointer', background: '#f8fafc', transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '12px', color: '#475569', fontWeight: '500' },
+
   };
 
   if (isLoading) return <LoadingPage progress={loadingProgress} />;

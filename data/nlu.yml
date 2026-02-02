@@ -1,6 +1,14 @@
 version: "3.1"
 
 nlu:
+- intent: search_bus
+  examples: |
+    - bus from [Tambaram](location) to [Adyar](location)
+    - bus to [Porur](location)
+    - buses from [T.Nagar](location)
+    - [21G](bus_no) bus route
+    - route via [Velachery](location)
+    - [570](bus_no) from [CMBT](location)
 - intent: tax
   examples: |
     - income tax refund

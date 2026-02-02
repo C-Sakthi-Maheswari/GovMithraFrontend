@@ -1,6 +1,10 @@
 version: "3.1"
 
 rules:
+- rule: Handle bus search
+  steps:
+  - intent: search_bus
+  - action: action_search_bus
 - rule: Handle tax queries
   steps:
     - intent: tax
