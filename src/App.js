@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 
 // --- LOADING PAGE COMPONENT ---
@@ -67,8 +66,22 @@ export default function GovMithra() {
     { icon: '📝', label: 'Exams', q: 'Upcoming government exam schedule' },
     { icon: '🛂', label: 'Passports', q: 'Documents needed for passport renewal' },
     { icon: '🎾', label: 'Sports Services', q: 'Sports scholarships and training programs' },
-    { icon: '🚌', label: 'MTC Bus Routes', q: 'Bus from Tambaram to Adyar' } // ADDED THIS
+    { icon: '🚌', label: 'MTC Bus Routes', q: 'Bus from Tambaram to Adyar' }
   ];
+
+  // --- FUNCTION TO OPEN GOOGLE MAPS ---
+  const viewOnMaps = (source, destination) => {
+    if (!source || !destination) {
+      alert('Source or destination information is missing.');
+      return;
+    }
+    
+    // Create Google Maps directions URL
+    const mapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(source + ', Chennai')}&destination=${encodeURIComponent(destination + ', Chennai')}&travelmode=transit`;
+    
+    // Open in new tab
+    window.open(mapsUrl, '_blank');
+  };
 
   const renderValue = (val) => {
     const stringVal = String(val);
@@ -140,7 +153,21 @@ export default function GovMithra() {
     card: { background: 'white', borderRadius: '12px', padding: '15px', marginTop: '12px', border: '1px solid #eef2f6', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' },
     inputContainer: { padding: '20px 30px', background: 'white', borderTop: '1px solid #f1f5f9', display: 'flex', gap: '15px' },
     actionBtn: { width: '100%', textAlign: 'left', padding: '12px 15px', marginBottom: '10px', border: 'none', borderRadius: '12px', cursor: 'pointer', background: '#f8fafc', transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '12px', color: '#475569', fontWeight: '500' },
-
+    mapsBtn: { 
+      background: '#10b981', 
+      color: 'white', 
+      border: 'none', 
+      padding: '8px 16px', 
+      borderRadius: '8px', 
+      cursor: 'pointer', 
+      fontWeight: '600', 
+      fontSize: '0.85rem',
+      marginTop: '10px',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '6px',
+      transition: 'all 0.2s'
+    }
   };
 
   if (isLoading) return <LoadingPage progress={loadingProgress} />;
@@ -177,6 +204,19 @@ export default function GovMithra() {
                           <span style={{ color: '#64748b' }}>|</span> &nbsp; {renderValue(v)}
                         </div>
                       ))}
+                      {/* Show View on Maps button if source and destination exist */}
+                      {(item.source || item.from || item.origin) && (item.destination || item.to) && (
+                        <button 
+                          className="maps-btn"
+                          style={styles.mapsBtn}
+                          onClick={() => viewOnMaps(
+                            item.source || item.from || item.origin,
+                            item.destination || item.to
+                          )}
+                        >
+                          <span>📍</span> View on Maps
+                        </button>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -200,6 +240,7 @@ export default function GovMithra() {
       </div>
       <style>{`
         .sidebar-btn:hover { background: #eef2f6 !important; transform: translateX(5px); }
+        .maps-btn:hover { background: #059669 !important; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); }
       `}</style>
     </div>
   );
