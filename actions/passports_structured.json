@@ -2446,5 +2446,101 @@
       "voter",
       "identity"
     ]
+  }, 
+  {
+    "id": "PAN_APPLY_INDIAN_NRI_CENTRAL_001",
+    "name": "Apply for PAN Card for Indian Citizen / NRI",
+    "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "service_type": "application",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["citizen", "nri"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["pan card", "apply pan", "indian citizen", "nri", "income tax"]
+  },
+  {
+    "id": "PAN_APPLY_FOREIGN_CITIZEN_CENTRAL_002",
+    "name": "Apply for PAN Card for Foreign Citizen",
+    "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "service_type": "application",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["foreigner"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["pan card", "foreign citizen", "income tax", "apply pan"]
+  },
+  {
+    "id": "PAN_CORRECTION_UPDATE_CENTRAL_003",
+    "name": "Change or Correction in PAN Card",
+    "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "service_type": "correction",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["citizen", "nri"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["pan correction", "update pan", "name change", "dob change"]
+  },
+  {
+    "id": "PAN_DOWNLOAD_EPAN_CENTRAL_004",
+    "name": "Download e-PAN Card",
+    "url": "https://www.incometax.gov.in/iec/foportal/",
+    "service_type": "download",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["citizen", "nri"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["e-pan", "download pan", "pan pdf", "income tax"]
+  },
+  {
+    "id": "PAN_REPRINT_CENTRAL_005",
+    "name": "Reprint PAN Card",
+    "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "service_type": "reprint",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["citizen", "nri"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["reprint pan", "lost pan", "duplicate pan"]
+  },
+  {
+    "id": "PAN_ADDRESS_UPDATE_EKYC_CENTRAL_006",
+    "name": "Update PAN Address through eKYC Mode",
+    "url": "https://www.incometax.gov.in/iec/foportal/",
+    "service_type": "update",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["citizen"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["pan address update", "ekyc", "aadhaar pan"]
+  },
+  {
+    "id": "PAN_TRACK_STATUS_CENTRAL_007",
+    "name": "Track PAN Card Application Status",
+    "url": "https://www.trackpan.utiitsl.com/PANONLINE/#/trackpan",
+    "service_type": "tracking",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["citizen", "nri", "foreigner"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["track pan", "pan status", "pan application"]
+  },
+  {
+    "id": "PAN_BULK_VERIFICATION_CENTRAL_008",
+    "name": "PAN Bulk Verification",
+    "url": "https://www.incometax.gov.in/iec/foportal/",
+    "service_type": "verification",
+    "domain": "finance",
+    "state": "Central",
+    "target_roles": ["organization", "employer"],
+    "eligible_categories": ["General"],
+    "level": "central",
+    "tags": ["pan verification", "bulk pan", "kyc"]
   }
 ]
