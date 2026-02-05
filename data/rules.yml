@@ -34,3 +34,8 @@ rules:
   steps:
     - intent: sports
     - action: action_search_sports
+
+- rule: Handle language change
+  steps:
+  - intent: set_language
+  - action: action_set_language

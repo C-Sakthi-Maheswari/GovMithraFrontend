@@ -1,5 +1,10 @@
 version: "3.1"
-
+slots:
+  user_language:
+    type: text
+    initial_value: "en"
+    mappings:
+      - type: custom
 intents:
   - tax
   - certificates
@@ -8,8 +13,11 @@ intents:
   - sports
   - passports
   - search_bus
+  - set_language
+
 
 actions:
+  - action_set_language
   - action_search_tax
   - action_search_certificates
   - action_search_education

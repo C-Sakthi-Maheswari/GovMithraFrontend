@@ -1,0 +1,46 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"education\"}}]": "action_search_education",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"education\"}}, {\"prev_action\": {\"action_name\": \"action_search_education\"}, \"user\": {\"intent\": \"education\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"passports\"}}]": "action_search_passports",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"passports\"}}, {\"prev_action\": {\"action_name\": \"action_search_passports\"}, \"user\": {\"intent\": \"passports\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"sports\"}}]": "action_search_sports",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"sports\"}}, {\"prev_action\": {\"action_name\": \"action_search_sports\"}, \"user\": {\"intent\": \"sports\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_language\"}}]": "action_set_language",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_language\"}}, {\"prev_action\": {\"action_name\": \"action_set_language\"}, \"user\": {\"intent\": \"set_language\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"certificates\"}}]": "action_search_certificates",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"certificates\"}}, {\"prev_action\": {\"action_name\": \"action_search_certificates\"}, \"user\": {\"intent\": \"certificates\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"exams\"}}]": "action_search_exams",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"exams\"}}, {\"prev_action\": {\"action_name\": \"action_search_exams\"}, \"user\": {\"intent\": \"exams\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_bus\"}}]": "action_search_bus",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_bus\"}}, {\"prev_action\": {\"action_name\": \"action_search_bus\"}, \"user\": {\"intent\": \"search_bus\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tax\"}}]": "action_search_tax",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tax\"}}, {\"prev_action\": {\"action_name\": \"action_search_tax\"}, \"user\": {\"intent\": \"tax\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tax\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"exams\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"certificates\"}}, {\"prev_action\": {\"action_name\": \"action_search_certificates\"}, \"user\": {\"intent\": \"certificates\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"exams\"}}, {\"prev_action\": {\"action_name\": \"action_search_exams\"}, \"user\": {\"intent\": \"exams\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_language\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"education\"}}, {\"prev_action\": {\"action_name\": \"action_search_education\"}, \"user\": {\"intent\": \"education\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"sports\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"certificates\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"education\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tax\"}}, {\"prev_action\": {\"action_name\": \"action_search_tax\"}, \"user\": {\"intent\": \"tax\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_language\"}}, {\"prev_action\": {\"action_name\": \"action_set_language\"}, \"user\": {\"intent\": \"set_language\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"passports\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"sports\"}}, {\"prev_action\": {\"action_name\": \"action_search_sports\"}, \"user\": {\"intent\": \"sports\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_bus\"}}, {\"prev_action\": {\"action_name\": \"action_search_bus\"}, \"user\": {\"intent\": \"search_bus\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"passports\"}}, {\"prev_action\": {\"action_name\": \"action_search_passports\"}, \"user\": {\"intent\": \"passports\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"search_bus\"}}]"
+    ]
+  }
+}

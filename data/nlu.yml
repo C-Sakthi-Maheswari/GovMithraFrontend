@@ -1,6 +1,14 @@
 version: "3.1"
 
 nlu:
+
+- intent: set_language
+  examples: |
+    - change language to Tamil
+    - set language to Hindi
+    - switch to English
+    - language Telugu
+    - use Malayalam
 - intent: search_bus
   examples: |
     - bus from [Tambaram](location) to [Adyar](location)
@@ -9,6 +17,17 @@ nlu:
     - [21G](bus_no) bus route
     - route via [Velachery](location)
     - [570](bus_no) from [CMBT](location)
+    - bus via [MPM](location)
+    - [Egmore](location) to [Velachery](location) bus
+    - தாம்பரம் இருந்து அடையாறு பேருந்து
+    - சென்ட்ரல் இருந்து கிண்டி
+    - பேருந்து வழி
+    - எம்பிஎம் வழியாக பேருந்து
+    - bus
+    - route
+    - mtc
+    - பஸ்
+    - பேருந்து 
 - intent: tax
   examples: |
     - income tax refund
@@ -21,6 +40,11 @@ nlu:
     - apply for birth certificate
     - community certificate
     - income certificate
+    - community certificate
+    - பிறப்பு சான்றிதழ்
+    - இறப்பு சான்றிதழ்
+    - certificate
+    - சான்றிதழ்
 
 - intent: education
   examples: |
@@ -31,6 +55,12 @@ nlu:
     - Are there any remote internship opportunities?
     - I need help submitting my internship application
     - Can you tell me the internship eligibility criteria?
+    - உயர் கல்விக்கான உதவித்தொகை
+    - மாணவர்களுக்கான கல்வி திட்டங்கள்
+    - இலவச மடிக்கணினி திட்டம்
+    - scholarship
+    - education
+    - கல்வி
 
 - intent: exams
   examples: |
@@ -50,6 +80,16 @@ nlu:
      - I want to know about RRB Technician exam
      - RBI Grade B Officer exam registration
      - How do I apply for SSC CGL exam?
+     - upcoming government exam
+     - TNPSC exam date
+     - SSC exam details
+     - exam schedule
+     - வரவிருக்கும் அரசு தேர்வு
+     - டிஎன்பிஎஸ்சி தேர்வு தேதி
+     - எஸ்எஸ்சி தேர்வு விவரங்கள்
+     - exam
+     - test
+     - தேர்வு
 
 - intent: sports
   examples: |
@@ -64,6 +104,10 @@ nlu:
     - Apply for Sports Scheme in Haryana
     - I want to download the NOC form for post-shoot
     - Show me the dashboard for the Ministry of Culture
+    - விளையாட்டு உதவித்தொகை
+    - விளையாட்டு பயிற்சி திட்டங்கள்
+    - sports
+    - விளையாட்டு
 
 
 - intent: passports
@@ -78,3 +122,8 @@ nlu:
     - Can I apply for dual citizenship?
     - What is the process to get Indian citizenship?
     - How long does it take to get citizenship?
+    - பாஸ்போர்ட் புதுப்பிப்பு ஆவணங்கள்
+    - புதிய பாஸ்போர்ட் விண்ணப்பம்
+    - பாஸ்போர்ட் அலுவலகம் சென்னை
+    - passport
+    - பாஸ்போர்ட்
