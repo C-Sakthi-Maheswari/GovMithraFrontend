@@ -454,7 +454,7 @@ class ActionSearchCertificates(Action):
             user_lang = get_user_language(tracker)
             
             english_query, _ = translator_instance.translate_to_english(user_query)
-            results = search(english_query, "actions/certificates_structured.json")
+            results = search(english_query, "actions/birthdeath_structured.json")
             return send_card_results(dispatcher, user_query, results, "Certificates", user_lang)
         except Exception as e:
             logger.error(f"Error in ActionSearchCertificates: {e}")
@@ -477,3 +477,295 @@ class ActionSearchSports(Action):
             logger.error(f"Error in ActionSearchSports: {e}")
             dispatcher.utter_message(text="An error occurred while searching for sports information.")
             return []
+        
+class ActionSearchAgriculture(Action):
+    def name(self):
+        return "action_search_agriculture"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/agriculture_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Agriculture", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchAgriculture: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for agriculture information.")
+            return []
+        
+class ActionSearchBusiness(Action):
+    def name(self):
+        return "action_search_business"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/business_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Business", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchBusiness: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for business information.")
+            return []
+
+class ActionSearchElectricity(Action):
+    def name(self):
+        return "action_search_electricity"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/electricity_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Electricity", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchElectricity: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for electricity information.")
+            return []
+        
+class ActionSearchHealth(Action):
+    def name(self):
+        return "action_search_health"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/health_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Health", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchHealth: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for health information.")
+            return []
+        
+class ActionSearchHousing(Action):
+    def name(self):
+        return "action_search_housing"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/housing_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Housing", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchHousing: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for housing information.")
+            return []
+
+class ActionSearchJobs(Action):
+    def name(self):
+        return "action_search_jobs"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/jobs_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Jobs", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchJobs: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for jobs information.")
+            return []
+        
+class ActionSearchJustice(Action):
+    def name(self):
+        return "action_search_justice"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/justice_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Justice  ", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchJustice: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for justice information.")
+            return []
+        
+class ActionSearchLocal(Action):
+    def name(self):
+        return "action_search_local"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/local_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Local    ", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchLocal: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for local information.")
+            return []
+        
+class ActionSearchLpgServices(Action):
+    def name(self):
+        return "action_search_lpg_services"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/lpg_services_structured.json")
+            return send_card_results(dispatcher, user_query, results, "LPG Services", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchpgServices: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for LPG services information.")
+            return []
+        
+class ActionSearchMoneyBanking(Action):
+    def name(self):
+        return "action_search_money_banking"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/moneybanking_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Money Banking", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchMoneyBanking: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for money banking information.")
+            return []
+
+class ActionSearchMoneyTax(Action):
+    def name(self):
+        return "action_search_money_tax"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/moneytax_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Money Tax", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchMoneyTax: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for money tax information.")
+            return []
+
+
+class ActionSearchPension(Action):
+    def name(self):
+        return "action_search_pension"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/pension_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Pension", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchPension: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for pension information.")
+            return []
+
+class ActionSearchScienceIt(Action):
+    def name(self):
+        return "action_search_science_it"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/science_it_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Science IT", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchScienceIt: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for Science IT information.")
+            return []
+        
+class ActionSearchTransport(Action):
+    def name(self):
+        return "action_search_transport"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/transport_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Transport", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchTransport: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for transport information.")
+            return []
+
+class ActionSearchTravelTourism(Action):
+    def name(self):
+        return "action_search_travel_tourism"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/traveltourism_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Travel Tourism", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchTravelTourism: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for travel tourism information.")
+            return []
+        
+class ActionSearchWater(Action):
+    def name(self):
+        return "action_search_water"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/water_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Water", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchWater: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for water information.")
+            return []
+        
+class ActionSearchYouth(Action):
+    def name(self):
+        return "action_search_youth"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            user_query = tracker.latest_message.get("text")
+            user_lang = get_user_language(tracker)
+            
+            english_query, _ = translator_instance.translate_to_english(user_query)
+            results = search(english_query, "actions/youth_structured.json")
+            return send_card_results(dispatcher, user_query, results, "Youth", user_lang)
+        except Exception as e:
+            logger.error(f"Error in ActionSearchYouth: {e}")
+            dispatcher.utter_message(text="An error occurred while searching for youth information.")
+            return []
+
+

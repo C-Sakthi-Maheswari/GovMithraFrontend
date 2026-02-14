@@ -1,0 +1,7422 @@
+[
+  {
+    "id": "MB_0001",
+    "name": "Insurance Regulatory and Development Authority of India (IRDA)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQxNw==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0002",
+    "name": "Access Reserve Bank of India (RBI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQxNg==",
+    "service_type": "banking_portal",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen",
+      "banker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "rbi",
+      "reserve bank",
+      "banking"
+    ]
+  },
+  {
+    "id": "MB_0003",
+    "name": "Access Small Industries Development Bank of India (SIDBI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDgyOA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0004",
+    "name": "Access Export-Import Bank of India (EXIM Bank)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDgyOQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0005",
+    "name": "Access National Housing Bank (NHB)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDgzMw==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0006",
+    "name": "Scheme of Fund for Regeneration of Traditional Industries (SFURTI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg0NzE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0007",
+    "name": "Jan-Dhan se Jan Suraksha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDgzNQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0008",
+    "name": "Aikyashree Scholarship, West Bengal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQyMzA=",
+    "service_type": "scholarship",
+    "domain": "banking_finance",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "scholarship",
+      "education",
+      "financial aid"
+    ]
+  },
+  {
+    "id": "MB_0009",
+    "name": "West Bengal Student Credit Card",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQyMzE=",
+    "service_type": "student_credit",
+    "domain": "banking_finance",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "student"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "student loan",
+      "education loan",
+      "credit card"
+    ]
+  },
+  {
+    "id": "MB_0010",
+    "name": "Gujarat, Collectorate - District Rajkot : getting a widow and income certificate",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTM1Ng==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0011",
+    "name": "Apply for Release of Bank Gurantee, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM1NzM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0012",
+    "name": "Release of Bank Guarantee, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc2OTE=",
+    "service_type": "bank_guarantee",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "guarantee",
+      "bg",
+      "release"
+    ]
+  },
+  {
+    "id": "MB_0013",
+    "name": "Gujarat, Collectorate - District Rajkot : Renewing the licenses for crop protection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTQxMg==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0014",
+    "name": "Apply for Investment and Promotion Management Cell (IPMC) Subsidy, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMxNTQ=",
+    "service_type": "subsidy",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "business_owner",
+      "entrepreneur"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "subsidy",
+      "grant",
+      "financial aid"
+    ]
+  },
+  {
+    "id": "MB_0015",
+    "name": "Victim Compensation Scheme, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTkyMA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0016",
+    "name": "Scheme of Financial Assistance under Seva Bhoj Yojna",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0MzU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0017",
+    "name": "Contribute to Chief Minister's Relief Fund, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUxMzM=",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0018",
+    "name": "Apply for Solvency Certificate, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUyMDM=",
+    "service_type": "solvency_certificate",
+    "domain": "banking_finance",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "citizen",
+      "applicant"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "solvency",
+      "certificate",
+      "financial"
+    ]
+  },
+  {
+    "id": "MB_0019",
+    "name": "IEPF Forms by Investor Education and Protection Fund Authority",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0NjU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0020",
+    "name": "Online Contributions / Donations to National Defence Fund (NDF)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwMDk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0021",
+    "name": "Login for Integrated Financial Management and Information System, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2NTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0022",
+    "name": "Application Form for Assistance to Schedule Caste Fishermen, Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDcwNA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0023",
+    "name": "Application Form for Financial Assistance to Fishermen, Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDcwNQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0024",
+    "name": "Application Form for Assistance from Fishermen’s Relief Fund, Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDcwMw==",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0025",
+    "name": "Access Reserve Bank of India (RBI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQxNg==",
+    "service_type": "banking_portal",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen",
+      "banker"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "rbi",
+      "reserve bank",
+      "banking"
+    ]
+  },
+  {
+    "id": "MB_0026",
+    "name": "Learn About Pradhan Mantri Mudra Yojana (PMMY)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQyMQ==",
+    "service_type": "mudra_loan",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "entrepreneur",
+      "small_business"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "mudra",
+      "business loan",
+      "micro finance"
+    ]
+  },
+  {
+    "id": "MB_0027",
+    "name": "Access Stand Up India (SUPI) Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQyMg==",
+    "service_type": "standup_india",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "entrepreneur",
+      "woman",
+      "sc",
+      "st"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "stand up india",
+      "startup",
+      "loan"
+    ]
+  },
+  {
+    "id": "MB_0028",
+    "name": "Check About India Infrastructure Finance Company Ltd. (IIFCL)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDgzMg==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0029",
+    "name": "Apply online Direct Benefit Transfer",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2Nzk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0030",
+    "name": "Jan-Dhan se Jan Suraksha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDgzNQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0031",
+    "name": "Donate to Prime Minister's National Relief Fund online",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODU3",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0032",
+    "name": "Donate to Madhya Pradesh Chief Minister's Relief Fund",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTI3",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0033",
+    "name": "Check details of contributions made to Prime Minister National Relief Fund",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA1Mg==",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0034",
+    "name": "Contribution to Chief Minister Relief Fund for Farmer's, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM0NjI=",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0035",
+    "name": "Online Donation to Chief Minister’s Relief Fund, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0NzA=",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0036",
+    "name": "Contribution to Chief Minister Relief Fund, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM0NjU=",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0037",
+    "name": "Contribution to Administrator Disaster Relief Fund, Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIzMDc=",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0038",
+    "name": "Online Donation to Chief Minister's Relief Fund, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwMTY=",
+    "service_type": "relief_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "donor",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "donation",
+      "relief",
+      "contribution"
+    ]
+  },
+  {
+    "id": "MB_0039",
+    "name": "Haryana: Finance dashboard & Budget MIS reports",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTk0MQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0040",
+    "name": "Haryana: Budget Prepration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTkyOA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0041",
+    "name": "Andhra Pradesh, APPLICATION FOR CONSTRUCTION AND REPAIRS",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE3MzY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0042",
+    "name": "Mathrushree - Post natal Stage, Karnataka",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc2MDg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Karnataka"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0043",
+    "name": "Tax and Excise, Arunachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDM4MA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0044",
+    "name": "Amendment Requests in gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTcxNzY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0045",
+    "name": "Telangana: Department of Factories Annual Returns Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA3NTI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0046",
+    "name": "Haryana: Filing of Annual returns of Assets and liabilities under the Lokpal and Lokayuktas Act, 2013 by individual of an association",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjAxNQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0047",
+    "name": "Haryana: Intimation of Quarterly receipts of Foreign Contribution by Associations",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjAxNg==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0048",
+    "name": "Haryana:Downloading of signed bills and account data by AG office",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTk2MA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0049",
+    "name": "Haryana: e-GRAS  (To enable citizens to pay various dues to Govt.)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTk4NQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0050",
+    "name": "Haryana: Application for FCRA registration/Prior Permission/Renewal (FC-3)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjAxMw==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0051",
+    "name": "Haryana: Application for seeking prior permission from central govt to accept Foreign Hospitality",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjAxNA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0052",
+    "name": "Issuance of statutory forms",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTcxNjQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0053",
+    "name": "Lodge your grievance related to PAN card",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTg4",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0054",
+    "name": "Online Income Tax Challan Status Enquiry for Tax Payers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzU1Nw==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0055",
+    "name": "e-Filling of Income Tax Returns",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NTY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0056",
+    "name": "Tax Calendar by Income Tax Department",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NTg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0057",
+    "name": "Tax Calculator – Old Regime vis-à-vis New Regime as updated by Finance Act",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NTc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0058",
+    "name": "Income Tax Challan Status Inquiry",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1MzY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0059",
+    "name": "Link Aadhaar Card with PAN Card",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM2MjI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0060",
+    "name": "Apply for Permanent Account Number (PAN) Card",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzUyOA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0061",
+    "name": "Know your Jursidictional Assessing Office, Income Tax Filing",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyMTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0062",
+    "name": "Andhra Pradesh, Income tax IT Filling",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTEzOQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0063",
+    "name": "Apply for Budget Suggestions 2018-19, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc2NTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0064",
+    "name": "Online facility applying for PAN CARD",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzMTQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0065",
+    "name": "e-Return Filing",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTcxNjY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0066",
+    "name": "Entrepreneur Support Scheme, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI5NzY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0067",
+    "name": "Allotment of Industrial Land, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI5Nzg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0068",
+    "name": "Andhra Pradesh, Income tax IT Filling",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTEzOQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0069",
+    "name": "Andhra Pradesh, Donate For Amaravati",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE3MjU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0070",
+    "name": "Investment Support in Entrepreneur Support Scheme (for investments above 2 crore), Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI5NzU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0071",
+    "name": "Online facility of giving Donation for various works of Dargah",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzNzE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0072",
+    "name": "KUNDESWAR Donation in religious activity",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzNTY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0073",
+    "name": "Mihar Mandir Online facility of giving Donation for various works of Mandir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzNzk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0074",
+    "name": "Mathar Dev Online facility of giving Donation for various works of Mandir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzNDg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0075",
+    "name": "Gujarat, Collectorate - District Devbhumi Dwarka : Requesting NSC / KVP / Monthly Income Scheme Agency Affairs of Small Savings Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIxNTQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0076",
+    "name": "Salkanpur Online facility of giving Donation for various works of Mandir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzODA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0077",
+    "name": "JAM SAWALI SAUSAR HANUMANJI Online facility of giving Donation for various works of Mandir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMzODI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0078",
+    "name": "Gujarat, Collectorate - District Kheda : Getting the Women's Sectorial Savings Scheme Agency",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE1Njk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0079",
+    "name": "Gujarat, Collectorate - District Rajkot : Obtaining registration certificate for hotel and resturant",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTM4Ng==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0080",
+    "name": "Property Tax Calculator for Hospet Municipal Corporation, Karnataka",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEyOTc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Karnataka"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0081",
+    "name": "My Jammu - Online Gateway to City of Temples",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxODg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0082",
+    "name": "Property Tax for Kota-South Municipal Corporation, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5OTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0083",
+    "name": "Property Tax for Ujjain Municipal Corporation, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3NDY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0084",
+    "name": "Property Tax (Quick Pay) by Sanchaya Online Services, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIyNTQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0085",
+    "name": "Know your Property Tax and e-payment by Sanchaya Online Services, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIyNTU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0086",
+    "name": "Property Tax for Sangli-Miraj Kupwad Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4NzQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0087",
+    "name": "Online Application Submission for Property Tax Exemption, West Bengal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIzNDM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0088",
+    "name": "Property Tax for Patna Municipal Corporation, Bihar",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0MTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0089",
+    "name": "Property Tax Payment for Panvel Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4NDI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0090",
+    "name": "Pay Property Tax  for Chhindwara Municipal Corporation, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2Nzc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0091",
+    "name": "Pay Property Tax for Satna Municipal Corporation, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3Mzg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0092",
+    "name": "Property Tax Online Payment, Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIwODk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Meghalaya"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0093",
+    "name": "eSRT (Special Road Tax), Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk1MTI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0094",
+    "name": "Payment of Special Road Tax, Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk1NDM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0095",
+    "name": "Property Tax for Agartala Municipal Corporation, Tripura",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExMzY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0096",
+    "name": "Pay Property Tax at Kerala, Alappuzha, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzA1MA==",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0097",
+    "name": "Rental Property Tax for Kota Municipal Corporation, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5ODg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0098",
+    "name": "Property Tax for Kolhapur Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3ODY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0099",
+    "name": "Property Tax for Nanded-Waghala City Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4MjQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0100",
+    "name": "Property Tax for Pimpri Chinchwad Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4NDU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0101",
+    "name": "Property Tax for Durg Municipal Corporation, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0NzE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0102",
+    "name": "Property Tax Dues Payment and No Dues Certificate Management System, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE0Nw==",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0103",
+    "name": "Property Tax for Navi Mumbai Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4Mzg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0104",
+    "name": "Property Tax for Sambalpur Municipal Corporation, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4NTc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0105",
+    "name": "Property Tax for Thane Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4ODI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0106",
+    "name": "Property Tax for Coimbatore Municipal Corporation, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5NjI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0107",
+    "name": "Property Tax for Badangpet Municipal Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwMDA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0108",
+    "name": "Property Tax for Bandlaguda Jagir Municipal Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwMDY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0109",
+    "name": "Property Tax for Madurai Municipal Corporation, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwMTI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0110",
+    "name": "Property Tax for Salem Municipal Corporation, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwMTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0111",
+    "name": "Property Tax for Tiruchirappalli Municipal Corporation, Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwMzA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0112",
+    "name": "Property Tax for Karimnagar Municipal Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwNTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0113",
+    "name": "Property Tax for Meerpet Municipal Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwNzI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0114",
+    "name": "Property Tax for Nizamabad Municipal Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEwODA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0115",
+    "name": "Apply for Mutation of Property Tax, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExMjg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0116",
+    "name": "Property Tax for Warangal Municipal Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExMjk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0117",
+    "name": "Property Tax for Asansol Municipal Corporation, West Bengal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExNjc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0118",
+    "name": "Payment of Property Tax for Adoni Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEzOTU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0119",
+    "name": "Payment of Property Tax for Amalapuram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MDY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0120",
+    "name": "Payment of Property Tax for Atmakur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MTk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0121",
+    "name": "Payment of Property Tax for Bhimavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NDQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0122",
+    "name": "Payment of Property Tax for Dharmavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NTc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0123",
+    "name": "Payment of Property Tax for Gudur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NzA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0124",
+    "name": "Payment of Property Tax for Guntakal Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0ODM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0125",
+    "name": "Payment of Property Tax for Hindupur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0OTY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0126",
+    "name": "Payment of Property Tax for Jangareddygudem Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MDk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0127",
+    "name": "Payment of Property Tax for Kadiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MjI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0128",
+    "name": "Payment of Property Tax for Kandukur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MzU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0129",
+    "name": "Payment of Property Tax for Kavali Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NDg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0130",
+    "name": "Payment of Property Tax for Kovvur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NjE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0131",
+    "name": "Payment of Property Tax for Macherla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NzQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0132",
+    "name": "Payment of Property Tax for Mangalagiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1ODc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0133",
+    "name": "Payment of Property Tax for Markapur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MDA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0134",
+    "name": "Payment of Property Tax for Nagari Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0135",
+    "name": "Payment of Property Tax for Nidadavole Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MjY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0136",
+    "name": "Payment of Property Tax for Nuzvid Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2Mzk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0137",
+    "name": "Payment of Property Tax for Palamaner Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NTI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0138",
+    "name": "Payment of Property Tax for Parvathipuram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NjU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0139",
+    "name": "Payment of Property Tax for Pedana Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2Nzg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0140",
+    "name": "Payment of Property Tax for Piduguralla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2OTE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0141",
+    "name": "Payment of Property Tax for Pulivendula Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MDQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0142",
+    "name": "Payment of Property Tax for Punganur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MTc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0143",
+    "name": "Payment of Property Tax for Puttur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MzA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0144",
+    "name": "Payment of Property Tax for Rayadurg Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3NDM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0145",
+    "name": "Payment of Property Tax for Samalkot Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3NTY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0146",
+    "name": "Payment of Property Tax for Tadepalli Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3Njk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0147",
+    "name": "Property Tax Payment under Municipal Board, Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE4MzE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Meghalaya"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0148",
+    "name": "Property Tax Payment for Port Blair Municipal Council, Andaman and Nicobar Island (UT)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIwODM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0149",
+    "name": "Payment for Property Tax, Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI2NTQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Meghalaya"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0150",
+    "name": "Holding and Property Tax Payment, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0NzM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0151",
+    "name": "Property Tax for Sonipat Municipal Corporation, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2MTY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0152",
+    "name": "Urban Development Tax for Kota-South Municipal Corporation, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5OTQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0153",
+    "name": "Property Tax for Bareilly Municipal Corporation, Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExMTA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0154",
+    "name": "Property Tax Related Services for Prayagraj Municipal Corporation, Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEyMTk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0155",
+    "name": "Property Tax Dues Payment and No Dues Certificate, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM4MDU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0156",
+    "name": "Online Checkpost Tax Payment of Vehicles",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxODY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0157",
+    "name": "Pay Property Tax for Gaya Municipal Corporation, Bihar",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0MDA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0158",
+    "name": "Property Tax for Bilaspur Municipal Corporation, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0NDU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0159",
+    "name": "Property Tax for Jamnagar Municipal Corporation, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0NTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0160",
+    "name": "Advertisement Tax Online Payment for Ongole Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzNDA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0161",
+    "name": "Property Tax for Mango Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2NTc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0162",
+    "name": "Property Tax for Ranchi Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2NzE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0163",
+    "name": "Payment of Property Tax Bill for Ahmadnagar Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3NDM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0164",
+    "name": "Online Property Tax Payment for Chhatrapati Sambhajinagar Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3NTI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0165",
+    "name": "Property Tax for Bhiwandi Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3NTY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0166",
+    "name": "Payment of Property Tax Bill for Dhule Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3Njc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0167",
+    "name": "Property Tax e-Payment for Nashik Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4MzA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0168",
+    "name": "Property Tax Dues Details for Pune Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4NjI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0169",
+    "name": "Application Form for Property Tax Bathinda Municipal Corporation, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4OTA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0170",
+    "name": "Property Tax Bill Payment for Vasai-Virar Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4OTg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0171",
+    "name": "House Tax for Bikaner Municipal Corporation, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5MTM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0172",
+    "name": "Urban Development Tax for Rajasthan Municipal, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5Mzk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0173",
+    "name": "Online Tender Fee / RISL Fees / EMD Payment for Kota Municipal Corporation, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5ODk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0174",
+    "name": "Property Tax for Durgapur Municipal Corporation, West Bengal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExODA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0175",
+    "name": "Property Tax Bills View /Print /Payment by Howrah Municipal Corporation, West Bengal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjExODY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0176",
+    "name": "e-Pauti Online Land Revenue Payment, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0NzU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0177",
+    "name": "Online payment of Government Taxes and Dues, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0Njk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0178",
+    "name": "Property Tax for Morena Municipal Corporation, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3MjY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0179",
+    "name": "Property Tax for Murwara - Katni Municipal Corporation, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3Mjk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0180",
+    "name": "Property Tax for Ratlam Municipal Corporation, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3MzI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0181",
+    "name": "Property Tax for Ahmadabad Municipal Corporation, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0MjY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0182",
+    "name": "e-Pay Land Tax Online - Loucha Pathap Land Record Information System, Manipur",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5NDk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0183",
+    "name": "e-AASTHI Citizen Application, Karnataka",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQzMTA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Karnataka"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0184",
+    "name": "Payment of Property Tax Bill for Mira Bhaindar Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4MjE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0185",
+    "name": "Property Tax for Amritsar Municipal Corporation, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4Njc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0186",
+    "name": "Property Tax for Batala Municipal Corporation, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4ODA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0187",
+    "name": "Property Tax for Ludhiana Municipal Corporation, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5MzE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0188",
+    "name": "Property Tax for Phagwara Municipal Corporation, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA5NDA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0189",
+    "name": "Mizoram VAT Registration and Payment, Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTYyNw==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Mizoram"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0190",
+    "name": "Property Tax for Gandhinagar Municipal Corporation, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0NDQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0191",
+    "name": "Property Tax for Rajkot Municipal Corporation, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0Nzg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0192",
+    "name": "Property Tax for Surat Municipal Corporation, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA0OTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0193",
+    "name": "Property Tax for Vadodara Municipal Corporation, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA1MTk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0194",
+    "name": "Property Tax for Kalyan-Dombivli Municipal Corporation, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3ODI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0195",
+    "name": "Information on e-Treasury, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjkxMA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0196",
+    "name": "Revenue Research and Training Institute, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTcyOTk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0197",
+    "name": "Commercial Taxes Department, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI4ODI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0198",
+    "name": "e-Payment of tax for IMFL products, HSD and Petrol, Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM2MzM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Meghalaya"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0199",
+    "name": "Apply for Property Tax for Kozhikode Municipal Corporation, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3MTY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0200",
+    "name": "Property Tax for Berhampur Municipal Corporation, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA3OTQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0201",
+    "name": "Property Tax - New Assessment, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk5NDQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0202",
+    "name": "Property Tax - Addition/Alteration, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk5NDk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0203",
+    "name": "Property Tax - Exemption Request, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk5NTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0204",
+    "name": "Conversion of VLT to House Tax, Andhra Pradesh, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk5NTQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0205",
+    "name": "Conversion of House Tax to Land Tax (VLT), Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk5NTg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0206",
+    "name": "Advertisement Tax for Rayadurg Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3NDk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0207",
+    "name": "Land Tax for Rayadurg Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3NTA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0208",
+    "name": "Land Tax for Samalkot Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3NjM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0209",
+    "name": "Advertisement Tax for Samalkot Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3NjI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0210",
+    "name": "Advertisement Tax for Tadepalli Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3NzU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0211",
+    "name": "Tax and Excise, Arunachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDM4MA==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0212",
+    "name": "Apply online to register as new dealer under VAT and other legal acts",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE4NzE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0213",
+    "name": "e-Payment of Central Excise & Service Tax - EASIEST",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1MzU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0214",
+    "name": "Commercial Taxes",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg5MjM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0215",
+    "name": "Commercial Taxes Department, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkwMTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0216",
+    "name": "eChallan-Payments to Government",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkxMzE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0217",
+    "name": "Property Tax Online Payment for Anantapur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAyNjI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0218",
+    "name": "Property Tax for Adityapur Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2MDI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0219",
+    "name": "Property Tax for Chas Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2MDc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0220",
+    "name": "Property Tax for Deoghar Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2MjU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0221",
+    "name": "Property Tax for Dhanbad Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2MzU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0222",
+    "name": "Property Tax for Giridih Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2NDY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0223",
+    "name": "Property Tax for Hazaribag Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2NTE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0224",
+    "name": "Property Tax for Medininagar Municipal Corporation, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA2Njc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0225",
+    "name": "Apply for e-Treasury, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI4MDA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0226",
+    "name": "Apply for Tax Payment for Transport Vehicles, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMwMDY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0227",
+    "name": "Apply for Tax Exemption to the Vehicles, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMwNDk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0228",
+    "name": "Apply for Tax Payment for Non -Transport Vehicles, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMwMDk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0229",
+    "name": "Apply for Land Tax Payment, Revenue Department, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMxMjQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0230",
+    "name": "Check details of commercial tax dealers of Goa",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzEz",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Goa"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0231",
+    "name": "Know Property Details, Adilabad, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgxNzQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0232",
+    "name": "Property Tax for Chandigarh Municipal Corporation, Chandigarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzODQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0233",
+    "name": "Apply for Pay Online Road Tax, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM1MDg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0234",
+    "name": "Pay House/Property Tax at Gandhinagar, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzIwOQ==",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0235",
+    "name": "Online property tax calculator by Vijayawada Municipal Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzEw",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0236",
+    "name": "About the Department of Commercial Taxes, Puducherry. Information regarding P-VAT, GST, GST Rules, Rates,  Act, Notifications, Circulars etc.",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjA0MQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0237",
+    "name": "Commercial Taxes Department Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE4NzI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0238",
+    "name": "Land Tax for Puttur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3Mzc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0239",
+    "name": "Advertisement Tax for Puttur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MzY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0240",
+    "name": "Land Tax for Punganur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MjQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0241",
+    "name": "Advertisement Tax for Punganur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MjM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0242",
+    "name": "Land Tax for Pulivendula Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0243",
+    "name": "Advertisement Tax for Pulivendula Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE3MTA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0244",
+    "name": "Land Tax for Piduguralla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2OTg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0245",
+    "name": "Advertisement Tax for Piduguralla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2OTc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0246",
+    "name": "Land Tax for Pedana Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2ODU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0247",
+    "name": "Advertisement Tax for Pedana Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2ODQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0248",
+    "name": "Land Tax for Parvathipuram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NzI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0249",
+    "name": "Advertisement Tax for Parvathipuram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NzE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0250",
+    "name": "Land Tax for Palamaner Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NTk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0251",
+    "name": "Advertisement Tax for Palamaner Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NTg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0252",
+    "name": "Land Tax for Nuzvid Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NDY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0253",
+    "name": "Advertisement Tax for Nuzvid Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2NDU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0254",
+    "name": "Land Tax for Nidadavole Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MzM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0255",
+    "name": "Advertisement Tax for Nidadavole Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MzI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0256",
+    "name": "Land Tax for Nagari Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MjA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0257",
+    "name": "Advertisement Tax for Nagari Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MTk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0258",
+    "name": "Property Mutation Fee for Nagari Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MTg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0259",
+    "name": "Lease & Agreement Fees for Nagari Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MTc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0260",
+    "name": "Land Tax for Markapur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MDc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0261",
+    "name": "Advertisement Tax for Markapur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MDY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0262",
+    "name": "Property Mutation Fee for Markapur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MDU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0263",
+    "name": "Lease & Agreement Fees for Markapur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE2MDQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0264",
+    "name": "Land Tax for Mangalagiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1OTQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0265",
+    "name": "Advertisement Tax for Mangalagiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1OTM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0266",
+    "name": "Property Mutation Fee for Mangalagiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1OTI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0267",
+    "name": "Lease & Agreement Fees for Mangalagiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1OTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0268",
+    "name": "Land Tax for Macherla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1ODE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0269",
+    "name": "Advertisement Tax for Macherla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1ODA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0270",
+    "name": "Property Mutation Fee for Macherla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Nzk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0271",
+    "name": "Lease & Agreement Fees for Macherla Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Nzg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0272",
+    "name": "Land Tax for Kovvur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Njg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0273",
+    "name": "Advertisement Tax for Kovvur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Njc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0274",
+    "name": "Property Mutation Fee for Kovvur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NjY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0275",
+    "name": "Lease & Agreement Fees for Kovvur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NjU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0276",
+    "name": "Land Tax for Kavali Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NTU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0277",
+    "name": "Advertisement Tax for Kavali Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NTQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0278",
+    "name": "Property Mutation Fee for Kavali Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NTM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0279",
+    "name": "Lease & Agreement Fees for Kavali Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NTI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0280",
+    "name": "Land Tax for Kandukur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NDI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0281",
+    "name": "Advertisement Tax for Kandukur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NDE=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0282",
+    "name": "Property Mutation Fee for Kandukur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1NDA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0283",
+    "name": "Lease & Agreement Fees for Kandukur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Mzk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0284",
+    "name": "Land Tax for Kadiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Mjk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0285",
+    "name": "Advertisement Tax for Kadiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Mjg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0286",
+    "name": "Property Mutation Fee for Kadiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1Mjc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0287",
+    "name": "Lease & Agreement Fees for Kadiri Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MjY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0288",
+    "name": "Land Tax for Jangareddygudem Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MTY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0289",
+    "name": "Advertisement Tax for Jangareddygudem Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MTU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0290",
+    "name": "Property Mutation Fee for Jangareddygudem Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MTQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0291",
+    "name": "Lease & Agreement Fees for Jangareddygudem Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MTM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0292",
+    "name": "Land Tax for Hindupur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MDM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0293",
+    "name": "Advertisement Tax for Hindupur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MDI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0294",
+    "name": "Property Mutation Fee for Hindupur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MDE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0295",
+    "name": "Lease & Agreement Fees for Hindupur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE1MDA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0296",
+    "name": "Land Tax for Guntakal Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0OTA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0297",
+    "name": "Advertisement Tax for Guntakal Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0ODk=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0298",
+    "name": "Property Mutation Fee for Guntakal Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0ODg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0299",
+    "name": "Lease & Agreement Fees for Guntakal Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0ODc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0300",
+    "name": "Land Tax for Gudur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0Nzc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0301",
+    "name": "Advertisement Tax for Gudur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NzY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0302",
+    "name": "Property Mutation Fee for Gudur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NzU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0303",
+    "name": "Lease & Agreement Fees for Gudur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NzQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0304",
+    "name": "Land Tax for Dharmavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NjQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0305",
+    "name": "Advertisement Tax for Dharmavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NjM=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0306",
+    "name": "Property Mutation Fee for Dharmavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NjI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0307",
+    "name": "Lease & Agreement Fees for Dharmavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NjE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0308",
+    "name": "Land Tax for Bhimavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0309",
+    "name": "Advertisement Tax for Bhimavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NTA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0310",
+    "name": "Property Mutation Fee for Bhimavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NDk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0311",
+    "name": "Lease & Agreement Fees for Bhimavaram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0NDg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0312",
+    "name": "Land Tax for Badvel Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0Mzg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0313",
+    "name": "Advertisement Tax for Badvel Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0Mzc=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0314",
+    "name": "Property Mutation Fee for Badvel Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MzY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0315",
+    "name": "Lease & Agreement Fees for Badvel Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MzU=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0316",
+    "name": "Land Tax for Atmakur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MjY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0317",
+    "name": "Advertisement Tax for Atmakur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MjU=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0318",
+    "name": "Lease & Agreement Fees for Atmakur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MjM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0319",
+    "name": "Land Tax for Amalapuram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MTM=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0320",
+    "name": "Advertisement Tax for Amalapuram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MTI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0321",
+    "name": "Property Mutation Fee for Amalapuram Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MTE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0322",
+    "name": "Land Tax for Adoni Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MDE=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0323",
+    "name": "Advertisement Tax for Adoni Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MDA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0324",
+    "name": "Property Mutation Fee for Adoni Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEzOTk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0325",
+    "name": "Lease & Agreement Fees for Adoni Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjEzOTg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0326",
+    "name": "Property Tax for City Corporation Panaji Municipal Corporation, Goa",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA1ODA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Goa"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0327",
+    "name": "Advertisement Tax Online Payment for Tirupati Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzNjQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0328",
+    "name": "Advertisement Tax Online Payment for Srikakulam Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzNTY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0329",
+    "name": "Advertisement Tax Online Payment for Rajahmundry Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzNDg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0330",
+    "name": "Advertisement Tax Online Payment for Nellore Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzMzI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0331",
+    "name": "Advertisement Tax Online Payment for Machilipatnam Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzMjQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0332",
+    "name": "Advertisement Tax Online Payment for Kurnool Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzMTY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0333",
+    "name": "Advertisement Tax Online Payment for Kakinada Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzMDg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0334",
+    "name": "Advertisement Tax Online Payment for Guntur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAzMDA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0335",
+    "name": "Advertisement Tax Online Payment for Eluru Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAyOTI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0336",
+    "name": "Advertisement Tax Online Payment for Kadapa Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAyODQ=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0337",
+    "name": "Advertisement Tax Online Payment for Chittoor Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAyNzY=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0338",
+    "name": "Property Tax Online Payment for Chittoor Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAyNzA=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0339",
+    "name": "Advertisement Tax Online Payment for Anantapur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAyNjg=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0340",
+    "name": "Apply Online for Money Lending license, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIwMjk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0341",
+    "name": "Apply for Housing Loan by Mizoram Rural Bank",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDM5MQ==",
+    "service_type": "housing_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Mizoram"
+    ],
+    "target_roles": [
+      "citizen",
+      "home_buyer"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "home loan",
+      "housing",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "MB_0342",
+    "name": "Payment of Property Tax for Badvel Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MzI=",
+    "service_type": "municipal_tax",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "property_owner",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tax",
+      "municipal",
+      "payment"
+    ]
+  },
+  {
+    "id": "MB_0343",
+    "name": "Telangana State Co-operative Apex Bank Ltd.",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTYwMDk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0344",
+    "name": "Check General Provident Fund details in Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjY1",
+    "service_type": "provident_fund",
+    "domain": "banking_finance",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "government_employee"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "gpf",
+      "pf",
+      "savings"
+    ]
+  },
+  {
+    "id": "MB_0345",
+    "name": "Check the status of various schemes and projects funded by North Eastern Council (NEC), Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA4Njk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Meghalaya"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0346",
+    "name": "Apply for New Swarnima Women Scheme for Backward Classes, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc2OTc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0347",
+    "name": "Apply for Shilp Sampada Term Loan Scheme for Backward Classes, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MDY=",
+    "service_type": "business_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "entrepreneur",
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "loan",
+      "business",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0348",
+    "name": "Apply for Income and Asset Certificate for Economically Weaker Section - EWS, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc4Mjc=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "EWS"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0349",
+    "name": "Apply for Micro Finance Scheme - Credit Line 2 for Minority Community, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc2OTQ=",
+    "service_type": "business_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "entrepreneur",
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "loan",
+      "business",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0350",
+    "name": "Apply for Term Loan Scheme - Credit Line 2 for Minority Community, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MTM=",
+    "service_type": "business_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "entrepreneur",
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "loan",
+      "business",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0351",
+    "name": "Apply for Term Loan Scheme - Credit Line 1 for Minority Community, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MTU=",
+    "service_type": "business_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "entrepreneur",
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "loan",
+      "business",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0352",
+    "name": "ApplY for Term Loan (Self Employment Income Generating Schemes), Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MzE=",
+    "service_type": "business_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "entrepreneur",
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "loan",
+      "business",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0353",
+    "name": "Apply for Shilpi Samridhi Yojana (Loans for Scheduled Caste Artisan Identity Card issued by the Development Commissioner - Handicrafts), Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MzA=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0354",
+    "name": "Apply for Term Loan Scheme for Backward Classes, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MTQ=",
+    "service_type": "business_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "entrepreneur",
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "loan",
+      "business",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0355",
+    "name": "Apply for Micro Finance Scheme - Credit Line 1 for Minority Community, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc2OTI=",
+    "service_type": "business_loan",
+    "domain": "banking_finance",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "entrepreneur",
+      "business_owner"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "loan",
+      "business",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0356",
+    "name": "Property Mutation Fee for Atmakur Municipal Corporation, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE0MjQ=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0357",
+    "name": "Gujarat, Collectorate - District Mehsana : Requesting NSC / KVP / Monthly Income Scheme Agency Affairs of Small Savings Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA4MzY=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0358",
+    "name": "Gujarat, Collectorate - District Gandhinagar : Requesting NSC / KVP / Monthly Income Scheme Agency Affairs of Small Savings Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA0Njg=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0359",
+    "name": "Andhra Pradesh,PAWN BROKER",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTcyOQ==",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0360",
+    "name": "Gujarat, Collectorate - District Junagadh : Requesting NSC / KVP / Monthly Income Scheme Agency Affairs of Small Savings Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI2Mjk=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  },
+  {
+    "id": "MB_0361",
+    "name": "Gujarat, Collectorate - District Dang : Requesting NSC / KVP / Monthly Income Scheme Agency Affairs of Small Savings Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEyMDI=",
+    "service_type": "banking_service",
+    "domain": "banking_finance",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen"
+    ],
+    "eligible_categories": [
+      "SC"
+    ],
+    "tags": [
+      "banking",
+      "finance"
+    ]
+  }
+]

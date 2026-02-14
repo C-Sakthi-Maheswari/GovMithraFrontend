@@ -1,0 +1,2680 @@
+[
+  {
+    "id": "LPG_001",
+    "name": "HP Gas: Online facility for Double Bottle LPG Connection Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUzMg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_002",
+    "name": "HP Gas:  LPG Connection for Piped Natural Gas (PNG) Consumers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAxMw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_003",
+    "name": "Daily News on the Petroleum Industry by Bharat Petroleum",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzkzOA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_004",
+    "name": "PAHAL Scheme Joining Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NDY=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_005",
+    "name": "New Connection / KYC Form - LPG",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NDQ=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_006",
+    "name": "Bharatgas: Public Liability Insurance Policies for accidents involving LPG",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzA0Nw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_007",
+    "name": "Bharatgas: Guidance on Safety for LPG Consumers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzA0NQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_008",
+    "name": "Bharatgas: LPG Refill Booking and Online Payment Facility",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjQ3Mw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_009",
+    "name": "Bharatgas: Apply for New LPG Domestic Connection with Online Payment Facility",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjQ3NQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_010",
+    "name": "Bharatgas: Online Facility for Double Bottle LPG Connection Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjQ5MA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_011",
+    "name": "Bharatgas: Preferred Time Delivery for LPG Refills",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUxMw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_012",
+    "name": "Bharatgas: Online Portability / Transfer of LPG connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUxNQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_013",
+    "name": "Bharatgas: Locate your Nearest LPG Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUxNg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_014",
+    "name": "Bharatgas: Online Request for Mechanic Service",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUxNw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_015",
+    "name": "Bharatgas:  LPG Connection for Piped Natural Gas (PNG) Consumers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUxOA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_016",
+    "name": "Bharatgas: Rate Your Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUyMA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_017",
+    "name": "Bharatgas: SMS IVRS LPG Refill Booking Facility",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUyNQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_018",
+    "name": "Bharatgas: Audit Distributor / Transparency Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzA0MQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_019",
+    "name": "Bharatgas - Know Your Customer (KYC)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NTA=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_020",
+    "name": "Indane - LPG Cylinder Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1Nzg=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_021",
+    "name": "Indane - Check Status of earlier Service Request based on Mobile Number or Service Request Number",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1Nzk=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_022",
+    "name": "Indane - Surrender of LPG Connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1ODA=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_023",
+    "name": "Apply for Renewal of LPG Distribtor Retail License, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMyOTA=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_024",
+    "name": "Apply for LPG Distributor (Retail License), Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMzMzM=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_025",
+    "name": "Apply for Fire NOC for Storage and Handling of LPG/ CNG/ Oxygen/ Hydrogen/ Methane/ Propane/ Butane/ Chlorine/ Ammonia Etc. Under Assam Fire Service Rule 1989 Form No II, Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM0NjQ=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_026",
+    "name": "Avail Online LPG Services",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjYyMQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_027",
+    "name": "Bharatgas: Voluntarily Surrender LPG Subsidy under 'GiveItUp' Movement",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQwNw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_028",
+    "name": "Indane: LPG Refill Booking and Online Payment",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY3NQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_029",
+    "name": "Indane: Apply for New LPG Domestic Connection with Online Payment",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY4NA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_030",
+    "name": "Indane: Online Facility for Double Bottle LPG Connection Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjQ2MA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_031",
+    "name": "Bharatgas: Submit Feedback/Grievances",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUyMg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_032",
+    "name": "Bharatgas: View Important Contact Information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUyNA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_033",
+    "name": "HP Gas : LPG Refill Booking and Online Payment Facility",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUyOA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_034",
+    "name": "HP Gas: Apply For New LPG Domestic Connection with Online Payment Facility",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUzMA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_035",
+    "name": "Indane: Preferred Time Delivery for LPG Refills",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjU1NA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_036",
+    "name": "Indane: Online Portability / Transfer of LPG Connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjYxMQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_037",
+    "name": "Indane: Locate your Nearest LPG Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjYyNA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_038",
+    "name": "Indane: Online Request for Mechanic Service",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjYzNA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_039",
+    "name": "Indane: Online Surrender Connection Request",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjY1NQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_040",
+    "name": "Indane: Rate Your LPG Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjY1OQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_041",
+    "name": "Indane: Submit Feedback/Grievances",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjY2Mw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_042",
+    "name": "Indane: View Important Contact Information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjY2Nw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_043",
+    "name": "Indane: SMS IVRS LPG Refill Booking Facility",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjY3NA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_044",
+    "name": "Indane: SMS Connect",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjY3OA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_045",
+    "name": "Indane, Bharatgas, HP Gas: Toll Free Number for LPG Complaints",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjcwNg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_046",
+    "name": "Indane, Bharatgas, HP Gas: LPG Emergency Leakage Complaint",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjcwOA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_047",
+    "name": "Indane: Free Trade LPG - 5 kg LPG cylinders",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjcxMw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_048",
+    "name": "Indane: Audit Distributor/ Transparency Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjcxOA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_049",
+    "name": "Indane: Regularization / Transfer of LPG Connections",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjcyMQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_050",
+    "name": "Indane: Guidance on safety for LPG consumers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjcyNA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_051",
+    "name": "Indane: Public Liability Insurance Policies for Accidents Involving LPG",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjcyNg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_052",
+    "name": "HP Gas: Locate your Nearest LPG Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAwNw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_053",
+    "name": "HP Gas: Online Request for Mechanic Service",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAxMQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_054",
+    "name": "LPG Connection for Piped Natural Gas (PNG) Consumers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjYzNw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_055",
+    "name": "HP Gas: Online Surrender Connection Request",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAxNw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_056",
+    "name": "HP Gas: Rate Your Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAxOQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_057",
+    "name": "HP Gas: Submit Feedback / Grievances",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAyMg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_058",
+    "name": "HP Gas: SMS Connect",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAyNg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_059",
+    "name": "HP Gas: Free Trade LPG - 5 kg LPG Cylinders",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAyOQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_060",
+    "name": "HP Gas : Audit Distributor / Transparency Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAzMQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_061",
+    "name": "HP Gas : Regularization / Transfer of LPG Connections",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAzMw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_062",
+    "name": "HP Gas : Guidance on safety for LPG Consumers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAzNQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_063",
+    "name": "HP Gas : Public Liability Insurance Policies for accidents involving LPG",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAzNw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_064",
+    "name": "Bharatgas: Free Trade LPG - 5 kg LPG Cylinders",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzAzOQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_065",
+    "name": "Bharatgas: Regularization / Transfer of LPG Connections",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzA0Mw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_066",
+    "name": "HP Gas: View Important contact information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzYxNA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_067",
+    "name": "HP Gas: SMS IVRS LPG Refill Booking Facility",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzYxNg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_068",
+    "name": "HP Gas: Preferred time delivery for LPG Refills",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzYyMA==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_069",
+    "name": "Bharatgas: Online Surrender Connection Request",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzYyMg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_070",
+    "name": "Bharatgas - Update Email ID to receive PDF Refill Cash Memo",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NTM=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_071",
+    "name": "Bharatgas - Find Your Nearest LPG Distributors",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NTk=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_072",
+    "name": "Bharatgas - Give Up LPG Subsidy",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NjA=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_073",
+    "name": "Bharatgas - Mini 5 Kg LPG Cylinder sale from Retail Outlets",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NjE=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_074",
+    "name": "Bharatgas - LPG Connection for Piped-Natural-Gas Consumers",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NjI=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_075",
+    "name": "Bharatgas - Register for LPG New Connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NjM=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_076",
+    "name": "Bharatgas - Find your 17 digit LPG ID",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NjU=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_077",
+    "name": "Bharatgas - Loss of Subscription Voucher / Termination Voucher on plain paper",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1Njc=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_078",
+    "name": "Bharatgas - New LPG Connection or connection against Termination Voucher",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1Njg=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_079",
+    "name": "Bharatgas - Format for Re-activation of Deactivated LPG Connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1Njk=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_080",
+    "name": "Bharatgas - Book Your LPG Cylinder",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NzA=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_081",
+    "name": "Bharatgas - OPT for Preferred Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NzE=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_082",
+    "name": "Bharatgas - Check Rate your LPG Distributor",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NzI=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_083",
+    "name": "Bharatgas - Surrender Multiple Connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NzM=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_084",
+    "name": "Bharatgas - Application form for Pahal (DBTL) Scheme",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1NzQ=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_085",
+    "name": "Indane - Get a New Domestic LPG (14.2 kg/5 kg cylinder) Connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1ODI=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_086",
+    "name": "HPGas - Find Your 17 digit LPG ID",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1ODQ=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_087",
+    "name": "HPGas - Book LPG Cylinder",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1ODU=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_088",
+    "name": "HPGas - Quick Book and Pay for LPG Refill Cylinders",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1ODY=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_089",
+    "name": "HPGas - Check Registration Status",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1ODc=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_090",
+    "name": "HPGas - LPG Connection to a BPL family",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1ODg=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_091",
+    "name": "Direct Benefit Transfer for LPG consumer by Ministry of Petroleum and Natural Gas",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU4Nw==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_092",
+    "name": "Apply for New Ujjwala 2.0 Connection",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM3NjU=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_093",
+    "name": "Website of Municipal Corporation of Thiruvanthapuram, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQyMjM=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_094",
+    "name": "Apply for License for Purchase Storage and Sale of Cooking Gas - LPG, Arunachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI1OTU=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_095",
+    "name": "Application form for Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDQwNg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_096",
+    "name": "Haryana :Sewerage  Blocked / Over flow of Manholes",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjIxMg==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_097",
+    "name": "Gujarat, Collectorate - District Kutch : Obtaining no objection certificate for petroleum storage",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTUzNTY=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_098",
+    "name": "Gujarat, Collectorate - District Jamnagar : application for getting a new ration card",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI2MTM=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_099",
+    "name": "Gujarat, Collectorate - District Jamnagar : application for duplicate ration card",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI2MjM=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_100",
+    "name": "Gujarat, Collectorate - District Gandhinagar : Application for  change in partnership for production and sell of petroleum products in retail / wholesale",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA0OTg=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_101",
+    "name": "Gujarat, Collectorate - District Gandhinagar : Application for change in place for production and sell of  Retailers - Wholesale of Petroleum Products (PISC)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA0OTY=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_102",
+    "name": "Gujarat, Collectorate - District Gandhinagar : Approval for production and sell of  Retailers - Wholesale of Petroleum Products (PISC)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA0OTQ=",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  },
+  {
+    "id": "LPG_103",
+    "name": "Gujarat, Collectorate - District Rajkot : Obtaining no objection certificate for petroleum storage",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTM2NQ==",
+    "service_type": "lpg_service",
+    "domain": "energy_lpg",
+    "state": [
+      "All India"
+    ],
+    "target_roles": [
+      "citizen",
+      "consumer"
+    ],
+    "eligible_categories": [
+      "general"
+    ],
+    "level": "all",
+    "tags": [
+      "lpg",
+      "gas",
+      "cylinder",
+      "refill",
+      "connection",
+      "subsidy"
+    ]
+  }
+]

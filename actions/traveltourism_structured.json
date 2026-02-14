@@ -1,0 +1,5541 @@
+[
+  {
+    "id": "TT_001",
+    "name": "Apply for Bus Ticket Booking by StarBus, Uttarakhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5NTM=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttarakhand"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_002",
+    "name": "Apply for Room Reservation Booking by Him Atithi, Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk1MTM=",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_003",
+    "name": "Heliservices to Kedarnath Ji Dham, Uttarakhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM2MjM=",
+    "service_type": "helicopter_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttarakhand"
+    ],
+    "target_roles": [
+      "pilgrim",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "helicopter",
+      "air transport",
+      "pilgrimage"
+    ]
+  },
+  {
+    "id": "TT_004",
+    "name": "Booking of ECO-Retreat Destinations, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0NTc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_005",
+    "name": "Online Tourist Registration and Booking, Andaman and Nicobar Island",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQzMjk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_006",
+    "name": "List of Sikkim Government Recognised Registered Tour Operators",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzkxMQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_007",
+    "name": "Government Health and Safety Compliant Travel Agents, Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzIxNA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_008",
+    "name": "Restricted and Protect Area Permit, Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzIxMQ==",
+    "service_type": "travel_permit",
+    "domain": "travel_tourism",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "permit",
+      "authorization",
+      "restricted area"
+    ]
+  },
+  {
+    "id": "TT_009",
+    "name": "Registred Hotel in Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzIwNw==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_010",
+    "name": "Guidelines for Infection Prevention and Control in Healthcare Facilities",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0Mzk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_011",
+    "name": "Standard Operating Procedure (SOP) for COVID-19 Management- International Cruise Ships at major Indian Ports",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0NDE=",
+    "service_type": "health_safety",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "citizen",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "covid",
+      "health",
+      "safety guidelines"
+    ]
+  },
+  {
+    "id": "TT_012",
+    "name": "Guidance on Surveillance for human infection with 2019-nCoV",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0Mzg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_013",
+    "name": "Guidelines for home quarantine",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0MzY=",
+    "service_type": "health_safety",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "citizen",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "covid",
+      "health",
+      "safety guidelines"
+    ]
+  },
+  {
+    "id": "TT_014",
+    "name": "Discharge policy for suspect or confirmed Novel Coronavirus (2019-nCoV) cases",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0Mzc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_015",
+    "name": "Guidance for sample Collection, Packaging and Transportation for Novel Coronavirus",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0NDA=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_016",
+    "name": "Online Booking of Hotel and Resort by Chhattisgarh Tourism Board",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5OQ==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_017",
+    "name": "Kailash Mansarovar Yatra - How to Reach, Uttrakhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg2Mzg=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttarakhand"
+    ],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_018",
+    "name": "STARS e-Ticketing Services, Andaman and Nicobar Administration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2NjE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_019",
+    "name": "Book packaged tour by Bihar State Tourism Development Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI4OQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_020",
+    "name": "Apply for Guest House Room Booking, Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMyMA==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_021",
+    "name": "Online visitor reservation for Corbett Tiger Reserve, Uttarakhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTY5Mg==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttarakhand"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_022",
+    "name": "Search state wise approved restaurants by Ministry of Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTEz",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_023",
+    "name": "Information on Telangana Magazine",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTU4NTQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_024",
+    "name": "Apply for Senior Citizen Pilgrimage Scheme, Rajasthan",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjUwNTY=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_025",
+    "name": "Winter Helicopter Service in Kargil, Leh for General Public, Ladakh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwNjA=",
+    "service_type": "helicopter_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Ladakh"
+    ],
+    "target_roles": [
+      "pilgrim",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "helicopter",
+      "air transport",
+      "pilgrimage"
+    ]
+  },
+  {
+    "id": "TT_026",
+    "name": "Apply for Helicopter Yatra to Shri Kedarnath Dham",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQwMDg=",
+    "service_type": "helicopter_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "pilgrim",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "helicopter",
+      "air transport",
+      "pilgrimage"
+    ]
+  },
+  {
+    "id": "TT_027",
+    "name": "PIB releases link specific to COVID-19",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0NDM=",
+    "service_type": "health_safety",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "citizen",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "covid",
+      "health",
+      "safety guidelines"
+    ]
+  },
+  {
+    "id": "TT_028",
+    "name": "Re-print your tour package ticket booked online with Delhi Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQyOA==",
+    "service_type": "tour_package",
+    "domain": "travel_tourism",
+    "state": [
+      "Delhi"
+    ],
+    "target_roles": [
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tour package",
+      "tourism",
+      "booking"
+    ]
+  },
+  {
+    "id": "TT_029",
+    "name": "Book Online Tour Packages of Delhi Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQyNw==",
+    "service_type": "tour_package",
+    "domain": "travel_tourism",
+    "state": [
+      "Delhi"
+    ],
+    "target_roles": [
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tour package",
+      "tourism",
+      "booking"
+    ]
+  },
+  {
+    "id": "TT_030",
+    "name": "Book Popular Destinations for Tourism, West Bengal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2NQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "West Bengal"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_031",
+    "name": "Search Bus with Service No., Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_032",
+    "name": "Book Hotel Rooms Online in Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTk=",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_033",
+    "name": "Check Bus Ticket Enquiry Status, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNjA=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_034",
+    "name": "Check Bus Driver Information, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNDg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_035",
+    "name": "Cancelled of Bus Ticket Services, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNTI=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_036",
+    "name": "Vajra Bus Booking Service by Telangana State Road Transport Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNjI=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_037",
+    "name": "Cancel of Bus Ticket Service, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNTg=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_038",
+    "name": "Online Bus Ticket Booking by Telangana State Road Transport Corporation, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNjY=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_039",
+    "name": "Avail online services of Delhi Tourism and Transport Development Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Delhi"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_040",
+    "name": "Book Online Packages for Lakshadweep Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ3MTI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_041",
+    "name": "Endowments Department - Information, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE0MTU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_042",
+    "name": "Endowments Department information on Temples, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE1NzU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_043",
+    "name": "Book Air Tickets for Domestic and International Journey",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTE3",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_044",
+    "name": "Check tourist maps of Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjU2",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttar Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_045",
+    "name": "Search for Basic Heritage hotels approved by Ministry of Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTEx",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_046",
+    "name": "Bed and Breakfast Scheme by Uttar Pradesh Tourism, Uttar Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTEy",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttar Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_047",
+    "name": "Book Destination for M P Ecotourism Development Board, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1Nzc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_048",
+    "name": "Online Seva Portal by Tirumala Tirupathi Devasthanams, Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_049",
+    "name": "Online Book Bus Ticket by Tourism Development Corporation, Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjc2",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_050",
+    "name": "Online Hotels Booking in Srinagar by Jammu and Kashmir Tourism Development Corporation, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjk4",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_051",
+    "name": "Book Train Tickets with Indian Railway Catering and Tourism Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mzgy",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_052",
+    "name": "Information on Room Booking Facility by Shri Mata Vaishno Devi Shrine Board, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mzg0",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_053",
+    "name": "Book Hotels Online in Tamil Nadu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUw",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_054",
+    "name": "Check Tour Packages of Tamil Nadu Tourism Development Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjUx",
+    "service_type": "tour_package",
+    "domain": "travel_tourism",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tour package",
+      "tourism",
+      "booking"
+    ]
+  },
+  {
+    "id": "TT_055",
+    "name": "Calculate Fare Between Stations of Delhi Metro",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODY4",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Delhi"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_056",
+    "name": "Check Interactive Map of Delhi Metro",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODY5",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Delhi"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_057",
+    "name": "Check Information on Accommodation Facilities, Arunachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI0Mg==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_058",
+    "name": "Book Online Sightseeing Tour on HOHO Bus Services, Delhi",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQyNg==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Delhi"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_059",
+    "name": "Book Online Bus Ticket of Gujarat State Road Transport Corporation, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0OA==",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_060",
+    "name": "Register with Karnataka State Road Transport Corporation, Karnataka",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2OQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Karnataka"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_061",
+    "name": "Book Daily Bus Service by Bihar State Tourism Development Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDYxNg==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_062",
+    "name": "Destinations to Visit in Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2MzE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_063",
+    "name": "Destinations for Visit, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE5NjI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_064",
+    "name": "RedBus Ticket Cancellation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTUwMzY=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_065",
+    "name": "Pallavi Madhya Pradesh Parivahan Travels Bus Booking, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTUwNTM=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_066",
+    "name": "Book an Entire Train or a Coach by IRCTC",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyMzE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_067",
+    "name": "Trending Tour Packages in India by IRCTC",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyMzU=",
+    "service_type": "tour_package",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tour package",
+      "tourism",
+      "booking"
+    ]
+  },
+  {
+    "id": "TT_068",
+    "name": "Get Restaurant Food delivered right at your seat by IRCTC",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyMzc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_069",
+    "name": "Online Flight Booking for Haj Pilgrimage by Haj Committee of India",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg1OTA=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_070",
+    "name": "UTS Mobile Ticketing Services by Indian Railways",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyNDQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_071",
+    "name": "Book Indian Railways E-Ticket by IRCTC",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgyMzI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_072",
+    "name": "Apply for e-Travel Trade Recognition",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjU2NQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_073",
+    "name": "Register Your Tourism Unit",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE1OA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_074",
+    "name": "Search for domestic tour operators approved by Ministry of Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMwMw==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_075",
+    "name": "Search for Grand Heritage hotels approved by Ministry of Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI4Mg==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_076",
+    "name": "Tamil Nadu Tourism Corporation (TTDC)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE5MzE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Tamil Nadu"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_077",
+    "name": "Issuance of the Certificate of Recognition as Provisional / Approved State Tour Operator, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI5MDg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_078",
+    "name": "Book LTC Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM2MjY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_079",
+    "name": "Registration of Hotelier, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0NTk=",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_080",
+    "name": "Registration of Travel Agent, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0NTg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_081",
+    "name": "Search Indian Fairs and Festivals Upcoming Events, Past Events and All Events",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ0MzM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_082",
+    "name": "Apply for Temporary Inner line Permit, Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg3NzA=",
+    "service_type": "travel_permit",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "permit",
+      "authorization",
+      "restricted area"
+    ]
+  },
+  {
+    "id": "TT_083",
+    "name": "Check Ship Ticket Status, Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxMjE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_084",
+    "name": "List of Hotels in Kohima, Nagaland",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE4MA==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_085",
+    "name": "Check Odisha Bhavan Reservation Status, Odisha",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4ODU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Odisha"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_086",
+    "name": "Obtaining Entry Permit to Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQzMDc=",
+    "service_type": "travel_permit",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "permit",
+      "authorization",
+      "restricted area"
+    ]
+  },
+  {
+    "id": "TT_087",
+    "name": "Goa State Portal",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQyOTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Goa"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_088",
+    "name": "Andaman & Nicobar Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTcwMDQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_089",
+    "name": "Search for travel agents approved by Ministry of Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMwNw==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_090",
+    "name": "Recruitment of Daastan-e-Shahadat, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxNDE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_091",
+    "name": "Tented Accommodation and Camping Site, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxMzg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_092",
+    "name": "Bed and Breakfast Homestay Scheme, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxMzc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_093",
+    "name": "Check Seats available (Point to Point) for next Two Months, Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxMjA=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_094",
+    "name": "Know about Ship Schedule by Webstar, Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxMTk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_095",
+    "name": "Apply for Web Based Ship Ticket Advance Reservation, Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQxMDM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_096",
+    "name": "Download feedback form of Himachal Pradesh Tourism Development Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjA4",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_097",
+    "name": "Online enquiry form for Amarnath Yatra, Jammu and Kashmir",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjM=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_098",
+    "name": "Tourist Places/ Centres, Dadra and Nagar Haveli and Daman and Diu",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg5MDU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_099",
+    "name": "Gir Online Permit Booking, Gujarat",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY2MA==",
+    "service_type": "travel_permit",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "permit",
+      "authorization",
+      "restricted area"
+    ]
+  },
+  {
+    "id": "TT_100",
+    "name": "Apply online Shri Badarinath and Kedarnath Dham Yayra, Uttarakhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5NTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttarakhand"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_101",
+    "name": "Apply online Char Dham Yatra and Hemkund Sahib Registration, Uttarakhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5NTc=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Uttarakhand"
+    ],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_102",
+    "name": "Upload documents/modify documents in Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk2MDg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_103",
+    "name": "Andhra Pradesh,SRI DURGA MALLESWARA SEVA TICKET BOOKING",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY4OA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_104",
+    "name": "Andhra Pradesh,SRI VEERA VENKATA SATYANARAYANA SWAMY ROOM BOOKING",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY5NA==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_105",
+    "name": "Apply for District Guest House Booking System, Bihar",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM5MTk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_106",
+    "name": "Andhra Pradesh,Papikondalu Boat Vihar - One Day Package Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTE0MA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_107",
+    "name": "Department of Endowment - Sri Raja Rajeshwara Temple Room Booking ,Vemulawada - Application form, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODkxMg==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_108",
+    "name": "Telangana: Department of Endowment - Sri Raja Rajeshwara Temple Room Booking ,Vemulawada Application form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEwMTU=",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_109",
+    "name": "Eco Tourism SAMRDHA Online booking facility for tourisem",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1NDM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_110",
+    "name": "Eco Tourism:B2B Samardha Jungle Camp Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1OTI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_111",
+    "name": "Eco Tourism RANEH FALLS Online booking facility for tourisem",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1ODc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_112",
+    "name": "Eco Tourism:B2B Raneh Falls Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2MTc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_113",
+    "name": "Payli destination Online booking facility for Tourism destination",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM0ODM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_114",
+    "name": "Online booking facility for Tourism destination,Payli",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM0OTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_115",
+    "name": "Eco Tourism pay Online booking facility for tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1MzQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_116",
+    "name": "Eco Tourism KUKRU Online booking facility for tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1NDg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_117",
+    "name": "Eco Tourism:B2B Kukru Khamla Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2MDY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_118",
+    "name": "Eco Tourism KATHOTIYA Online booking facility for tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1Mzg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_119",
+    "name": "Eco Tourism:B2B Katothiya Jungle Camp Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1ODM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_120",
+    "name": "Eco Tourism HINOUTA Online booking facility for tourisem",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1ODQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_121",
+    "name": "Eco Tourism:B2B Hinouta Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2MTM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_122",
+    "name": "Eco Tourism: B2B Dharikotla Jungle Camp Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2MzE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_123",
+    "name": "Online booking facility Tourism destination",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMxOTM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_124",
+    "name": "Online booking facility for Tour operators for doing Bulk bookings",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM0OTQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_125",
+    "name": "Eco Tourism ED5 Online booking facility for tourisem",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1NTI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_126",
+    "name": "Eco Tourism Online Booking facility for Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM1OTA=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_127",
+    "name": "Eco Tourism:B2B Patalkot Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2MDE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_128",
+    "name": "Eco Tourism: B2B Matkuli Ticket Booking",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2MjI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_129",
+    "name": "Eco Tourism:B2B Chambal Safari Ticket Booking, Madhya Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ2MjY=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [
+      "Madhya Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_130",
+    "name": "Tourist Packages in Lakshadweep",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjMxOQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Lakshadweep"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_131",
+    "name": "Booking online Resorts in Maharashtra Tourism, Maharashtra",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM4MDM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Maharashtra"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_132",
+    "name": "Village Tourism, Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzIwMQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_133",
+    "name": "Apply for Online Ticket Booking, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIwODk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_134",
+    "name": "Telangana State Tourism Development Corporation - Service",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTYwMDU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_135",
+    "name": "Send suggestions and feedback to Rajasthan Tourism",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Rajasthan"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_136",
+    "name": "Kanger Valley Safari Booking, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM3MTk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_137",
+    "name": "Apply for Free Travelling Facility Registered Worker of HBOCWW Board, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjM1ODk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_138",
+    "name": "NOC for tourist vehicle permit for Andaman districts",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzIx",
+    "service_type": "travel_permit",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "permit",
+      "authorization",
+      "restricted area"
+    ]
+  },
+  {
+    "id": "TT_139",
+    "name": "Gujarat, Collectorate - District Sabarkantha : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTY5NTc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_140",
+    "name": "Check information on accommodation facilities for tourists in Assam",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI1Mg==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Assam"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_141",
+    "name": "Check contact details of tourist information centres in Bihar",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI5MA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_142",
+    "name": "Tourist Information Center, Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzIwOQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_143",
+    "name": "Online Tourist Registration and Booking Form, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4MTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_144",
+    "name": "Track current location of running trains of Indian Railways",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MzU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_145",
+    "name": "Apply for Neyyar Safari - Boating to Lion Safari, Deer Park and Crocodile Park, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgwNjk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_146",
+    "name": "Apply for Navakerala Mission, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgwNzA=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_147",
+    "name": "Apply for Family Stay at Elephant Rehabilitation Center, Kappukad, Kottor, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTgwNzE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_148",
+    "name": "Apply for Online Reservation for Agastyaarkoodam Visit 2020, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI3Nzk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_149",
+    "name": "Apply for Wildlife Photography Contest 2021, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI3ODA=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_150",
+    "name": "Apply for PWD Rest House Booking, Kerala",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI5NDI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Kerala"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_151",
+    "name": "Apply for Movement of People from Guwahati Airport/Railway Station, Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI2ODM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_152",
+    "name": "Apply for Movement of People to Guwahati/ Umroi Airport and Guwahati Railway Station, Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI2ODQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_153",
+    "name": "Apply for e-Permission of Holy dip at Parshuram Kund, Arunachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjI2MjI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_154",
+    "name": "Tourism, Arts, Culture, Sports & Youth Affairs Department, Jharkhand",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkwMjg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Jharkhand"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_155",
+    "name": "Apply for Financial Assistance Under Kailash Mansarovar Yatra After Completion of the Yatra, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MTE=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_156",
+    "name": "Apply for Financial Assistance Under Sindhu Darshan Yatra After Completion of the Yatra, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MDc=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_157",
+    "name": "Apply for Financial Assistance Under Swarn Jayanti Guru Darshan Yatra After Completion of the Yatra, Haryana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTc3MDU=",
+    "service_type": "pilgrimage_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Haryana"
+    ],
+    "target_roles": [
+      "pilgrim"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yatra",
+      "religious tourism"
+    ]
+  },
+  {
+    "id": "TT_158",
+    "name": "Nandanvan Jungle Safari Online Ticket Booking , Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTczNzc=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_159",
+    "name": "Apply for Farm Tourism Scheme, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIyODE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_160",
+    "name": "Apply for Bed and Breakfast Homestay, Punjab",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIyODM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Punjab"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_161",
+    "name": "Check upgraded passengers list of Indian Railways",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_162",
+    "name": "Check train time table online of Indian Railways",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_163",
+    "name": "Check your train ticket booking status",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTIx",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_164",
+    "name": "Check transportation tariff by Bihar State Tourism Development Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI4OA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_165",
+    "name": "Check availability of rooms in Bihar State Tourism Development Corporation hotels",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2NA==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_166",
+    "name": "Online booking facility for BSTDC Hotels, Bihar",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDYxNQ==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Bihar"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_167",
+    "name": "Apply for Recognition as Provisional/Approved Meghalaya State Tour Operator, Meghalaya",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE4Mjg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_168",
+    "name": "Apply for Nandanvan Jungle Safari, Naya Raipur, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjIyODc=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_169",
+    "name": "Apply for Barnawapara Wildlife Sanctuary, Chhattisgarh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTkwNjg=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_170",
+    "name": "Online Submission for International Travel",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjkxMw==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_171",
+    "name": "Print Confirmed Booking Slip for Successful Payments, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4MTc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_172",
+    "name": "Search your Booking details, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4MTg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_173",
+    "name": "Verify Payment, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4MTk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_174",
+    "name": "Resort Availability Status, Andaman and Nicobar Islands",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTg4MjA=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andaman and Nicobar Islands"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_175",
+    "name": "Inner Line Pass, Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDM4Nw==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_176",
+    "name": "Inner Line Pass Renewal, Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDM4OA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_177",
+    "name": "Inner Line Pass Surrender, Mizoram",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NDM5MA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_178",
+    "name": "Buddhist Circuit Tourism, Sikkim",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzIwNA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Sikkim"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_179",
+    "name": "Sri Tirupatamma Ammavari Devasthanam Room Booking (Penuganchiprolu,Krishna Dist), Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTk3Ng==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_180",
+    "name": "Sri Tirupatamma Ammavari Devasthanam Seva Booking (Penuganchiprolu,Krishna Dist), Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTk3OA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_181",
+    "name": "Bus Routes of Chennai Metropolitan Transport Corporation",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjE5MzI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_182",
+    "name": "AP Tourism Hotel Booking in Andhra Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjAwNDc=",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_183",
+    "name": "Online Registration of Visa extension and allied services",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk1NzQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_184",
+    "name": "Home Stay Registration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0OTU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_185",
+    "name": "Permit for Vechicles Visiting Rohtang Pass",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTk0ODk=",
+    "service_type": "travel_permit",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "permit",
+      "authorization",
+      "restricted area"
+    ]
+  },
+  {
+    "id": "TT_186",
+    "name": "Check safety standards of aircraft before you fly",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTgz",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_187",
+    "name": "Online hotel booking by Andhra Pradesh Tourism Department",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MjQ2Nw==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_188",
+    "name": "Chhattisgarh: Chhattisgarh State Website",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2NjE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_189",
+    "name": "Department of Endowment - Sri Lakshmi Narasimha Swamy Room Booking Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODg4NA==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_190",
+    "name": "Department of Endowment Sri Lakshmi Narasimha Swamy Seva Ticket Booking Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODg4OA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_191",
+    "name": "Department of Endowment - Sri Setta Ramachandra Swamy (Badrachalam) Seva Ticket Booking Application Form, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODkxMA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_192",
+    "name": "Department of Endowment - Sri Raja Rajeshwara Temple Seva Booking ,Vemulawada - Application Form, Telangana",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODkxMQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_193",
+    "name": "Telangana: Department of Endowment Sri Lakshmi Narasimha Swamy Room Booking Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEwMDU=",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_194",
+    "name": "Telangana: Department of Endowment Sri Lakshmi Narasimha Swamy Seva Ticket Booking Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEwMDc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_195",
+    "name": "Telangana: Department of Endowment - Sri Seeta Ramachandra Swamy (Badrachalam) Seva Ticket Booking Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEwMDk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_196",
+    "name": "Telangana: Department of Endowment - Sri Raja Rajeshwara Temple Seva Booking ,Vemulawada Application Form",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEwMTE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_197",
+    "name": "Andhra Pradesh,SRI VENKATESWARA SWAMY SEVA TICKET BOOKING (DWARAKA TIRUMALA,WEST GODAVARI)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY5NQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_198",
+    "name": "Andhra Pradesh,SRI VENKATESWARA SWAMY TEMPLE ROOM BOOKING (DWARAKA TIRUMALA, W.G)",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY5Ng==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_199",
+    "name": "Andhra Pradesh,SRI VEERA VENKATA SATYANARAYANA S.D.ANNAVARAM, E.GODAVARI DT",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY5Mw==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_200",
+    "name": "Andhra Pradesh,SRI VARAHA LAKSHMI NARASIMHA S.D.,SIMHACHALAM,VISAKHAPATNAM ROOM BOOKING",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY5Mg==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_201",
+    "name": "Andhra Pradesh,SRI KALAHASTEESWARA SWAMY VARI DEVASTHANAM SEVA BOOKING, SRIKALAHASTI",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY5MA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_202",
+    "name": "Online registration for foreigners by Bureau of Immigration",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2Mg==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_203",
+    "name": "Online facility of doing bus booking of Tickets with in state and out side of state",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMyNzM=",
+    "service_type": "bus_booking",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "citizen",
+      "tourist"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "bus ticket",
+      "online booking",
+      "transport"
+    ]
+  },
+  {
+    "id": "TT_204",
+    "name": "Telangana: Chief Minister's office meetings management System",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzMzg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_205",
+    "name": "Book hotels online in Himachal Pradesh",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Mjg4",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Himachal Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_206",
+    "name": "Park Excursion Reservation Portal : Bandhavgarh National Park Reschedule Ticket by G2G",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwMjM=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_207",
+    "name": "Park Excursion Reservation Portal : Kanha National Park Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwMjc=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_208",
+    "name": "Park Excursion Reservation Portal : Kanha National Park Addon Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNDA=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_209",
+    "name": "Park Excursion Reservation Portal : Sanjay Tiger Reserve Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNDM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_210",
+    "name": "Park Excursion Reservation Portal : Sanjay Tiger Reserve Addon Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNDg=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_211",
+    "name": "Park Excursion Reservation Portal : Sanjay Tiger Reserve Cancellation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNTE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_212",
+    "name": "Park Excursion Reservation Portal : Sanjay Tiger Reserve Reschedule Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_213",
+    "name": "Park Excursion Reservation Portal : Kanha National Park Cancellation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNjA=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_214",
+    "name": "Park Excursion Reservation Portal : Sanjay Tiger Reserve Reschedule Ticket by G2G",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNjQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_215",
+    "name": "Park Excursion Reservation Portal : Kanha National Park Reschedule Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNjg=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_216",
+    "name": "Park Excursion Reservation Portal : Panna National Park Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNzY=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_217",
+    "name": "Park Excursion Reservation Portal : Panna National Park Addon Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwNzk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_218",
+    "name": "Park Excursion Reservation Portal : Panna National Park Reschedule Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwODU=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_219",
+    "name": "Park Excursion Reservation Portal : Panna National Park Cancellation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwODk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_220",
+    "name": "Park Excursion Reservation Portal : Pench National Park Addon Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwOTk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_221",
+    "name": "Park Excursion Reservation Portal : Sanjay National Park G2G Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQzOTU=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_222",
+    "name": "Park Excursion Reservation Portal : Satpura National Park G2G Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0MTI=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_223",
+    "name": "Park Excursion Reservation Portal : Pench National Park G2G Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0MTg=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_224",
+    "name": "Park Excursion Reservation Portal : Kanha National Park G2G Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0MjU=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_225",
+    "name": "Park Excursion Reservation Portal : Bandhavgarh National Park G2G Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0MzU=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_226",
+    "name": "Park Excursion Reservation Portal : Bandhavgarh National Park Reschedule Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0NDE=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_227",
+    "name": "Park Excursion Reservation Portal : Bandhavgarh National Park Cancellation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0NDg=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_228",
+    "name": "Park Excursion Reservation Portal : Bandhavgarh National Park Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ0NjE=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_229",
+    "name": "Park Excursion Reservation Portal : Pench National Park Cancellation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1MDQ=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_230",
+    "name": "Park Excursion Reservation Portal : Pench National Park Reschedule Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1MDk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_231",
+    "name": "Park Excursion Reservation Portal : Satpura National Park Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1MTU=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_232",
+    "name": "Park Excursion Reservation Portal : Satpura National Park Addon Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1MjM=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_233",
+    "name": "Park Excursion Reservation Portal : Satpura National Park Cancellation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1Mjk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_234",
+    "name": "Park Excursion Reservation Portal : Satpura National Park Reschedule Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQ1Njk=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_235",
+    "name": "Chhattisgarh:  District Website Durg",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE3MzQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_236",
+    "name": "Chhattisgarh : District Website Dantewada",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE3Mzk=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_237",
+    "name": "Chhattisgarh: District Website Gariyaband",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE3NDE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_238",
+    "name": "Chhattisgarh: District Website Jashpur",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE3NDM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Chhattisgarh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_239",
+    "name": "Gujarat, Collectorate - District Panchmahal : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTY3ODM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_240",
+    "name": "Telangana State Tourism Development Corporation (TSTDC) - Information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTYwMDM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_241",
+    "name": "Gujarat, Collectorate - District Tapi : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTY0NzE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_242",
+    "name": "Gujarat, Collectorate - District Surat : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTYyOTc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_243",
+    "name": "Gujarat, Collectorate - District Vadodara : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTYxMjM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_244",
+    "name": "Park Excursion Reservation Portal : Pench National Park Reservation Ticket",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTQwOTI=",
+    "service_type": "wildlife_tourism",
+    "domain": "travel_tourism",
+    "state": [],
+    "target_roles": [
+      "tourist",
+      "nature_enthusiast"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "national park",
+      "wildlife",
+      "safari booking"
+    ]
+  },
+  {
+    "id": "TT_245",
+    "name": "Gujarat, Collectorate - District Kutch : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTUzODY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_246",
+    "name": "Gujarat, Collectorate - District Navsari : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTM2OTY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_247",
+    "name": "Gujarat, Collectorate - District Porbandar : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTMxMTU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_248",
+    "name": "Gujarat, Collectorate - District Morbi : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI5NDE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_249",
+    "name": "Gujarat, Collectorate - District Mahisagar : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI3MjY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_250",
+    "name": "Gujarat, Collectorate - District Junagadh : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTI1MjQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_251",
+    "name": "Gujarat, Collectorate - District Gir Somnath : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIzMTA=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_252",
+    "name": "Gujarat, Collectorate - District Devbhumi Dwarka : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTIwNDU=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_253",
+    "name": "Gujarat, Collectorate - District Dahod : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE2NDM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_254",
+    "name": "Gujarat, Collectorate - District Kheda : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTE1NDY=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_255",
+    "name": "Gujarat, Collectorate - District Jamnagar : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzODI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_256",
+    "name": "Telangana: Chief Minister Portal - Information",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTEzNDI=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Telangana"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_257",
+    "name": "Gujarat, Collectorate - District Dang : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA5NzM=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_258",
+    "name": "Gujarat, Collectorate - District Mehsana : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTA1ODc=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_259",
+    "name": "Gujarat, Collectorate - District Gandhinagar : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTAzODE=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_260",
+    "name": "Gujarat, Collectorate - District Narmada : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTg0MA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_261",
+    "name": "Gujarat, Collectorate - District Chhotaudepur : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=MTAwNTQ=",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_262",
+    "name": "Gujarat, Collectorate - District Rajkot : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTM5OA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_263",
+    "name": "Gujarat, Collectorate - District Botad : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=OTMyMQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_264",
+    "name": "Gujarat, Collectorate - District Bhavnagar : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=ODg5Ng==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_265",
+    "name": "Gujarat, Collectorate - District Amreli : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NjgwMw==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_266",
+    "name": "Gujarat, Collectorate - District Anand : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=Njk5MA==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_267",
+    "name": "Gujarat, Collectorate - District Banaskantha : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzgxNg==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_268",
+    "name": "Andhra Pradesh,SRI KALAHASTEESWARA SWAMY VARI DEVASTHANAM ROOM BOOKING",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY4OQ==",
+    "service_type": "hotel_booking",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "traveler"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "accommodation",
+      "hotel",
+      "room booking"
+    ]
+  },
+  {
+    "id": "TT_269",
+    "name": "Andhra Pradesh,SRI VARAHA LAKSHMI NARASIMHA S.D.,SIMHACHALAM,VISAKHAPATNAM",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NTY5MQ==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Andhra Pradesh"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  },
+  {
+    "id": "TT_270",
+    "name": "Gujarat, Collectorate - District Aravalli : Getting of a license to travel for self-protection licenses",
+    "url": "https://services.india.gov.in/service/service_url_redirect?id=NzIyMw==",
+    "service_type": "tourism_service",
+    "domain": "travel_tourism",
+    "state": [
+      "Gujarat"
+    ],
+    "target_roles": [
+      "tourist",
+      "citizen"
+    ],
+    "eligible_categories": [
+      "ANY"
+    ],
+    "tags": [
+      "tourism",
+      "travel"
+    ]
+  }
+]

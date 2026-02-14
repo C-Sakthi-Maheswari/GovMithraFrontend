@@ -1,202 +1,615 @@
 version: "3.1"
 
 nlu:
+  - intent: set_language
+    examples: |
+      - change language to Tamil
+      - set language to Hindi
+      - switch to English
+      - language Telugu
+      - use Malayalam
+  - intent: search_bus
+    examples: |
+      - bus from [Tambaram](location) to [Adyar](location)
+      - bus to [Porur](location)
+      - buses from [T.Nagar](location)
+      - [21G](bus_no) bus route
+      - route via [Velachery](location)
+      - [570](bus_no) from [CMBT](location)
+      - bus via [MPM](location)
+      - [Egmore](location) to [Velachery](location) bus
+      - தாம்பரம் இருந்து அடையாறு பேருந்து
+      - சென்ட்ரல் இருந்து கிண்டி
+      - பேருந்து வழி
+      - எம்பிஎம் வழியாக பேருந்து
+      - bus
+      - route
+      - mtc
+      - பஸ்
+      - பேருந்து 
+      - एक्समो से गिंडी बस
+      - बस मार्ग
+      - बस
+  - intent: tax
+    examples: |
+      - income tax refund
+      - how to file tax
+      - gst registration
+      - tax payment
+      - GST details
+      - சொத்து வரி
+      - வருமான வரி
+      - संपत्ति कर
+      - आयकर
+      - कर भुगतान
+      - ఆస్తి పన్ను
+      - ആസ്തി നികുതി
+      - tax
+      - வரி
+      - कर
+      - పన్ను
 
-- intent: set_language
-  examples: |
-    - change language to Tamil
-    - set language to Hindi
-    - switch to English
-    - language Telugu
-    - use Malayalam
-- intent: search_bus
-  examples: |
-    - bus from [Tambaram](location) to [Adyar](location)
-    - bus to [Porur](location)
-    - buses from [T.Nagar](location)
-    - [21G](bus_no) bus route
-    - route via [Velachery](location)
-    - [570](bus_no) from [CMBT](location)
-    - bus via [MPM](location)
-    - [Egmore](location) to [Velachery](location) bus
-    - தாம்பரம் இருந்து அடையாறு பேருந்து
-    - சென்ட்ரல் இருந்து கிண்டி
-    - பேருந்து வழி
-    - எம்பிஎம் வழியாக பேருந்து
-    - bus
-    - route
-    - mtc
-    - பஸ்
-    - பேருந்து 
-    - एक्समो से गिंडी बस
-    - बस मार्ग
-    - बस
-- intent: tax
-  examples: |
-    - income tax refund
-    - how to file tax
-    - gst registration
-    - tax payment
-    - GST details
-    - சொத்து வரி
-    - வருமான வரி
-    - संपत्ति कर
-    - आयकर
-    - कर भुगतान
-    - ఆస్తి పన్ను
-    - ആസ്തി നികുതി
-    - tax
-    - வரி
-    - कर
-    - పన్ను
+  - intent: certificates
+    examples: |
+      - apply for birth certificate
+      - community certificate
+      - income certificate
+      - community certificate
+      - பிறப்பு சான்றிதழ்
+      - இறப்பு சான்றிதழ்
+      - certificate
+      - சான்றிதழ்
+       - இறப்பு சான்றிதழ்
+      - जन्म प्रमाण पत्र
+      - मृत्यु प्रमाण पत्र
+      - జన్మ సర్టిఫికేట్
+      - ജനന സർട്ടിഫിക്കറ്റ്
+      - certificate
+      - சான்றிதழ்
+      - प्रमाण पत्र
 
-- intent: certificates
-  examples: |
-    - apply for birth certificate
-    - community certificate
-    - income certificate
-    - community certificate
-    - பிறப்பு சான்றிதழ்
-    - இறப்பு சான்றிதழ்
-    - certificate
-    - சான்றிதழ்
-     - இறப்பு சான்றிதழ்
-    - जन्म प्रमाण पत्र
-    - मृत्यु प्रमाण पत्र
-    - జన్మ సర్టిఫికేట్
-    - ജനന സർട്ടിഫിക്കറ്റ്
-    - certificate
-    - சான்றிதழ்
-    - प्रमाण पत्र
+  - intent: education
+    examples: |
+      - scholarship for students
+      - college admission process
+      - education loan
+      - How can I find internships in Chennai?
+      - Are there any remote internship opportunities?
+      - I need help submitting my internship application
+      - Can you tell me the internship eligibility criteria?
+      - உயர் கல்விக்கான உதவித்தொகை
+      - மாணவர்களுக்கான கல்வி திட்டங்கள்
+      - இலவச மடிக்கணினி திட்டம்
+      - scholarship
+      - education
+      - கல்வி
+      - उच्च शिक्षा के लिए छात्रवृत्ति
+      - छात्रों के लिए शिक्षा योजनाएं
+      - शैक्षिक कार्यक्रम
+      - मुफ्त लैपटॉप योजना
+      - విద్యా స్కాలర్‌షిప్‌లు
+      - విద్యార్థుల పథకాలు
+      - വിദ്യാഭ്യാസ സ്കീമുകൾ
+      - വിദ്യാർത്ഥികൾക്കുള്ള ആനുകൂല്യങ്ങൾ
+      - கல்வி
+      - शिक्षा
+      - విద్య
 
+  - intent: exams
+    examples: |
+      - I want to apply for IBPS Clerk exam
+      - How do I register for IBPS PO?
+      - Tell me about IBPS RRB Clerk
+      - Details for IBPS RRB PO
+      - How can I appear for IBPS SO exam?
+      - Where can I find GATE exam information?
+      - What is the GATE exam eligibility?
+      - I need UGC NET exam details
+      - When is the UGC NET registration starting?
+      - How to apply for RRB ALP exam?
+      - Information on RRB Group D exam
+      - RRB JE exam dates
+      - RRB NTPC notification
+      - I want to know about RRB Technician exam
+      - RBI Grade B Officer exam registration
+      - How do I apply for SSC CGL exam?
+      - upcoming government exam
+      - TNPSC exam date
+      - SSC exam details
+      - exam schedule
+      - வரவிருக்கும் அரசு தேர்வு
+      - டிஎன்பிஎஸ்சி தேர்வு தேதி
+      - எஸ்எஸ்சி தேர்வு விவரங்கள்
+      - exam
+      - test
+      - தேர்வு
+      - आगामी सरकारी परीक्षा
+      - आगामी सरकारी परीक्षा कार्यक्रम
+      - टीएनपीएससी परीक्षा तिथि
+      - एसएससी परीक्षा विवरण
+      - सरकारी परीक्षा अनुसूची
+      - परीक्षा अधिसूचना
+      - ప్రభుత్వ పరీక్షలు
+      - టీఎన్‌పీఎస్‌సీ పరీక్ష
+      - സർക്കാർ പരീക്ഷ
+      - പരീക്ഷാ ഷെഡ്യൂൾ
+      - परीक्षा
+      - పరీక్ష
+      - പരീക്ഷ
+  - intent: sports
+    examples: |
+      - How can I register for National Cadet Corps?
+      - Give me the application form for using performing animals in films
+      - I want to pay cultural welfare board fees
+      - Show me online books by Indira Gandhi National Centre for the Arts
+      - I want to submit feedback to the Jammu and Kashmir Academy of Art Culture
+      - How do I get a Sportsperson ID Card in Odisha?
+      - I need permission for an encamping ground in Haryana
+      - Register me for the Youth Parliament Sitting
+      - Apply for Sports Scheme in Haryana
+      - I want to download the NOC form for post-shoot
+      - Show me the dashboard for the Ministry of Culture
+      - விளையாட்டு உதவித்தொகை
+      - விளையாட்டு பயிற்சி திட்டங்கள்
+      - sports
+      - விளையாட்டு
+      - खेल छात्रवृत्ति
+      - खेल प्रशिक्षण कार्यक्रम
+      - खेल छात्रवृत्ति और प्रशिक्षण कार्यक्रम
+      - खेल सुविधाएं
+      - खेल योजनाएं
+      - క్రీడా స్కాలర్‌షిప్
+      - క్రీడా శిక్షణా కార్యక్రమాలు
+      - క్రీడా స్కాలర్‌షిప్‌లు మరియు శిక్షణా కార్యక్రమాలు
+      - കായിക സ്കോളർഷിപ്പ്
+      - കായിക പരിശീലന പരിപാടികൾ
+      - കായിക സ്കോളർഷിപ്പുകളും പരിശീലന പരിപാടികളും
+      - sports
+      - விளையாட்டு
+      - खेल
+      - క్రీడా
+      - കായിക
 
-- intent: education
-  examples: |
-    - scholarship for students
-    - college admission process
-    - education loan
-    - How can I find internships in Chennai?
-    - Are there any remote internship opportunities?
-    - I need help submitting my internship application
-    - Can you tell me the internship eligibility criteria?
-    - உயர் கல்விக்கான உதவித்தொகை
-    - மாணவர்களுக்கான கல்வி திட்டங்கள்
-    - இலவச மடிக்கணினி திட்டம்
-    - scholarship
-    - education
-    - கல்வி
-    - उच्च शिक्षा के लिए छात्रवृत्ति
-    - छात्रों के लिए शिक्षा योजनाएं
-    - शैक्षिक कार्यक्रम
-    - मुफ्त लैपटॉप योजना
-    - విద్యా స్కాలర్‌షిప్‌లు
-    - విద్యార్థుల పథకాలు
-    - വിദ്യാഭ്യാസ സ്കീമുകൾ
-    - വിദ്യാർത്ഥികൾക്കുള്ള ആനുകൂല്യങ്ങൾ
-    - கல்வி
-    - शिक्षा
-    - విద్య
+  - intent: passports
+    examples: |
+      - How do I apply for a passport?
+      - I want to renew my passport
+      - What documents are needed for a passport?
+      - How can I track my passport application status?
+      - Can I get a passport online?
+      - How do I apply for citizenship?
+      - I want to know the eligibility for naturalization
+      - Can I apply for dual citizenship?
+      - What is the process to get Indian citizenship?
+      - How long does it take to get citizenship?
+      - பாஸ்போர்ட் புதுப்பிப்பு ஆவணங்கள்
+      - புதிய பாஸ்போர்ட் விண்ணப்பம்
+      - பாஸ்போர்ட் அலுவலகம் சென்னை
+      - passport
+      - பாஸ்போர்ட்
+      - पासपोर्ट नवीनीकरण दस्तावेज़
+      - नया पासपोर्ट आवेदन
+      - पासपोर्ट कार्यालय चेन्नई
+      - పాస్‌పోర్ట్ పునరుద్ధరణ
+      - కొత్త పాస్‌పోర్ట్ దరఖాస్తు
+      - പാസ്‌പോർട്ട് പുതുക്കൽ
+      - പുതിയ പാസ്‌പോർട്ട്
+      - passport
+      - பாஸ்போர்ட்
+      - पासपोर्ट
+      - పాస్‌పోర్ట్
 
-- intent: exams
-  examples: |
-     - I want to apply for IBPS Clerk exam
-     - How do I register for IBPS PO?
-     - Tell me about IBPS RRB Clerk
-     - Details for IBPS RRB PO
-     - How can I appear for IBPS SO exam?
-     - Where can I find GATE exam information?
-     - What is the GATE exam eligibility?
-     - I need UGC NET exam details
-     - When is the UGC NET registration starting?
-     - How to apply for RRB ALP exam?
-     - Information on RRB Group D exam
-     - RRB JE exam dates
-     - RRB NTPC notification
-     - I want to know about RRB Technician exam
-     - RBI Grade B Officer exam registration
-     - How do I apply for SSC CGL exam?
-     - upcoming government exam
-     - TNPSC exam date
-     - SSC exam details
-     - exam schedule
-     - வரவிருக்கும் அரசு தேர்வு
-     - டிஎன்பிஎஸ்சி தேர்வு தேதி
-     - எஸ்எஸ்சி தேர்வு விவரங்கள்
-     - exam
-     - test
-     - தேர்வு
-     - आगामी सरकारी परीक्षा
-     - आगामी सरकारी परीक्षा कार्यक्रम
-     - टीएनपीएससी परीक्षा तिथि
-     - एसएससी परीक्षा विवरण
-     - सरकारी परीक्षा अनुसूची
-     - परीक्षा अधिसूचना
-     - ప్రభుత్వ పరీక్షలు
-     - టీఎన్‌పీఎస్‌సీ పరీక్ష
-     - സർക്കാർ പരീക്ഷ
-     - പരീക്ഷാ ഷെഡ്യൂൾ
-     - परीक्षा
-     - పరీక్ష
-     - പരീക്ഷ
-- intent: sports
-  examples: |
-    - How can I register for National Cadet Corps?
-    - Give me the application form for using performing animals in films
-    - I want to pay cultural welfare board fees
-    - Show me online books by Indira Gandhi National Centre for the Arts
-    - I want to submit feedback to the Jammu and Kashmir Academy of Art Culture
-    - How do I get a Sportsperson ID Card in Odisha?
-    - I need permission for an encamping ground in Haryana
-    - Register me for the Youth Parliament Sitting
-    - Apply for Sports Scheme in Haryana
-    - I want to download the NOC form for post-shoot
-    - Show me the dashboard for the Ministry of Culture
-    - விளையாட்டு உதவித்தொகை
-    - விளையாட்டு பயிற்சி திட்டங்கள்
-    - sports
-    - விளையாட்டு
-    - खेल छात्रवृत्ति
-    - खेल प्रशिक्षण कार्यक्रम
-    - खेल छात्रवृत्ति और प्रशिक्षण कार्यक्रम
-    - खेल सुविधाएं
-    - खेल योजनाएं
-    - క్రీడా స్కాలర్‌షిప్
-    - క్రీడా శిక్షణా కార్యక్రమాలు
-    - క్రీడా స్కాలర్‌షిప్‌లు మరియు శిక్షణా కార్యక్రమాలు
-    - കായിക സ്കോളർഷിപ്പ്
-    - കായിക പരിശീലന പരിപാടികൾ
-    - കായിക സ്കോളർഷിപ്പുകളും പരിശീലന പരിപാടികളും
-    - sports
-    - விளையாட்டு
-    - खेल
-    - క్రీడా
-    - കായിക
+  - intent: agriculture
+    examples: |
+      - farmer registration process
+      - register for PM Kisan
+      - sugarcane farmer registration
+      - upload PM Kisan documents
 
-- intent: passports
-  examples: |
-    - How do I apply for a passport?
-    - I want to renew my passport
-    - What documents are needed for a passport?
-    - How can I track my passport application status?
-    - Can I get a passport online?
-    - How do I apply for citizenship?
-    - I want to know the eligibility for naturalization
-    - Can I apply for dual citizenship?
-    - What is the process to get Indian citizenship?
-    - How long does it take to get citizenship?
-    - பாஸ்போர்ட் புதுப்பிப்பு ஆவணங்கள்
-    - புதிய பாஸ்போர்ட் விண்ணப்பம்
-    - பாஸ்போர்ட் அலுவலகம் சென்னை
-    - passport
-    - பாஸ்போர்ட்
-    - पासपोर्ट नवीनीकरण दस्तावेज़
-    - नया पासपोर्ट आवेदन
-    - पासपोर्ट कार्यालय चेन्नई
-    - పాస్‌పోర్ట్ పునరుద్ధరణ
-    - కొత్త పాస్‌పోర్ట్ దరఖాస్తు
-    - പാസ്‌പോർട്ട് പുതുക്കൽ
-    - പുതിയ പാസ്‌പോർട്ട്
-    - passport
-    - பாஸ்போர்ட்
-    - पासपोर्ट
-    - పాస్‌పోర్ట్
+      - apply for farm subsidy
+      - Kisan Credit Card subsidy details
+      - irrigation subsidy apply
+      - subsidy for farm machinery
+
+      - check land records online
+      - view agriculture land details
+      - irrigation work application
+
+      - apply for farmer certificate
+      - small farmer certificate Tamil Nadu
+      - agriculture income certificate
+      - no dues certificate agriculture department
+
+      - check crop market prices
+      - mandi commodity rates today
+      - agriculture market report
+
+      - agriculture weather forecast
+      - farming weather update
+
+      - fertilizer availability check
+      - seed or gypsum information
+
+      - agriculture training programs
+      - livestock farming training
+
+      - electricity connection for tube well
+      - natural farming scheme details
+      - watershed management program
+
+      - check agriculture application status
+      - farmer scheme status
+
+      - fishery license apply
+      - insecticide storage permission
+
+  - intent: business
+    examples: |
+      - how to register my business
+      - business registration process
+      - register establishment under labour act
+
+      - apply for business license
+      - contractor license application
+      - cancel arms license
+
+      - MSME registration details
+      - apply for MSME services
+      - MSME survey registration
+
+      - factory registration process
+      - factory closure notice application
+      - factory stability certificate
+
+      - labour department services for employer
+      - employee verification request
+      - worker skill training application
+
+      - apply for compliance return
+      - file annual return business
+      - tax inspection report submission
+
+      - apply for business subsidy
+      - employment generation subsidy
+
+      - check business application status
+      - business service status form
+
+      - online job application system
+      - apply for employment service
+
+      - trade and commerce services
+      - tour operator recognition renewal
+
+  - intent: electricity
+    examples: |
+      - apply for new electricity connection
+      - check electricity bill online
+      - pay electricity bill online
+      - report power outage
+      - solar panel subsidy application
+      - pay water bill online
+      - water bill payment municipal corporation
+      - check water and sewerage charges
+      - apply for new water connection
+      - water connection inspection request
+      - request new municipal water supply
+      - town development services
+      - municipal development application
+      - building permission application
+      - advertisement or hoarding permission
+      - book doorstep government service slot
+      - schedule utility service visit
+      - municipal services online
+      - utility services for citizens
+
+  - intent: health
+    examples: |
+      - municipal health services
+      - health services from municipal corporation
+      - apply for health service online
+      - city health department services
+
+      - health scheme application
+      - apply for national health mission scheme
+      - government health program registration
+
+      - online health portal services
+      - public health services for citizens
+      - available health services in my area
+
+  - intent: housing
+    examples: |
+      - apply for building permission
+      - building plan approval municipal corporation
+      - how to get building construction approval
+
+      - land demarcation request online
+      - apply for land boundary demarcation
+
+      - submit mutation request
+      - check mutation status of land
+
+      - apply for property certificate
+      - no dues or non encumbrance certificate
+      - property valuation certificate
+
+      - pay property tax online
+      - check property tax payment details
+
+      - view property records online
+      - search property details
+      - property assessment form
+
+      - apply for government housing scheme
+      - apply for PM Awas Yojana
+      - apply for government quarters
+
+      - apply for housing project 1 BHK or 2 BHK
+      - download housing project acknowledgement
+
+      - check market value of land
+      - stamp duty land valuation
+
+      - apply for ownership certificate
+      - community center booking online
+
+  - intent: jobs
+
+    examples: |
+      # registration
+      - I want to register as a job seeker
+      - Employment registration online
+      - Employer registration process
+
+      # recruitment / job application
+      - Apply for government job
+      - Apply for recruitment services
+      - Public service commission application
+      - Central staffing scheme application
+
+      # application tracking
+      - Check my job application status
+      - Search my application number
+      - Track recruitment application
+
+      # unemployment certificate
+      - Apply for unemployment certificate
+      - I need unemployment certificate
+
+      # skill development / training
+      - Skill development programs
+      - Job training courses
+
+      # placement / employment portals
+      - Online placement portal
+      - Government employment portal
+
+      # vacancies
+      - Show government job vacancies
+      - Vacancy information
+
+      # exam results
+      - Check recruitment exam results
+      - PSC exam results
+      - Screening test answer key
+
+      # career opportunities
+      - Defence job opportunities
+      - Air force careers
+      - Navy career information
+
+      # general help
+      - Employment services help
+      - Government job services
+
+  - intent: justice
+    examples: |
+      # complaints and grievances
+      - Register a complaint online
+      - File a grievance with government department
+      - Lodge complaint with human rights commission
+      - Submit public complaint
+      - File banking complaint
+      - File electricity complaint
+      - Investor complaint tracking
+      - SEBI complaint registration
+
+      # feedback
+      - Give feedback to government
+      - Submit citizen feedback
+      - Send suggestion to ministry
+
+      # police / FIR / reports
+      - File online FIR
+      - Report lost document
+      - Download lost document report
+      - Verify lost document report
+      - Check arrested persons details
+
+      # complaint tracking
+      - Track my complaint status
+      - Check grievance status
+
+      # court services
+      - Check court case status
+      - Search case details
+      - Court hearing cause list
+      - Check court judgments
+      - View court orders
+
+      # legal assistance
+      - Find lawyer directory
+      - Advocate contact details
+
+  - intent: local
+    examples: |
+      # utility payments
+      - Pay water charges online
+      - Sewerage bill payment
+      - Municipal utility payment
+      - Water and drainage charges
+
+      # town development / urban planning
+      - Town development services
+      - Urban planning approval
+      - Municipal town planning
+      - City development services
+
+      # general municipal services
+      - Municipal corporation services
+      - Local municipal services online
+      - City administration services
+      - Property related municipal services
+
+      # advertisement / hoarding permission
+      - Apply for advertisement permission
+      - Hoarding license from municipality
+      - Outdoor advertisement approval
+      
+  - intent: lpg_services
+    examples: |
+      - Book LPG refill
+      - Apply for new LPG connection
+      - LPG subsidy or PAHAL scheme
+      - Update LPG KYC details
+      - Transfer LPG connection
+      - Surrender LPG connection
+      - Find nearest LPG distributor
+      - Request LPG mechanic service
+      - Check LPG booking or service status
+      - LPG safety or insurance information
+      - Apply for LPG distributor license
+      - Fire NOC for LPG storage
+      - LPG services help
+
+  - intent: money_banking
+    examples: |
+      - Banking and financial services
+      - Access banking portals
+      - Government financial schemes
+      - Apply for financial assistance
+      - Subsidy or grant application
+      - Business or startup loan schemes
+      - Mudra loan or Stand Up India scheme
+      - Student financial aid or scholarship
+      - Apply for solvency certificate
+      - Bank guarantee services
+      - Direct benefit transfer services
+      - Donate to relief fund
+      - Financial support schemes
+      - Money related government services
+
+  - intent: money_tax
+    examples: |
+      - Pay property tax online
+      - Municipal tax payment
+      - GST filing or GST help
+      - Sales tax or commercial tax services
+      - Income tax services or tax filing help
+      - Apply for new PAN card or correction
+      - Track PAN or TAN application status
+      - TAN registration or update details
+      - Check tax challan or tax statement status
+      - Tax registration or revenue department services
+      - Apply for subsidy or financial assistance scheme
+      - Apply for solvency certificate
+      - Lodge PAN related grievance
+      - Government tax and revenue services
+
+  - intent: pension
+    examples: |
+      - Apply for pension scheme
+      - Old age or senior citizen pension
+      - Widow pension application
+      - Disability pension or welfare benefits
+      - Social welfare schemes
+      - Register as disabled person
+      - Senior citizen certificate or ID card
+      - Government welfare financial support
+      - Provident fund information
+      - Apply for government pension or welfare help
+
+  - intent: science_it
+    examples: |
+      - Track postal service status
+      - Search electronic postal order details
+      - Government digital or IT services
+      - Apply for science or research program
+      - Digital India internship or funding
+      - NIC email or webmail services
+      - Register complaint in IT system
+      - Check newspaper registration status
+      - Remote sensing or mapping services
+      - Laboratory search or accreditation services
+      - Government holiday or official list
+      - Book appointment with government officer
+      - Visitor pass or e-visitor system
+      - Science and technology services help
+
+  - intent: transport
+    examples: |
+      - Register my vehicle online
+      - Vehicle registration or renewal
+      - Apply for learner driving license
+      - Apply for driving license
+      - Vehicle permit information
+      - Update vehicle owner details
+      - Check vehicle fees or charges
+      - Know my RTO details
+      - Track bus or transport status
+      - Port gate pass registration or status
+      - Book or track HSRP number plate
+      - Replace or transfer registration plate
+      - Transport department services
+      - Vehicle related services help
+
+  - intent: travel_tourism
+    examples: |
+      - Apply for e-visa or visa services
+      - Check visa application status
+      - Book government tourism services
+      - National park or wildlife sanctuary information
+      - Tourist guide registration or information
+      - Travel and tourism related government services
+      - Book bus ticket for travel
+      - Reserve hotel or room booking
+      - Book tourism package or tour
+      - Tourism booking or destination reservation
+      - Helicopter booking for pilgrimage
+      - Apply for travel permit or restricted area permit
+      - Visitor reservation for tourist place
+      - Travel safety or health guidelines
+      - Tourism information or services
+      - Help with travel or tourism services
+
+  - intent: water
+    examples: |
+      - Pay water bill online
+      - Water and sewerage charges payment
+      - Apply for new water connection
+      - Apply for sewerage connection
+      - Water tax payment
+      - Transfer or mutate water connection
+      - Check water quality or drinkable water report
+      - Municipal water services
+      - Water tap connection application
+      - Water service help
+
+  - intent: youth
+    examples: |
+      - Apply for youth program or scheme
+      - Enroll in NCC or youth parliament
+      - Register for sports facilities or stadium booking
+      - Apply for sports admission or sports university
+      - Sports scholarship or athlete benefits
+      - Apply for sportsperson ID or certificate
+      - Book sports stadium or entry pass
+      - Cultural training or arts programs
+      - Museum or cultural digital resources
+      - Library membership application
+      - Apply for scholarship or talent scheme
+      - Animal welfare permission for film shooting
+      - Sports pension or award application
+      - Donate to temple or cultural fund
+      - Youth sports or cultural services help

@@ -35,7 +35,92 @@ rules:
     - intent: sports
     - action: action_search_sports
 
+- rule: Handle agriculture
+  steps:
+    - intent: agriculture
+    - action: action_search_agriculture
+
+- rule: Handle business
+  steps:
+    - intent: business
+    - action: action_search_business
+
 - rule: Handle language change
   steps:
   - intent: set_language
   - action: action_set_language
+
+- rule: Handle electricity
+  steps:
+    - intent: electricity
+    - action: action_search_electricity
+
+- rule: Handle health
+  steps:
+    - intent: health
+    - action: action_search_health  
+
+- rule: Handle housing
+  steps:
+    - intent: housing
+    - action: action_search_housing
+
+- rule: Handle jobs
+  steps:
+    - intent: jobs
+    - action: action_search_jobs
+
+- rule: Handle Justice
+  steps:
+    - intent: justice
+    - action: action_search_justice
+
+- rule: Handle Local
+  steps:
+    - intent: local
+    - action: action_search_local
+
+- rule: Handle Lpg services
+  steps:
+    - intent: lpg_services
+    - action: action_search_lpg_services
+
+- rule: Handle money banking
+  steps:
+    - intent: money_banking
+    - action: action_search_money_banking
+
+- rule: Handle money tax
+  steps:
+    - intent: money_tax
+    - action: action_search_money_tax
+
+- rule: Handle pension
+  steps:
+    - intent: pension
+    - action: action_search_pension
+
+- rule: Handle science it
+  steps:
+    - intent: science_it
+    - action: action_search_science_it
+
+- rule: Handle transport
+  steps:
+    - intent: transport
+    - action: action_search_transport
+
+- rule: Handle Travel Tourism
+  steps:
+    - intent: travel_tourism
+    - action: action_search_travel_tourism
+
+- rule: Handle Water
+  steps:
+    - intent: water
+    - action: action_search_water
+
+- rule: Handle youth
+  steps:
+    - intent: youth
+    - action: action_search_youth

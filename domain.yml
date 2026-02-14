@@ -12,7 +12,24 @@ intents:
   - exams
   - sports
   - passports
+  - agriculture
+  - business
+  - electricity
+  - health
+  - housing
+  - jobs
+  - justice
+  - money_banking
+  - Local
+  - money_tax
+  - lpg_services
   - search_bus
+  - pension
+  - transport
+  - science_it
+  - water
+  - youth
+  - travel_tourism
   - set_language
 
 
@@ -25,3 +42,20 @@ actions:
   - action_search_sports
   - action_search_passports
   - action_search_bus
+  - action_search_agriculture
+  - action_search_business
+  - action_search_electricity
+  - action_search_health
+  - action_search_jobs
+  - action_search_justice
+  - action_search_local
+  - action_search_lpg_services
+  - action_search_housing
+  - action_search_money_tax
+  - action_search_money_banking
+  - action_search_pension
+  - action_search_science_it
+  - action_search_transport
+  - action_search_travel_tourism
+  - action_search_water
+  - action_search_youth
