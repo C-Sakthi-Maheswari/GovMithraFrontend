@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-// --- COMPLETE TRANSLATION DICTIONARY ---
+// --- TRANSLATION DICTIONARY ---
 const translations = {
   en: {
     greeting: "Namaste! 🙏 I am GovMithra. How can I help you today?",
@@ -8,8 +8,6 @@ const translations = {
     placeholder: "Type your query here...",
     send: "Send",
     categories: "All Services",
-    viewOnMaps: "View on Maps",
-    serviceOffline: "Service offline.",
     login: "Login",
     signup: "Sign Up",
     logout: "Logout",
@@ -19,8 +17,70 @@ const translations = {
     password: "Password",
     name: "Full Name",
     confirmPassword: "Confirm Password",
-    forgotPassword: "Forgot Password?",
     alreadyHaveAccount: "Already have an account?",
+    completeProfile: "Complete Your Profile",
+    profileDesc: "Help us suggest the best schemes for you",
+    viewProfile: "View Profile",
+    editProfile: "Edit Profile",
+    saveChanges: "Save Changes",
+    cancel: "Cancel",
+    myProfile: "My Profile",
+    accountInfo: "Account Information",
+    personalDetails: "Personal Details",
+    age: "Age",
+    gender: "Gender",
+    male: "Male",
+    female: "Female",
+    other: "Other",
+    caste: "Caste Category",
+    general: "General",
+    obc: "OBC",
+    sc: "SC",
+    st: "ST",
+    city: "City",
+    state: "State",
+    occupation: "Occupation",
+    student: "Student",
+    employed: "Employed",
+    selfEmployed: "Self-Employed",
+    unemployed: "Unemployed",
+    retired: "Retired",
+    incomeRange: "Annual Income Range",
+    below2lakh: "Below ₹2 Lakh",
+    lakh25: "₹2-5 Lakh",
+    lakh510: "₹5-10 Lakh",
+    above10lakh: "Above ₹10 Lakh",
+    educationLevel: "Education Level",
+    belowHigh: "Below High School",
+    highSchool: "High School",
+    graduate: "Graduate",
+    postGraduate: "Post Graduate",
+    maritalStatus: "Marital Status",
+    single: "Single",
+    married: "Married",
+    divorced: "Divorced",
+    widowed: "Widowed",
+    disability: "Disability Status",
+    none: "None",
+    physical: "Physical",
+    visual: "Visual",
+    hearing: "Hearing",
+    mental: "Mental",
+    rationCard: "Ration Card Type",
+    noCard: "No Card",
+    apl: "APL (Above Poverty Line)",
+    bpl: "BPL (Below Poverty Line)",
+    antyodaya: "Antyodaya",
+    landOwnership: "Land Ownership",
+    noLand: "No Land",
+    marginal: "Marginal Farmer (<1 hectare)",
+    small: "Small Farmer (1-2 hectares)",
+    medium: "Medium Farmer (2-4 hectares)",
+    large: "Large Farmer (>4 hectares)",
+    saveProfile: "Save Profile",
+    skipProfile: "Skip for Now",
+    backToChat: "Back to Chat",
+    selectLanguage: "Select Language",
     categories_list: {
       education: "Education",
       certificates: "Certificates",
@@ -86,8 +146,6 @@ const translations = {
     placeholder: "உங்கள் கேள்வியைத் தட்டச்சு செய்க...",
     send: "அனுப்பு",
     categories: "அனைத்து சேவைகள்",
-    viewOnMaps: "வரைபடத்தில் காண்க",
-    serviceOffline: "சேவை கிடைக்கவில்லை.",
     login: "உள்நுழைய",
     signup: "பதிவு செய்க",
     logout: "வெளியேறு",
@@ -97,8 +155,70 @@ const translations = {
     password: "கடவுச்சொல்",
     name: "முழு பெயர்",
     confirmPassword: "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
-    forgotPassword: "கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
     alreadyHaveAccount: "ஏற்கனவே கணக்கு உள்ளதா?",
+    completeProfile: "உங்கள் சுயவிவரத்தை நிரப்புங்கள்",
+    profileDesc: "சிறந்த திட்டங்களை பரிந்துரைக்க எங்களுக்கு உதவுங்கள்",
+    viewProfile: "சுயவிவரத்தைப் பார்க்க",
+    editProfile: "சுயவிவரத்தைத் திருத்து",
+    saveChanges: "மாற்றங்களைச் சேமி",
+    cancel: "ரத்து செய்",
+    myProfile: "எனது சுயவிவரம்",
+    accountInfo: "கணக்கு தகவல்",
+    personalDetails: "தனிப்பட்ட விவரங்கள்",
+    age: "வயது",
+    gender: "பாலினம்",
+    male: "ஆண்",
+    female: "பெண்",
+    other: "மற்றவை",
+    caste: "சாதி வகை",
+    general: "பொது",
+    obc: "OBC",
+    sc: "SC",
+    st: "ST",
+    city: "நகரம்",
+    state: "மாநிலம்",
+    occupation: "தொழில்",
+    student: "மாணவர்",
+    employed: "வேலையில் உள்ளவர்",
+    selfEmployed: "சுயதொழில்",
+    unemployed: "வேலையில்லாதவர்",
+    retired: "ஓய்வு பெற்றவர்",
+    incomeRange: "ஆண்டு வருமான வரம்பு",
+    below2lakh: "₹2 லட்சத்திற்கு கீழ்",
+    lakh25: "₹2-5 லட்சம்",
+    lakh510: "₹5-10 லட்சம்",
+    above10lakh: "₹10 லட்சத்திற்கு மேல்",
+    educationLevel: "கல்வி நிலை",
+    belowHigh: "உயர்நிலைக்கு கீழ்",
+    highSchool: "உயர்நிலை",
+    graduate: "பட்டதாரி",
+    postGraduate: "முதுகலை",
+    maritalStatus: "திருமண நிலை",
+    single: "திருமணமாகாதவர்",
+    married: "திருமணமானவர்",
+    divorced: "விவாகரத்து",
+    widowed: "விதவை",
+    disability: "ஊனமுற்ற நிலை",
+    none: "இல்லை",
+    physical: "உடல்",
+    visual: "பார்வை",
+    hearing: "செவித்திறன்",
+    mental: "மனநல",
+    rationCard: "ரேஷன் அட்டை வகை",
+    noCard: "அட்டை இல்லை",
+    apl: "APL",
+    bpl: "BPL",
+    antyodaya: "அந்தியோதயா",
+    landOwnership: "நில உடைமை",
+    noLand: "நிலம் இல்லை",
+    marginal: "குறு விவசாயி",
+    small: "சிறு விவசாயி",
+    medium: "நடுத்தர விவசாயி",
+    large: "பெரிய விவசாயி",
+    saveProfile: "சுயவிவரத்தைச் சேமி",
+    skipProfile: "இப்போதைக்கு தவிர்க்கவும்",
+    backToChat: "அரட்டைக்குத் திரும்பு",
+    selectLanguage: "மொழியைத் தேர்ந்தெடு",
     categories_list: {
       education: "கல்வி",
       certificates: "சான்றிதழ்கள்",
@@ -164,8 +284,6 @@ const translations = {
     placeholder: "अपना प्रश्न यहाँ लिखें...",
     send: "भेजें",
     categories: "सभी सेवाएँ",
-    viewOnMaps: "मानचित्र पर देखें",
-    serviceOffline: "सेवा वर्तमान में बंद है।",
     login: "लॉगिन करें",
     signup: "साइन अप करें",
     logout: "लॉगआउट",
@@ -175,8 +293,70 @@ const translations = {
     password: "पासवर्ड",
     name: "पूरा नाम",
     confirmPassword: "पासवर्ड की पुष्टि करें",
-    forgotPassword: "पासवर्ड भूल गए?",
     alreadyHaveAccount: "पहले से खाता है?",
+    completeProfile: "अपनी प्रोफ़ाइल पूर्ण करें",
+    profileDesc: "हमें आपके लिए सर्वोत्तम योजनाएं सुझाने में मदद करें",
+    viewProfile: "प्रोफ़ाइल देखें",
+    editProfile: "प्रोफ़ाइल संपादित करें",
+    saveChanges: "परिवर्तन सहेजें",
+    cancel: "रद्द करें",
+    myProfile: "मेरी प्रोफ़ाइल",
+    accountInfo: "खाता जानकारी",
+    personalDetails: "व्यक्तिगत विवरण",
+    age: "आयु",
+    gender: "लिंग",
+    male: "पुरुष",
+    female: "महिला",
+    other: "अन्य",
+    caste: "जाति श्रेणी",
+    general: "सामान्य",
+    obc: "OBC",
+    sc: "SC",
+    st: "ST",
+    city: "शहर",
+    state: "राज्य",
+    occupation: "व्यवसाय",
+    student: "छात्र",
+    employed: "नियोजित",
+    selfEmployed: "स्व-नियोजित",
+    unemployed: "बेरोजगार",
+    retired: "सेवानिवृत्त",
+    incomeRange: "वार्षिक आय सीमा",
+    below2lakh: "₹2 लाख से कम",
+    lakh25: "₹2-5 लाख",
+    lakh510: "₹5-10 लाख",
+    above10lakh: "₹10 लाख से अधिक",
+    educationLevel: "शिक्षा स्तर",
+    belowHigh: "हाई स्कूल से नीचे",
+    highSchool: "हाई स्कूल",
+    graduate: "स्नातक",
+    postGraduate: "स्नातकोत्तर",
+    maritalStatus: "वैवाहिक स्थिति",
+    single: "अविवाहित",
+    married: "विवाहित",
+    divorced: "तलाकशुदा",
+    widowed: "विधवा/विधुर",
+    disability: "विकलांगता स्थिति",
+    none: "कोई नहीं",
+    physical: "शारीरिक",
+    visual: "दृष्टि",
+    hearing: "श्रवण",
+    mental: "मानसिक",
+    rationCard: "राशन कार्ड प्रकार",
+    noCard: "कोई कार्ड नहीं",
+    apl: "APL",
+    bpl: "BPL",
+    antyodaya: "अंत्योदय",
+    landOwnership: "भूमि स्वामित्व",
+    noLand: "कोई भूमि नहीं",
+    marginal: "सीमांत किसान",
+    small: "लघु किसान",
+    medium: "मध्यम किसान",
+    large: "बड़े किसान",
+    saveProfile: "प्रोफ़ाइल सहेजें",
+    skipProfile: "अभी के लिए छोड़ें",
+    backToChat: "चैट पर वापस जाएं",
+    selectLanguage: "भाषा चुनें",
     categories_list: {
       education: "शिक्षा",
       certificates: "प्रमाण पत्र",
@@ -235,162 +415,6 @@ const translations = {
       caption5: "तत्काल सेवा तक पहुँच...",
       initialized: "प्रारंभ किया गया"
     }
-  },
-  te: {
-    greeting: "నమస్కారం! 🙏 నేను గవ్మిత్ర. ఈరోజు నేను మీకు ఎలా సహాయం చేయగలను?",
-    typing: "టైప్ చేస్తోంది...",
-    placeholder: "మీ ప్రశ్నను ఇక్కడ టైప్ చేయండి...",
-    send: "పంపు",
-    categories: "అన్ని సేవలు",
-    viewOnMaps: "మ్యాప్‌లో చూడండి",
-    serviceOffline: "సేవ అందుబాటులో లేదు.",
-    login: "లాగిన్",
-    signup: "సైన్ అప్",
-    logout: "లాగౌట్",
-    welcome: "తిరిగి స్వాగతం",
-    newUser: "గవ్మిత్రలో కొత్తవారా?",
-    email: "ఇమెయిల్ చిరునామా",
-    password: "పాస్‌వర్డ్",
-    name: "పూర్తి పేరు",
-    confirmPassword: "పాస్‌వర్డ్ నిర్ధారించండి",
-    forgotPassword: "పాస్‌వర్డ్ మరచిపోయారా?",
-    alreadyHaveAccount: "ఇప్పటికే ఖాతా ఉందా?",
-    categories_list: {
-      education: "విద్య",
-      certificates: "ధృవీకరణ పత్రాలు",
-      exams: "పరీక్షలు",
-      passports: "పాస్‌పోర్ట్‌లు",
-      agriculture: "వ్యవసాయం",
-      business: "వ్యాపారం",
-      electricity: "విద్యుత్",
-      health: "ఆరోగ్యం",
-      housing: "గృహనిర్మాణం",
-      jobs: "ఉద్యోగాలు",
-      justice: "న్యాయం",
-      local: "స్థానిక సేవలు",
-      lpg: "LPG సేవలు",
-      banking: "బ్యాంకింగ్",
-      pension: "పెన్షన్",
-      tax: "డబ్బు & పన్ను",
-      science: "సైన్స్ & ఐటి",
-      sports: "క్రీడలు",
-      transport: "రవాణా",
-      tourism: "పర్యాటకం",
-      water: "నీరు",
-      youth: "యువజన సేవలు",
-      bus: "బస్సు సర్చ్"
-    },
-    queries: {
-      education: "ఉన్నత విద్య కోసం స్కాలర్‌షిప్‌లు",
-      certificates: "జనన/మరణ ధృవీకరణ పత్రం కోసం దరఖాస్తు",
-      exams: "ప్రభుత్వ పరీక్షల షెడ్యూల్ 2026",
-      passports: "పాస్‌పోర్ట్ పునరుద్ధరణ పత్రాలు",
-      agriculture: "పంట బీమా పథకాలు",
-      business: "MSME రిజిస్ట్రేషన్ ప్రక్రియ",
-      electricity: "కొత్త విద్యుత్ కనెక్షన్",
-      health: "ఆయుష్మాన్ భారత్ వివరాలు",
-      housing: "PM ఆవాస్ యోజన దరఖాస్తు",
-      jobs: "తాజా ప్రభుత్వ ఉద్యోగ అవకాశాలు",
-      justice: "న్యాయ సహాయ సేవలు",
-      local: "స్థానిక మునిసిపాలిటీ పరిచయాలు",
-      lpg: "కొత్త LPG కనెక్షన్ కోసం దరఖాస్తు",
-      banking: "జీరో బ్యాలెన్స్ ఖాతా ప్రారంభం",
-      pension: "వృద్ధాప్య పెన్షన్ అర్హత",
-      tax: "ఆదాయపు పన్ను ఫైలింగ్ గైడ్",
-      science: "డిజిటల్ ఇండియా కార్యక్రమాలు",
-      sports: "క్రీడల స్కాలర్‌షిప్‌లు",
-      transport: "డ్రైవింగ్ లైసెన్స్ విధానం",
-      tourism: "భారతదేశంలోని పర్యాటక ప్రాంతాలు",
-      water: "నీటి కనెక్షన్ కోసం దరఖాస్తు",
-      youth: "నైపుణ్యాభివృద్ధి కార్యక్రమాలు",
-      bus: "తాంబరం నుండి అడయార్ వరకు బస్సు"
-    },
-    loading: {
-      caption1: "పౌరులకు మరియు ప్రభుత్వానికి మధ్య దూరాన్ని తగ్గించడం...",
-      caption2: "వేగవంతమైన బస్సు మార్గాలను కనుగొనడం...",
-      caption3: "పాలనను సరళీకృతం చేయడం...",
-      caption4: "స్మార్ట్ ఇండియా కోసం డిజిటల్ తోడు...",
-      caption5: "తక్షణ పథక సమాచారం...",
-      initialized: "ప్రారంభించబడింది"
-    }
-  },
-  ml: {
-    greeting: "നമസ്കാരം! 🙏 ഞാൻ ഗവ്മിത്രയാണ്. ഇന്ന് ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കും?",
-    typing: "ടൈപ്പ് ചെയ്യുന്നു...",
-    placeholder: "നിങ്ങളുടെ ചോദ്യം ടൈപ്പ് ചെയ്യുക...",
-    send: "അയക്കുക",
-    categories: "എല്ലാ സേവനങ്ങളും",
-    viewOnMaps: "മാപ്പിൽ കാണുക",
-    serviceOffline: "സേവനം ലഭ്യമല്ല.",
-    login: "ലോഗിൻ",
-    signup: "സൈൻ അപ്പ്",
-    logout: "ലോഗൗട്ട്",
-    welcome: "തിരികെ സ്വാഗതം",
-    newUser: "ഗവ്മിത്രയിൽ പുതിയതാണോ?",
-    email: "ഇമെയിൽ വിലാസം",
-    password: "പാസ്‌വേഡ്",
-    name: "പൂർണ്ണ നാമം",
-    confirmPassword: "പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക",
-    forgotPassword: "പാസ്‌വേഡ് മറന്നോ?",
-    alreadyHaveAccount: "ഇതിനകം അക്കൗണ്ട് ഉണ്ടോ?",
-    categories_list: {
-      education: "വിദ്യാഭ്യാസം",
-      certificates: "സർട്ടിഫിക്കറ്റുകൾ",
-      exams: "പരീക്ഷകൾ",
-      passports: "പാസ്‌പോർട്ട്",
-      agriculture: "കൃഷി",
-      business: "ബിസിനസ്സ്",
-      electricity: "വൈദ്യുതി",
-      health: "ആരോഗ്യം",
-      housing: "ഭവനം",
-      jobs: "ജോലികൾ",
-      justice: "നീതി",
-      local: "പ്രാദേശിക സേവനങ്ങൾ",
-      lpg: "LPG സേവനങ്ങൾ",
-      banking: "ബാങ്കിംഗ്",
-      pension: "പെൻഷൻ",
-      tax: "പണം & നികുതി",
-      science: "ശാസ്ത്രം & ഐടി",
-      sports: "കായീകം",
-      transport: "ഗതാഗതം",
-      tourism: "ടൂറിസം",
-      water: "ജലം",
-      youth: "യുവജന സേവനങ്ങൾ",
-      bus: "ബസ് തിരയുക"
-    },
-    queries: {
-      education: "ഉന്നത വിദ്യാഭ്യാസത്തിനുള്ള സ്കോളർഷിപ്പുകൾ",
-      certificates: "ജനന/മരണ സർട്ടിഫിക്കറ്റിനായി അപേക്ഷിക്കുക",
-      exams: "സർക്കാർ പരീക്ഷാ ഷെഡ്യൂൾ 2026",
-      passports: "പാസ്‌പോർട്ട് പുതുക്കുന്നതിനുള്ള രേഖകൾ",
-      agriculture: "കൃഷി ഇൻഷുറൻസ് പദ്ധതികൾ",
-      business: "MSME രജിസ്ട്രേഷൻ നടപടിക്രമം",
-      electricity: "പുതിയ വൈദ്യുതി കണക്ഷൻ",
-      health: "ആയുഷ്മാൻ ഭാരത് വിവരങ്ങൾ",
-      housing: "PM ആവാസ് യോജന അപേക്ഷ",
-      jobs: "പുതിയ സർക്കാർ തൊഴിലവസരങ്ങൾ",
-      justice: "നിയമ സഹായ സേവനങ്ങൾ",
-      local: "പ്രാദേശിക നഗരസഭാ ബന്ധങ്ങൾ",
-      lpg: "പുതിയ LPG കണക്ഷനായി അപേക്ഷിക്കുക",
-      banking: "സീറോ ബാലൻസ് അക്കൗണ്ട് തുറക്കൽ",
-      pension: "വാർദ്ധക്യകാല പെൻഷൻ അർഹത",
-      tax: "ആദായനികുതി ഫയലിംഗ് ഗൈഡ്",
-      science: "ഡിജിറ്റൽ ഇന്ത്യ പദ്ധതികൾ",
-      sports: "കായിക സ്കോളർഷിപ്പുകൾ",
-      transport: "ഡ്രൈവിംഗ് ലൈസൻസ് നടപടിക്രമം",
-      tourism: "ഇന്ത്യയിലെ ടൂറിസ്റ്റ് സ്ഥലങ്ങൾ",
-      water: "ജല കണക്ഷനായി അപേക്ഷിക്കുക",
-      youth: "നൈപുണ്യ വികസന പദ്ധതികൾ",
-      bus: "താമ്പരത്തുനിന്ന് അടയാറിലേക്കുള്ള ബസ്"
-    },
-    loading: {
-      caption1: "ജനങ്ങളും സർക്കാരും തമ്മിലുള്ള ദൂരം കുറയ്ക്കുന്നു...",
-      caption2: "വേഗമേറിയ ബസ് റൂട്ടുകൾ കണ്ടെത്തുന്നു...",
-      caption3: "ഭരണം ലളിതമാക്കുന്നു...",
-      caption4: "സ്മാർട്ട് ഇന്ത്യക്കായുള്ള ഡിജിറ്റൽ സഹായി...",
-      caption5: "പദ്ധതികളിലേക്ക് തൽക്ഷണ പ്രവേശനം...",
-      initialized: "ആരംഭിച്ചു"
-    }
   }
 };
 
@@ -437,6 +461,504 @@ function LoadingPage({ progress, language = 'en' }) {
   );
 }
 
+// --- VIEW/EDIT PROFILE PAGE ---
+function ProfileViewPage({ user, profile, onBack, onStartEdit, language }) {
+  const t = translations[language] || translations['en'];
+
+  const profileFields = [
+    { label: t.age, value: profile?.age || 'Not provided' },
+    { label: t.gender, value: profile?.gender || 'Not provided' },
+    { label: t.caste, value: profile?.caste || 'Not provided' },
+    { label: t.city, value: profile?.city || 'Not provided' },
+    { label: t.state, value: profile?.state || 'Not provided' },
+    { label: t.occupation, value: profile?.occupation || 'Not provided' },
+    { label: t.incomeRange, value: profile?.income_range || 'Not provided' },
+    { label: t.educationLevel, value: profile?.education_level || 'Not provided' },
+    { label: t.maritalStatus, value: profile?.marital_status || 'Not provided' },
+    { label: t.disability, value: profile?.disability || 'Not provided' },
+    { label: t.rationCard, value: profile?.ration_card_type || 'Not provided' },
+    { label: t.landOwnership, value: profile?.land_ownership || 'Not provided' }
+  ];
+
+  return (
+    <div style={{
+      minHeight: '100vh',
+      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      padding: '40px 20px',
+      fontFamily: 'system-ui, -apple-system, sans-serif'
+    }}>
+      <div style={{
+        maxWidth: '900px',
+        margin: '0 auto',
+        background: 'white',
+        borderRadius: '24px',
+        padding: '40px',
+        boxShadow: '0 20px 60px rgba(0,0,0,0.3)'
+      }}>
+        {/* Header */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
+          <button
+            onClick={onBack}
+            style={{
+              padding: '10px 20px',
+              borderRadius: '10px',
+              border: '2px solid #e2e8f0',
+              background: 'white',
+              color: '#64748b',
+              cursor: 'pointer',
+              fontWeight: '600',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px'
+            }}
+          >
+            ← {t.backToChat}
+          </button>
+          <button
+            onClick={onStartEdit}
+            style={{
+              padding: '10px 20px',
+              borderRadius: '10px',
+              border: 'none',
+              background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+              color: 'white',
+              cursor: 'pointer',
+              fontWeight: '600',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px'
+            }}
+          >
+            ✏️ {t.editProfile}
+          </button>
+        </div>
+
+        {/* Profile Header */}
+        <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+          <div style={{ 
+            width: '100px', 
+            height: '100px', 
+            borderRadius: '50%', 
+            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '3rem',
+            margin: '0 auto 20px'
+          }}>
+            👤
+          </div>
+          <h1 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#1e293b', margin: '0 0 5px 0' }}>
+            {user?.name}
+          </h1>
+          <p style={{ color: '#64748b', fontSize: '1rem' }}>{user?.email}</p>
+        </div>
+
+        {/* Account Info */}
+        <div style={{ marginBottom: '30px' }}>
+          <h2 style={{ 
+            fontSize: '1.3rem', 
+            fontWeight: 'bold', 
+            color: '#1e293b',
+            marginBottom: '20px',
+            paddingBottom: '10px',
+            borderBottom: '2px solid #e2e8f0'
+          }}>
+            {t.accountInfo}
+          </h2>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+            <div>
+              <p style={{ color: '#64748b', fontSize: '0.9rem', marginBottom: '5px' }}>{t.name}</p>
+              <p style={{ color: '#1e293b', fontSize: '1.1rem', fontWeight: '600' }}>{user?.name}</p>
+            </div>
+            <div>
+              <p style={{ color: '#64748b', fontSize: '0.9rem', marginBottom: '5px' }}>{t.email}</p>
+              <p style={{ color: '#1e293b', fontSize: '1.1rem', fontWeight: '600' }}>{user?.email}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Personal Details */}
+        <div>
+          <h2 style={{ 
+            fontSize: '1.3rem', 
+            fontWeight: 'bold', 
+            color: '#1e293b',
+            marginBottom: '20px',
+            paddingBottom: '10px',
+            borderBottom: '2px solid #e2e8f0'
+          }}>
+            {t.personalDetails}
+          </h2>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+            {profileFields.map((field, idx) => (
+              <div key={idx} style={{
+                padding: '15px',
+                background: '#f8fafc',
+                borderRadius: '10px',
+                border: '1px solid #e2e8f0'
+              }}>
+                <p style={{ color: '#64748b', fontSize: '0.85rem', marginBottom: '5px' }}>{field.label}</p>
+                <p style={{ color: '#1e293b', fontSize: '1rem', fontWeight: '600', textTransform: 'capitalize' }}>
+                  {field.value}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// --- PROFILE FORM COMPONENT (Edit Mode) ---
+function ProfileForm({ user, existingProfile, onComplete, onSkip, language, isEditMode = false }) {
+  const t = translations[language] || translations['en'];
+  const [formData, setFormData] = useState({
+    age: existingProfile?.age || '',
+    gender: existingProfile?.gender || '',
+    caste: existingProfile?.caste || '',
+    city: existingProfile?.city || '',
+    state: existingProfile?.state || '',
+    occupation: existingProfile?.occupation || '',
+    incomeRange: existingProfile?.income_range || '',
+    educationLevel: existingProfile?.education_level || '',
+    maritalStatus: existingProfile?.marital_status || '',
+    disability: existingProfile?.disability || '',
+    rationCardType: existingProfile?.ration_card_type || '',
+    landOwnership: existingProfile?.land_ownership || ''
+  });
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+
+    try {
+      const response = await fetch('http://localhost:3001/api/profile', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: user.id,
+          ...formData
+        })
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        onComplete(formData);
+      } else {
+        setError(data.message);
+      }
+    } catch (err) {
+      setError('Failed to save profile. Please try again.');
+    }
+  };
+
+  const inputStyle = {
+    width: '100%',
+    padding: '12px',
+    borderRadius: '10px',
+    border: '2px solid #e2e8f0',
+    fontSize: '0.95rem',
+    outline: 'none',
+    boxSizing: 'border-box'
+  };
+
+  const labelStyle = {
+    display: 'block',
+    marginBottom: '6px',
+    color: '#475569',
+    fontWeight: '500',
+    fontSize: '0.9rem'
+  };
+
+  return (
+    <div style={{
+      minHeight: '100vh',
+      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '20px',
+      fontFamily: 'system-ui, -apple-system, sans-serif'
+    }}>
+      <div style={{
+        background: 'white',
+        borderRadius: '24px',
+        padding: '40px',
+        maxWidth: '800px',
+        width: '100%',
+        boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
+        maxHeight: '90vh',
+        overflowY: 'auto'
+      }}>
+        <div style={{ textAlign: 'center', marginBottom: '30px' }}>
+          <div style={{ fontSize: '3rem', marginBottom: '10px' }}>👤</div>
+          <h1 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#1e293b', margin: 0 }}>
+            {isEditMode ? t.editProfile : t.completeProfile}
+          </h1>
+          <p style={{ color: '#64748b', marginTop: '5px' }}>
+            {isEditMode ? 'Update your information' : t.profileDesc}
+          </p>
+        </div>
+
+        {error && (
+          <div style={{
+            padding: '12px',
+            background: '#fee',
+            border: '1px solid #fcc',
+            borderRadius: '8px',
+            color: '#c33',
+            marginBottom: '20px'
+          }}>
+            {error}
+          </div>
+        )}
+
+        <form onSubmit={handleSubmit}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+            <div>
+              <label style={labelStyle}>{t.age}</label>
+              <input
+                type="number"
+                value={formData.age}
+                onChange={(e) => setFormData({ ...formData, age: e.target.value })}
+                style={inputStyle}
+                required
+              />
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.gender}</label>
+              <select
+                value={formData.gender}
+                onChange={(e) => setFormData({ ...formData, gender: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="male">{t.male}</option>
+                <option value="female">{t.female}</option>
+                <option value="other">{t.other}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.caste}</label>
+              <select
+                value={formData.caste}
+                onChange={(e) => setFormData({ ...formData, caste: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="general">{t.general}</option>
+                <option value="obc">{t.obc}</option>
+                <option value="sc">{t.sc}</option>
+                <option value="st">{t.st}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.city}</label>
+              <input
+                type="text"
+                value={formData.city}
+                onChange={(e) => setFormData({ ...formData, city: e.target.value })}
+                style={inputStyle}
+                required
+              />
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.state}</label>
+              <input
+                type="text"
+                value={formData.state}
+                onChange={(e) => setFormData({ ...formData, state: e.target.value })}
+                style={inputStyle}
+                required
+              />
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.occupation}</label>
+              <select
+                value={formData.occupation}
+                onChange={(e) => setFormData({ ...formData, occupation: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="student">{t.student}</option>
+                <option value="employed">{t.employed}</option>
+                <option value="self-employed">{t.selfEmployed}</option>
+                <option value="unemployed">{t.unemployed}</option>
+                <option value="retired">{t.retired}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.incomeRange}</label>
+              <select
+                value={formData.incomeRange}
+                onChange={(e) => setFormData({ ...formData, incomeRange: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="below-2">{t.below2lakh}</option>
+                <option value="2-5">{t.lakh25}</option>
+                <option value="5-10">{t.lakh510}</option>
+                <option value="above-10">{t.above10lakh}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.educationLevel}</label>
+              <select
+                value={formData.educationLevel}
+                onChange={(e) => setFormData({ ...formData, educationLevel: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="below-high">{t.belowHigh}</option>
+                <option value="high-school">{t.highSchool}</option>
+                <option value="graduate">{t.graduate}</option>
+                <option value="post-graduate">{t.postGraduate}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.maritalStatus}</label>
+              <select
+                value={formData.maritalStatus}
+                onChange={(e) => setFormData({ ...formData, maritalStatus: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="single">{t.single}</option>
+                <option value="married">{t.married}</option>
+                <option value="divorced">{t.divorced}</option>
+                <option value="widowed">{t.widowed}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.disability}</label>
+              <select
+                value={formData.disability}
+                onChange={(e) => setFormData({ ...formData, disability: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="none">{t.none}</option>
+                <option value="physical">{t.physical}</option>
+                <option value="visual">{t.visual}</option>
+                <option value="hearing">{t.hearing}</option>
+                <option value="mental">{t.mental}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.rationCard}</label>
+              <select
+                value={formData.rationCardType}
+                onChange={(e) => setFormData({ ...formData, rationCardType: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="no-card">{t.noCard}</option>
+                <option value="apl">{t.apl}</option>
+                <option value="bpl">{t.bpl}</option>
+                <option value="antyodaya">{t.antyodaya}</option>
+              </select>
+            </div>
+
+            <div>
+              <label style={labelStyle}>{t.landOwnership}</label>
+              <select
+                value={formData.landOwnership}
+                onChange={(e) => setFormData({ ...formData, landOwnership: e.target.value })}
+                style={inputStyle}
+                required
+              >
+                <option value="">Select</option>
+                <option value="no-land">{t.noLand}</option>
+                <option value="marginal">{t.marginal}</option>
+                <option value="small">{t.small}</option>
+                <option value="medium">{t.medium}</option>
+                <option value="large">{t.large}</option>
+              </select>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', gap: '15px', marginTop: '30px' }}>
+            <button
+              type="submit"
+              style={{
+                flex: 1,
+                padding: '16px',
+                borderRadius: '12px',
+                border: 'none',
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                color: 'white',
+                fontSize: '1.1rem',
+                fontWeight: 'bold',
+                cursor: 'pointer'
+              }}
+            >
+              {isEditMode ? t.saveChanges : t.saveProfile}
+            </button>
+            {!isEditMode && (
+              <button
+                type="button"
+                onClick={onSkip}
+                style={{
+                  padding: '16px 30px',
+                  borderRadius: '12px',
+                  border: '2px solid #e2e8f0',
+                  background: 'white',
+                  color: '#64748b',
+                  fontSize: '1rem',
+                  fontWeight: '600',
+                  cursor: 'pointer'
+                }}
+              >
+                {t.skipProfile}
+              </button>
+            )}
+            {isEditMode && (
+              <button
+                type="button"
+                onClick={onSkip}
+                style={{
+                  padding: '16px 30px',
+                  borderRadius: '12px',
+                  border: '2px solid #e2e8f0',
+                  background: 'white',
+                  color: '#64748b',
+                  fontSize: '1rem',
+                  fontWeight: '600',
+                  cursor: 'pointer'
+                }}
+              >
+                {t.cancel}
+              </button>
+            )}
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}
+
 // --- LOGIN/SIGNUP COMPONENT ---
 function AuthPage({ onLogin, language, onLanguageChange }) {
   const [isLogin, setIsLogin] = useState(true);
@@ -446,27 +968,55 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
     password: '',
     confirmPassword: ''
   });
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const t = translations[language] || translations['en'];
 
   const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
     { code: 'ta', name: 'தமிழ்', flag: '🇮🇳' },
-    { code: 'hi', name: 'हिंदी', flag: '🇮🇳' },
-    { code: 'te', name: 'తెలుగు', flag: '🇮🇳' },
-    { code: 'ml', name: 'മലയാളം', flag: '🇮🇳' }
+    { code: 'hi', name: 'हिंदी', flag: '🇮🇳' }
   ];
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (isLogin) {
-      if (formData.email && formData.password) {
-        onLogin({ email: formData.email, name: formData.name || 'User' });
+    setError('');
+    setLoading(true);
+
+    if (!isLogin && formData.password !== formData.confirmPassword) {
+      setError('Passwords do not match');
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const endpoint = isLogin ? '/api/login' : '/api/signup';
+      const response = await fetch(`http://localhost:3001${endpoint}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: formData.email,
+          password: formData.password,
+          name: formData.name
+        })
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        if (isLogin) {
+          onLogin(data.user, data.hasProfile, data.profile);
+        } else {
+          onLogin({ id: data.userId, email: formData.email, name: formData.name }, false, null);
+        }
+      } else {
+        setError(data.message);
       }
-    } else {
-      if (formData.name && formData.email && formData.password && formData.password === formData.confirmPassword) {
-        onLogin({ email: formData.email, name: formData.name });
-      }
+    } catch (err) {
+      setError('Connection error. Please try again.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -493,18 +1043,20 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
             key={lang.code}
             onClick={() => onLanguageChange(lang.code)}
             style={{
-              padding: '10px 20px',
+              padding: '12px 24px',
               borderRadius: '25px',
-              border: language === lang.code ? '2px solid white' : '2px solid transparent',
-              background: language === lang.code ? 'rgba(255,255,255,0.3)' : 'rgba(255,255,255,0.1)',
-              color: 'white',
+              border: language === lang.code ? '3px solid white' : '2px solid rgba(255,255,255,0.3)',
+              background: language === lang.code ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.15)',
+              color: language === lang.code ? '#667eea' : 'white',
               cursor: 'pointer',
               fontWeight: language === lang.code ? 'bold' : 'normal',
-              fontSize: '0.9rem',
+              fontSize: '1rem',
               transition: 'all 0.3s',
-              backdropFilter: 'blur(10px)'
+              backdropFilter: 'blur(10px)',
+              boxShadow: language === lang.code ? '0 4px 12px rgba(0,0,0,0.2)' : 'none'
             }}>
-            {lang.flag} {lang.name}
+            <span style={{ fontSize: '1.2rem', marginRight: '8px' }}>{lang.flag}</span>
+            {lang.name}
           </button>
         ))}
       </div>
@@ -525,6 +1077,19 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
           </p>
         </div>
 
+        {error && (
+          <div style={{
+            padding: '12px',
+            background: '#fee',
+            border: '1px solid #fcc',
+            borderRadius: '8px',
+            color: '#c33',
+            marginBottom: '20px'
+          }}>
+            {error}
+          </div>
+        )}
+
         <form onSubmit={handleSubmit}>
           {!isLogin && (
             <div style={{ marginBottom: '20px' }}>
@@ -542,7 +1107,6 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
                   border: '2px solid #e2e8f0',
                   fontSize: '1rem',
                   outline: 'none',
-                  transition: 'border 0.3s',
                   boxSizing: 'border-box'
                 }}
                 required
@@ -565,7 +1129,6 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
                 border: '2px solid #e2e8f0',
                 fontSize: '1rem',
                 outline: 'none',
-                transition: 'border 0.3s',
                 boxSizing: 'border-box'
               }}
               required
@@ -587,7 +1150,6 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
                 border: '2px solid #e2e8f0',
                 fontSize: '1rem',
                 outline: 'none',
-                transition: 'border 0.3s',
                 boxSizing: 'border-box'
               }}
               required
@@ -610,7 +1172,6 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
                   border: '2px solid #e2e8f0',
                   fontSize: '1rem',
                   outline: 'none',
-                  transition: 'border 0.3s',
                   boxSizing: 'border-box'
                 }}
                 required
@@ -618,33 +1179,23 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
             </div>
           )}
 
-          {isLogin && (
-            <div style={{ textAlign: 'right', marginBottom: '20px' }}>
-              <span style={{ color: '#667eea', fontSize: '0.9rem', cursor: 'pointer' }}>
-                {t.forgotPassword}
-              </span>
-            </div>
-          )}
-
           <button
             type="submit"
+            disabled={loading}
             style={{
               width: '100%',
               padding: '16px',
               borderRadius: '12px',
               border: 'none',
-              background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+              background: loading ? '#ccc' : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
               color: 'white',
               fontSize: '1.1rem',
               fontWeight: 'bold',
-              cursor: 'pointer',
-              transition: 'transform 0.2s',
+              cursor: loading ? 'not-allowed' : 'pointer',
               marginBottom: '20px'
             }}
-            onMouseOver={(e) => e.target.style.transform = 'scale(1.02)'}
-            onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
           >
-            {isLogin ? t.login : t.signup}
+            {loading ? 'Please wait...' : (isLogin ? t.login : t.signup)}
           </button>
 
           <div style={{ textAlign: 'center' }}>
@@ -652,7 +1203,10 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
               {isLogin ? t.newUser : t.alreadyHaveAccount}{' '}
             </span>
             <span
-              onClick={() => setIsLogin(!isLogin)}
+              onClick={() => {
+                setIsLogin(!isLogin);
+                setError('');
+              }}
               style={{ color: '#667eea', fontWeight: 'bold', cursor: 'pointer' }}
             >
               {isLogin ? t.signup : t.login}
@@ -669,7 +1223,11 @@ export default function GovMithra() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadingProgress, setLoadingProgress] = useState(0);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [needsProfile, setNeedsProfile] = useState(false);
+  const [showProfileView, setShowProfileView] = useState(false);
+  const [isEditingProfile, setIsEditingProfile] = useState(false);
   const [user, setUser] = useState(null);
+  const [userProfile, setUserProfile] = useState(null);
   const [selectedLanguage, setSelectedLanguage] = useState('en');
   const [showLanguageMenu, setShowLanguageMenu] = useState(false);
   const [messages, setMessages] = useState([]);
@@ -683,9 +1241,7 @@ export default function GovMithra() {
   const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
     { code: 'ta', name: 'தமிழ்', flag: '🇮🇳' },
-    { code: 'hi', name: 'हिंदी', flag: '🇮🇳' },
-    { code: 'te', name: 'తెలుగు', flag: '🇮🇳' },
-    { code: 'ml', name: 'മലയാളം', flag: '🇮🇳' }
+    { code: 'hi', name: 'हिंदी', flag: '🇮🇳' }
   ];
 
   const sidebarCategories = [
@@ -732,15 +1288,42 @@ export default function GovMithra() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isBotTyping]);
 
-  const handleLogin = (userData) => {
+  const handleLogin = (userData, hasProfile, profile) => {
     setUser(userData);
+    if (hasProfile) {
+      setUserProfile(profile);
+      setIsAuthenticated(true);
+      setNeedsProfile(false);
+    } else {
+      setNeedsProfile(true);
+    }
+  };
+
+  const handleProfileComplete = (profile) => {
+    setUserProfile(profile);
+    setNeedsProfile(false);
+    setIsEditingProfile(false);
     setIsAuthenticated(true);
+    setShowProfileView(false);
+  };
+
+  const handleProfileSkip = () => {
+    if (isEditingProfile) {
+      setIsEditingProfile(false);
+      setShowProfileView(true);
+    } else {
+      setNeedsProfile(false);
+      setIsAuthenticated(true);
+    }
   };
 
   const handleLogout = () => {
     setUser(null);
+    setUserProfile(null);
     setIsAuthenticated(false);
     setMessages([]);
+    setShowProfileView(false);
+    setIsEditingProfile(false);
   };
 
   const handleSend = async (forcedQuery = null) => {
@@ -758,7 +1341,10 @@ export default function GovMithra() {
         body: JSON.stringify({
           sender: user?.email || "user_session",
           message: query,
-          metadata: { language: selectedLanguage }
+          metadata: { 
+            language: selectedLanguage,
+            userProfile: userProfile
+          }
         })
       });
 
@@ -776,15 +1362,36 @@ export default function GovMithra() {
       });
     } catch (e) {
       setIsBotTyping(false);
-      setMessages(prev => [...prev, { type: 'bot', text: t.serviceOffline }]);
+      setMessages(prev => [...prev, { type: 'bot', text: 'Service offline.' }]);
     }
   };
 
   if (isLoading) return <LoadingPage progress={loadingProgress} language={selectedLanguage} />;
-  if (!isAuthenticated) return <AuthPage onLogin={handleLogin} language={selectedLanguage} onLanguageChange={setSelectedLanguage} />;
+  if (!isAuthenticated && !needsProfile) return <AuthPage onLogin={handleLogin} language={selectedLanguage} onLanguageChange={setSelectedLanguage} />;
+  if (needsProfile) return <ProfileForm user={user} existingProfile={null} onComplete={handleProfileComplete} onSkip={handleProfileSkip} language={selectedLanguage} isEditMode={false} />;
+  if (showProfileView && !isEditingProfile) {
+    return <ProfileViewPage 
+      user={user} 
+      profile={userProfile} 
+      onBack={() => setShowProfileView(false)}
+      onStartEdit={() => setIsEditingProfile(true)}
+      language={selectedLanguage}
+    />;
+  }
+  if (isEditingProfile) {
+    return <ProfileForm 
+      user={user} 
+      existingProfile={userProfile}
+      onComplete={handleProfileComplete} 
+      onSkip={handleProfileSkip} 
+      language={selectedLanguage}
+      isEditMode={true}
+    />;
+  }
 
   return (
     <div style={{ display: 'flex', height: '100vh', fontFamily: 'system-ui, -apple-system, sans-serif', background: '#f1f5f9' }}>
+      {/* SIDEBAR */}
       <div style={{
         width: '350px',
         background: 'linear-gradient(180deg, #667eea 0%, #764ba2 100%)',
@@ -806,73 +1413,72 @@ export default function GovMithra() {
           </div>
         </div>
 
-        <div style={{ position: 'relative', marginBottom: '25px' }}>
-          <button
-            onClick={() => setShowLanguageMenu(!showLanguageMenu)}
-            style={{
-              padding: '12px 20px',
-              borderRadius: '15px',
-              border: '2px solid rgba(255,255,255,0.3)',
-              background: 'rgba(255,255,255,0.15)',
-              backdropFilter: 'blur(10px)',
-              cursor: 'pointer',
-              fontWeight: '600',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              gap: '10px',
-              width: '100%',
-              color: 'white',
-              fontSize: '1rem',
-              transition: 'all 0.3s'
-            }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <span style={{ fontSize: '1.3rem' }}>{languages.find(l => l.code === selectedLanguage).flag}</span>
-              <span>{languages.find(l => l.code === selectedLanguage).name}</span>
-            </div>
-            <span style={{ transform: showLanguageMenu ? 'rotate(180deg)' : 'rotate(0)', transition: 'transform 0.3s' }}>▼</span>
-          </button>
+        {/* View Profile Button */}
+        <button
+          onClick={() => setShowProfileView(true)}
+          style={{
+            padding: '14px 20px',
+            borderRadius: '15px',
+            border: '2px solid rgba(255,255,255,0.3)',
+            background: 'rgba(255,255,255,0.2)',
+            backdropFilter: 'blur(10px)',
+            color: 'white',
+            cursor: 'pointer',
+            fontWeight: '600',
+            fontSize: '1rem',
+            marginBottom: '15px',
+            transition: 'all 0.3s',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            justifyContent: 'center'
+          }}
+        >
+          <span style={{ fontSize: '1.2rem' }}>👤</span>
+          {t.viewProfile}
+        </button>
 
-          {showLanguageMenu && (
-            <div style={{
-              position: 'absolute',
-              top: '110%',
-              left: 0,
-              right: 0,
-              background: 'white',
-              border: 'none',
-              borderRadius: '15px',
-              boxShadow: '0 10px 40px rgba(0,0,0,0.2)',
-              zIndex: 100,
-              overflow: 'hidden'
-            }}>
-              {languages.map(lang => (
-                <div
-                  key={lang.code}
-                  onClick={() => {
-                    setSelectedLanguage(lang.code);
-                    setShowLanguageMenu(false);
-                  }}
-                  style={{
-                    padding: '15px',
-                    cursor: 'pointer',
-                    background: selectedLanguage === lang.code ? '#f0f4ff' : 'white',
-                    fontWeight: selectedLanguage === lang.code ? 'bold' : 'normal',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    transition: 'background 0.2s',
-                    color: selectedLanguage === lang.code ? '#667eea' : '#1e293b'
-                  }}
-                >
-                  <span style={{ fontSize: '1.5rem' }}>{lang.flag}</span>
-                  <span style={{ fontSize: '1rem' }}>{lang.name}</span>
-                </div>
-              ))}
-            </div>
-          )}
+        {/* Language Selector */}
+        <div style={{ marginBottom: '15px' }}>
+          <p style={{ 
+            color: 'rgba(255,255,255,0.7)', 
+            fontSize: '0.85rem', 
+            marginBottom: '10px',
+            fontWeight: '600',
+            textTransform: 'uppercase',
+            letterSpacing: '1px'
+          }}>
+            {t.selectLanguage}
+          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            {languages.map(lang => (
+              <button
+                key={lang.code}
+                onClick={() => setSelectedLanguage(lang.code)}
+                style={{
+                  padding: '12px 16px',
+                  borderRadius: '12px',
+                  border: selectedLanguage === lang.code ? '2px solid white' : '2px solid rgba(255,255,255,0.2)',
+                  background: selectedLanguage === lang.code ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.1)',
+                  color: selectedLanguage === lang.code ? '#667eea' : 'white',
+                  cursor: 'pointer',
+                  fontWeight: selectedLanguage === lang.code ? 'bold' : '500',
+                  fontSize: '0.95rem',
+                  transition: 'all 0.3s',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                  boxShadow: selectedLanguage === lang.code ? '0 4px 12px rgba(0,0,0,0.15)' : 'none'
+                }}
+              >
+                <span style={{ fontSize: '1.3rem' }}>{lang.flag}</span>
+                <span>{lang.name}</span>
+              </button>
+            ))}
+          </div>
         </div>
 
+        {/* Logout Button */}
         <button
           onClick={handleLogout}
           style={{
@@ -928,6 +1534,7 @@ export default function GovMithra() {
         </div>
       </div>
 
+      {/* CHAT AREA */}
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', background: '#ffffff' }}>
         <div style={{
           padding: '20px 30px',
@@ -960,11 +1567,7 @@ export default function GovMithra() {
           background: '#f8fafc'
         }}>
           {messages.length === 0 && (
-            <div style={{ 
-              textAlign: 'center', 
-              marginTop: '100px',
-              animation: 'fadeIn 1s'
-            }}>
+            <div style={{ textAlign: 'center', marginTop: '100px' }}>
               <div style={{ fontSize: '5rem', marginBottom: '20px' }}>🏛️</div>
               <h2 style={{ 
                 fontSize: '2rem', 
@@ -987,8 +1590,7 @@ export default function GovMithra() {
             <div key={i} style={{
               marginBottom: '20px',
               display: 'flex',
-              justifyContent: m.type === 'user' ? 'flex-end' : 'flex-start',
-              animation: 'slideIn 0.3s'
+              justifyContent: m.type === 'user' ? 'flex-end' : 'flex-start'
             }}>
               <div style={{
                 maxWidth: '75%',
@@ -1049,11 +1651,7 @@ export default function GovMithra() {
                 alignItems: 'center',
                 gap: '10px'
               }}>
-                <div style={{ 
-                  display: 'flex', 
-                  gap: '5px',
-                  animation: 'pulse 1.5s infinite'
-                }}>
+                <div style={{ display: 'flex', gap: '5px' }}>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#667eea' }}></div>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#667eea' }}></div>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#667eea' }}></div>
@@ -1087,8 +1685,7 @@ export default function GovMithra() {
               borderRadius: '20px',
               border: '2px solid #e2e8f0',
               outline: 'none',
-              fontSize: '1rem',
-              transition: 'border 0.3s'
+              fontSize: '1rem'
             }}
             placeholder={t.placeholder}
           />
@@ -1104,7 +1701,6 @@ export default function GovMithra() {
               cursor: 'pointer',
               fontWeight: 'bold',
               fontSize: '1rem',
-              transition: 'all 0.3s',
               boxShadow: '0 4px 15px rgba(102, 126, 234, 0.4)'
             }}
           >
@@ -1114,21 +1710,9 @@ export default function GovMithra() {
       </div>
 
       <style>{`
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes slideIn {
-          from { opacity: 0; transform: translateX(-10px); }
-          to { opacity: 1; transform: translateX(0); }
-        }
         @keyframes bounce {
           0%, 100% { transform: translateY(0); }
           50% { transform: translateY(-20px); }
-        }
-        @keyframes pulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.5; }
         }
       `}</style>
     </div>
