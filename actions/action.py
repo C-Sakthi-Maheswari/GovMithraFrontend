@@ -80,13 +80,14 @@ class ActionSetLanguage(Action):
     def run(self, dispatcher, tracker, domain):
         user_message = tracker.latest_message.get("text", "").lower()
         
-        # Language mapping
+        # Language mapping - updated with new languages
         language_map = {
             'english': 'en',
             'tamil': 'ta',
             'hindi': 'hi',
             'telugu': 'te',
-            'malayalam': 'ml'
+            'malayalam': 'ml',
+            'kannada': 'kn'
         }
         
         selected_lang = 'en'
@@ -205,9 +206,6 @@ class ActionSearchBus(Action):
             return []
 
 # ----------------------------------------------------------------
-# HELPER FUNCTION WITH TRANSLATION
-# ----------------------------------------------------------------
-# ----------------------------------------------------------------
 # HELPER FUNCTION WITH TRANSLATION FOR CARDS
 # ----------------------------------------------------------------
 def translate_card_field(field_name, user_lang='en'):
@@ -230,7 +228,13 @@ def translate_card_field(field_name, user_lang='en'):
             'eligibility': 'Eligibility',
             'documents': 'Documents',
             'fee': 'Fee',
-            'deadline': 'Deadline'
+            'deadline': 'Deadline',
+            'bus_number': 'Bus Number',
+            'source': 'Source',
+            'destination': 'Destination',
+            'route': 'Route',
+            'via': 'Via',
+            'frequency': 'Frequency'
         },
         'ta': {
             'id': 'அடையாள எண்',
@@ -249,7 +253,13 @@ def translate_card_field(field_name, user_lang='en'):
             'eligibility': 'தகுதி',
             'documents': 'ஆவணங்கள்',
             'fee': 'கட்டணம்',
-            'deadline': 'கடைசி தேதி'
+            'deadline': 'கடைசி தேதி',
+            'bus_number': 'பேருந்து எண்',
+            'source': 'தொடக்க இடம்',
+            'destination': 'இறுதி இடம்',
+            'route': 'வழி',
+            'via': 'வழியாக',
+            'frequency': 'அடிக்கடி'
         },
         'hi': {
             'id': 'आईडी',
@@ -268,7 +278,13 @@ def translate_card_field(field_name, user_lang='en'):
             'eligibility': 'पात्रता',
             'documents': 'दस्तावेज़',
             'fee': 'शुल्क',
-            'deadline': 'अंतिम तिथि'
+            'deadline': 'अंतिम तिथि',
+            'bus_number': 'बस नंबर',
+            'source': 'स्रोत',
+            'destination': 'गंतव्य',
+            'route': 'मार्ग',
+            'via': 'के माध्यम से',
+            'frequency': 'आवृत्ति'
         },
         'te': {
             'id': 'ఐడి',
@@ -287,7 +303,13 @@ def translate_card_field(field_name, user_lang='en'):
             'eligibility': 'అర్హత',
             'documents': 'పత్రాలు',
             'fee': 'రుసుము',
-            'deadline': 'చివరి తేదీ'
+            'deadline': 'చివరి తేదీ',
+            'bus_number': 'బస్ నంబర్',
+            'source': 'మూలం',
+            'destination': 'గమ్యస్థానం',
+            'route': 'మార్గం',
+            'via': 'ద్వారా',
+            'frequency': 'ఫ్రీక్వెన్సీ'
         },
         'ml': {
             'id': 'ഐഡി',
@@ -306,7 +328,38 @@ def translate_card_field(field_name, user_lang='en'):
             'eligibility': 'യോഗ്യത',
             'documents': 'രേഖകൾ',
             'fee': 'ഫീസ്',
-            'deadline': 'അവസാന തീയതി'
+            'deadline': 'അവസാന തീയതി',
+            'bus_number': 'ബസ് നമ്പർ',
+            'source': 'സ്രോതസ്സ്',
+            'destination': 'ലക്ഷ്യസ്ഥാനം',
+            'route': 'റൂട്ട്',
+            'via': 'വഴി',
+            'frequency': 'ആവൃത്തി'
+        },
+        'kn': {
+            'id': 'ಐಡಿ',
+            'name': 'ಹೆಸರು',
+            'url': 'ಲಿಂಕ್',
+            'service type': 'ಸೇವಾ ಪ್ರಕಾರ',
+            'service_type': 'ಸೇವಾ ಪ್ರಕಾರ',
+            'domain': 'ಡೊಮೈನ್',
+            'state': 'ರಾಜ್ಯ',
+            'target roles': 'ಗುರಿ ಪಾತ್ರಗಳು',
+            'target_roles': 'ಗುರಿ ಪಾತ್ರಗಳು',
+            'eligible categories': 'ಅರ್ಹ ವರ್ಗಗಳು',
+            'eligible_categories': 'ಅರ್ಹ ವರ್ಗಗಳು',
+            'tags': 'ಟ್ಯಾಗ್‌ಗಳು',
+            'description': 'ವಿವರಣೆ',
+            'eligibility': 'ಅರ್ಹತೆ',
+            'documents': 'ದಾಖಲೆಗಳು',
+            'fee': 'ಶುಲ್ಕ',
+            'deadline': 'ಕೊನೆಯ ದಿನಾಂಕ',
+            'bus_number': 'ಬಸ್ ಸಂಖ್ಯೆ',
+            'source': 'ಮೂಲ',
+            'destination': 'ಗುರಿ',
+            'route': 'ಮಾರ್ಗ',
+            'via': 'ಮೂಲಕ',
+            'frequency': 'ಆವರ್ತನ'
         }
     }
     
@@ -373,6 +426,7 @@ def send_card_results(dispatcher, query, results, category_name, user_lang='en')
         logger.error(f"Error in send_card_results: {e}")
         dispatcher.utter_message(text=f"Found {len(results) if results else 0} results.")
         return []
+
 # ----------------------------------------------------------------
 # OTHER ACTIONS WITH TRANSLATION
 # ----------------------------------------------------------------
@@ -767,5 +821,3 @@ class ActionSearchYouth(Action):
             logger.error(f"Error in ActionSearchYouth: {e}")
             dispatcher.utter_message(text="An error occurred while searching for youth information.")
             return []
-
-
