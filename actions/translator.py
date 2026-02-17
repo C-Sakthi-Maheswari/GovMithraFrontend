@@ -11,7 +11,8 @@ class MultilingualTranslator:
             'ta': 'Tamil',
             'hi': 'Hindi',
             'te': 'Telugu',
-            'ml': 'Malayalam'
+            'ml': 'Malayalam',
+            'kn': 'Kannada'
         }
         
         # Comprehensive keyword mappings for all supported languages
@@ -229,6 +230,27 @@ class MultilingualTranslator:
                 # Government
                 'സർക്കാർ': 'government',
                 'സർക്കാരിന്റെ': 'government'
+            }, 
+            'kn': {
+                # Fixed: Added Kannada Mappings
+                'ಕ್ರೀಡೆ': 'sports',
+                'ವಿದ್ಯಾರ್ಥಿವೇತನ': 'scholarship',
+                'ತರಬೇತಿ': 'training',
+                'ಕಾರ್ಯಕ್ರಮ': 'program',
+                'ಯೋಜನೆ': 'scheme',
+                'ಶಿಕ್ಷಣ': 'education',
+                'ಪರೀಕ್ಷೆ': 'exam',
+                'ಪಾಸ್‌ಪೋರ್ಟ್': 'passport',
+                'ತೆರಿಗೆ': 'tax',
+                'ಪ್ರಮಾಣಪತ್ರ': 'certificate',
+                'ಬಸ್': 'bus',
+                'ಮಾರ್ಗ': 'route',
+                'ಇಂದ': 'from',
+                'ವರೆಗೆ': 'to',
+                'ಮುಖಾಂತರ': 'via',
+                'ದಸ್ತಾವೇಜು': 'document',
+                'ಅರ್ಜಿ': 'application',
+                'ಸರ್ಕಾರ': 'government'
             }
         }
     
@@ -327,20 +349,15 @@ class MultilingualTranslator:
             logger.error(f"Translation to English error: {e}")
             return text, 'en'
     
-    def translate_from_english(self, text, target_lang):
-        """Translate English text to target language"""
+def translate_from_english(self, text, target_lang):
         try:
-            if not text or text.strip() == "":
+            if not text or text.strip() == "" or target_lang == 'en':
                 return text
-                
-            if target_lang == 'en':
-                return text
-                
             return self.translate(text, target_lang=target_lang, source_lang='en')
-            
         except Exception as e:
             logger.error(f"Translation from English error: {e}")
             return text
+
 
 # Global translator instance
 translator_instance = MultilingualTranslator()
