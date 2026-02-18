@@ -1024,6 +1024,42 @@ function ProfileViewPage({ user, profile, onBack, onStartEdit, language }) {
     </div>
   );
 }
+// ── ADD THIS wherever you process incoming bot messages ──────────────────
+
+function handleBotMessage(message) {
+
+    // 1. Check for language_change signal from Rasa
+    if (message.type === "language_change") {
+        const lang = message.lang;
+
+        // Save so it survives page reload
+        localStorage.setItem("userLanguage", lang);
+
+        // Reload page with ?lang=hi (or te, ta, ml, kn, en)
+        const url = new URL(window.location.href);
+        url.searchParams.set("lang", lang);
+        window.location.href = url.toString();
+        return; // stop processing this message
+    }
+
+    // ... your existing message rendering code continues below ...
+}
+
+// ── ADD THIS at the very top of your page load / init function ───────────
+
+(function applyLanguageOnLoad() {
+    const params = new URLSearchParams(window.location.search);
+    // URL param wins, then localStorage, then default English
+    const lang = params.get("lang")
+               || localStorage.getItem("userLanguage")
+               || "en";
+
+    // Save it so Rasa slot stays in sync on first message
+    localStorage.setItem("userLanguage", lang);
+
+    // Optional: set lang attribute on <html> for font/RTL support
+    document.documentElement.setAttribute("lang", lang);
+})();
 
 // --- PROFILE FORM COMPONENT (Edit Mode) ---
 function ProfileForm({ user, existingProfile, onComplete, onSkip, language, isEditMode = false }) {

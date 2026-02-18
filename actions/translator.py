@@ -1,7 +1,10 @@
 from googletrans import Translator
 import logging
+import time
+import re
 
 logger = logging.getLogger(__name__)
+
 
 class MultilingualTranslator:
     def __init__(self):
@@ -14,350 +17,277 @@ class MultilingualTranslator:
             'ml': 'Malayalam',
             'kn': 'Kannada'
         }
-        
-        # Comprehensive keyword mappings for all supported languages
+
         self.keyword_mappings = {
             'hi': {
-                # Sports
-                'खेल': 'sports',
-                'खेलकूद': 'sports',
-                'क्रीड़ा': 'sports',
-                # Scholarship
-                'छात्रवृत्ति': 'scholarship',
-                'स्कॉलरशिप': 'scholarship',
-                # Training
-                'प्रशिक्षण': 'training',
-                'ट्रेनिंग': 'training',
-                # Program
-                'कार्यक्रम': 'program',
-                'योजना': 'scheme',
-                # Education
-                'शिक्षा': 'education',
-                'पढ़ाई': 'education',
-                'अध्ययन': 'study',
-                # Exam
-                'परीक्षा': 'exam',
-                'इम्तिहान': 'exam',
-                # Passport
-                'पासपोर्ट': 'passport',
-                'पारपत्र': 'passport',
-                # Tax
-                'कर': 'tax',
-                'टैक्स': 'tax',
-                # Certificate
-                'प्रमाण पत्र': 'certificate',
-                'प्रमाणपत्र': 'certificate',
-                'सर्टिफिकेट': 'certificate',
-                # Bus
-                'बस': 'bus',
-                'बस मार्ग': 'bus route',
-                # Route/Path
-                'मार्ग': 'route',
-                'रास्ता': 'route',
-                # From/To
-                'से': 'from',
-                'तक': 'to',
+                'खेल': 'sports', 'खेलकूद': 'sports', 'क्रीड़ा': 'sports',
+                'छात्रवृत्ति': 'scholarship', 'स्कॉलरशिप': 'scholarship',
+                'प्रशिक्षण': 'training', 'ट्रेनिंग': 'training',
+                'कार्यक्रम': 'program', 'योजना': 'scheme',
+                'शिक्षा': 'education', 'पढ़ाई': 'education', 'अध्ययन': 'study',
+                'परीक्षा': 'exam', 'इम्तिहान': 'exam',
+                'पासपोर्ट': 'passport', 'पारपत्र': 'passport',
+                'प्रमाण पत्र': 'certificate', 'प्रमाणपत्र': 'certificate', 'सर्टिफिकेट': 'certificate',
+                'बस मार्ग': 'bus route', 'बस': 'bus',
+                'मार्ग': 'route', 'रास्ता': 'route',
                 'के माध्यम से': 'via',
-                # Documents
-                'दस्तावेज': 'document',
-                'कागजात': 'document',
-                # Application
+                'दस्तावेज': 'document', 'कागजात': 'document',
                 'आवेदन': 'application',
-                # Government
-                'सरकार': 'government',
-                'सरकारी': 'government'
+                'सरकारी': 'government', 'सरकार': 'government',
+                # REMOVED: 'से': 'from', 'तक': 'to', 'कर': 'tax'
+                # These are too short and corrupt other words as substrings.
+                # The translation API handles them correctly on its own.
+                'टैक्स': 'tax',
             },
             'ta': {
-                # Sports
-                'விளையாட்டு': 'sports',
-                'விளையாட்டுகள்': 'sports',
-                'கிரிக்கெட்': 'cricket',
-                # Scholarship
-                'உதவித்தொகை': 'scholarship',
-                'ஸ்காலர்ஷிப்': 'scholarship',
-                # Training
-                'பயிற்சி': 'training',
-                'பயிற்சித்': 'training',
-                # Program
-                'திட்டங்கள்': 'program',
-                'திட்டம்': 'scheme',
-                'தொகுப்பு': 'package',
-                # Education
-                'கல்வி': 'education',
-                'படிப்பு': 'study',
-                # Exam
-                'தேர்வு': 'exam',
-                'தேர்வுகள்': 'exam',
-                'பரீட்சை': 'exam',
-                # Passport
-                'பாஸ்போர்ட்': 'passport',
-                'கடவுச்சீட்டு': 'passport',
-                # Tax
-                'வரி': 'tax',
-                'வரிகள்': 'tax',
-                # Certificate
-                'சான்றிதழ்': 'certificate',
-                'சான்று': 'certificate',
-                'சர்டிபிகேட்': 'certificate',
-                # Bus
-                'பேருந்து': 'bus',
-                'பஸ்': 'bus',
-                'எம்டிசி': 'mtc',
-                # Route
-                'வழி': 'route',
-                'பாதை': 'route',
-                # From/To
-                'இருந்து': 'from',
-                'முதல்': 'from',
-                'வரை': 'to',
-                'க்கு': 'to',
-                'வழியாக': 'via',
-                # Documents
-                'ஆவணங்கள்': 'document',
-                'ஆவணம்': 'document',
-                # Application
+                'விளையாட்டுகள்': 'sports', 'விளையாட்டு': 'sports', 'கிரிக்கெட்': 'cricket',
+                'உதவித்தொகை': 'scholarship', 'ஸ்காலர்ஷிப்': 'scholarship',
+                'பயிற்சித்': 'training', 'பயிற்சி': 'training',
+                'திட்டங்கள்': 'program', 'திட்டம்': 'scheme', 'தொகுப்பு': 'package',
+                'கல்வி': 'education', 'படிப்பு': 'study',
+                'தேர்வுகள்': 'exam', 'தேர்வு': 'exam', 'பரீட்சை': 'exam',
+                'பாஸ்போர்ட்': 'passport', 'கடவுச்சீட்டு': 'passport',
+                'வரிகள்': 'tax', 'வரி': 'tax',
+                'சான்றிதழ்': 'certificate', 'சான்று': 'certificate', 'சர்டிபிகேட்': 'certificate',
+                'பேருந்து': 'bus', 'பஸ்': 'bus', 'எம்டிசி': 'mtc',
+                'வழி': 'route', 'பாதை': 'route',
+                'இருந்து': 'from', 'முதல்': 'from', 'வரை': 'to', 'வழியாக': 'via',
+                # REMOVED 'க்கு': 'to' — too short, corrupts longer words
+                'ஆவணங்கள்': 'document', 'ஆவணம்': 'document',
                 'விண்ணப்பம்': 'application',
-                # Government
-                'அரசு': 'government',
-                'அரசாங்கம்': 'government'
+                'அரசாங்கம்': 'government', 'அரசு': 'government',
+                'மின் இணைப்பு': 'electricity connection',
+                'மின்சாரம்': 'electricity', 'மின்': 'electricity',
+                'வேலைகள்': 'jobs', 'வேலை': 'job',
+                'சமீபத்திய': 'recent', 'புதிய': 'new',
             },
             'te': {
-                # Sports
-                'క్రీడా': 'sports',
-                'క్రీడలు': 'sports',
-                'స్పోర్ట్స్': 'sports',
-                # Scholarship
-                'స్కాలర్‌షిప్': 'scholarship',
-                'స్కాలర్షిప్': 'scholarship',
-                'వేతనం': 'scholarship',
-                # Training
-                'శిక్షణ': 'training',
-                'శిక్షణా': 'training',
-                'ట్రైనింగ్': 'training',
-                # Program
-                'కార్యక్రమాలు': 'program',
-                'కార్యక్రమం': 'program',
-                'పథకాలు': 'scheme',
-                # Education
-                'విద్య': 'education',
-                'విద్యా': 'education',
-                'చదువు': 'study',
-                # Exam
-                'పరీక్ష': 'exam',
-                'పరీక్షలు': 'exam',
-                # Passport
-                'పాస్‌పోర్ట్': 'passport',
-                'పాస్పోర్ట్': 'passport',
-                # Tax
-                'పన్ను': 'tax',
-                'పన్నులు': 'tax',
-                'టాక్స్': 'tax',
-                # Certificate
-                'సర్టిఫికేట్': 'certificate',
-                'ధృవీకరణ పత్రం': 'certificate',
-                'సర్టిఫికెట్': 'certificate',
-                # Bus
-                'బస్': 'bus',
-                'బస్సు': 'bus',
-                'బస్సులు': 'bus',
-                # Route
-                'మార్గం': 'route',
-                'మార్గాలు': 'route',
-                # From/To
-                'నుండి': 'from',
-                'వరకు': 'to',
-                'ద్వారా': 'via',
-                # Documents
-                'పత్రాలు': 'document',
-                'పత్రం': 'document',
-                # Application
+                'క్రీడలు': 'sports', 'క్రీడా': 'sports', 'స్పోర్ట్స్': 'sports',
+                'స్కాలర్‌షిప్': 'scholarship', 'స్కాలర్షిప్': 'scholarship', 'వేతనం': 'scholarship',
+                'శిక్షణా': 'training', 'శిక్షణ': 'training', 'ట్రైనింగ్': 'training',
+                'కార్యక్రమాలు': 'program', 'కార్యక్రమం': 'program', 'పథకాలు': 'scheme',
+                'విద్యా': 'education', 'విద్య': 'education', 'చదువు': 'study',
+                'పరీక్షలు': 'exam', 'పరీక్ష': 'exam',
+                'పాస్‌పోర్ట్': 'passport', 'పాస్పోర్ట్': 'passport',
+                'పన్నులు': 'tax', 'పన్ను': 'tax', 'టాక్స్': 'tax',
+                'సర్టిఫికేట్': 'certificate', 'ధృవీకరణ పత్రం': 'certificate', 'సర్టిఫికెట్': 'certificate',
+                'బస్సులు': 'bus', 'బస్సు': 'bus', 'బస్': 'bus',
+                'మార్గాలు': 'route', 'మార్గం': 'route',
+                'నుండి': 'from', 'వరకు': 'to', 'ద్వారా': 'via',
+                'పత్రాలు': 'document', 'పత్రం': 'document',
                 'దరఖాస్తు': 'application',
-                # Government
-                'ప్రభుత్వ': 'government',
-                'ప్రభుత్వం': 'government'
+                'ప్రభుత్వం': 'government', 'ప్రభుత్వ': 'government',
             },
             'ml': {
-                # Sports
-                'കായിക': 'sports',
-                'കായികം': 'sports',
-                'സ്പോർട്സ്': 'sports',
-                # Scholarship
-                'സ്കോളർഷിപ്പ്': 'scholarship',
-                'സ്കോളർഷിപ്': 'scholarship',
-                'വിദ്യാസഹായം': 'scholarship',
-                # Training
-                'പരിശീലനം': 'training',
-                'പരിശീലന': 'training',
-                'പരിശീലനാ': 'training',
-                # Program
-                'പരിപാടികൾ': 'program',
-                'പരിപാടി': 'program',
-                'പദ്ധതികൾ': 'scheme',
-                # Education
-                'വിദ്യാഭ്യാസം': 'education',
-                'വിദ്യാഭ്യാസ': 'education',
-                'പഠനം': 'study',
-                # Exam
-                'പരീക്ഷ': 'exam',
-                'പരീക്ഷകൾ': 'exam',
-                # Passport
-                'പാസ്‌പോർട്ട്': 'passport',
-                'പാസ്പോർട്ട്': 'passport',
-                # Tax
-                'നികുതി': 'tax',
-                'നികുതികൾ': 'tax',
-                'ടാക്സ്': 'tax',
-                # Certificate
-                'സർട്ടിഫിക്കറ്റ്': 'certificate',
-                'സർട്ടിഫിക്കേറ്റ്': 'certificate',
-                'സാക്ഷ്യപത്രം': 'certificate',
-                # Bus
-                'ബസ്': 'bus',
-                'ബസ്സ്': 'bus',
-                # Route
-                'റൂട്ട്': 'route',
-                'റൂട്ടുകൾ': 'route',
-                'പാത': 'route',
-                # From/To
-                'മുതൽ': 'from',
-                'വരെ': 'to',
-                'വഴി': 'via',
-                # Documents
-                'രേഖകൾ': 'document',
-                'രേഖ': 'document',
-                # Application
+                'కాయిక': 'sports', 'కాయికం': 'sports', 'స్పోర్ట్స్': 'sports',
+                'కాయిక': 'sports', 'కాయికం': 'sports',
+                'കായിക': 'sports', 'കായികം': 'sports', 'സ്പോർട്സ്': 'sports',
+                'സ്കോളർഷിപ്പ്': 'scholarship', 'സ്കോളർഷിപ്': 'scholarship', 'വിദ്യാസഹായം': 'scholarship',
+                'പരിശീലനാ': 'training', 'പരിശീലന': 'training', 'പരിശീലനം': 'training',
+                'പരിപാടികൾ': 'program', 'പരിപാടി': 'program', 'പദ്ധതികൾ': 'scheme',
+                'വിദ്യാഭ്യാസ': 'education', 'വിദ്യാഭ്യാസം': 'education', 'പഠനം': 'study',
+                'പരീക്ഷകൾ': 'exam', 'പരീക്ഷ': 'exam',
+                'പാസ്‌പോർട്ട്': 'passport', 'പാസ്പോർട്ട്': 'passport',
+                'നികുതികൾ': 'tax', 'നികുതി': 'tax', 'ടാക്സ്': 'tax',
+                'സർട്ടിഫിക്കറ്റ്': 'certificate', 'സർട്ടിഫിക്കേറ്റ്': 'certificate', 'സാക്ഷ്യപത്രം': 'certificate',
+                'ബസ്സ്': 'bus', 'ബസ്': 'bus',
+                'റൂട്ടുകൾ': 'route', 'റൂട്ട്': 'route', 'പാത': 'route',
+                'മുതൽ': 'from', 'വരെ': 'to', 'വഴി': 'via',
+                'രേഖകൾ': 'document', 'രേഖ': 'document',
                 'അപേക്ഷ': 'application',
-                # Government
-                'സർക്കാർ': 'government',
-                'സർക്കാരിന്റെ': 'government'
-            }, 
+                'സർക്കാരിന്റെ': 'government', 'സർക്കാർ': 'government',
+            },
             'kn': {
-                # Fixed: Added Kannada Mappings
-                'ಕ್ರೀಡೆ': 'sports',
-                'ವಿದ್ಯಾರ್ಥಿವೇತನ': 'scholarship',
-                'ತರಬೇತಿ': 'training',
-                'ಕಾರ್ಯಕ್ರಮ': 'program',
-                'ಯೋಜನೆ': 'scheme',
-                'ಶಿಕ್ಷಣ': 'education',
-                'ಪರೀಕ್ಷೆ': 'exam',
-                'ಪಾಸ್‌ಪೋರ್ಟ್': 'passport',
-                'ತೆರಿಗೆ': 'tax',
-                'ಪ್ರಮಾಣಪತ್ರ': 'certificate',
-                'ಬಸ್': 'bus',
-                'ಮಾರ್ಗ': 'route',
-                'ಇಂದ': 'from',
-                'ವರೆಗೆ': 'to',
-                'ಮುಖಾಂತರ': 'via',
-                'ದಸ್ತಾವೇಜು': 'document',
-                'ಅರ್ಜಿ': 'application',
-                'ಸರ್ಕಾರ': 'government'
+                'ಕ್ರೀಡೆ': 'sports', 'ವಿದ್ಯಾರ್ಥಿವೇತನ': 'scholarship',
+                'ತರಬೇತಿ': 'training', 'ಕಾರ್ಯಕ್ರಮ': 'program', 'ಯೋಜನೆ': 'scheme',
+                'ಶಿಕ್ಷಣ': 'education', 'ಪರೀಕ್ಷೆ': 'exam',
+                'ಪಾಸ್‌ಪೋರ್ಟ್': 'passport', 'ತೆರಿಗೆ': 'tax',
+                'ಪ್ರಮಾಣಪತ್ರ': 'certificate', 'ಬಸ್': 'bus',
+                'ಮಾರ್ಗ': 'route', 'ಇಂದ': 'from', 'ವರೆಗೆ': 'to',
+                'ಮುಖಾಂತರ': 'via', 'ದಸ್ತಾವೇಜು': 'document',
+                'ಅರ್ಜಿ': 'application', 'ಸರ್ಕಾರ': 'government',
             }
         }
-    
+
+        # Keywords that are risky to replace because they appear as substrings
+        # inside longer words. These are skipped during preprocessing and left
+        # for the translation API to handle naturally.
+        self._skip_as_substring = {
+            'hi': {'से', 'तक', 'कर'},
+            'ta': {'க்கு', 'மின்'},
+            'te': set(),
+            'ml': set(),
+            'kn': set(),
+        }
+
+    def _fresh_translator(self):
+        """Create a fresh Translator to avoid stale session issues with googletrans."""
+        try:
+            return Translator()
+        except Exception:
+            return self.translator
+
+    def _safe_word_replace(self, text, source_word, target_word):
+        """
+        Replace source_word with target_word only at word/token boundaries.
+
+        Indian scripts do not use spaces between all tokens, so we match the
+        source word when it is surrounded by:
+          - start/end of string
+          - a space or punctuation character
+          - OR another script character boundary (handles agglutinative words poorly,
+            so risky short words are excluded via _skip_as_substring)
+        """
+        # Build a pattern that matches the word at a boundary
+        # \b does not work for Unicode scripts, so we use lookahead/lookbehind
+        # that checks for a non-word character or start/end of string.
+        escaped = re.escape(source_word)
+
+        # For multi-character words we use a simple "surrounded by non-alphanumeric
+        # Unicode or string edges" boundary.
+        pattern = r'(?<![^\s\u0000-\u002F\u003A-\u0040\u005B-\u0060\u007B-\u00BF])' \
+                  + escaped + \
+                  r'(?![^\s\u0000-\u002F\u003A-\u0040\u005B-\u0060\u007B-\u00BF])'
+
+        # Simpler and more reliable: just check surrounding characters are
+        # spaces, punctuation, or string boundaries.
+        pattern = r'(?:(?<=\s)|(?<=^)|(?<=[,.\-:;!?()\[\]]))' \
+                  + escaped + \
+                  r'(?=\s|$|[,.\-:;!?()\[\]])'
+
+        replaced = re.sub(pattern, target_word, text)
+
+        # If the pattern didn't match (word is at start/end without punctuation),
+        # fall back to a cruder but safe check: only replace if surrounded by
+        # spaces or is the entire string.
+        if replaced == text and source_word in text:
+            # Check every occurrence manually
+            result = []
+            i = 0
+            src_len = len(source_word)
+            while i < len(text):
+                if text[i:i + src_len] == source_word:
+                    before = text[i - 1] if i > 0 else ' '
+                    after  = text[i + src_len] if i + src_len < len(text) else ' '
+                    # Safe to replace only if bounded by whitespace or string edge
+                    if before in (' ', '\t', '\n') and after in (' ', '\t', '\n'):
+                        result.append(target_word)
+                    else:
+                        result.append(text[i:i + src_len])
+                    i += src_len
+                else:
+                    result.append(text[i])
+                    i += 1
+            replaced = ''.join(result)
+
+        return replaced
+
     def preprocess_with_keywords(self, text, lang_code):
-        """Replace known keywords before translation for better accuracy"""
+        """
+        Replace known keywords before translation for better accuracy.
+        Uses boundary-aware replacement to avoid corrupting longer words.
+        """
         if lang_code not in self.keyword_mappings:
             return text
-        
+
         processed_text = text
         replaced_words = []
-        
-        # Sort keywords by length (longest first) to handle multi-word phrases
+        skip_set = self._skip_as_substring.get(lang_code, set())
+
+        # Longest-first so multi-word phrases match before single words
         sorted_keywords = sorted(
-            self.keyword_mappings[lang_code].items(), 
-            key=lambda x: len(x[0]), 
+            self.keyword_mappings[lang_code].items(),
+            key=lambda x: len(x[0]),
             reverse=True
         )
-        
+
         for local_word, english_word in sorted_keywords:
+            # Skip risky short words — let the API translate them
+            if local_word in skip_set:
+                continue
+
             if local_word in processed_text:
-                processed_text = processed_text.replace(local_word, english_word)
-                replaced_words.append(f"{local_word}→{english_word}")
-        
+                new_text = self._safe_word_replace(processed_text, local_word, english_word)
+                if new_text != processed_text:
+                    replaced_words.append(f"{local_word}→{english_word}")
+                    processed_text = new_text
+
         if replaced_words:
             logger.info(f"Keyword replacements ({lang_code}): {', '.join(replaced_words)}")
-        
+
         return processed_text
-    
+
     def detect_language(self, text):
-        """Detect the language of input text"""
+        """Detect the language of input text."""
         try:
-            detected = self.translator.detect(text)
+            t = self._fresh_translator()
+            detected = t.detect(text)
             lang_code = detected.lang
-            # If detected language is not in supported list, default to English
             if lang_code not in self.supported_languages:
                 lang_code = 'en'
             return lang_code
         except Exception as e:
             logger.error(f"Language detection error: {e}")
             return 'en'
-    
+
     def translate(self, text, target_lang='en', source_lang='auto'):
-        """Translate text to target language"""
-        try:
-            if source_lang == target_lang:
-                return text
-            
-            if not text or text.strip() == "":
-                return text
-                
-            result = self.translator.translate(text, src=source_lang, dest=target_lang)
-            return result.text if result and result.text else text
-            
-        except Exception as e:
-            logger.error(f"Translation error: {e} - Text: {text[:50]}...")
+        """Low-level translate via googletrans with one retry."""
+        if not text or str(text).strip() == "" or source_lang == target_lang:
             return text
-    
+
+        for attempt in range(2):
+            try:
+                t = self._fresh_translator()
+                result = t.translate(str(text), src=source_lang, dest=target_lang)
+                if result and result.text:
+                    return result.text
+            except Exception as e:
+                logger.error(f"Translation attempt {attempt + 1} error: {e}")
+                if attempt == 0:
+                    time.sleep(0.5)
+
+        return text  # Return original if both attempts fail
+
     def translate_to_english(self, text):
-        """Translate any language to English for processing"""
+        """
+        Translate any supported language to English.
+        Always returns a tuple: (english_text: str, detected_lang: str)
+        """
         try:
-            if not text or text.strip() == "":
+            if not text or str(text).strip() == "":
                 return text, 'en'
-                
+
             detected_lang = self.detect_language(text)
-            
+
             if detected_lang == 'en':
                 return text, 'en'
-            
-            # Preprocess with keyword mapping for better accuracy
+
             preprocessed_text = self.preprocess_with_keywords(text, detected_lang)
-            
             logger.info(f"Original ({detected_lang}): '{text}'")
             logger.info(f"Preprocessed: '{preprocessed_text}'")
-            
-            # If preprocessing changed the text, translate the remaining parts
-            if preprocessed_text != text:
-                try:
-                    # Translate the preprocessed text (which now has English keywords mixed in)
-                    translated = self.translator.translate(preprocessed_text, src=detected_lang, dest='en')
-                    final_text = translated.text if translated and translated.text else preprocessed_text
-                except:
-                    final_text = preprocessed_text
-                
-                logger.info(f"Final English: '{final_text}'")
-                return final_text, detected_lang
-            
-            # Otherwise, translate normally
-            translated = self.translator.translate(text, src=detected_lang, dest='en')
-            translated_text = translated.text if translated and translated.text else text
-            
-            logger.info(f"Translated to EN: '{translated_text}'")
-            
-            return translated_text, detected_lang
-            
+
+            final_text = self.translate(preprocessed_text, target_lang='en', source_lang=detected_lang)
+            logger.info(f"Final English: '{final_text}'")
+
+            return final_text, detected_lang
+
         except Exception as e:
-            logger.error(f"Translation to English error: {e}")
+            logger.error(f"translate_to_english error: {e}")
             return text, 'en'
-    
-def translate_from_english(self, text, target_lang):
+
+    def translate_from_english(self, text, target_lang):
+        """
+        Translate English text to the target language.
+        Returns translated string (or original on failure).
+        """
         try:
-            if not text or text.strip() == "" or target_lang == 'en':
+            if not text or str(text).strip() == "" or target_lang == 'en':
                 return text
-            return self.translate(text, target_lang=target_lang, source_lang='en')
+            return self.translate(str(text), target_lang=target_lang, source_lang='en')
         except Exception as e:
-            logger.error(f"Translation from English error: {e}")
+            logger.error(f"translate_from_english error: {e}")
             return text
 
 
-# Global translator instance
+# Global instance used across all actions
 translator_instance = MultilingualTranslator()
