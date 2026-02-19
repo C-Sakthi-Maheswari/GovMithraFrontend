@@ -63,8 +63,8 @@ FIELD_LABELS = {
         'eligible categories': 'पात्र श्रेणियां', 'eligible_categories': 'पात्र श्रेणियां',
         'tags': 'टैग', 'description': 'विवरण', 'eligibility': 'पात्रता',
         'documents': 'दस्तावेज़', 'fee': 'शुल्क', 'deadline': 'अंतिम तिथि', 'level': 'स्तर',
-        'bus_number': 'बस नंबर', 'source': 'स्रोत', 'destination': 'गंतव्य',
-        'via': 'के माध्यम से', 'frequency': 'आवृत्ति', 'city': 'शहर', 'district': 'जिला',
+        'bus_number': 'बस नंबर', 'source': 'शुरुआती जगह', 'destination': 'अंतिम जगह',
+        'via': 'होते हुए', 'frequency': 'आवृत्ति', 'city': 'शहर', 'district': 'जिला',
     },
     'te': {
         'id': 'ఐడి', 'name': 'పేరు', 'url': 'లింక్',
@@ -206,6 +206,7 @@ LANGUAGE_KEYWORDS = {
     'ತೆಲುಗು': 'te',    'ಮಲಯಾಳಂ': 'ml',   'ಕನ್ನಡ': 'kn',
 }
 
+# Keys whose VALUES should not be translated (proper nouns / IDs)
 NO_TRANSLATE_VALUE_KEYS = {'id', 'url', 'bus_number', 'source', 'destination', 'via'}
 
 
@@ -353,17 +354,10 @@ class ActionSetLanguage(Action):
 
         lang_display = LANGUAGE_DISPLAY_NAMES.get(selected_lang, {}).get(selected_lang, selected_lang.upper())
 
-        # Confirmation text in the selected language
         dispatcher.utter_message(
             text=get_ui_message('language_set', selected_lang, lang_name=lang_display)
         )
 
-        # ── FRONTEND RELOAD SIGNAL ───────────────────────────────────────────────
-        # Frontend must intercept this JSON message and:
-        #   1. Save lang to localStorage
-        #   2. Reload page with ?lang=<code> in the URL
-        # See the frontend snippet below for implementation.
-        # ─────────────────────────────────────────────────────────────────────────
         dispatcher.utter_message(json_message={
             "type": "language_change",
             "lang": selected_lang,
@@ -388,7 +382,7 @@ class ActionSearchBus(Action):
             english_query, detected_lang = safe_translate_to_english(user_query)
 
             if detected_lang and detected_lang in FIELD_LABELS and detected_lang != 'en':
-                if user_lang == 'en':
+                if user_lang != detected_lang:
                     events.append(SlotSet("user_language", detected_lang))
                     user_lang = detected_lang
 
@@ -469,7 +463,7 @@ def _make_search_action(action_name, json_file, category_label_en):
 
                 events = []
                 if detected_lang and detected_lang in FIELD_LABELS and detected_lang != 'en':
-                    if user_lang == 'en':
+                    if user_lang != detected_lang:
                         events.append(SlotSet("user_language", detected_lang))
                         user_lang = detected_lang
 

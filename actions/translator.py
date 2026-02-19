@@ -34,9 +34,6 @@ class MultilingualTranslator:
                 'दस्तावेज': 'document', 'कागजात': 'document',
                 'आवेदन': 'application',
                 'सरकारी': 'government', 'सरकार': 'government',
-                # REMOVED: 'से': 'from', 'तक': 'to', 'कर': 'tax'
-                # These are too short and corrupt other words as substrings.
-                # The translation API handles them correctly on its own.
                 'टैक्स': 'tax',
             },
             'ta': {
@@ -52,7 +49,6 @@ class MultilingualTranslator:
                 'பேருந்து': 'bus', 'பஸ்': 'bus', 'எம்டிசி': 'mtc',
                 'வழி': 'route', 'பாதை': 'route',
                 'இருந்து': 'from', 'முதல்': 'from', 'வரை': 'to', 'வழியாக': 'via',
-                # REMOVED 'க்கு': 'to' — too short, corrupts longer words
                 'ஆவணங்கள்': 'document', 'ஆவணம்': 'document',
                 'விண்ணப்பம்': 'application',
                 'அரசாங்கம்': 'government', 'அரசு': 'government',
@@ -120,6 +116,15 @@ class MultilingualTranslator:
             'kn': set(),
         }
 
+        # Unicode script ranges for reliable script-based detection
+        self._script_ranges = {
+            'hi': (0x0900, 0x097F),  # Devanagari  → Hindi
+            'ta': (0x0B80, 0x0BFF),  # Tamil
+            'te': (0x0C00, 0x0C7F),  # Telugu
+            'kn': (0x0C80, 0x0CFF),  # Kannada
+            'ml': (0x0D00, 0x0D7F),  # Malayalam
+        }
+
     def _fresh_translator(self):
         """Create a fresh Translator to avoid stale session issues with googletrans."""
         try:
@@ -127,41 +132,45 @@ class MultilingualTranslator:
         except Exception:
             return self.translator
 
+    def detect_language_by_script(self, text):
+        """
+        Fast, 100%-reliable script-based detection using Unicode code-point ranges.
+
+        Indian scripts occupy completely non-overlapping Unicode blocks, so simply
+        counting how many characters of each text fall inside each block gives an
+        unambiguous answer.  This eliminates the googletrans misdetection problem
+        (e.g. Hindi being reported as Tamil) for all Indian-script input.
+
+        Returns the detected lang code, or None if no Indian script characters
+        were found (caller should fall back to googletrans for Latin-script text).
+        """
+        counts = {lang: 0 for lang in self._script_ranges}
+        for ch in text:
+            cp = ord(ch)
+            for lang, (lo, hi) in self._script_ranges.items():
+                if lo <= cp <= hi:
+                    counts[lang] += 1
+                    break  # a code-point can only belong to one block
+
+        best_lang = max(counts, key=counts.get)
+        if counts[best_lang] > 0:
+            logger.info(f"Script-based detection → {best_lang} (counts: {counts})")
+            return best_lang
+        return None  # No Indian script characters found
+
     def _safe_word_replace(self, text, source_word, target_word):
         """
         Replace source_word with target_word only at word/token boundaries.
-
-        Indian scripts do not use spaces between all tokens, so we match the
-        source word when it is surrounded by:
-          - start/end of string
-          - a space or punctuation character
-          - OR another script character boundary (handles agglutinative words poorly,
-            so risky short words are excluded via _skip_as_substring)
         """
-        # Build a pattern that matches the word at a boundary
-        # \b does not work for Unicode scripts, so we use lookahead/lookbehind
-        # that checks for a non-word character or start/end of string.
         escaped = re.escape(source_word)
 
-        # For multi-character words we use a simple "surrounded by non-alphanumeric
-        # Unicode or string edges" boundary.
-        pattern = r'(?<![^\s\u0000-\u002F\u003A-\u0040\u005B-\u0060\u007B-\u00BF])' \
-                  + escaped + \
-                  r'(?![^\s\u0000-\u002F\u003A-\u0040\u005B-\u0060\u007B-\u00BF])'
-
-        # Simpler and more reliable: just check surrounding characters are
-        # spaces, punctuation, or string boundaries.
         pattern = r'(?:(?<=\s)|(?<=^)|(?<=[,.\-:;!?()\[\]]))' \
                   + escaped + \
                   r'(?=\s|$|[,.\-:;!?()\[\]])'
 
         replaced = re.sub(pattern, target_word, text)
 
-        # If the pattern didn't match (word is at start/end without punctuation),
-        # fall back to a cruder but safe check: only replace if surrounded by
-        # spaces or is the entire string.
         if replaced == text and source_word in text:
-            # Check every occurrence manually
             result = []
             i = 0
             src_len = len(source_word)
@@ -169,7 +178,6 @@ class MultilingualTranslator:
                 if text[i:i + src_len] == source_word:
                     before = text[i - 1] if i > 0 else ' '
                     after  = text[i + src_len] if i + src_len < len(text) else ' '
-                    # Safe to replace only if bounded by whitespace or string edge
                     if before in (' ', '\t', '\n') and after in (' ', '\t', '\n'):
                         result.append(target_word)
                     else:
@@ -194,7 +202,6 @@ class MultilingualTranslator:
         replaced_words = []
         skip_set = self._skip_as_substring.get(lang_code, set())
 
-        # Longest-first so multi-word phrases match before single words
         sorted_keywords = sorted(
             self.keyword_mappings[lang_code].items(),
             key=lambda x: len(x[0]),
@@ -202,7 +209,6 @@ class MultilingualTranslator:
         )
 
         for local_word, english_word in sorted_keywords:
-            # Skip risky short words — let the API translate them
             if local_word in skip_set:
                 continue
 
@@ -218,13 +224,32 @@ class MultilingualTranslator:
         return processed_text
 
     def detect_language(self, text):
-        """Detect the language of input text."""
+        """
+        Detect the language of input text.
+
+        Strategy:
+          1. Try script-based detection first — fast, deterministic, and 100%
+             accurate for Indian scripts (Devanagari, Tamil, Telugu, Kannada,
+             Malayalam occupy completely separate Unicode blocks).
+          2. Fall back to googletrans only for Latin-script text (English, etc.)
+             where script-based detection cannot distinguish the language.
+
+        This fixes the known googletrans bug where Hindi (Devanagari script) is
+        sometimes misreported as Tamil.
+        """
+        # Step 1: Script-based detection (reliable for all Indian scripts)
+        script_lang = self.detect_language_by_script(text)
+        if script_lang:
+            return script_lang
+
+        # Step 2: Fallback to googletrans for Latin / unknown scripts
         try:
             t = self._fresh_translator()
             detected = t.detect(text)
             lang_code = detected.lang
             if lang_code not in self.supported_languages:
                 lang_code = 'en'
+            logger.info(f"googletrans detection → {lang_code}")
             return lang_code
         except Exception as e:
             logger.error(f"Language detection error: {e}")

@@ -1,0 +1,3278 @@
+[
+  {
+    "id": "TN_ESEVAI_0001",
+    "name": "National Fishermen Savings cum Relief Scheme",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Animal Husbandry, Dairying and Fisheries",
+      "National Fishermen Savings cum Relief Scheme"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0002",
+    "name": "Tamil Nadu Marine Fisherwomen Savings cum Relief Scheme",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Animal Husbandry, Dairying and Fisheries",
+      "Tamil Nadu Marine Fisherwomen Savings cum Relief Scheme"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0003",
+    "name": "Relief Assistance to marine Fishermen families during Fishing Ban period",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Animal Husbandry, Dairying and Fisheries",
+      "Relief Assistance to marine Fishermen families during Fishing Ban period"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0004",
+    "name": "Special Allowance to marine Fishermen families during Fishing lean period",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Animal Husbandry, Dairying and Fisheries",
+      "Special Allowance to marine Fishermen families during Fishing lean period"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0005",
+    "name": "Renewal of Relief Assistance to Marine Fishermen Families during BAN period",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Animal Husbandry, Dairying and Fisheries",
+      "Renewal of Relief Assistance to Marine Fishermen Families during BAN period"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0006",
+    "name": "Renewal of Special Allowance to Marine Fishermen during Fishing LEAN period",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Animal Husbandry, Dairying and Fisheries",
+      "Renewal of Special Allowance to Marine Fishermen during Fishing LEAN period"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0007",
+    "name": "TNEA 2016 BE/ BTech Online registration",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Anna University",
+      "TNEA 2016 BE/ BTech Online registration"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0008",
+    "name": "Challan Payment",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Chennai Traffic Police",
+      "Challan Payment"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "upto 250, more than 250 of fine amount"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0009",
+    "name": "Application for New Ration Card",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Civil Supplies and Consumer Protection department",
+      "Application for New Ration Card"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0010",
+    "name": "Addition of New Family Member in Ration Card",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Civil Supplies and Consumer Protection department",
+      "Addition of New Family Member in Ration Card"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0011",
+    "name": "Family Head Member Change",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Civil Supplies and Consumer Protection department",
+      "Family Head Member Change"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0012",
+    "name": "Removal of Family Member in Ration Card",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Civil Supplies and Consumer Protection department",
+      "Removal of Family Member in Ration Card"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0013",
+    "name": "Change of Address in Ration Card",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Civil Supplies and Consumer Protection department",
+      "Change of Address in Ration Card"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0014",
+    "name": "Re-Print of Smartcard Application",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Civil Supplies and Consumer Protection department",
+      "Re-Print of Smartcard Application"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0015",
+    "name": "Collection of Non Tax",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Commisionerate Municipal Administration",
+      "Collection of Non Tax"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0016",
+    "name": "Collection of Professional Tax",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Commisionerate Municipal Administration",
+      "Collection of Professional Tax"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0017",
+    "name": "Collection of Property tax",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Commisionerate Municipal Administration",
+      "Collection of Property tax"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0018",
+    "name": "Collection of Underground Drainage Charge",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Commisionerate Municipal Administration",
+      "Collection of Underground Drainage Charge"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0019",
+    "name": "Collection of Water Charges",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Commisionerate Municipal Administration",
+      "Collection of Water Charges"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0020",
+    "name": "Issuance of PSTM Certificate for Govt Schools",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Commissionerate of School Education",
+      "Issuance of PSTM Certificate for Govt Schools"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0021",
+    "name": "eChallan Payment",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Commisionerate of Transport",
+      "eChallan Payment"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0022",
+    "name": "Registration of Boiler under boilers act",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Boilers",
+      "Registration of Boiler under boilers act"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0023",
+    "name": "Renewal of License under boilers act",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Boilers",
+      "Renewal of License under boilers act"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0024",
+    "name": "Application for Approval of Manufacturer/Erector of Boilers",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Boilers",
+      "Application for Approval of Manufacturer/Erector of Boilers"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0025",
+    "name": "Application for Renewal of Manufacturer/Erector of Boilers",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Boilers",
+      "Application for Renewal of Manufacturer/Erector of Boilers"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0026",
+    "name": "Steam Test For Boilers",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Boilers",
+      "Steam Test For Boilers"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0027",
+    "name": "MSB Compliance Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Fire & Rescue",
+      "MSB Compliance Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0028",
+    "name": "NOC for MSB Planning Permission",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Fire & Rescue",
+      "NOC for MSB Planning Permission"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0029",
+    "name": "NOC for Non - MSB Planning Permission",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Fire & Rescue",
+      "NOC for Non - MSB Planning Permission"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0030",
+    "name": "MSB Fire License Registration and Renewal",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Fire & Rescue",
+      "MSB Fire License Registration and Renewal"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0031",
+    "name": "Non - MSB Fire License Registration and Renewal",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Fire & Rescue",
+      "Non - MSB Fire License Registration and Renewal"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0032",
+    "name": "Application for Scholarship Under Dr.MGR Handloom Weavers Welfare Trust",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Scholarship Under Dr.MGR Handloom Weavers Welfare Trust"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0033",
+    "name": "Application for Tamil Nadu Co-operative Handloom Weavers Savings and Security Scheme – Enrolment",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Tamil Nadu Co-operative Handloom Weavers Savings and Security Scheme – Enrolment"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0034",
+    "name": "Application for Tamil Nadu Co-operative Handloom Old Age Pension Scheme",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Tamil Nadu Co-operative Handloom Old Age Pension Scheme"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0035",
+    "name": "Application for Tamil Nadu Co-operative Handloom Weavers Family Pension Scheme",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Tamil Nadu Co-operative Handloom Weavers Family Pension Scheme"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0036",
+    "name": "Application for Life Insurance Schemes for Handlooms Weavers and Ancillary Workers - Enrolment",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Life Insurance Schemes for Handlooms Weavers and Ancillary Workers - Enrolment"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0037",
+    "name": "Application for Enrolment Shiksha Sahayog Yojana Scheme under Mahatma Gandhi Bunkar Bima Yojana",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Enrolment Shiksha Sahayog Yojana Scheme under Mahatma Gandhi Bunkar Bima Yojana"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0038",
+    "name": "Application for Tamil Nadu Co-operative Handlooms Weavers Savings and Security Scheme – Claim (Weaver)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Tamil Nadu Co-operative Handlooms Weavers Savings and Security Scheme – Claim (Weaver)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0039",
+    "name": "Application for Tamil Nadu Co-operative Handlooms Weavers Savings and Security Scheme – Claim (Nominee)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Tamil Nadu Co-operative Handlooms Weavers Savings and Security Scheme – Claim (Nominee)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0040",
+    "name": "Application for Life Insurance Schemes for Handlooms Weavers and Ancillary Workers – Claim (Disability)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Life Insurance Schemes for Handlooms Weavers and Ancillary Workers – Claim (Disability)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0041",
+    "name": "Application for Life Insurance Schemes for Handlooms Weavers and Ancillary Workers – Claim (Death)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Life Insurance Schemes for Handlooms Weavers and Ancillary Workers – Claim (Death)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0042",
+    "name": "Application for Scholarships under Dr.MGR Handloom Weavers Welfare Trust Renewal",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Handlooms & Textiles",
+      "Application for Scholarships under Dr.MGR Handloom Weavers Welfare Trust Renewal"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0043",
+    "name": "CRS-Death Registration",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Public Health",
+      "CRS-Death Registration"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0044",
+    "name": "Printing of Birth Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Public Health",
+      "Printing of Birth Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0045",
+    "name": "Printing of Death Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Directorate of Public Health",
+      "Printing of Death Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0046",
+    "name": "Printing of registration ID",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Employment & Training",
+      "Printing of registration ID"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0047",
+    "name": "Application for Renewal",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Employment & Training",
+      "Application for Renewal"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0048",
+    "name": "Application for profile updation",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Employment & Training",
+      "Application for profile updation"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0049",
+    "name": "Application for Registration",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Employment & Training",
+      "Application for Registration"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0050",
+    "name": "Printing of Birth Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Greater Chennai Corporation",
+      "Printing of Birth Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0051",
+    "name": "Printing of Death Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Greater Chennai Corporation",
+      "Printing of Death Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0052",
+    "name": "Collection of property tax",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Greater Chennai Corporation",
+      "Collection of property tax"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0053",
+    "name": "Renewal of trade license",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Greater Chennai Corporation",
+      "Renewal of trade license"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0054",
+    "name": "Collection of company tax",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Greater Chennai Corporation",
+      "Collection of company tax"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0055",
+    "name": "Collection of professional tax",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Greater Chennai Corporation",
+      "Collection of professional tax"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 10001001 - 30003001 - 50005001 – 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0056",
+    "name": "Issuance of Encumbrance Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Inspectorate General of Registration",
+      "Issuance of Encumbrance Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0057",
+    "name": "Issuance of Certified Copies",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Inspectorate General of Registration",
+      "Issuance of Certified Copies"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0058",
+    "name": "EC Download",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Inspectorate General of Registration",
+      "EC Download"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0059",
+    "name": "CC Download",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Inspectorate General of Registration",
+      "CC Download"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0060",
+    "name": "Generation of Challan with online payment",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Integrated Financial and Human Resource Management System",
+      "Generation of Challan with online payment"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "Upto 50005001 to 1000010001 above"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0061",
+    "name": "e-Adangal Extract Download",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "e-Adangal Extract Download"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0062",
+    "name": "Community Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Community Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0063",
+    "name": "Nativity Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Nativity Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "07 Days",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0064",
+    "name": "Income Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Income Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "15 days",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0065",
+    "name": "First Graduate Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "First Graduate Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0066",
+    "name": "Deserted Woman Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Deserted Woman Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "15 Days",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0067",
+    "name": "Agricultural Income Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Agricultural Income Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0068",
+    "name": "Family Migration Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Family Migration Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0069",
+    "name": "Unemployment Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Unemployment Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0070",
+    "name": "Widow Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Widow Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0071",
+    "name": "Certificate for Loss of Educational Records due to disasters",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Certificate for Loss of Educational Records due to disasters"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "15 Days",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0072",
+    "name": "Inter Caste Marriage Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Inter Caste Marriage Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "15 Days",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0073",
+    "name": "Legal Heir Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Legal Heir Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0074",
+    "name": "Other Backward Classes (OBC) Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Other Backward Classes (OBC) Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0075",
+    "name": "Residence Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Residence Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0076",
+    "name": "Small / Marginal Farmer Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Small / Marginal Farmer Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0077",
+    "name": "Solvency Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Solvency Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0078",
+    "name": "No Male Child Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "No Male Child Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0079",
+    "name": "Unmarried Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Unmarried Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "15 Days",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0080",
+    "name": "Economically Weaker Sections(Income & Assets)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Economically Weaker Sections(Income & Assets)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0081",
+    "name": "Issuance of Jain Religious Minority Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Issuance of Jain Religious Minority Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0082",
+    "name": "Destitute Widow Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Destitute Widow Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "30 Days",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0083",
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOPS)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Indira Gandhi National Old Age Pension Scheme (IGNOPS)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0084",
+    "name": "Destitute Widow Pension Scheme (DWPS)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Destitute Widow Pension Scheme (DWPS)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0085",
+    "name": "Destitute Deserted Woman Pension Scheme (DDWPS)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Destitute Deserted Woman Pension Scheme (DDWPS)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0086",
+    "name": "Unmarried Women Pension Scheme (UWPS)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Unmarried Women Pension Scheme (UWPS)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0087",
+    "name": "Chief Minister Uzhavar Pathukapu Thittam (CMUPT)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Chief Minister Uzhavar Pathukapu Thittam (CMUPT)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0088",
+    "name": "Differently Abled Pension Scheme (DAPS)",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Differently Abled Pension Scheme (DAPS)"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0089",
+    "name": "Licence under Pawn Broker Act",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Licence under Pawn Broker Act"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0090",
+    "name": "Money Lender's Licence",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Money Lender's Licence"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0091",
+    "name": "Issuance of Public Builindg Licence",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Issuance of Public Builindg Licence"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0092",
+    "name": "Temporary Crackers Licence",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Revenue Administration",
+      "Temporary Crackers Licence"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0093",
+    "name": "Farmer Registration Form",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Civil Supplies Corporation",
+      "Farmer Registration Form"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0094",
+    "name": "Issuance of Drawing Approval",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "TN Electrical Inspectorate",
+      "Issuance of Drawing Approval"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0095",
+    "name": "Issuance of Safety Certificate",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "TN Electrical Inspectorate",
+      "Issuance of Safety Certificate"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0096",
+    "name": "Application for Registration of Tenancy Agreement",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "TNHUD",
+      "Application for Registration of Tenancy Agreement"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0097",
+    "name": "User Registration",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Public Works Department",
+      "User Registration"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0098",
+    "name": "Online Sand Booking",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Public Works Department",
+      "Online Sand Booking"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0099",
+    "name": "Claim Registration",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Registration"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0100",
+    "name": "Claim Renewal",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Renewal"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0101",
+    "name": "Claim Updation",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Updation"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0102",
+    "name": "Claim Application-Construction Board Accident Death at worksite",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board Accident Death at worksite"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0103",
+    "name": "Claim Application-Construction Board-Compensation for accidental death and disability",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Compensation for accidental death and disability"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0104",
+    "name": "Claim Application-Construction Board-Disability Pension",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Disability Pension"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0105",
+    "name": "Claim Application-Construction Board-Education Assistance for 10th /12th Standard pass",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Education Assistance for 10th /12th Standard pass"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0106",
+    "name": "Claim Application-Construction Board-Educational Assistance for girl children studying 10th / 11th / 12th",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Educational Assistance for girl children studying 10th / 11th / 12th"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0107",
+    "name": "Claim Application-Construction Board-Educational Assistance for Higher Education",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Educational Assistance for Higher Education"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0108",
+    "name": "Claim Application-Construction Board-Educational Assistance for studying in 6th/7th/8th/9th",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Educational Assistance for studying in 6th/7th/8th/9th"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0109",
+    "name": "Claim Application-Construction Board-Family pension",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Family pension"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0110",
+    "name": "Claim Application-Construction Board-Funeral Expenses / Natural Death",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Funeral Expenses / Natural Death"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0111",
+    "name": "Claim Application-Construction Board-Marriage Assistance",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Marriage Assistance"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0112",
+    "name": "Claim Application-Construction Board-Maternity / Miscarriage / Termination of Pregnancy",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Maternity / Miscarriage / Termination of Pregnancy"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0113",
+    "name": "Claim Application-Construction Board-Pension",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Pension"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0114",
+    "name": "Claim Application-Construction Board-Reimbursement of purchase of spectacles",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Construction Board-Reimbursement of purchase of spectacles"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0115",
+    "name": "Claim Application-Manual Board-Compensation for accidental death and disability",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Compensation for accidental death and disability"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0116",
+    "name": "Claim Application-Manual Board-Disability Pension",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Disability Pension"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0117",
+    "name": "Claim Application-Manual Board-Education Assistance for 10th /12th Standard pass",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Education Assistance for 10th /12th Standard pass"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0118",
+    "name": "Claim Application-Manual Board-Educational Assistance for girl children studying 10th / 11th / 12th",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Educational Assistance for girl children studying 10th / 11th / 12th"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0119",
+    "name": "Claim Application-Manual Board-Educational Assistance for Higher Education",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Educational Assistance for Higher Education"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0120",
+    "name": "Claim Application-Manual Board-Educational Assistance for studying in 6th/7th/8th/9th",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Educational Assistance for studying in 6th/7th/8th/9th"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0121",
+    "name": "Claim Application-Manual Board-Funeral Expenses / Natural Death",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Funeral Expenses / Natural Death"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0122",
+    "name": "Claim Application-Manual Board-Marriage Assistance",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Marriage Assistance"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0123",
+    "name": "Claim Application-Manual Board-Maternity / Miscarriage / Termination of Pregnancy",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Maternity / Miscarriage / Termination of Pregnancy"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0124",
+    "name": "Claim Application-Manual Board-Pension",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Pension"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0125",
+    "name": "Claim Application-Manual Board-Reimbursement of purchase of spectacles",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Manual Board-Reimbursement of purchase of spectacles"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0126",
+    "name": "Claim Application-Driver Board-Compensation for accidental death and disability",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Compensation for accidental death and disability"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0127",
+    "name": "Claim Application-Driver Board-Disability Pension",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Disability Pension"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0128",
+    "name": "Claim Application-Driver Board-Education Assistance for 10th /12th Standard pass",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Education Assistance for 10th /12th Standard pass"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0129",
+    "name": "Claim Application-Driver Board-Educational Assistance for girl children studying 10th / 11th / 12th",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Educational Assistance for girl children studying 10th / 11th / 12th"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0130",
+    "name": "Claim Application-Driver Board-Educational Assistance for Higher Education",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Educational Assistance for Higher Education"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0131",
+    "name": "Claim Application-Driver Board-Educational Assistance for studying in 6th/7th/8th/9th",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Educational Assistance for studying in 6th/7th/8th/9th"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0132",
+    "name": "Claim Application-Driver Board-Funeral Expenses / Natural Death",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Funeral Expenses / Natural Death"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0133",
+    "name": "Claim Application-Driver Board-Marriage Assistance",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Marriage Assistance"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0134",
+    "name": "Claim Application-Driver Board-Maternity / Miscarriage / Termination of Pregnancy",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Maternity / Miscarriage / Termination of Pregnancy"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0135",
+    "name": "Claim Application-Driver Board-Pension",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Pension"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0136",
+    "name": "Claim Application-Driver Board-Reimbursement of purchase of spectacles",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application-Driver Board-Reimbursement of purchase of spectacles"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0137",
+    "name": "Claim Application - Return",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application - Return"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0138",
+    "name": "ID Card Download",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "ID Card Download"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0139",
+    "name": "Claim Application - Amendment",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application - Amendment"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0140",
+    "name": "Claim Application - Transfer",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Claim Application - Transfer"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0141",
+    "name": "Housing Scheme",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Housing Scheme"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0142",
+    "name": "Live certificate for Pensioners",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Tamil Nadu Unorganised Workers Welfare Board",
+      "Live certificate for Pensioners"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0143",
+    "name": "Electricity Bill Payment",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "TANGEDCO",
+      "Electricity Bill Payment"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0144",
+    "name": "Registration of New LT Connection",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "TANGEDCO",
+      "Registration of New LT Connection"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0145",
+    "name": "Payment of New LT connection",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "TANGEDCO",
+      "Payment of New LT connection"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0146",
+    "name": "PDS - Aadhaar enrollement",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "TNEGA",
+      "PDS - Aadhaar enrollement"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0147",
+    "name": "Jeevan Pramaan – Digital Life Certificate Generation",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Treasuries And Accounts",
+      "Jeevan Pramaan – Digital Life Certificate Generation"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0148",
+    "name": "Ulema Pension Scheme",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "WAQF Board",
+      "Ulema Pension Scheme"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0149",
+    "name": "No objection certificate to extract ground water",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Water Resource Department",
+      "No objection certificate to extract ground water"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0150",
+    "name": "Marriage Assistance",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Differently Abled",
+      "Marriage Assistance"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0151",
+    "name": "Maintance Allownces",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Differently Abled",
+      "Maintance Allownces"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0152",
+    "name": "Loan Asistance",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Differently Abled",
+      "Loan Asistance"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0153",
+    "name": "Educational Training",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Differently Abled",
+      "Educational Training"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0154",
+    "name": "Special Education",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Differently Abled",
+      "Special Education"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0155",
+    "name": "Application For Assistive Devices",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Differently Abled",
+      "Application For Assistive Devices"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  },
+  {
+    "id": "TN_ESEVAI_0156",
+    "name": "Application For Scholarship",
+    "url": "https://www.tnesevai.tn.gov.in/",
+    "service_type": "Government Service",
+    "domain": "e-Sevai",
+    "state": "Tamil Nadu",
+    "target_roles": [],
+    "eligible_categories": [],
+    "level": "State",
+    "tags": [
+      "Differently Abled",
+      "Application For Scholarship"
+    ],
+    "documents_required": [],
+    "documents_note": "Document list is not available in the e-Sevai service catalog. Refer operator manual or department portal.",
+    "fee": {
+      "application_fee": "-",
+      "service_charge": "0"
+    }
+  }
+]

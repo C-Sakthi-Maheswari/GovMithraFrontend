@@ -1495,7 +1495,7 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
         {languages.map(lang => (
           <button
             key={lang.code}
-            onClick={() => onLanguageChange(lang.code)}
+            onClick={() => { localStorage.setItem('govmithra_lang', lang.code); window.location.reload(); }}
             style={{
               padding: '12px 20px',
               borderRadius: '25px',
@@ -1682,7 +1682,7 @@ export default function GovMithra() {
   const [isEditingProfile, setIsEditingProfile] = useState(false);
   const [user, setUser] = useState(null);
   const [userProfile, setUserProfile] = useState(null);
-  const [selectedLanguage, setSelectedLanguage] = useState('en');
+  const [selectedLanguage, setSelectedLanguage] = useState(() => localStorage.getItem('govmithra_lang') || 'en');
   const [showLanguageMenu, setShowLanguageMenu] = useState(false);
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState('');
@@ -1911,7 +1911,10 @@ export default function GovMithra() {
             {languages.map(lang => (
               <button
                 key={lang.code}
-                onClick={() => setSelectedLanguage(lang.code)}
+                onClick={() => {
+                  localStorage.setItem('govmithra_lang', lang.code);
+                  window.location.reload();
+                }}
                 style={{
                   padding: '12px 16px',
                   borderRadius: '12px',
