@@ -1495,7 +1495,7 @@ function AuthPage({ onLogin, language, onLanguageChange }) {
         {languages.map(lang => (
           <button
             key={lang.code}
-            onClick={() => { localStorage.setItem('govmithra_lang', lang.code); window.location.reload(); }}
+            onClick={() => { localStorage.setItem('govmithra_lang', lang.code); onLanguageChange(lang.code); }}
             style={{
               padding: '12px 20px',
               borderRadius: '25px',
@@ -1913,7 +1913,7 @@ export default function GovMithra() {
                 key={lang.code}
                 onClick={() => {
                   localStorage.setItem('govmithra_lang', lang.code);
-                  window.location.reload();
+                  setSelectedLanguage(lang.code);
                 }}
                 style={{
                   padding: '12px 16px',
