@@ -1,29 +1,216 @@
 version: "3.1"
 
 nlu:
+  # ---------------------------------------------------------------
+  # LANGUAGE SWITCHING
+  # ---------------------------------------------------------------
   - intent: set_language
     examples: |
+      - english
+      - tamil
+      - hindi
+      - telugu
+      - malayalam
+      - kannada
+      - bengali
+      - marathi
+      - gujarati
+      - punjabi
+      - odia
+      - assamese
+      - urdu
+      - maithili
+      - konkani
+      - sindhi
       - change language to Tamil
       - set language to Hindi
       - switch to English
+      - switch to Bengali
+      - switch to Marathi
+      - switch to Gujarati
+      - switch to Punjabi
+      - switch to Odia
+      - switch to Assamese
+      - switch to Urdu
+      - switch to Maithili
+      - switch to Konkani
+      - switch to Sindhi
       - language Telugu
       - use Malayalam
+      - use Kannada
+      - use Bengali
+      - use Marathi
+      - I want Bengali
+      - speak in Gujarati
+      - speak in Punjabi
+      - speak in Urdu
+      - talk in Odia
+      - change to Assamese
+      - respond in Maithili
+      - respond in Konkani
+      - respond in Sindhi
       - மொழியை தமிழாக மாற்று
       - தமிழில் பேசு
       - மொழி மாற்றம்
+      - தமிழ்
+      - ஆங்கிலம்
+      - இந்தி
+      - தெலுங்கு
+      - மலையாளம்
+      - கன்னடம்
+      - வங்காளம்
+      - மராத்தி
+      - குஜராத்தி
+      - பஞ்சாபி
+      - ஒடியா
+      - அசாமி
+      - உர்து
+      - மைதிலி
+      - கொங்கணி
+      - சிந்தி
       - भाषा हिंदी में बदलें
       - हिंदी में बात करो
       - भाषा बदलें
+      - हिंदी
+      - अंग्रेजी
+      - तमिल
+      - तेलुगु
+      - मलयालम
+      - कन्नड़
+      - बंगाली
+      - मराठी
+      - गुजराती
+      - पंजाबी
+      - ओडिया
+      - असमिया
+      - उर्दू
+      - मैथिली
+      - कोंकणी
+      - सिंधी
       - భాషను తెలుగుకు మార్చు
       - తెలుగులో మాట్లాడు
       - భాష మార్పు
+      - తెలుగు
+      - ఇంగ్లీష్
+      - తమిళం
+      - హిందీ
+      - మలయాళం
+      - కన్నడం
+      - బెంగాలీ
+      - మరాఠీ
+      - గుజరాతీ
+      - పంజాబీ
+      - ఒడియా
+      - అస్సామీ
+      - ఉర్దూ
+      - మైథిలీ
+      - కొంకణి
+      - సింధీ
       - ഭാഷ മലയാളത്തിലേക്ക് മാറ്റുക
       - മലയാളത്തിൽ സംസാരിക്കുക
       - ഭാഷ മാറ്റം
+      - മലയാളം
+      - ഇംഗ്ലീഷ്
+      - തമിഴ്
+      - ഹിന്ദി
+      - തെലുഗു
+      - കന്നഡ
+      - ബംഗാളി
+      - മറാഠി
+      - ഗുജറാത്തി
+      - പഞ്ചാബി
+      - ഒഡിയ
+      - അസ്സാമീസ്
+      - ഉറുദു
+      - മൈഥിലി
+      - കൊങ്കണി
+      - സിന്ധി
       - ಭಾಷೆಯನ್ನು ಕನ್ನಡಕ್ಕೆ ಬದಲಾಯಿಸಿ
       - ಕನ್ನಡದಲ್ಲಿ ಮಾತನಾಡಿ
       - ಭಾಷೆ ಬದಲಾವಣೆ
+      - ಕನ್ನಡ
+      - ಇಂಗ್ಲಿಷ್
+      - ತಮಿಳು
+      - ಹಿಂದಿ
+      - ತೆಲುಗು
+      - ಮಲಯಾಳಂ
+      - ಬಂಗಾಳಿ
+      - ಮರಾಠಿ
+      - ಗುಜರಾತಿ
+      - ಪಂಜಾಬಿ
+      - ಒಡಿಯಾ
+      - ಅಸ್ಸಾಮಿ
+      - ಉರ್ದು
+      - ಮೈಥಿಲಿ
+      - ಕೊಂಕಣಿ
+      - ಸಿಂಧಿ
+      - বাংলা
+      - ইংরেজি
+      - হিন্দি
+      - তেলুগু
+      - মালায়ালাম
+      - কন্নড়
+      - মারাঠি
+      - গুজরাটি
+      - পাঞ্জাবি
+      - ওড়িয়া
+      - অসমীয়া
+      - উর্দু
+      - মৈথিলী
+      - কোঙ্কণি
+      - সিন্ধি
+      - ગુજરાતી
+      - અંગ્રેજી
+      - તમિળ
+      - હિન્દી
+      - તેલુગુ
+      - મલયાળમ
+      - કન્નડ
+      - બંગાળી
+      - મરાઠી
+      - પંજાબી
+      - ઓડિયા
+      - આસામી
+      - ઉર્દૂ
+      - મૈથિલી
+      - કોંકણી
+      - સિંધી
+      - ਪੰਜਾਬੀ
+      - ਅੰਗਰੇਜ਼ੀ
+      - ਤਮਿਲ
+      - ਹਿੰਦੀ
+      - ਤੇਲੁਗੂ
+      - ਮਲਿਆਲਮ
+      - ਕੰਨੜ
+      - ਬੰਗਾਲੀ
+      - ਮਰਾਠੀ
+      - ਗੁਜਰਾਤੀ
+      - ਓਡੀਆ
+      - ਅਸਾਮੀ
+      - ਉਰਦੂ
+      - ਮੈਥਿਲੀ
+      - ਕੋਂਕਣੀ
+      - ਸਿੰਧੀ
+      - اردو
+      - انگریزی
+      - ہندی
+      - تامل
+      - تیلگو
+      - ملیالم
+      - کنڑ
+      - بنگالی
+      - مراٹھی
+      - گجراتی
+      - پنجابی
+      - اڈیہ
+      - آسامی
+      - میتھلی
+      - کونکنی
+      - سندھی
 
+  # ---------------------------------------------------------------
+  # BUS
+  # ---------------------------------------------------------------
   - intent: search_bus
     examples: |
       - bus from [Tambaram](location) to [Adyar](location)
@@ -34,34 +221,81 @@ nlu:
       - [570](bus_no) from [CMBT](location)
       - bus via [MPM](location)
       - [Egmore](location) to [Velachery](location) bus
+      - which bus goes to [Anna Nagar](location)
+      - bus number [27B](bus_no) route
+      - how to reach [Koyambedu](location) by bus
+      - bus
+      - route
+      - mtc
+      - bus route
+      - bus route information
+      - bus number
+      - bus schedule
+      - local bus service
+      - city bus route
+      - பஸ்
+      - பேருந்து
       - தாம்பரம் இருந்து அடையாறு பேருந்து
       - சென்ட்ரல் இருந்து கிண்டி
       - பேருந்து வழி
       - எம்பிஎம் வழியாக பேருந்து
-      - bus
-      - route
-      - mtc
-      - பஸ்
-      - பேருந்து
+      - பேருந்து எண்
+      - பேருந்து அட்டவணை
+      - எந்த பேருந்து
+      - பேருந்து தகவல்
+      - बस
       - एक्समो से गिंडी बस
       - बस मार्ग
-      - बस
       - तांबरम से अड्यार बस
       - सेंट्रल से गिंडी बस
       - बस रूट जानकारी
+      - बस नंबर
+      - बस समय सारणी
+      - बस सेवा
+      - బస్సు
       - తాంబరం నుండి అడయార్ బస్సు
       - సెంట్రల్ నుండి గిండి బస్సు
       - బస్సు మార్గం
       - బస్సు సమాచారం
+      - బస్సు నంబర్
+      - ఏ బస్సు వెళ్తుంది
+      - ബസ്
       - തമ്പരം മുതൽ അടയാർ ബസ്
       - സെൻട്രൽ മുതൽ ഗിണ്ടി ബസ്
       - ബസ് റൂട്ട്
-      - ബസ്
+      - ബസ് നമ്പർ
+      - ഏത് ബസ്
+      - ബസ് സമയ പട്ടിക
+      - ಬಸ್
       - ತಂಬರಂನಿಂದ ಅಡ್ಯಾರ್ ಬಸ್
       - ಸೆಂಟ್ರಲ್ ನಿಂದ ಗಿಂಡಿ ಬಸ್
       - ಬಸ್ ಮಾರ್ಗ
-      - ಬಸ್
+      - ಬಸ್ ಸಂಖ್ಯೆ
+      - ಯಾವ ಬಸ್
+      - ಬಸ್ ಸಮಯ ಪಟ್ಟಿ
+      - বাস
+      - ঢাকা থেকে চট্টগ্রাম বাস
+      - বাস রুট
+      - বাস নম্বর
+      - কোন বাস যায়
+      - বাস তথ্য
+      - बस
+      - बस मार्गक्रमण
+      - बस क्रमांक
+      - بس
+      - بس روٹ
+      - بس نمبر
+      - ਬੱਸ
+      - ਬੱਸ ਰੂਟ
+      - ਬੱਸ ਨੰਬਰ
+      - ବସ
+      - ବସ ରୁଟ
+      - বাছ
+      - বাছ ৰুট
 
+  # ---------------------------------------------------------------
+  # TAX
+  # ---------------------------------------------------------------
   - intent: tax
     examples: |
       - income tax refund
@@ -69,105 +303,159 @@ nlu:
       - gst registration
       - tax payment
       - GST details
+      - direct tax
+      - indirect tax
+      - tax
+      - வரி
       - சொத்து வரி
       - வருமான வரி
       - வரி செலுத்துதல்
       - ஜிஎஸ்டி பதிவு
+      - कर
       - संपत्ति कर
       - आयकर
       - कर भुगतान
-      - ఆస్తి పన్ను
-      - ആസ്തി നികുതി
-      - tax
-      - வரி
-      - कर
-      - పన్ను
       - जीएसटी पंजीकरण
       - आयकर रिफंड
       - जीएसटी विवरण
       - कर दाखिल करना
+      - పన్ను
+      - ఆస్తి పన్ను
       - జీఎస్టీ నమోదు
       - ఆదాయపు పన్ను రిఫండ్
       - జీఎస్టీ వివరాలు
       - పన్ను చెల్లింపు
+      - നികുതി
+      - ആസ്തി നികുതി
       - ജിഎസ്ടി രജിസ്ട്രേഷൻ
       - ആദായനികുതി റീഫണ്ട്
       - ജിഎസ്ടി വിശദാംശങ്ങൾ
       - നികുതി അടക്കൽ
+      - ತೆರಿಗೆ
       - ಜಿಎಸ್ಟಿ ನೋಂದಣಿ
       - ಆದಾಯ ತೆರಿಗೆ ಮರುಪಾವತಿ
       - ಜಿಎಸ್ಟಿ ವಿವರಗಳು
       - ತೆರಿಗೆ ಪಾವತಿ
       - ಆಸ್ತಿ ತೆರಿಗೆ
+      - কর
+      - আয়কর
+      - জিএসটি নিবন্ধন
+      - সম্পত্তি কর
+      - कर
+      - आयकर
+      - जीएसटी नोंदणी
+      - ટેક્સ
+      - આવકવેરો
+      - ਟੈਕਸ
+      - ਆਮਦਨ ਟੈਕਸ
+      - କର
+      - ଆୟକର
+      - কৰ
+      - ٹیکس
+      - آمدنی ٹیکس
 
+  # ---------------------------------------------------------------
+  # CERTIFICATES
+  # ---------------------------------------------------------------
   - intent: certificates
     examples: |
       - apply for birth certificate
       - community certificate
       - income certificate
+      - death certificate
+      - caste certificate
+      - residence certificate
+      - domicile certificate
+      - certificate
+      - சான்றிதழ்
       - பிறப்பு சான்றிதழ்
       - இறப்பு சான்றிதழ்
       - சமுதாய சான்றிதழ்
       - வருமான சான்றிதழ்
-      - certificate
-      - சான்றிதழ்
-      - जन्म प्रमाण पत्र
-      - मृत्यु प्रमाण पत्र
-      - జన్మ సర్టిఫికేట్
-      - ജനന സർട്ടിഫിക്കറ്റ്
-      - प्रमाण पत्र
-      - सामुदायिक प्रमाण पत्र
-      - आय प्रमाण पत्र
       - जाति प्रमाण पत्र
       - निवास प्रमाण पत्र
+      - प्रमाण पत्र
+      - जन्म प्रमाण पत्र
+      - मृत्यु प्रमाण पत्र
+      - सामुदायिक प्रमाण पत्र
+      - आय प्रमाण पत्र
+      - సర్టిఫికేట్
+      - జన్మ సర్టిఫికేట్
       - మరణ సర్టిఫికేట్
       - కమ్యూనిటీ సర్టిఫికేట్
       - ఆదాయ సర్టిఫికేట్
       - కుల సర్టిఫికేట్
-      - మరణ സർട്ടിഫിക്കറ്റ്
+      - സർട്ടിഫിക്കറ്റ്
+      - ജനന സർട്ടിഫിക്കറ്റ്
+      - മരണ സർട്ടിഫിക്കറ്റ്
       - കമ്മ്യൂണിറ്റി സർട്ടിഫിക്കറ്റ്
       - വരുമാന സർട്ടിഫിക്കറ്റ്
       - ജാതി സർട്ടിഫിക്കറ്റ്
+      - ಪ್ರಮಾಣಪತ್ರ
       - ಜನನ ಪ್ರಮಾಣಪತ್ರ
       - ಮರಣ ಪ್ರಮಾಣಪತ್ರ
       - ಜಾತಿ ಪ್ರಮಾಣಪತ್ರ
       - ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ
       - ನಿವಾಸ ಪ್ರಮಾಣಪತ್ರ
-      - ಪ್ರಮಾಣಪತ್ರ
+      - সার্টিফিকেট
+      - জন্ম সনদ
+      - মৃত্যু সনদ
+      - আয় সার্টিফিকেট
+      - जन्म दाखला
+      - मृत्यू दाखला
+      - प्रमाणपत्र
+      - જન્મ પ્રમાણપત્ર
+      - મૃત્યુ પ્રમાણપત્ર
+      - ਜਨਮ ਸਰਟੀਫਿਕੇਟ
+      - ਮੌਤ ਸਰਟੀਫਿਕੇਟ
+      - ଜନ୍ମ ପ୍ରମାଣ ପତ୍ର
+      - মৃত্যু প্ৰমাণপত্ৰ
+      - سرٹیفکیٹ
+      - پیدائش سرٹیفکیٹ
 
+  # ---------------------------------------------------------------
+  # EDUCATION
+  # ---------------------------------------------------------------
   - intent: education
     examples: |
       - scholarship for students
       - college admission process
       - education loan
-      - How can I find internships in Chennai?
-      - Are there any remote internship opportunities?
+      - how to apply for scholarship
+      - government education schemes
+      - free laptop scheme
+      - internship opportunities
+      - How can I find internships in Chennai
+      - Are there any remote internship opportunities
       - I need help submitting my internship application
-      - Can you tell me the internship eligibility criteria?
+      - Can you tell me the internship eligibility criteria
+      - education
+      - scholarship
+      - கல்வி
       - உயர் கல்விக்கான உதவித்தொகை
       - மாணவர்களுக்கான கல்வி திட்டங்கள்
       - இலவச மடிக்கணினி திட்டம்
       - கல்வி கடன்
       - கல்லூரி சேர்க்கை
-      - scholarship
-      - education
-      - கல்வி
+      - கல்வி உதவித்தொகை
+      - இன்டர்ன்ஷிப்
+      - शिक्षा
       - उच्च शिक्षा के लिए छात्रवृत्ति
       - छात्रों के लिए शिक्षा योजनाएं
       - शैक्षिक कार्यक्रम
       - मुफ्त लैपटॉप योजना
+      - कॉलेज प्रवेश
+      - शिक्षा ऋण
+      - इंटर्नशिप अवसर
+      - విద్య
       - విద్యా స్కాలర్‌షిప్‌లు
       - విద్యార్థుల పథకాలు
       - విద్యాభ్యాస సేవలు
-      - వి ద్య
       - కళాశాల ప్రవేశం
       - విద్యా రుణం
       - ఇంటర్న్‌షిప్ అవకాశాలు
       - విద్యార్థి స్కాలర్‌షిప్ పథకం
-      - వేరళ కాయిక సేవలు
-      - వేరళ కాయిక పరిపాటికళు
-      - వ ిద్య
-      - వి ద్య
+      - വിദ്യാഭ്യാസം
       - വിദ്യാഭ്യാസ സ്കീമുകൾ
       - വിദ്യാർത്ഥികൾക്കുള്ള ആനുകൂല്യങ്ങൾ
       - ഉന്നത വിദ്യാഭ്യാസ സ്കോളർഷിപ്പ്
@@ -175,39 +463,63 @@ nlu:
       - വിദ്യാഭ്യാസ വായ്പ
       - ഇന്റേൺഷിപ്പ് അവസരങ്ങൾ
       - സൗജന്യ ലാപ്ടോപ്പ് പദ്ധതി
+      - ಶಿಕ್ಷಣ
       - ಉಚ್ಚ ಶಿಕ್ಷಣಕ್ಕಾಗಿ ವಿದ್ಯಾರ್ಥಿ ವೇತನ
       - ವಿದ್ಯಾರ್ಥಿಗಳ ಶಿಕ್ಷಣ ಯೋಜನೆಗಳು
       - ಉಚಿತ ಲ್ಯಾಪ್ಟಾಪ್ ಯೋಜನೆ
       - ಕಾಲೇಜು ಪ್ರವೇಶ
       - ಶಿಕ್ಷಣ ಸಾಲ
       - ಇಂಟರ್ನ್‌ಶಿಪ್ ಅವಕಾಶಗಳು
-      - ಶಿಕ್ಷಣ
-      - कॉलेज प्रवेश
-      - शिक्षा ऋण
-      - इंटर्नशिप अवसर
+      - শিক্ষা
+      - শিক্ষার্থী বৃত্তি
+      - শিক্ষা ঋণ
+      - কলেজ ভর্তি
+      - ইন্টার্নশিপ সুযোগ
+      - शिक्षण
+      - शिष्यवृत्ती
+      - महाविद्यालय प्रवेश
+      - શિક્ષણ
+      - શિષ્યવૃત્તિ
+      - ਸਿੱਖਿਆ
+      - ਵਜ਼ੀਫ਼ਾ
+      - ਕਾਲਜ ਦਾਖਲਾ
+      - ଶିକ୍ଷା
+      - ବୃତ୍ତି
+      - শিক্ষা
+      - বৃত্তি
+      - تعلیم
+      - وظیفہ
 
+  # ---------------------------------------------------------------
+  # EXAMS
+  # ---------------------------------------------------------------
   - intent: exams
     examples: |
       - I want to apply for IBPS Clerk exam
-      - How do I register for IBPS PO?
+      - How do I register for IBPS PO
       - Tell me about IBPS RRB Clerk
       - Details for IBPS RRB PO
-      - How can I appear for IBPS SO exam?
-      - Where can I find GATE exam information?
-      - What is the GATE exam eligibility?
+      - How can I appear for IBPS SO exam
+      - Where can I find GATE exam information
+      - What is the GATE exam eligibility
       - I need UGC NET exam details
-      - When is the UGC NET registration starting?
-      - How to apply for RRB ALP exam?
+      - When is the UGC NET registration starting
+      - How to apply for RRB ALP exam
       - Information on RRB Group D exam
       - RRB JE exam dates
       - RRB NTPC notification
       - I want to know about RRB Technician exam
       - RBI Grade B Officer exam registration
-      - How do I apply for SSC CGL exam?
+      - How do I apply for SSC CGL exam
       - upcoming government exam
       - TNPSC exam date
       - SSC exam details
       - exam schedule
+      - exam
+      - test
+      - competitive exam
+      - government exam notification
+      - தேர்வு
       - வரவிருக்கும் அரசு தேர்வு
       - டிஎன்பிஎஸ்சி தேர்வு தேதி
       - எஸ்எஸ்சி தேர்வு விவரங்கள்
@@ -215,30 +527,29 @@ nlu:
       - அரசு தேர்வுகள்
       - தேர்வு அட்டவணை
       - தேர்வு விண்ணப்பம்
-      - exam
-      - test
-      - தேர்வு
+      - परीक्षा
       - आगामी सरकारी परीक्षा
       - आगामी सरकारी परीक्षा कार्यक्रम
       - टीएनपीएससी परीक्षा तिथि
       - एसएससी परीक्षा विवरण
       - सरकारी परीक्षा अनुसूची
       - परीक्षा अधिसूचना
+      - పరీక్ష
       - ప్రభుత్వ పరీక్షలు
       - టీఎన్‌పీఎస్‌సీ పరీక్ష
-      - సർക్కాർ పరీక్ష
-      - పరీక్ష
+      - సర్కాక్ పరీక్ష
       - ఐబిపిఎస్ పరీక్ష నమోదు
       - ఆర్ఆర్బి పరీక్ష తేదీలు
       - ఎస్ఎస్సి పరీక్ష వివరాలు
       - పరీక్ష షెడ్యూల్
+      - പരീക്ഷ
       - സർക്കാർ പരീക്ഷ
       - പരീക്ഷാ ഷെഡ്യൂൾ
       - ടിഎൻപിഎസ്‌സി പരീക്ഷ
       - ഐബിപിഎസ് പരീക്ഷ
       - ആർആർബി പരീക്ഷ തിയ്യതി
       - എസ്എസ്സി പരീക്ഷ വിവരങ്ങൾ
-      - ഉപകൊമിംഗ് ഗവൺമെൻ്റ് പരീക്ഷ
+      - ಪರೀಕ್ಷೆ
       - ಸರ್ಕಾರಿ ಪರೀಕ್ಷೆ
       - ಟಿಎನ್‌ಪಿಎಸ್‌ಸಿ ಪರೀಕ್ಷೆ
       - ಎಸ್‌ಎಸ್‌ಸಿ ಪರೀಕ್ಷೆ ವಿವರಗಳು
@@ -246,147 +557,160 @@ nlu:
       - ಐಬಿಪಿಎಸ್ ಪರೀಕ್ಷೆ
       - ಆರ್‌ಆರ್‌ಬಿ ಪರೀಕ್ಷೆ ದಿನಾಂಕ
       - ಮುಂಬರುವ ಸರ್ಕಾರಿ ಪರೀಕ್ಷೆ
+      - পরীক্ষা
+      - সরকারি পরীক্ষা
+      - আসন্ন পরীক্ষা
+      - পরীক্ষার সূচি
       - परीक्षा
-      - పరీక్ష
-      - പരീക്ഷ
-      - ಪರೀಕ್ಷೆ
+      - सरकारी परीक्षा
+      - ਪ੍ਰੀਖਿਆ
+      - ਸਰਕਾਰੀ ਪ੍ਰੀਖਿਆ
+      - ପରୀକ୍ଷା
+      - সৰকাৰী পৰীক্ষা
+      - امتحان
+      - سرکاری امتحان
 
+  # ---------------------------------------------------------------
+  # SPORTS
+  # ---------------------------------------------------------------
   - intent: sports
     examples: |
-      - How can I register for National Cadet Corps?
-      - Give me the application form for using performing animals in films
-      - I want to pay cultural welfare board fees
-      - Show me online books by Indira Gandhi National Centre for the Arts
-      - I want to submit feedback to the Jammu and Kashmir Academy of Art Culture
-      - How do I get a Sportsperson ID Card in Odisha?
-      - I need permission for an encamping ground in Haryana
-      - Register me for the Youth Parliament Sitting
+      - How can I register for National Cadet Corps
       - Apply for Sports Scheme in Haryana
-      - I want to download the NOC form for post-shoot
-      - Show me the dashboard for the Ministry of Culture
+      - How do I get a Sportsperson ID Card
+      - sports scholarship
+      - sports training program
+      - sports facilities
+      - sports scheme
+      - sports
+      - விளையாட்டு
       - விளையாட்டு உதவித்தொகை
       - விளையாட்டு பயிற்சி திட்டங்கள்
       - விளையாட்டு வீரர் அட்டை
       - விளையாட்டு திட்டம்
-      - sports
-      - விளையாட்டு
-      - खेल छात्रवृत्ति
+      - खेल
+      - खेल छात்रவृத்தி
       - खेल प्रशिक्षण कार्यक्रम
-      - खेल छात्रवृत्ति और प्रशिक्षण कार्यक्रम
       - खेल सुविधाएं
       - खेल योजनाएं
       - खिलाड़ी पहचान पत्र
       - राष्ट्रीय कैडेट कोर पंजीकरण
-      - क्रीडा स्टेडियम बुकिंग
+      - క్రీడా
       - క్రీడా స్కాలర్‌షిప్
       - క్రీడా శిక్షణా కార్యక్రమాలు
-      - కేరళ కాయిక సేవలు
-      - కేరళ కాయిక పరిపాటికళు
       - క్రీడా గుర్తింపు కార్డు
       - క్రీడా పథకం
       - క్రీడా సౌకర్యాలు
+      - കായിక
       - കായിക സ്കോളർഷിപ്പ്
       - കായിക പരിശീലന പരിപാടികൾ
-      - കായിക സ്കോളർഷിപ്പുകളും പരിശീലന പരിപാടികളും
       - കായിക താരം തിരിച്ചറിയൽ കാർഡ്
       - കായിക പദ്ധതി
       - കായിക സൗകര്യങ്ങൾ
+      - ಕ್ರೀಡಾ
       - ಕ್ರೀಡಾ ವಿದ್ಯಾರ್ಥಿ ವೇತನ
       - ಕ್ರೀಡಾ ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮ
       - ಕ್ರೀಡಾಪಟು ಗುರುತಿನ ಚೀಟಿ
       - ಕ್ರೀಡಾ ಸೌಲಭ್ಯಗಳು
       - ಕ್ರೀಡಾ ಯೋಜನೆ
-      - ರಾಷ್ಟ್ರೀಯ ಕೆಡೆಟ್ ಕಾರ್ಪ್ಸ್ ನೋಂದಣಿ
-      - sports
-      - விளையாட்டு
-      - खेल
-      - క్రీడా
-      - കായിക
-      - ಕ್ರೀಡಾ
+      - খেলাধুলা
+      - ক্রীড়া বৃত্তি
+      - ক্রীড়া প্রশিক্ষণ
+      - खेळ
+      - क्रीडा शिष्यवृत्ती
+      - ਖੇਡਾਂ
+      - ਖੇਡ ਵਜ਼ੀਫ਼ਾ
+      - କ୍ରୀଡ଼ା
+      - ক্ৰীড়া বৃত্তি
+      - کھیل
+      - کھیل اسکالرشپ
 
+  # ---------------------------------------------------------------
+  # PASSPORTS
+  # ---------------------------------------------------------------
   - intent: passports
     examples: |
-      - How do I apply for a passport?
+      - How do I apply for a passport
       - I want to renew my passport
-      - What documents are needed for a passport?
-      - How can I track my passport application status?
-      - Can I get a passport online?
-      - How do I apply for citizenship?
+      - What documents are needed for a passport
+      - How can I track my passport application status
+      - Can I get a passport online
+      - How do I apply for citizenship
       - I want to know the eligibility for naturalization
-      - Can I apply for dual citizenship?
-      - What is the process to get Indian citizenship?
-      - How long does it take to get citizenship?
+      - Can I apply for dual citizenship
+      - What is the process to get Indian citizenship
+      - passport
+      - passport renewal
+      - new passport
+      - passport status
+      - பாஸ்போர்ட்
       - பாஸ்போர்ட் புதுப்பிப்பு ஆவணங்கள்
       - புதிய பாஸ்போர்ட் விண்ணப்பம்
       - பாஸ்போர்ட் அலுவலகம் சென்னை
       - பாஸ்போர்ட் நிலை சரிபார்க்க
-      - passport
-      - பாஸ்போர்ட்
+      - पासपोर्ट
       - पासपोर्ट नवीनीकरण दस्तावेज़
       - नया पासपोर्ट आवेदन
-      - पासपोर्ट कार्यालय चेन्नई
+      - पासपोर्ट कार्यालय
+      - पासपोर्ट की स्थिति जांचें
+      - नागरिकता आवेदन
+      - పాస్‌పోర్ట్
       - పాస్‌పోర్ట్ పునరుద్ధరణ
       - కొత్త పాస్‌పోర్ట్ దరఖాస్తు
       - పాస్‌పోర్ట్ కార్యాలయం
       - పాస్‌పోర్ట్ స్థితి తనిఖీ
       - పౌరసత్వం కోసం దరఖాస్తు
-      - పాస్‌పోర్ట్
+      - പാസ്‌പോർട്ട്
       - പാസ്‌പോർട്ട് പുതുക്കൽ
       - പുതിയ പാസ്‌പോർട്ട്
-      - പാസ്‌പോർട്ട് ഓഫീസ് ചെന്നൈ
-      - പാസ്‌പോർട്ട് അപേക്ഷ നില
+      - പാസ്‌പോർട്ട് ഓഫീസ്
       - പൗരത്വത്തിനുള്ള അപേക്ഷ
-      - പാസ്‌പോർട്ട്
+      - ಪಾಸ್‌ಪೋರ್ಟ್
       - ಪಾಸ್‌ಪೋರ್ಟ್ ನವೀಕರಣ
       - ಹೊಸ ಪಾಸ್‌ಪೋರ್ಟ್ ಅರ್ಜಿ
       - ಪಾಸ್‌ಪೋರ್ಟ್ ಕಚೇರಿ
-      - ಪಾಸ್‌ಪೋರ್ಟ್ ಸ್ಥಿತಿ ತಪಾಸಣೆ
       - ಪೌರತ್ವ ಅರ್ಜಿ
-      - ಪಾಸ್‌ಪೋರ್ಟ್
-      - पासपोर्ट की स्थिति जांचें
-      - नागरिकता आवेदन
+      - পাসপোর্ট
+      - পাসপোর্ট নবায়ন
+      - নতুন পাসপোর্ট
+      - নাগরিকত্ব আবেদন
       - पासपोर्ट
-      - పాస్‌పోర్ట్
-      - പാസ്‌പോർട്ട്
-      - ಪಾಸ್‌ಪೋರ್ಟ್
+      - पासपोर्ट नूतनीकरण
+      - નવો પાસપોર્ટ
+      - પાસપોર્ટ
+      - ਪਾਸਪੋਰਟ
+      - ਪਾਸਪੋਰਟ ਨਵੀਨੀਕਰਣ
+      - ପାସପୋର୍ଟ
+      - পাসপোৰ্ট
+      - پاسپورٹ
+      - پاسپورٹ تجدید
 
+  # ---------------------------------------------------------------
+  # AGRICULTURE
+  # ---------------------------------------------------------------
   - intent: agriculture
     examples: |
       - farmer registration process
       - register for PM Kisan
       - sugarcane farmer registration
-      - upload PM Kisan documents
       - apply for farm subsidy
       - Kisan Credit Card subsidy details
       - irrigation subsidy apply
       - subsidy for farm machinery
       - check land records online
-      - view agriculture land details
-      - irrigation work application
-      - apply for farmer certificate
-      - small farmer certificate Tamil Nadu
-      - agriculture income certificate
-      - no dues certificate agriculture department
-      - check crop market prices
-      - mandi commodity rates today
       - agriculture market report
       - agriculture weather forecast
-      - farming weather update
       - fertilizer availability check
-      - seed or gypsum information
       - agriculture training programs
-      - livestock farming training
-      - electricity connection for tube well
-      - natural farming scheme details
-      - watershed management program
-      - check agriculture application status
       - farmer scheme status
       - fishery license apply
-      - insecticide storage permission
+      - farming
+      - agriculture
       - விவசாயி பதிவு
       - விவசாய உதவித்தொகை
       - பயிர் விலை விவரம்
       - விவசாய திட்டங்கள்
+      - விவசாயம்
       - किसान पंजीकरण
       - पीएम किसान पंजीकरण
       - कृषि सब्सिडी आवेदन
@@ -395,6 +719,7 @@ nlu:
       - किसान क्रेडिट कार्ड
       - सिंचाई सब्सिडी
       - भूमि रिकॉर्ड ऑनलाइन
+      - कृषि
       - రైతు నమోదు
       - పిఎం కిసాన్ నమోదు
       - వ్యవసాయ సబ్సిడీ
@@ -403,84 +728,93 @@ nlu:
       - కిసాన్ క్రెడిట్ కార్డు
       - నీటిపారుదల సబ్సిడీ
       - భూ రికార్డులు ఆన్‌లైన్
+      - వ్యవసాయం
       - കർഷക നമോദ്
-      - പിഎം കിസാൻ നമോദ്
       - കാർഷിക സബ്സിഡി
       - വിള വിപണി വിലകൾ
       - കൃഷി പദ്ധതികൾ
       - കിസാൻ ക്രെഡിറ്റ് കാർഡ്
       - ജലസേചന സബ്സിഡി
       - ഭൂ രേഖകൾ ഓൺലൈൻ
+      - കൃഷി
       - ರೈತ ನೋಂದಣಿ
-      - ಪಿಎಂ ಕಿಸಾನ್ ನೋಂದಣಿ
       - ಕೃಷಿ ಸಬ್ಸಿಡಿ
       - ಬೆಳೆ ಮಾರುಕಟ್ಟೆ ಬೆಲೆ
       - ಕೃಷಿ ಯೋಜನೆಗಳು
       - ಕಿಸಾನ್ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್
       - ನೀರಾವರಿ ಸಬ್ಸಿಡಿ
-      - ಭೂ ದಾಖಲೆಗಳು ಆನ್‌ಲೈನ್
+      - ಕೃಷಿ
+      - কৃষি
+      - কৃষক নিবন্ধন
+      - কৃষি ভর্তুকি
+      - শেতকরी नोंदणी
+      - कृषी सबसिडी
+      - શેતી
+      - ਖੇਤੀਬਾੜੀ
+      - ਕਿਸਾਨ ਰਜਿਸਟ੍ਰੇਸ਼ਨ
+      - କୃଷି
+      - কৃষি
+      - زراعت
+      - کسان رجسٹریشن
 
+  # ---------------------------------------------------------------
+  # BUSINESS
+  # ---------------------------------------------------------------
   - intent: business
     examples: |
       - how to register my business
       - business registration process
       - register establishment under labour act
       - apply for business license
-      - contractor license application
-      - cancel arms license
       - MSME registration details
-      - apply for MSME services
-      - MSME survey registration
       - factory registration process
-      - factory closure notice application
-      - factory stability certificate
       - labour department services for employer
-      - employee verification request
-      - worker skill training application
-      - apply for compliance return
-      - file annual return business
-      - tax inspection report submission
       - apply for business subsidy
       - employment generation subsidy
-      - check business application status
-      - business service status form
-      - online job application system
-      - apply for employment service
       - trade and commerce services
-      - tour operator recognition renewal
+      - business
       - வணிக பதிவு
       - தொழில் உரிமம்
       - வணிக உரிமம்
       - தொழில் திட்டங்கள்
+      - வணிகம்
       - व्यवसाय पंजीकरण
       - व्यापार लाइसेंस
       - एमएसएमई पंजीकरण
       - कारखाना पंजीकरण
       - व्यवसाय सब्सिडी
-      - वार्षिक रिटर्न दाखिल
       - व्यापार और वाणिज्य सेवाएं
+      - व्यवसाय
       - వ్యాపార నమోదు
       - వ్యాపార లైసెన్స్
       - ఎంఎస్ఎంఇ నమోదు
       - కర్మాగారం నమోదు
       - వ్యాపార సబ్సిడీ
-      - వార్షిక రిటర్న్ దాఖలు
-      - వ్యాపారం మరియు వాణిజ్య సేవలు
-      - ബിസിനസ് നമോദ്
+      - వ్యాపారం
+      - ബിസിനസ് നమോദ്
       - ബിസിനസ് ലൈസൻസ്
       - എംഎസ്എംഇ നമോദ്
-      - ഫാക്ടറി നമോദ്
       - ബിസിനസ് സബ്സിഡി
-      - വാർഷിക റിട്ടേൺ ഫയൽ
-      - വ്യാപാര വ്യവസായ സേവനങ്ങൾ
+      - ബിസിനസ്
       - ವ್ಯಾಪಾರ ನೋಂದಣಿ
       - ವ್ಯಾಪಾರ ಪರವಾನಗಿ
       - ಎಂಎಸ್‌ಎಂಇ ನೋಂದಣಿ
       - ಕಾರ್ಖಾನೆ ನೋಂದಣಿ
       - ವ್ಯಾಪಾರ ಸಬ್ಸಿಡಿ
-      - ವಾರ್ಷಿಕ ರಿಟರ್ನ್ ಸಲ್ಲಿಕೆ
-      - ವ್ಯಾಪಾರ ಮತ್ತು ವಾಣಿಜ್ಯ ಸೇವೆಗಳು
+      - ব্যবসা নিবন্ধন
+      - ব্যবসা লাইসেন্স
+      - এমএসএমই নিবন্ধন
+      - व्यवसाय नोंदणी
+      - व्यापार परवाना
+      - વ્યવસાય નોંધણી
+      - ਕਾਰੋਬਾਰ ਰਜਿਸਟ੍ਰੇਸ਼ਨ
+      - ବ୍ୟବସାୟ ପଞ୍ଜୀକରଣ
+      - ব্যৱসায় পঞ্জীয়ন
+      - کاروبار رجسٹریشن
 
+  # ---------------------------------------------------------------
+  # ELECTRICITY
+  # ---------------------------------------------------------------
   - intent: electricity
     examples: |
       - apply for new electricity connection
@@ -489,10 +823,11 @@ nlu:
       - report power outage
       - solar panel subsidy application
       - electricity related services
-      - new power connection application
       - TANGEDCO services
       - electricity bill payment
       - power supply complaint
+      - electricity
+      - power bill
       - புதிய மின் இணைப்பு
       - மின் இணைப்பு விண்ணப்பம்
       - மின்சார கட்டணம் செலுத்து
@@ -501,296 +836,319 @@ nlu:
       - மின்சாரம்
       - மின் சேவை
       - டான்கெட்கோ சேவைகள்
-      - புதிய மின்சார இணைப்பு
       - மின் தடை புகார்
-      - மின் கட்டணம்
       - सौर ऊर्जा सब्सिडी
       - नया बिजली कनेक्शन
       - बिजली बिल भुगतान
       - बिजली बिल ऑनलाइन जांचें
       - बिजली कटौती शिकायत
-      - बिजली संबंधित सेवाएं
-      - బిజిలీ కనెక్షన్
+      - बिजली
       - కొత్త విద్యుత్ కనెక్షన్
       - విద్యుత్ బిల్లు చెల్లింపు
       - విద్యుత్ బిల్లు ఆన్‌లైన్ తనిఖీ
       - విద్యుత్ అంతరాయం ఫిర్యాదు
       - సోలార్ సబ్సిడీ దరఖాస్తు
-      - వైദ్యుత్ సేవలు
+      - విద్యుత్
       - വൈദ്യുതി ബിൽ അടക്കൽ
       - പുതിയ വൈദ്യുതി കണക്ഷൻ
-      - വൈദ്യുതി ബിൽ ഓൺലൈൻ
       - വൈദ്യുത തടസ്സ പരാതി
       - സൗരോർജ്ജ സബ്സിഡി
-      - വൈദ്യുതി സേവനങ്ങൾ
+      - വൈദ്യുതി
       - ಹೊಸ ವಿದ್ಯುತ್ ಸಂಪರ್ಕ
       - ವಿದ್ಯುತ್ ಬಿಲ್ ಆನ್‌ಲೈನ್ ಪಾವತಿ
-      - ವಿದ್ಯುತ್ ಬಿಲ್ ತಪಾಸಣೆ
       - ವಿದ್ಯುತ್ ಅಡಚಣೆ ದೂರು
       - ಸೌರ ಶಕ್ತಿ ಸಬ್ಸಿಡಿ
-      - ಟಾಂಗೆಡ್ಕೋ ಸೇವೆಗಳು
-      - ವಿದ್ಯುತ್ ಸೇವೆಗಳು
+      - ವಿದ್ಯುತ್
+      - বিদ্যুৎ বিল
+      - নতুন বিদ্যুৎ সংযোগ
+      - বিদ্যুৎ
+      - वीज बिल
+      - नवीन वीज जोडणी
+      - वीज
+      - વીજળી બિલ
+      - ਬਿਜਲੀ ਬਿੱਲ
+      - ਨਵਾਂ ਬਿਜਲੀ ਕੁਨੈਕਸ਼ਨ
+      - ବିଦ୍ୟୁତ
+      - বিদ্যুৎ
+      - بجلی بل
+      - نیا بجلی کنکشن
 
+  # ---------------------------------------------------------------
+  # HEALTH
+  # ---------------------------------------------------------------
   - intent: health
     examples: |
       - municipal health services
-      - health services from municipal corporation
       - apply for health service online
-      - city health department services
       - health scheme application
       - apply for national health mission scheme
       - government health program registration
-      - online health portal services
       - public health services for citizens
-      - available health services in my area
+      - health
+      - hospital
+      - government hospital
       - மருத்துவ சேவைகள்
       - அரசு மருத்துவமனை
       - சுகாதார திட்டங்கள்
       - நல திட்டங்கள்
+      - சுகாதாரம்
       - नगर निगम स्वास्थ्य सेवाएं
       - सरकारी अस्पताल
       - स्वास्थ्य योजना आवेदन
       - राष्ट्रीय स्वास्थ्य मिशन पंजीकरण
-      - ऑनलाइन स्वास्थ्य सेवाएं
+      - स्वास्थ्य
       - నగరపాలక ఆరోగ్య సేవలు
       - ప్రభుత్వ ఆసుపత్రి
       - ఆరోగ్య పథకం దరఖాస్తు
-      - జాతీయ ఆరోగ్య మిషన్ నమోదు
-      - ఆన్‌లైన్ ఆరోగ్య సేవలు
+      - ఆరోగ్యం
       - നഗരസഭ ആരോഗ്യ സേവനങ്ങൾ
       - ഗവൺമെൻ്റ് ആശുപത്രി
       - ആരോഗ്യ പദ്ധതി അപേക്ഷ
-      - ദേശീയ ആരോഗ്യ മിഷൻ
-      - ഓൺലൈൻ ആരോഗ്യ സേവനങ്ങൾ
+      - ആരോഗ്യം
       - ನಗರಪಾಲಿಕೆ ಆರೋಗ್ಯ ಸೇವೆಗಳು
       - ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ
       - ಆರೋಗ್ಯ ಯೋಜನೆ ಅರ್ಜಿ
-      - ರಾಷ್ಟ್ರೀಯ ಆರೋಗ್ಯ ಮಿಷನ್
-      - ಆನ್‌ಲೈನ್ ಆರೋಗ್ಯ ಸೇವೆಗಳು
+      - ಆರೋಗ್ಯ
+      - স্বাস্থ্য সেবা
+      - সরকারি হাসপাতাল
+      - স্বাস্থ্য
+      - आरोग्य सेवा
+      - सरकारी रुग्णालय
+      - आरोग्य
+      - આરોગ્ય સેવા
+      - ਸਿਹਤ ਸੇਵਾ
+      - ਸਰਕਾਰੀ ਹਸਪਤਾਲ
+      - ସ୍ୱାସ୍ଥ୍ୟ ସେବା
+      - স্বাস্থ্য সেৱা
+      - صحت سروس
+      - سرکاری ہسپتال
 
+  # ---------------------------------------------------------------
+  # HOUSING
+  # ---------------------------------------------------------------
   - intent: housing
     examples: |
       - apply for building permission
       - building plan approval municipal corporation
-      - how to get building construction approval
       - land demarcation request online
-      - apply for land boundary demarcation
       - submit mutation request
-      - check mutation status of land
       - apply for property certificate
-      - no dues or non encumbrance certificate
+      - no dues certificate
       - property valuation certificate
       - pay property tax online
-      - check property tax payment details
       - view property records online
-      - search property details
-      - property assessment form
       - apply for government housing scheme
       - apply for PM Awas Yojana
-      - apply for government quarters
-      - apply for housing project 1 BHK or 2 BHK
-      - download housing project acknowledgement
-      - check market value of land
-      - stamp duty land valuation
-      - apply for ownership certificate
-      - community center booking online
+      - apply for housing project 1 BHK
+      - housing
+      - property
       - வீட்டு திட்டம்
       - கட்டிட அனுமதி
       - சொத்து வரி செலுத்து
       - அரசு வீட்டு திட்டம்
+      - வீட்டுவசதி
       - भवन निर्माण अनुमति
       - सरकारी आवास योजना
       - पीएम आवास योजना
       - संपत्ति कर भुगतान
       - भूमि रिकॉर्ड ऑनलाइन
-      - भवन योजना अनुमोदन
-      - स्वामित्व प्रमाण पत्र
+      - आवास
       - కట్టడం అనుమతి
       - ప్రభుత్వ గృహ పథకం
       - పిఎం ఆవాస్ యోజన
       - ఆస్తి పన్ను చెల్లింపు
-      - భూ రికార్డులు ఆన్‌లైన్
-      - నిర్మాణ ప్లాన్ ఆమోదం
-      - యాజమాన్య సర్టిఫికేట్
+      - గృహనిర్మాణం
       - കെട്ടിട നിർമ്മാണ അനുമതി
       - ഗവൺമെൻ്റ് ഭവന പദ്ധതി
-      - പിഎം ആവാസ് യോജന
       - സ്വത്ത് നികുതി അടക്കൽ
-      - ഭൂ രേഖകൾ ഓൺലൈൻ
-      - ഉടമസ്ഥാവകാശ സർട്ടിഫിക്കറ്റ്
+      - ഭവനം
       - ಕಟ್ಟಡ ನಿರ್ಮಾಣ ಅನುಮತಿ
       - ಸರ್ಕಾರಿ ವಸತಿ ಯೋಜನೆ
-      - ಪಿಎಂ ಆವಾಸ್ ಯೋಜನೆ
       - ಆಸ್ತಿ ತೆರಿಗೆ ಪಾವತಿ
-      - ಭೂ ದಾಖಲೆಗಳು ಆನ್‌ಲೈನ್
-      - ಮಾಲೀಕತ್ವ ಪ್ರಮಾಣಪತ್ರ
+      - ವಸತಿ
+      - আবাসন প্রকল্প
+      - সম্পত্তি কর
+      - আবাসন
+      - गृहनिर्माण योजना
+      - मालमत्ता कर
+      - आवास
+      - ઘર યોજના
+      - ਘਰ ਯੋਜਨਾ
+      - ਜਾਇਦਾਦ ਟੈਕਸ
+      - ଗୃହ ଯୋଜନା
+      - আৱাসন আঁচনি
+      - رہائشی منصوبہ
 
+  # ---------------------------------------------------------------
+  # JOBS
+  # ---------------------------------------------------------------
   - intent: jobs
     examples: |
       - I want to register as a job seeker
       - Employment registration online
-      - Employer registration process
       - Apply for government job
       - Apply for recruitment services
       - Public service commission application
-      - Central staffing scheme application
       - Check my job application status
-      - Search my application number
-      - Track recruitment application
-      - Apply for unemployment certificate
-      - I need unemployment certificate
       - Skill development programs
       - Job training courses
-      - Online placement portal
       - Government employment portal
       - Show government job vacancies
-      - Vacancy information
-      - Check recruitment exam results
-      - PSC exam results
-      - Screening test answer key
-      - Defence job opportunities
-      - Air force careers
-      - Navy career information
-      - Employment services help
-      - Government job services
       - recent government jobs
       - latest government jobs
       - government job vacancy
+      - jobs
+      - employment
+      - recruitment
       - சமீபத்திய அரசு வேலைகள்
       - அரசு வேலைகள்
       - வேலைகள்
       - புதிய வேலை வாய்ப்பு
       - அரசு வேலை விண்ணப்பம்
       - வேலை வாய்ப்பு
-      - அரசு ஆட்சேர்ப்பு
       - வேலைவாய்ப்பு திட்டம்
-      - வேலை தேடுபவர் பதிவு
+      - वேलை தேடுபவர் பதிவு
       - सरकारी नौकरी
       - नवीनतम सरकारी नौकरियां
       - सरकारी भर्ती
       - नौकरी आवेदन स्थिति
       - रोजगार पंजीकरण
       - कौशल विकास कार्यक्रम
-      - सरकारी रिक्तियां
       - నవీనతమ ప్రభుత్వ ఉద్యోగాలు
-      - రాష్ట్ర ప్రభుత్వ ఉద్యోగాలు
       - ప్రభుత్వ నియామకం
       - ఉద్యోగ దరఖాస్తు స్థితి
       - ఉపాధి నమోదు
       - నైపుణ్యాభివృద్ధి కార్యక్రమం
-      - ప్రభుత్వ ఖాళీలు
+      - ఉద్యోగాలు
       - ഏറ്റവും പുതിയ ഗവൺമെൻ്റ് ജോലികൾ
       - സർക്കാർ ജോലി
-      - പുതിയ തൊഴിൽ അവസരങ്ങൾ
       - ഗവൺമെൻ്റ് റിക്രൂട്ട്മെൻ്റ്
       - ജോലി അപേക്ഷ സ്ഥിതി
-      - തൊഴിൽ നമോദ്
       - നൈപുണ്യ വികസന പദ്ധതി
-      - ഗവൺമെൻ്റ് ഒഴിവുകൾ
+      - ജോലികൾ
       - ಇತ್ತೀಚಿನ ಸರ್ಕಾರಿ ಉದ್ಯೋಗ
       - ಸರ್ಕಾರಿ ನೌಕರಿ
-      - ಹೊಸ ಉದ್ಯೋಗ ಅವಕಾಶ
       - ಸರ್ಕಾರಿ ನೇಮಕಾತಿ
       - ಉದ್ಯೋಗ ನೋಂದಣಿ
-      - ಕೌಶಲ್ಯ ಅಭಿವೃದ್ಧಿ ಕಾರ್ಯಕ್ರಮ
-      - ಸರ್ಕಾರಿ ಹುದ್ದೆಗಳು
+      - ಕೌಶಲ್ಯ ಅಭಿವೃದ್ಧಿ
+      - ಉದ್ಯೋಗಗಳು
+      - সরকারি চাকরি
+      - সর্বশেষ সরকারি চাকরি
+      - চাকরির আবেদন
+      - সরকারी नोकरी
+      - नवीनतम सरकारी नोकरी
+      - ਸਰਕਾਰੀ ਨੌਕਰੀ
+      - ਭਰਤੀ
+      - ସରକାରୀ ଚାକିରି
+      - চৰকাৰী চাকৰি
+      - سرکاری نوکری
+      - تازہ ترین سرکاری نوکریاں
 
+  # ---------------------------------------------------------------
+  # JUSTICE
+  # ---------------------------------------------------------------
   - intent: justice
     examples: |
       - Register a complaint online
       - File a grievance with government department
       - Lodge complaint with human rights commission
-      - Submit public complaint
-      - File banking complaint
-      - File electricity complaint
-      - Investor complaint tracking
-      - SEBI complaint registration
-      - Give feedback to government
-      - Submit citizen feedback
-      - Send suggestion to ministry
       - File online FIR
       - Report lost document
-      - Download lost document report
-      - Verify lost document report
-      - Check arrested persons details
-      - Track my complaint status
-      - Check grievance status
       - Check court case status
-      - Search case details
-      - Court hearing cause list
-      - Check court judgments
-      - View court orders
       - Find lawyer directory
-      - Advocate contact details
+      - Track my complaint status
+      - justice
+      - complaint
+      - grievance
+      - FIR
       - புகார் பதிவு
       - நீதித்துறை சேவைகள்
       - நீதிமன்ற வழக்கு நிலை
+      - நீதி
       - ऑनलाइन शिकायत दर्ज करें
       - ऑनलाइन एफआईआर दर्ज करें
       - न्यायालय मामले की स्थिति
       - वकील निर्देशिका
-      - नागरिक शिकायत पोर्टल
-      - न्याय सेवाएं
+      - न्याय
       - ఆన్‌లైన్ ఫిర్యాదు నమోదు
       - ఆన్‌లైన్ ఎఫ్‌ఐఆర్ దాఖలు
       - న్యాయస్థాన కేసు స్థితి
-      - న్యాయవాది డైరెక్టరీ
-      - పౌర ఫిర్యాదు పోర్టల్
-      - న్యాయ సేవలు
+      - న్యాయం
       - ഓൺലൈൻ പരാതി നൽകൽ
       - ഓൺലൈൻ എഫ്‌ഐആർ
       - കോടതി കേസ് സ്ഥിതി
-      - അഭിഭാഷക ഡയറക്ടറി
-      - പൗര പരാതി പോർട്ടൽ
-      - നീതി സേവനങ്ങൾ
+      - നീതി
       - ಆನ್‌ಲೈನ್ ದೂರು ದಾಖಲು
       - ಆನ್‌ಲೈನ್ ಎಫ್‌ಐಆರ್
       - ನ್ಯಾಯಾಲಯ ಪ್ರಕರಣ ಸ್ಥಿತಿ
-      - ವಕೀಲ ನಿರ್ದೇಶಿಕೆ
-      - ಪೌರ ದೂರು ಪೋರ್ಟಲ್
-      - ನ್ಯಾಯ ಸೇವೆಗಳು
+      - ನ್ಯಾಯ
+      - অনলাইনে অভিযোগ দায়ের
+      - এফআইআর দায়ের
+      - আদালতের মামলার স্থিতি
+      - অনলाइन तक्रार
+      - एफआयआर
+      - ઓનલાઇન ફરિયાદ
+      - ਔਨਲਾਈਨ ਸ਼ਿਕਾਇਤ
+      - ਐਫਆਈਆਰ
+      - ଅଭିଯୋଗ
+      - অভিযোগ দাখিল
+      - آن لائن شکایت
+      - ایف آئی آر
 
+  # ---------------------------------------------------------------
+  # LOCAL
+  # ---------------------------------------------------------------
   - intent: local
     examples: |
       - Pay water charges online
       - Sewerage bill payment
       - Municipal utility payment
-      - Water and drainage charges
       - Town development services
       - Urban planning approval
       - Municipal town planning
-      - City development services
       - Municipal corporation services
       - Local municipal services online
-      - City administration services
-      - Property related municipal services
       - Apply for advertisement permission
       - Hoarding license from municipality
-      - Outdoor advertisement approval
+      - local body services
+      - municipality
       - உள்ளாட்சி சேவைகள்
       - நகராட்சி சேவைகள்
       - நகர்ப்புற திட்டமிடல்
+      - உள்ளாட்சி
       - नगर निगम सेवाएं
       - स्थानीय निकाय सेवाएं
       - जल शुल्क ऑनलाइन भुगतान
       - शहरी नियोजन अनुमोदन
-      - होर्डिंग लाइसेंस
+      - స్థానిక సేవలు
       - నగరపాలక సేవలు
       - స్థానిక సంస్థ సేవలు
-      - నీటి చార్జీలు ఆన్‌లైన్ చెల్లింపు
-      - పట్టణ ప్రణాళిక ఆమోదం
-      - హోర్డింగ్ లైసెన్స్
+      - నీటి చార్జీలు ఆన్‌లైన్
+      - స్థానిక
       - നഗരസഭ സേവനങ്ങൾ
       - പ്രാദേശിക സ്ഥാപന സേവനങ്ങൾ
       - ജല ഫീസ് ഓൺലൈൻ
-      - നഗര ആസൂത്രണ അനുമതി
-      - ഹോർഡിങ് ലൈസൻസ്
+      - പ്രാദേശിക
       - ನಗರಪಾಲಿಕೆ ಸೇವೆಗಳು
       - ಸ್ಥಳೀಯ ಸಂಸ್ಥೆ ಸೇವೆಗಳು
-      - ನೀರಿನ ಶುಲ್ಕ ಆನ್‌ಲೈನ್ ಪಾವತಿ
-      - ನಗರ ಯೋಜನಾ ಅನುಮತಿ
-      - ಹೋರ್ಡಿಂಗ್ ಪರವಾನಗಿ
+      - ನೀರಿನ ಶುಲ್ಕ ಆನ್‌ಲೈನ್
+      - ಸ್ಥಳೀಯ
+      - স্থানীয় সেবা
+      - পৌরসভা সেবা
+      - স্থানীয়
+      - स्थानिक सेवा
+      - नगरपालिका
+      - સ્થાનિક સેવા
+      - ਸਥਾਨਕ ਸੇਵਾਵਾਂ
+      - ਨਗਰ ਨਿਗਮ
+      - ସ୍ଥାନୀୟ ସେବା
+      - স্থানীয় সেৱা
+      - مقامی خدمات
+      - میونسپل کارپوریشن
 
+  # ---------------------------------------------------------------
+  # LPG SERVICES
+  # ---------------------------------------------------------------
   - intent: lpg_services
     examples: |
       - Book LPG refill
@@ -798,78 +1156,103 @@ nlu:
       - LPG subsidy or PAHAL scheme
       - Update LPG KYC details
       - Transfer LPG connection
-      - Surrender LPG connection
       - Find nearest LPG distributor
-      - Request LPG mechanic service
-      - Check LPG booking or service status
-      - LPG safety or insurance information
-      - Apply for LPG distributor license
-      - Fire NOC for LPG storage
-      - LPG services help
+      - Check LPG booking status
+      - gas cylinder
+      - LPG
+      - cooking gas
       - எல்பிஜி இணைப்பு
       - கேஸ் சிலிண்டர் புக்கிங்
       - எல்பிஜி மானியம்
+      - எல்பிஜி
       - एलपीजी रिफिल बुकिंग
       - नया एलपीजी कनेक्शन
       - एलपीजी सब्सिडी
       - गैस सिलेंडर बुकिंग
       - एलपीजी वितरक खोजें
+      - एलपीजी
       - ఎల్‌పీజీ రీఫిల్ బుకింగ్
       - కొత్త ఎల్‌పీజీ కనెక్షన్
       - ఎల్‌పీజీ సబ్సిడీ
       - గ్యాస్ సిలిండర్ బుకింగ్
-      - ఎల్‌పీజీ పంపిణీదారు
+      - ఎల్‌పీజీ
       - എൽപിജി റീഫിൽ ബുക്കിംഗ്
       - പുതിയ എൽപിജി കണക്ഷൻ
       - എൽപിജി സബ്‌സിഡി
       - ഗ്യാസ് സിലിണ്ടർ ബുക്കിംഗ്
-      - എൽപിജി ഡിസ്ട്രിബ്യൂട്ടർ
+      - എൽപിജി
       - ಎಲ್‌ಪಿಜಿ ರೀಫಿಲ್ ಬುಕಿಂಗ್
       - ಹೊಸ ಎಲ್‌ಪಿಜಿ ಸಂಪರ್ಕ
       - ಎಲ್‌ಪಿಜಿ ಸಬ್ಸಿಡಿ
       - ಗ್ಯಾಸ್ ಸಿಲಿಂಡರ್ ಬುಕಿಂಗ್
-      - ಎಲ್‌ಪಿಜಿ ವಿತರಕ
+      - ಎಲ್‌ಪಿಜಿ
+      - এলপিজি সংযোগ
+      - গ্যাস সিলিন্ডার বুকিং
+      - এলপিজি ভর্তুকি
+      - एलपीजी जोडणी
+      - गॅस सिलिंडर बुकिंग
+      - એલપીજી
+      - ਐਲਪੀਜੀ
+      - ਗੈਸ ਸਿਲੰਡਰ
+      - ଏଲ୍‌ପିଜି
+      - এলপিজি
+      - ایل پی جی
+      - گیس سلنڈر
 
+  # ---------------------------------------------------------------
+  # MONEY BANKING
+  # ---------------------------------------------------------------
   - intent: money_banking
     examples: |
       - Banking and financial services
       - Access banking portals
       - Government financial schemes
       - Apply for financial assistance
-      - Subsidy or grant application
-      - Business or startup loan schemes
       - Mudra loan or Stand Up India scheme
       - Student financial aid or scholarship
-      - Apply for solvency certificate
-      - Bank guarantee services
       - Direct benefit transfer services
       - Donate to relief fund
-      - Financial support schemes
-      - Money related government services
+      - banking
+      - loan
+      - financial services
       - வங்கி சேவைகள்
       - நிதி உதவி
       - அரசு நிதி திட்டங்கள்
+      - வங்கி
       - बैंकिंग सेवाएं
       - सरकारी वित्तीय योजनाएं
       - मुद्रा ऋण
       - प्रत्यक्ष लाभ हस्तांतरण
-      - वित्तीय सहायता आवेदन
+      - बैंकिंग
       - బ్యాంకింగ్ సేవలు
       - ప్రభుత్వ ఆర్థిక పథకాలు
       - ముద్రా రుణం
       - ప్రత్యక్ష నగదు బదిలీ
-      - ఆర్థిక సహాయం దరఖాస్తు
+      - బ్యాంకింగ్
       - ബാങ്കിംഗ് സേവനങ്ങൾ
       - ഗവൺമെൻ്റ് ധനകാര്യ പദ്ധതികൾ
       - മുദ്ര വായ്പ
-      - നേരിട്ടുള്ള ആനുകൂല്യ കൈമാറ്റം
-      - സാമ്പത്തിക സഹായ അപേക്ഷ
+      - ബാങ്കിംഗ്
       - ಬ್ಯಾಂಕಿಂಗ್ ಸೇವೆಗಳು
       - ಸರ್ಕಾರಿ ಹಣಕಾಸು ಯೋಜನೆಗಳು
       - ಮುದ್ರಾ ಸಾಲ
-      - ನೇರ ಲಾಭ ವರ್ಗಾವಣೆ
-      - ಆರ್ಥಿಕ ಸಹಾಯ ಅರ್ಜಿ
+      - ಬ್ಯಾಂಕಿಂಗ್
+      - ব্যাংকিং সেবা
+      - সরকারি আর্থিক প্রকল্প
+      - ঋণ
+      - बँकिंग सेवा
+      - मुद्रा कर्ज
+      - બેન્કિંગ
+      - ਬੈਂਕਿੰਗ
+      - ਕਰਜ਼ਾ
+      - ବ୍ୟାଙ୍କ ସେବା
+      - বেংকিং সেৱা
+      - بینکنگ خدمات
+      - مدرا قرض
 
+  # ---------------------------------------------------------------
+  # MONEY TAX
+  # ---------------------------------------------------------------
   - intent: money_tax
     examples: |
       - Pay property tax online
@@ -880,36 +1263,54 @@ nlu:
       - Apply for new PAN card or correction
       - Track PAN or TAN application status
       - TAN registration or update details
-      - Check tax challan or tax statement status
       - Tax registration or revenue department services
       - Apply for subsidy or financial assistance scheme
       - Apply for solvency certificate
       - Lodge PAN related grievance
-      - Government tax and revenue services
+      - PAN card
+      - GST filing
+      - property tax
       - பான் கார்டு விண்ணப்பம்
       - வருமான வரி தாக்கல்
       - ஜிஎஸ்டி சேவைகள்
+      - பான் கார்டு
       - पैन कार्ड आवेदन
       - आयकर दाखिल करें
       - जीएसटी दाखिल
       - संपत्ति कर ऑनलाइन
       - टैन पंजीकरण
+      - पैन कार्ड
       - పాన్ కార్డ్ దరఖాస్తు
       - ఆదాయపు పన్ను దాఖలు
       - జీఎస్టీ దాఖలు
       - ఆస్తి పన్ను ఆన్‌లైన్
-      - టాన్ నమోదు
+      - పాన్ కార్డ్
       - പാൻ കാർഡ് അപേക്ഷ
       - ആദായനികുതി ഫയൽ
       - ജിഎസ്ടി ഫയലിംഗ്
       - സ്വത്ത് നികുതി ഓൺലൈൻ
-      - ടാൻ നമോദ്
+      - പാൻ കാർഡ്
       - ಪ್ಯಾನ್ ಕಾರ್ಡ್ ಅರ್ಜಿ
       - ಆದಾಯ ತೆರಿಗೆ ದಾಖಲೆ
       - ಜಿಎಸ್ಟಿ ಫೈಲಿಂಗ್
       - ಆಸ್ತಿ ತೆರಿಗೆ ಆನ್‌ಲೈನ್
-      - ಟ್ಯಾನ್ ನೋಂದಣಿ
+      - ಪ್ಯಾನ್ ಕಾರ್ಡ್
+      - পান কার্ড আবেদন
+      - আয়কর দাখিল
+      - জিএসটি দাখিল
+      - সম্পত্তি কর অনলাইন
+      - पॅन कार्ड अर्ज
+      - जीएसटी फायलिंग
+      - PAN ਕਾਰਡ ਅਰਜ਼ੀ
+      - ਜਾਇਦਾਦ ਟੈਕਸ ਆਨਲਾਈਨ
+      - ପ୍ୟାନ କାର୍ଡ
+      - পেন কাৰ্ড
+      - پین کارڈ درخواست
+      - جی ایس ٹی فائلنگ
 
+  # ---------------------------------------------------------------
+  # PENSION
+  # ---------------------------------------------------------------
   - intent: pension
     examples: |
       - Apply for pension scheme
@@ -918,10 +1319,11 @@ nlu:
       - Disability pension or welfare benefits
       - Social welfare schemes
       - Register as disabled person
-      - Senior citizen certificate or ID card
       - Government welfare financial support
       - Provident fund information
-      - Apply for government pension or welfare help
+      - pension
+      - provident fund
+      - welfare scheme
       - ஓய்வூதியம்
       - முதியோர் ஓய்வூதியம்
       - விதவை ஓய்வூதியம்
@@ -932,43 +1334,60 @@ nlu:
       - दिव्यांग पेंशन
       - सामाजिक कल्याण योजनाएं
       - भविष्य निधि
+      - पेंशन
       - పెన్షన్ పథకం దరఖాస్తు
       - వృద్ధాప్య పెన్షన్
       - వితంతు పెన్షన్
       - వికలాంగుల పెన్షన్
       - సామాజిక సంక్షేమ పథకాలు
       - ప్రావిడెంట్ ఫండ్
+      - పెన్షన్
       - പെൻഷൻ പദ്ധതി അപേക്ഷ
       - വൃദ്ധ ജനക്ഷേമ പെൻഷൻ
       - വിധവ പെൻഷൻ
       - ഭിന്നശേഷി പെൻഷൻ
       - സാമൂഹ്യ ക്ഷേമ പദ്ധതികൾ
       - പ്രൊവിഡൻ്റ് ഫണ്ട്
+      - പെൻഷൻ
       - ಪಿಂಚಣಿ ಯೋಜನೆ ಅರ್ಜಿ
       - ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ
       - ವಿಧವಾ ಪಿಂಚಣಿ
-      - ವಿಕಲಚೇತನ ಪಿಂಚಣಿ
       - ಸಾಮಾಜಿಕ ಕಲ್ಯಾಣ ಯೋಜನೆಗಳು
       - ಭವಿಷ್ಯ ನಿಧಿ
+      - ಪಿಂಚಣಿ
+      - পেনশন স্কিম
+      - বার্ধক্য পেনশন
+      - বিধবা পেনশন
+      - সামাজিক কল্যাণ
+      - पेन्शन योजना
+      - विधवा पेन्शन
+      - ਪੈਨਸ਼ਨ
+      - ਬੁਢਾਪਾ ਪੈਨਸ਼ਨ
+      - ପେନ୍‌ସନ ଯୋଜନା
+      - পেঞ্চন আঁচনি
+      - پنشن اسکیم
+      - بیوہ پنشن
 
+  # ---------------------------------------------------------------
+  # SCIENCE IT
+  # ---------------------------------------------------------------
   - intent: science_it
     examples: |
       - Track postal service status
-      - Search electronic postal order details
       - Government digital or IT services
       - Apply for science or research program
       - Digital India internship or funding
       - NIC email or webmail services
-      - Register complaint in IT system
       - Check newspaper registration status
       - Remote sensing or mapping services
-      - Laboratory search or accreditation services
-      - Government holiday or official list
-      - Book appointment with government officer
-      - Visitor pass or e-visitor system
       - Science and technology services help
+      - digital india
+      - IT services
+      - technology
+      - postal tracking
       - டிஜிட்டல் இந்தியா சேவைகள்
       - அரசு தகவல் தொழில்நுட்ப சேவைகள்
+      - அறிவியல் தொழில்நுட்பம்
       - डिजिटल इंडिया सेवाएं
       - सरकारी आईटी सेवाएं
       - डाक सेवा ट्रैकिंग
@@ -977,15 +1396,31 @@ nlu:
       - డిజిటల్ ఇండియా సేవలు
       - ఐటి సేవలు
       - పోస్టల్ సేవ ట్రాకింగ్
+      - ఐటి
       - ഡിജിറ്റൽ ഇന്ത്യ സേവനങ്ങൾ
       - ഗവൺമെൻ്റ് ഐടി സേവനങ്ങൾ
       - തപാൽ സേവന ട്രാക്കിംഗ്
       - ശാസ്ത്ര സാങ്കേതിക സേവനങ്ങൾ
+      - ഐടി
       - ಡಿಜಿಟಲ್ ಇಂಡಿಯಾ ಸೇವೆಗಳು
       - ಸರ್ಕಾರಿ ಐಟಿ ಸೇವೆಗಳು
       - ಅಂಚೆ ಸೇವೆ ಟ್ರ್ಯಾಕಿಂಗ್
       - ವಿಜ್ಞಾನ ತಂತ್ರಜ್ಞಾನ ಸೇವೆಗಳು
+      - ডিজিটাল ইন্ডিয়া সেবা
+      - সরকারি আইটি সেবা
+      - ডাক পরিষেবা ট্র্যাকিং
+      - विज्ञान आयटी सेवा
+      - ডিজিটেল ইন্ডিয়া
+      - ਡਿਜੀਟਲ ਇੰਡੀਆ ਸੇਵਾਵਾਂ
+      - ਆਈਟੀ ਸੇਵਾਵਾਂ
+      - ଡିଜିଟାଲ ଇଣ୍ଡିଆ
+      - ডিজিটেল ইণ্ডিয়া
+      - ڈیجیٹل انڈیا سروسز
+      - آئی ٹی خدمات
 
+  # ---------------------------------------------------------------
+  # TRANSPORT
+  # ---------------------------------------------------------------
   - intent: transport
     examples: |
       - Register my vehicle online
@@ -994,39 +1429,55 @@ nlu:
       - Apply for driving license
       - Vehicle permit information
       - Update vehicle owner details
-      - Check vehicle fees or charges
       - Know my RTO details
       - Track bus or transport status
-      - Port gate pass registration or status
-      - Book or track HSRP number plate
-      - Replace or transfer registration plate
-      - Transport department services
-      - Vehicle related services help
+      - driving license
+      - vehicle registration
+      - RTO
       - வாகன பதிவு
       - ஓட்டுநர் உரிமம்
       - வாகன சேவைகள்
       - ஆர்டிஓ சேவைகள்
+      - போக்குவரத்து
       - वाहन पंजीकरण
       - ड्राइविंग लाइसेंस आवेदन
       - आरटीओ सेवाएं
       - वाहन परमिट
       - लर्नर लाइसेंस आवेदन
+      - परिवहन
       - వాహన నమోదు
       - డ్రైవింగ్ లైసెన్స్ దరఖాస్తు
       - ఆర్టీఓ సేవలు
       - వాహన అనుమతి
       - లెర్నర్ లైసెన్స్
+      - రవాణా
       - വാഹന രജിസ്ട്രേഷൻ
       - ഡ്രൈവിംഗ് ലൈസൻസ് അപേക്ഷ
       - ആർടിഒ സേവനങ്ങൾ
       - വാഹന പെർമിറ്റ്
       - ലേർണർ ലൈസൻസ്
+      - ഗതാഗതം
       - ವಾಹನ ನೋಂದಣಿ
       - ಚಾಲನಾ ಪರವಾನಗಿ ಅರ್ಜಿ
       - ಆರ್‌ಟಿಒ ಸೇವೆಗಳು
       - ವಾಹನ ಅನುಮತಿ
-      - ಲರ್ನರ್ ಲೈಸೆನ್ಸ್
+      - ಸಾರಿಗೆ
+      - যানবাহন নিবন্ধন
+      - ড্রাইভিং লাইসেন্স
+      - পরিবহন
+      - वाहन नोंदणी
+      - वाहतूक
+      - વાહન નોંધણી
+      - ਵਾਹਨ ਰਜਿਸਟ੍ਰੇਸ਼ਨ
+      - ਡਰਾਈਵਿੰਗ ਲਾਇਸੈਂਸ
+      - ଯାନ ପଞ୍ଜୀକରଣ
+      - যান পঞ্জীয়ন
+      - گاڑی رجسٹریشن
+      - ڈرائیونگ لائسنس
 
+  # ---------------------------------------------------------------
+  # TRAVEL & TOURISM
+  # ---------------------------------------------------------------
   - intent: travel_tourism
     examples: |
       - Apply for e-visa or visa services
@@ -1034,45 +1485,59 @@ nlu:
       - Book government tourism services
       - National park or wildlife sanctuary information
       - Tourist guide registration or information
-      - Travel and tourism related government services
       - Book bus ticket for travel
       - Reserve hotel or room booking
-      - Book tourism package or tour
-      - Tourism booking or destination reservation
       - Helicopter booking for pilgrimage
       - Apply for travel permit or restricted area permit
-      - Visitor reservation for tourist place
-      - Travel safety or health guidelines
-      - Tourism information or services
-      - Help with travel or tourism services
+      - visa
+      - e-visa
+      - tourism
+      - travel
+      - hotel booking
+      - bus ticket
       - சுற்றுலா சேவைகள்
       - விசா விண்ணப்பம்
       - சுற்றுலா தகவல்
+      - சுற்றுலா
       - ई-वीजा आवेदन
       - पर्यटन सेवाएं
       - बस टिकट बुकिंग
       - होटल बुकिंग
       - तीर्थ यात्रा हेलीकॉप्टर बुकिंग
       - यात्रा परमिट
+      - पर्यटन
       - ఈ-వీసా దరఖాస్తు
       - పర్యటన సేవలు
       - బస్సు టికెట్ బుకింగ్
       - హోటల్ బుకింగ్
-      - పుణ్యక్షేత్ర హెలికాప్టర్ బుకింగ్
-      - ప్రయాణ అనుమతి
+      - పర్యటన
       - ഇ-വിസ അപേക്ഷ
       - ടൂറിസം സേവനങ്ങൾ
       - ബസ് ടിക്കറ്റ് ബുക്കിംഗ്
       - ഹോട്ടൽ ബുക്കിംഗ്
-      - തീർത്ഥാടന ഹെലികോപ്റ്റർ ബുക്കിംഗ്
-      - യാത്രാ പെർമിറ്റ്
+      - ടൂറിസം
       - ಇ-ವೀಸಾ ಅರ್ಜಿ
       - ಪ್ರವಾಸೋದ್ಯಮ ಸೇವೆಗಳು
       - ಬಸ್ ಟಿಕೆಟ್ ಬುಕಿಂಗ್
       - ಹೋಟೆಲ್ ಬುಕಿಂಗ್
-      - ತೀರ್ಥಕ್ಷೇತ್ರ ಹೆಲಿಕಾಪ್ಟರ್ ಬುಕಿಂಗ್
-      - ಪ್ರಯಾಣ ಅನುಮತಿ
+      - ಪ್ರವಾಸೋದ್ಯಮ
+      - ভিসা আবেদন
+      - পর্যটন সেবা
+      - হোটেল বুকিং
+      - পর্যটন
+      - व्हिसा अर्ज
+      - पर्यटन
+      - વિઝા અરજી
+      - ਵੀਜ਼ਾ ਅਰਜ਼ੀ
+      - ਸੈਰ-ਸਪਾਟਾ
+      - ଭିସା ଆବେଦନ
+      - ভিছা আবেদন
+      - ویزہ درخواست
+      - سیاحت
 
+  # ---------------------------------------------------------------
+  # WATER
+  # ---------------------------------------------------------------
   - intent: water
     examples: |
       - Pay water bill online
@@ -1083,28 +1548,48 @@ nlu:
       - Transfer or mutate water connection
       - Check water quality or drinkable water report
       - Municipal water services
-      - Water tap connection application
-      - Water service help
+      - water bill
+      - water connection
+      - sewerage
       - தண்ணீர் கட்டணம் செலுத்து
       - புதிய நீர் இணைப்பு
       - நீர் சேவைகள்
+      - நீர்
       - पानी का बिल ऑनलाइन भुगतान
       - नया जल कनेक्शन
       - सीवेज कनेक्शन
       - जल सेवाएं
+      - पानी
       - నీటి బిల్లు ఆన్‌లైన్ చెల్లింపు
       - కొత్త నీటి కనెక్షన్
       - మురుగు కనెక్షన్
       - నీటి సేవలు
+      - నీరు
       - വെള്ളം ബിൽ ഓൺലൈൻ
       - പുതിയ ജലകണക്ഷൻ
       - മലിനജല കണക്ഷൻ
       - ജല സേവനങ്ങൾ
+      - ജലം
       - ನೀರಿನ ಬಿಲ್ ಆನ್‌ಲೈನ್ ಪಾವತಿ
       - ಹೊಸ ನೀರು ಸಂಪರ್ಕ
       - ಒಳಚರಂಡಿ ಸಂಪರ್ಕ
       - ಜಲ ಸೇವೆಗಳು
+      - ನೀರು
+      - পানির বিল
+      - নতুন পানি সংযোগ
+      - পানি সেবা
+      - पाण्याचे बिल
+      - नवीन पाणी जोडणी
+      - ਪਾਣੀ ਦਾ ਬਿੱਲ
+      - ਨਵਾਂ ਪਾਣੀ ਕੁਨੈਕਸ਼ਨ
+      - ଜଳ ସେବା
+      - পানী সেৱা
+      - پانی کا بل
+      - نیا پانی کنکشن
 
+  # ---------------------------------------------------------------
+  # YOUTH
+  # ---------------------------------------------------------------
   - intent: youth
     examples: |
       - Apply for youth program or scheme
@@ -1112,40 +1597,57 @@ nlu:
       - Register for sports facilities or stadium booking
       - Apply for sports admission or sports university
       - Sports scholarship or athlete benefits
-      - Apply for sportsperson ID or certificate
-      - Book sports stadium or entry pass
       - Cultural training or arts programs
       - Museum or cultural digital resources
       - Library membership application
-      - Apply for scholarship or talent scheme
-      - Animal welfare permission for film shooting
-      - Sports pension or award application
-      - Donate to temple or cultural fund
-      - Youth sports or cultural services help
+      - youth
+      - NCC
+      - youth parliament
+      - cultural program
+      - library
       - இளைஞர் திட்டங்கள்
       - இளைஞர் விளையாட்டு திட்டம்
       - கலாச்சார பயிற்சி
+      - இளைஞர்
       - युवा कार्यक्रम आवेदन
       - एनसीसी पंजीकरण
       - स्टेडियम बुकिंग
       - सांस्कृतिक प्रशिक्षण
       - पुस्तकालय सदस्यता
       - युवा संसद
+      - युवा
       - యువత కార్యక్రమం దరఖాస్తు
       - ఎన్‌సిసి నమోదు
       - స్టేడియం బుకింగ్
       - సాంస్కృతిక శిక్షణ
       - గ్రంథాలయ సభ్యత్వం
       - యువ పార్లమెంట్
+      - యువత
       - യുവജന പദ്ധതി അപേക്ഷ
       - എൻസിസി നമോദ്
       - സ്റ്റേഡിയം ബുക്കിംഗ്
       - സാംസ്കാരിക പരിശീലനം
       - ലൈബ്രറി അംഗത്വം
       - യൂത്ത് പാർലമെൻ്റ്
+      - യുവജനം
       - ಯುವ ಕಾರ್ಯಕ್ರಮ ಅರ್ಜಿ
       - ಎನ್‌ಸಿಸಿ ನೋಂದಣಿ
       - ಕ್ರೀಡಾಂಗಣ ಬುಕಿಂಗ್
       - ಸಾಂಸ್ಕೃತಿಕ ತರಬೇತಿ
       - ಗ್ರಂಥಾಲಯ ಸದಸ್ಯತ್ವ
       - ಯುವ ಸಂಸತ್ತು
+      - ಯುವಜನ
+      - যুব কর্মসূচি
+      - এনসিসি নিবন্ধন
+      - সাংস্কৃতিক প্রশিক্ষণ
+      - গ্রন্থাগার সদস্যপদ
+      - যুব সংসদ
+      - युवा कार्यक्रम
+      - एनसीसी नोंदणी
+      - ਯੁਵਾ ਪ੍ਰੋਗਰਾਮ
+      - ਐਨਸੀਸੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ
+      - ਲਾਇਬ੍ਰੇਰੀ ਮੈਂਬਰਸ਼ਿਪ
+      - ଯୁବ କାର্যক্রম
+      - যুৱ কাৰ্যসূচী
+      - یوتھ پروگرام
+      - این سی سی رجسٹریشن

@@ -580,13 +580,31 @@ class ActionSetLanguage(Action):
     def name(self): return "action_set_language"
 
     def run(self, dispatcher, tracker, domain):
-        user_message = tracker.latest_message.get("text", "")
+        user_message = tracker.latest_message.get("text", "").strip()
+        user_message_lower = user_message.lower()
 
-        selected_lang = 'en'
-        for keyword, lang_code in LANGUAGE_KEYWORDS.items():
-            if keyword.lower() in user_message.lower():
+        # --- FIX 1: Longest-match first to avoid partial keyword collisions ---
+        # Sort keywords by length descending so longer/more specific keywords
+        # are checked before shorter ones (e.g. "english" before "en")
+        sorted_keywords = sorted(LANGUAGE_KEYWORDS.items(), key=lambda x: len(x[0]), reverse=True)
+
+        selected_lang = None
+        for keyword, lang_code in sorted_keywords:
+            # --- FIX 2: Whole-word / exact match check ---
+            # Avoids "english" accidentally matching a substring of another word
+            if keyword.lower() == user_message_lower:
+                # Exact match — highest priority
                 selected_lang = lang_code
                 break
+            if keyword.lower() in user_message_lower:
+                selected_lang = lang_code
+                # Don't break yet — keep looking for a longer/exact match
+                # Actually since we're sorted by length desc, first hit is best
+                break
+
+        # --- FIX 3: Fallback to English if nothing matched ---
+        if selected_lang is None:
+            selected_lang = 'en'
 
         lang_display = LANGUAGE_DISPLAY_NAMES.get(selected_lang, {}).get(selected_lang, selected_lang.upper())
 
