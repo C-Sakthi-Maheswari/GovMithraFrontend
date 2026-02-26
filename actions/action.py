@@ -744,7 +744,234 @@ def _make_search_action(action_name, json_file, category_label_en):
     GenericSearchAction.__name__ = action_name
     return GenericSearchAction
 
+class ActionGetSchemesByProfile(Action):
+    def name(self):
+        return "action_get_schemes_by_profile"
 
+    def run(self, dispatcher, tracker, domain):
+        lang = tracker.get_slot("user_language") or "en"
+
+        # Read all profile slots
+        age            = tracker.get_slot("user_age")
+        gender         = tracker.get_slot("user_gender")
+        caste          = tracker.get_slot("user_caste")
+        city           = tracker.get_slot("user_city")
+        state          = tracker.get_slot("user_state")
+        occupation     = tracker.get_slot("user_occupation")
+        income         = tracker.get_slot("user_income")
+        education      = tracker.get_slot("user_education")
+        marital_status = tracker.get_slot("user_marital_status")
+        disability     = tracker.get_slot("user_disability")
+        ration_card    = tracker.get_slot("user_ration_card")
+        land_ownership = tracker.get_slot("user_land_ownership")
+
+        # Check at least some profile info exists
+        profile_values = [age, gender, caste, state, occupation,
+                          income, education, marital_status,
+                          disability, ration_card, land_ownership]
+
+        if not any(profile_values):
+            dispatcher.utter_message(
+                text="Please complete your profile first before requesting schemes."
+            )
+            return []
+
+        # ----------------------------------------------------------
+        # BUILD SMART QUERY from profile
+        # Maps slot values to search-friendly keywords
+        # ----------------------------------------------------------
+        query_parts = []
+
+        # Occupation → drives which categories to search
+        occupation_keywords = {
+            "student":       "student scholarship education",
+            "employed":      "employee welfare job",
+            "self-employed": "business MSME entrepreneur",
+            "unemployed":    "unemployment job employment",
+            "retired":       "pension senior citizen old age",
+        }
+        if occupation:
+            query_parts.append(occupation_keywords.get(occupation.lower(), occupation))
+
+        # Caste
+        caste_keywords = {
+            "sc":      "scheduled caste SC dalit",
+            "st":      "scheduled tribe ST tribal",
+            "obc":     "other backward class OBC",
+            "general": "general category",
+        }
+        if caste:
+            query_parts.append(caste_keywords.get(caste.lower(), caste))
+
+        # Income
+        income_keywords = {
+            "below2lakh": "below poverty BPL low income subsidy",
+            "lakh25":     "low income subsidy welfare",
+            "lakh510":    "middle income",
+            "above10lakh": "high income",
+        }
+        if income:
+            query_parts.append(income_keywords.get(income.lower(), income))
+
+        # Gender
+        if gender and gender.lower() == "female":
+            query_parts.append("women female girl mahila")
+        elif gender and gender.lower() == "male":
+            query_parts.append("male men")
+
+        # Disability
+        disability_keywords = {
+            "physical": "physically disabled divyang handicap",
+            "visual":   "visually impaired blind",
+            "hearing":  "hearing impaired deaf",
+            "mental":   "mental disability",
+        }
+        if disability and disability.lower() != "none":
+            query_parts.append(disability_keywords.get(disability.lower(), disability))
+
+        # Ration card
+        ration_keywords = {
+            "bpl":       "BPL below poverty line ration",
+            "antyodaya": "antyodaya AAY poorest",
+            "apl":       "APL above poverty line",
+        }
+        if ration_card and ration_card.lower() != "nocard":
+            query_parts.append(ration_keywords.get(ration_card.lower(), ration_card))
+
+        # Land ownership → agriculture schemes
+        land_keywords = {
+            "marginal": "marginal farmer small farmer subsidy",
+            "small":    "small farmer kisan subsidy",
+            "medium":   "farmer kisan agriculture",
+            "large":    "farmer agriculture",
+        }
+        if land_ownership and land_ownership.lower() != "noland":
+            query_parts.append(land_keywords.get(land_ownership.lower(), land_ownership))
+
+        # Education level
+        education_keywords = {
+            "belowHighSchool": "primary education school dropout",
+            "highSchool":      "high school diploma vocational",
+            "graduate":        "graduate degree higher education",
+            "postGraduate":    "postgraduate research fellowship",
+        }
+        if education:
+            query_parts.append(education_keywords.get(education, education))
+
+        # Marital status
+        if marital_status and marital_status.lower() == "widowed":
+            query_parts.append("widow widowed pension welfare")
+
+        # State/City
+        if state:
+            query_parts.append(state)
+        if city:
+            query_parts.append(city)
+
+        # Age-based keywords
+        try:
+            age_int = int(age) if age else None
+            if age_int:
+                if age_int < 18:
+                    query_parts.append("children minor youth school")
+                elif age_int < 35:
+                    query_parts.append("youth young adult")
+                elif age_int < 60:
+                    query_parts.append("adult working age")
+                else:
+                    query_parts.append("senior citizen old age elderly pension")
+        except ValueError:
+            pass
+
+        query = " ".join(filter(None, query_parts))
+
+        # ----------------------------------------------------------
+        # DECIDE WHICH JSON FILES TO SEARCH based on profile
+        # ----------------------------------------------------------
+        json_files = []
+
+        # Always search these
+        json_files.append(("actions/health_structured.json",   "Health"))
+        json_files.append(("actions/housing_structured.json",  "Housing"))
+
+        # Occupation-based
+        if occupation:
+            occ = occupation.lower()
+            if occ == "student":
+                json_files.append(("actions/education_list.json", "Education"))
+                json_files.append(("actions/exams_structured.json", "Exams"))
+            if occ in ["self-employed", "unemployed", "employed"]:
+                json_files.append(("actions/business_structured.json", "Business"))
+                json_files.append(("actions/jobs_structured.json", "Jobs"))
+            if occ == "retired":
+                json_files.append(("actions/pension_structured.json", "Pension"))
+            if occ == "unemployed":
+                json_files.append(("actions/jobs_structured.json", "Jobs"))
+
+        # Land ownership → agriculture
+        if land_ownership and land_ownership.lower() != "noland":
+            json_files.append(("actions/agriculture_structured.json", "Agriculture"))
+
+        # Low income → banking/welfare
+        if income and income.lower() in ["below2lakh", "lakh25"]:
+            json_files.append(("actions/money_banking_structured.json", "Money Banking"))
+            json_files.append(("actions/pension_structured.json", "Pension"))
+
+        # Widow
+        if marital_status and marital_status.lower() == "widowed":
+            json_files.append(("actions/pension_structured.json", "Pension"))
+
+        # Disability
+        if disability and disability.lower() != "none":
+            json_files.append(("actions/pension_structured.json", "Pension"))
+            json_files.append(("actions/health_structured.json",  "Health"))
+
+        # Deduplicate json_files
+        seen = set()
+        unique_json_files = []
+        for item in json_files:
+            if item[0] not in seen:
+                seen.add(item[0])
+                unique_json_files.append(item)
+
+        # ----------------------------------------------------------
+        # SEARCH across selected JSON files
+        # ----------------------------------------------------------
+        all_results = []
+        for json_path, category in unique_json_files:
+            try:
+                results = search(query, json_path)
+                for r in results:
+                    r["_category"] = category
+                all_results.extend(results[:3])  # top 3 per category
+            except Exception as e:
+                print(f"Error searching {json_path}: {e}")
+                continue
+
+        if not all_results:
+            dispatcher.utter_message(
+                text="No schemes found matching your profile. Try updating your profile with more details."
+            )
+            return []
+
+        # Build profile summary to show user
+        profile_summary_parts = []
+        if occupation:     profile_summary_parts.append(occupation.title())
+        if caste:          profile_summary_parts.append(caste.upper())
+        if income:         profile_summary_parts.append(income)
+        if gender:         profile_summary_parts.append(gender.title())
+        if state:          profile_summary_parts.append(state)
+        profile_summary = ", ".join(profile_summary_parts)
+
+        dispatcher.utter_message(
+            text=f"Found {len(all_results)} schemes based on your profile ({profile_summary}):"
+        )
+        dispatcher.utter_message(json_message={
+            "display_type": "card_list",
+            "data": all_results[:10]  # show top 10 overall
+        })
+
+        return []
 # --------------------------------------------------
 # ACTION REGISTRATIONS
 # --------------------------------------------------

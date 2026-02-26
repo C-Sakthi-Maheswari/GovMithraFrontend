@@ -124,3 +124,7 @@ rules:
   steps:
     - intent: youth
     - action: action_search_youth
+- rule: Get schemes based on profile
+  steps:
+    - intent: get_schemes_by_profile
+    - action: action_get_schemes_by_profile

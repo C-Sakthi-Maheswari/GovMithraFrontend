@@ -1,5 +1,234 @@
 import React, { useState, useRef, useEffect } from 'react';
 
+const BACKEND_URL = "http://localhost:3001";
+const RASA_URL    = "http://localhost:5005";
+
+// ----------------------------------------------------------------
+// 1. FETCH PROFILE FROM YOUR EXPRESS/SQLITE BACKEND
+// ----------------------------------------------------------------
+async function fetchUserProfile(userId) {
+  try {
+    const response = await fetch(`${BACKEND_URL}/api/profile/${userId}`);
+    const data = await response.json();
+
+    if (!data.success) {
+      console.error("Profile fetch failed:", data.message);
+      return null;
+    }
+
+    return data.profile; // returns the raw DB row
+  } catch (error) {
+    console.error("Error fetching profile:", error);
+    return null;
+  }
+}
+
+// ----------------------------------------------------------------
+// 2. MAP DB COLUMNS → RASA SLOT NAMES
+// DB column         → Rasa slot
+// age               → user_age
+// gender            → user_gender
+// caste             → user_caste
+// city              → user_city
+// state             → user_state
+// occupation        → user_occupation
+// income_range      → user_income
+// education_level   → user_education
+// marital_status    → user_marital_status
+// disability        → user_disability
+// ration_card_type  → user_ration_card
+// land_ownership    → user_land_ownership
+// ----------------------------------------------------------------
+function mapProfileToSlots(profile) {
+  return [
+    { name: "user_age",            value: profile.age?.toString()       || null },
+    { name: "user_gender",         value: profile.gender                || null },
+    { name: "user_caste",          value: profile.caste                 || null },
+    { name: "user_city",           value: profile.city                  || null },
+    { name: "user_state",          value: profile.state                 || null },
+    { name: "user_occupation",     value: profile.occupation            || null },
+    { name: "user_income",         value: profile.income_range          || null },
+    { name: "user_education",      value: profile.education_level       || null },
+    { name: "user_marital_status", value: profile.marital_status        || null },
+    { name: "user_disability",     value: profile.disability            || null },
+    { name: "user_ration_card",    value: profile.ration_card_type      || null },
+    { name: "user_land_ownership", value: profile.land_ownership        || null },
+  ].filter(slot => slot.value !== null && slot.value !== ""); // skip empty
+}
+
+// ----------------------------------------------------------------
+// 3. PUSH SLOTS TO RASA TRACKER
+// ----------------------------------------------------------------
+async function pushSlotsToRasa(conversationId, slots) {
+  try {
+    const events = slots.map(slot => ({
+      event: "slot",
+      name:  slot.name,
+      value: slot.value
+    }));
+
+    const response = await fetch(
+      `${RASA_URL}/conversations/${conversationId}/tracker/events`,
+      {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify(events)
+      }
+    );
+
+    if (!response.ok) {
+      console.error("Failed to push slots to Rasa:", response.statusText);
+      return false;
+    }
+
+    console.log(`✅ Pushed ${slots.length} profile slots to Rasa`);
+    return true;
+
+  } catch (error) {
+    console.error("Error pushing slots to Rasa:", error);
+    return false;
+  }
+}
+
+// ----------------------------------------------------------------
+// 4. SEND MESSAGE TO RASA VIA YOUR BACKEND /api/chat
+// ----------------------------------------------------------------
+async function sendMessageToRasa(conversationId, message, language = "en") {
+  try {
+    const response = await fetch(`${BACKEND_URL}/api/chat`, {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        sender:   conversationId,
+        message:  message,
+        metadata: { language }
+      })
+    });
+
+    const data = await response.json();
+
+    if (!data.success) {
+      console.error("Chat error:", data.message);
+      return null;
+    }
+
+    return data.messages; // array of Rasa responses
+
+  } catch (error) {
+    console.error("Error sending message:", error);
+    return null;
+  }
+}
+
+// ----------------------------------------------------------------
+// 5. MAIN FUNCTION — call this on button click
+// ----------------------------------------------------------------
+export async function handleGetSchemesByProfile({
+  userId,           // from your auth state e.g. user.id
+  conversationId,   // your Rasa sender ID e.g. user.id or session ID
+  language = "en",  // current language slot value
+  onResponse,       // callback to display Rasa responses in your chat UI
+  onError,          // callback to show error message
+  onLoading,        // callback to show/hide loading spinner
+}) {
+
+  try {
+    onLoading?.(true);
+
+    // STEP 1: Fetch profile from your SQLite backend
+    const profile = await fetchUserProfile(userId);
+
+    if (!profile) {
+      onError?.("Please complete your profile first before requesting schemes.");
+      onLoading?.(false);
+      return;
+    }
+
+    // STEP 2: Check if profile has at least some data
+    const slots = mapProfileToSlots(profile);
+    if (slots.length === 0) {
+      onError?.("Your profile is empty. Please fill in your details first.");
+      onLoading?.(false);
+      return;
+    }
+
+    console.log("📋 Profile loaded:", profile);
+    console.log("🎰 Slots to set:", slots);
+
+    // STEP 3: Push profile slots to Rasa tracker
+    const slotsSet = await pushSlotsToRasa(conversationId, slots);
+    if (!slotsSet) {
+      onError?.("Could not connect to chatbot. Please try again.");
+      onLoading?.(false);
+      return;
+    }
+
+    // STEP 4: Send the trigger message
+    const responses = await sendMessageToRasa(
+      conversationId,
+      "give schemes based on my profile",
+      language
+    );
+
+    if (!responses) {
+      onError?.("Chatbot did not respond. Please try again.");
+      onLoading?.(false);
+      return;
+    }
+
+    // STEP 5: Pass responses back to your chat UI
+    onResponse?.(responses);
+
+  } catch (error) {
+    console.error("handleGetSchemesByProfile error:", error);
+    onError?.("Something went wrong. Please try again.");
+  } finally {
+    onLoading?.(false);
+  }
+}
+
+// ----------------------------------------------------------------
+// 6. USAGE EXAMPLE in your React component
+// ----------------------------------------------------------------
+
+/*
+import { handleGetSchemesByProfile } from './profileSchemes';
+
+function ChatComponent() {
+  const { user } = useAuth();           // your auth context
+  const [loading, setLoading] = useState(false);
+  const conversationId = user?.id?.toString() || "anonymous";
+
+  const onProfileSchemesClick = () => {
+    handleGetSchemesByProfile({
+      userId:         user.id,
+      conversationId: conversationId,
+      language:       currentLanguage,   // e.g. "en", "ta", "hi"
+      onResponse: (messages) => {
+        // add messages to your chat UI
+        messages.forEach(msg => addMessageToChat(msg));
+      },
+      onError: (msg) => {
+        addMessageToChat({ text: msg, type: "error" });
+      },
+      onLoading: (isLoading) => {
+        setLoading(isLoading);
+      }
+    });
+  };
+
+  return (
+    <button
+      onClick={onProfileSchemesClick}
+      disabled={loading}
+      className="profile-schemes-btn"
+    >
+      {loading ? "Finding schemes..." : "🎯 Give schemes based on my profile"}
+    </button>
+  );
+}
+*/
+// profileSchemes helpers are defined below as inline functions
 // --- TRANSLATION DICTIONARY ---
 const translations = {
   en: {
@@ -2484,6 +2713,7 @@ export default function GovMithra() {
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState('');
   const [isBotTyping, setIsBotTyping] = useState(false);
+  const [profileSchemesLoading, setProfileSchemesLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -2627,6 +2857,115 @@ export default function GovMithra() {
     }
   };
 
+  // ── GIVE SCHEMES BY PROFILE ─────────────────────────────────────
+  const handleGetSchemesByProfile = async () => {
+    if (!user?.id) return;
+    setProfileSchemesLoading(true);
+
+    try {
+      // Step 1: Fetch profile from SQLite via Express
+      const profileRes = await fetch(`${BACKEND_URL}/api/profile/${user.id}`);
+      const profileData = await profileRes.json();
+
+      if (!profileData.success || !profileData.profile) {
+        setMessages(prev => [...prev, {
+          type: 'bot',
+          text: '⚠️ Please complete your profile first to get personalised scheme recommendations.',
+          timestamp: new Date()
+        }]);
+        setProfileSchemesLoading(false);
+        return;
+      }
+
+      const profile = profileData.profile;
+
+      // Step 2: Map DB columns to Rasa slot events
+      const slotEvents = [
+        { event: 'slot', name: 'user_age',            value: profile.age?.toString()    || null },
+        { event: 'slot', name: 'user_gender',         value: profile.gender             || null },
+        { event: 'slot', name: 'user_caste',          value: profile.caste              || null },
+        { event: 'slot', name: 'user_city',           value: profile.city               || null },
+        { event: 'slot', name: 'user_state',          value: profile.state              || null },
+        { event: 'slot', name: 'user_occupation',     value: profile.occupation         || null },
+        { event: 'slot', name: 'user_income',         value: profile.income_range       || null },
+        { event: 'slot', name: 'user_education',      value: profile.education_level    || null },
+        { event: 'slot', name: 'user_marital_status', value: profile.marital_status     || null },
+        { event: 'slot', name: 'user_disability',     value: profile.disability         || null },
+        { event: 'slot', name: 'user_ration_card',    value: profile.ration_card_type   || null },
+        { event: 'slot', name: 'user_land_ownership', value: profile.land_ownership     || null },
+      ].filter(s => s.value !== null && s.value !== '');
+
+      if (slotEvents.length === 0) {
+        setMessages(prev => [...prev, {
+          type: 'bot',
+          text: '⚠️ Your profile is empty. Please fill in your details first.',
+          timestamp: new Date()
+        }]);
+        setProfileSchemesLoading(false);
+        return;
+      }
+
+      // Step 3: Push slots to Rasa tracker
+      const conversationId = user.email || user.id.toString();
+      await fetch(`${RASA_URL}/conversations/${conversationId}/tracker/events`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(slotEvents)
+      });
+
+      // Step 4: Show user message in chat
+      setMessages(prev => [...prev, {
+        type: 'user',
+        text: '🎯 Give schemes based on my profile',
+        timestamp: new Date()
+      }]);
+      setIsBotTyping(true);
+
+      // Step 5: Send trigger message to Rasa via backend
+      const chatRes = await fetch(`${BACKEND_URL}/api/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          sender: conversationId,
+          message: 'give schemes based on my profile',
+          metadata: { language: selectedLanguage, userProfile: profile }
+        })
+      });
+
+      const chatData = await chatRes.json();
+      setIsBotTyping(false);
+
+      if (chatData.success && chatData.messages?.length > 0) {
+        chatData.messages.forEach(msg => {
+          setMessages(prev => [...prev, {
+            type: 'bot',
+            text: msg.text,
+            results: msg.custom ? msg.custom.data : null,
+            isResults: !!msg.custom,
+            timestamp: new Date()
+          }]);
+        });
+      } else {
+        setMessages(prev => [...prev, {
+          type: 'bot',
+          text: '⚠️ Could not fetch schemes right now. Please try again.',
+          timestamp: new Date()
+        }]);
+      }
+
+    } catch (err) {
+      console.error('Profile schemes error:', err);
+      setIsBotTyping(false);
+      setMessages(prev => [...prev, {
+        type: 'bot',
+        text: '⚠️ Something went wrong. Please try again.',
+        timestamp: new Date()
+      }]);
+    } finally {
+      setProfileSchemesLoading(false);
+    }
+  };
+
   if (isLoading) return <LoadingPage progress={loadingProgress} language={selectedLanguage} />;
   if (!isAuthenticated && !needsProfile) return <AuthPage onLogin={handleLogin} language={selectedLanguage} onLanguageChange={setSelectedLanguage} />;
   if (needsProfile) return <ProfileForm user={user} existingProfile={null} onComplete={handleProfileComplete} onSkip={handleProfileSkip} language={selectedLanguage} isEditMode={false} />;
@@ -2697,6 +3036,44 @@ export default function GovMithra() {
         >
           <span style={{ fontSize: '1.2rem' }}>👤</span>
           {t.viewProfile}
+        </button>
+
+        {/* Give Schemes by Profile Button */}
+        <button
+          onClick={handleGetSchemesByProfile}
+          disabled={profileSchemesLoading}
+          style={{
+            padding: '14px 20px',
+            borderRadius: '15px',
+            border: 'none',
+            background: profileSchemesLoading
+              ? 'rgba(255,255,255,0.3)'
+              : 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+            color: 'white',
+            cursor: profileSchemesLoading ? 'not-allowed' : 'pointer',
+            fontWeight: '700',
+            fontSize: '0.95rem',
+            marginBottom: '15px',
+            transition: 'all 0.3s',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            justifyContent: 'center',
+            boxShadow: profileSchemesLoading ? 'none' : '0 4px 15px rgba(245, 87, 108, 0.4)',
+            opacity: profileSchemesLoading ? 0.7 : 1
+          }}
+        >
+          {profileSchemesLoading ? (
+            <>
+              <span style={{ fontSize: '1.1rem' }}>⏳</span>
+              Finding schemes...
+            </>
+          ) : (
+            <>
+              <span style={{ fontSize: '1.1rem' }}>🎯</span>
+              Schemes for My Profile
+            </>
+          )}
         </button>
 
         {/* Language Selector */}

@@ -1371,6 +1371,18 @@ nlu:
   # ---------------------------------------------------------------
   # SCIENCE IT
   # ---------------------------------------------------------------
+  - intent: get_schemes_by_profile
+    examples: |
+      - give schemes based on my profile
+      - show schemes for me
+      - what schemes am I eligible for
+      - schemes for my profile
+      - personalized schemes
+      - எனது சுயவிவரத்தின் அடிப்படையில் திட்டங்கள்
+      - मेरी प्रोफाइल के अनुसार योजनाएं
+      - నా ప్రొఫైల్ ఆధారంగా పథకాలు
+      - എന്റെ പ്രൊഫൈൽ അടിസ്ഥാനമാക്കി പദ്ധതികൾ
+      - ನನ್ನ ಪ್ರೊಫೈಲ್ ಆಧಾರದ ಮೇಲೆ ಯೋಜನೆಗಳು
   - intent: science_it
     examples: |
       - Track postal service status

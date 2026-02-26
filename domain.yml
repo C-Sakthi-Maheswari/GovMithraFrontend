@@ -1,11 +1,71 @@
 version: "3.1"
 slots:
+  user_age:
+    type: text
+    mappings:
+    - type: custom
+
+  user_gender:
+    type: text
+    mappings:
+    - type: custom
+
+  user_caste:
+    type: text
+    mappings:
+    - type: custom
+
+  user_city:
+    type: text
+    mappings:
+    - type: custom
+
+  user_state:
+    type: text
+    mappings:
+    - type: custom
+
+  user_occupation:
+    type: text
+    mappings:
+    - type: custom
+
+  user_income:
+    type: text
+    mappings:
+    - type: custom
+
+  user_education:
+    type: text
+    mappings:
+    - type: custom
+
+  user_marital_status:
+    type: text
+    mappings:
+    - type: custom
+
+  user_disability:
+    type: text
+    mappings:
+    - type: custom
+
+  user_ration_card:
+    type: text
+    mappings:
+    - type: custom
+
+  user_land_ownership:
+    type: text
+    mappings:
+    - type: custom
   user_language:
     type: text
     initial_value: "en"
     mappings:
       - type: custom
 intents:
+  - get_schemes_by_profile
   - tax
   - certificates
   - education
@@ -59,3 +119,4 @@ actions:
   - action_search_travel_tourism
   - action_search_water
   - action_search_youth
+  - action_get_schemes_by_profile
