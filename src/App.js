@@ -2714,10 +2714,240 @@ export default function GovMithra() {
   const [inputText, setInputText] = useState('');
   const [isBotTyping, setIsBotTyping] = useState(false);
   const [profileSchemesLoading, setProfileSchemesLoading] = useState(false);
+  const [savedSchemes, setSavedSchemes] = useState(() => {
+    try { return JSON.parse(localStorage.getItem('govmithra_saved_schemes') || '[]'); } catch { return []; }
+  });
+  const [copiedMsgId, setCopiedMsgId] = useState(null);
+  const [showSavedSchemes, setShowSavedSchemes] = useState(false);
+  // ── NEW FEATURE STATES ───────────────────────────────────────────
+  const [explanations, setExplanations] = useState({});
+  const [followups, setFollowups] = useState({});
+  const [compareList, setCompareList] = useState([]);
+  const [showCompare, setShowCompare] = useState(false);
+  const [compareResult, setCompareResult] = useState(null);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
   const t = translations[selectedLanguage] || translations['en'];
+
+  // ── COPY TO CLIPBOARD ────────────────────────────────────────────
+  const copyToClipboard = (text, msgId) => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopiedMsgId(msgId);
+      setTimeout(() => setCopiedMsgId(null), 2000);
+    });
+  };
+
+  // ── SAVE / BOOKMARK SCHEME ───────────────────────────────────────
+  const saveScheme = (scheme, schemeIdx, msgIdx) => {
+    const key = `${msgIdx}-${schemeIdx}`;
+    const isAlreadySaved = savedSchemes.some(s => s.key === key);
+    let updated;
+    if (isAlreadySaved) {
+      updated = savedSchemes.filter(s => s.key !== key);
+    } else {
+      updated = [...savedSchemes, { key, scheme, savedAt: new Date().toLocaleString() }];
+    }
+    setSavedSchemes(updated);
+    localStorage.setItem('govmithra_saved_schemes', JSON.stringify(updated));
+  };
+
+  const isSchemeBookmarked = (msgIdx, schemeIdx) => {
+    return savedSchemes.some(s => s.key === `${msgIdx}-${schemeIdx}`);
+  };
+
+  // ── SHARE ON WHATSAPP ────────────────────────────────────────────
+  const shareOnWhatsApp = (scheme) => {
+    const schemeName = scheme.scheme_name || scheme.name || scheme.title || 'Government Scheme';
+    const link = Object.values(scheme).find(v => String(v).startsWith('http')) || '';
+    const text = `🏛️ *GovMithra - Government Scheme Info*\n\n📌 *${schemeName}*\n${
+      Object.entries(scheme)
+        .filter(([k, v]) => !String(v).startsWith('http') && v)
+        .map(([k, v]) => `• ${k.replace(/_/g, ' ')}: ${v}`)
+        .join('\n')
+    }${link ? `\n\n🔗 More info: ${link}` : ''}\n\n_Shared via GovMithra_`;
+    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
+  };
+
+  // ── DOWNLOAD CHAT AS PDF ─────────────────────────────────────────
+  const downloadChatPDF = () => {
+    const printContent = `
+      <html>
+      <head>
+        <title>GovMithra Chat - ${new Date().toLocaleDateString()}</title>
+        <style>
+          body { font-family: system-ui, sans-serif; padding: 30px; color: #1e293b; }
+          h1 { color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 10px; }
+          .meta { color: #64748b; font-size: 0.9rem; margin-bottom: 30px; }
+          .msg { margin-bottom: 20px; padding: 14px 18px; border-radius: 12px; }
+          .user { background: #ede9fe; text-align: right; border-left: 4px solid #7c3aed; }
+          .bot  { background: #f1f5f9; border-left: 4px solid #667eea; }
+          .label { font-weight: bold; font-size: 0.8rem; text-transform: uppercase; 
+                   letter-spacing: 1px; margin-bottom: 6px; color: #475569; }
+          .scheme-card { margin-top: 12px; padding: 12px; background: white; 
+                         border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.9rem; }
+          .scheme-card p { margin: 4px 0; }
+          a { color: #667eea; }
+          @media print { body { padding: 10px; } }
+        </style>
+      </head>
+      <body>
+        <h1>🏛️ GovMithra Conversation</h1>
+        <p class="meta">👤 User: ${user?.name || 'User'} | 🗓️ Date: ${new Date().toLocaleString()}</p>
+        ${messages.map(m => `
+          <div class="msg ${m.type}">
+            <div class="label">${m.type === 'user' ? '👤 You' : '🤖 GovMithra'}</div>
+            <div>${m.text || ''}</div>
+            ${m.isResults && m.results ? m.results.map(res => `
+              <div class="scheme-card">
+                ${Object.entries(res).map(([k, v]) => `
+                  <p><strong>${k.replace(/_/g, ' ')}:</strong> ${
+                    String(v).startsWith('http') 
+                      ? `<a href="${v}">${v}</a>` 
+                      : v
+                  }</p>
+                `).join('')}
+              </div>
+            `).join('') : ''}
+          </div>
+        `).join('')}
+      </body>
+      </html>
+    `;
+    const w = window.open('', '_blank');
+    w.document.write(printContent);
+    w.document.close();
+    w.focus();
+    setTimeout(() => { w.print(); w.close(); }, 500);
+  };
+
+  // ── 1. SMART SCHEME EXPLAINER (no API) ──────────────────────────
+  const jargonMap = {
+    'beneficiary': 'person who gets help',
+    'beneficiaries': 'people who get help',
+    'subsidy': 'money discount from government',
+    'subsidized': 'at lower cost with government help',
+    'eligible': 'allowed to apply',
+    'eligibility': 'who can apply',
+    'scheme': 'government program',
+    'implement': 'run',
+    'disburse': 'give out money',
+    'disbursement': 'giving out money',
+    'Below Poverty Line': 'very poor families (BPL)',
+    'Above Poverty Line': 'families not in extreme poverty (APL)',
+    'annum': 'year',
+    'per annum': 'every year',
+    'financial assistance': 'money help',
+    'assistance': 'help',
+    'nodal agency': 'main government office in charge',
+    'portal': 'government website',
+    'gazette': 'official government document',
+    'notified': 'officially announced',
+    'stipend': 'monthly money support',
+    'remuneration': 'payment for work',
+    'domicile': 'where you permanently live',
+    'marginalized': 'left out or ignored groups',
+    'livelihood': 'way of earning money to live',
+    'empowerment': 'giving people more control over their lives',
+    'sanction': 'official approval',
+    'allotment': 'giving out officially',
+    'grievance': 'complaint',
+    'redressal': 'solving a complaint',
+  };
+
+  const explainSchemeSimply = (scheme, msgIdx, schemeIdx) => {
+    const key = `${msgIdx}-${schemeIdx}`;
+    if (explanations[key]) {
+      setExplanations(prev => { const n = { ...prev }; delete n[key]; return n; });
+      return;
+    }
+    const name    = scheme.scheme_name || scheme.name || scheme.title || 'This scheme';
+    const benefit = scheme.benefit || scheme.amount || scheme.benefits || '';
+    const who     = scheme.eligibility || scheme.who_can_apply || scheme.target_group || '';
+    const how     = scheme.how_to_apply || scheme.application_process || '';
+    const link    = Object.values(scheme).find(v => String(v).startsWith('http')) || '';
+
+    let text = `📌 "${name}" is a government program. `;
+    if (benefit)  text += `It gives ${benefit} to the people who qualify. `;
+    if (who)      text += `You can apply if you are: ${who}. `;
+    if (how)      text += `To apply: ${how}. `;
+    if (!how)     text += `Visit your nearest government office or Common Service Centre (CSC) to apply. `;
+    if (link)     text += `More info: ${link}`;
+
+    Object.entries(jargonMap).forEach(([jargon, simple]) => {
+      text = text.replace(new RegExp(`\\b${jargon}\\b`, 'gi'), simple);
+    });
+    setExplanations(prev => ({ ...prev, [key]: text }));
+  };
+
+  // ── 2. FOLLOW-UP QUESTION SUGGESTIONS (no API) ──────────────────
+  const followupBank = {
+    housing:     ['How to apply for PM Awas Yojana?', 'Documents needed for housing scheme?', 'Check my housing application status'],
+    health:      ['How to get Ayushman Bharat card?', 'Which hospitals are covered?', 'How to add family members to health scheme?'],
+    education:   ['How to apply for this scholarship?', 'What is the last date to apply?', 'What is the scholarship amount?'],
+    agriculture: ['How to register for crop insurance?', 'When will I receive the benefit?', 'Helpline number for farming schemes?'],
+    pension:     ['How to apply for old age pension?', 'What is the monthly pension amount?', 'Documents needed for pension?'],
+    jobs:        ['How to apply for this government job?', 'What is the eligibility criteria?', 'When is the application deadline?'],
+    banking:     ['How to open a zero balance account?', 'What is Jan Dhan Yojana benefit?', 'Nearest bank for this scheme?'],
+    lpg:         ['How to apply for new LPG connection?', 'What is the Ujjwala Yojana subsidy?', 'Check my LPG application status'],
+    business:    ['How to register my small business?', 'What loans are available for MSME?', 'How to apply for MSME certificate?'],
+    water:       ['How to apply for new water connection?', 'What is the water scheme subsidy?', 'Contact number for water department?'],
+    electricity: ['How to apply for new electricity connection?', 'What is the electricity subsidy?', 'How to check application status?'],
+    transport:   ['How to apply for driving licence?', 'Documents needed for vehicle registration?', 'Nearest RTO office location?'],
+    youth:       ['What skill development courses are available?', 'How to enrol in a skill program?', 'Is there any stipend during training?'],
+    default:     ['How do I apply for this?', 'What documents do I need?', 'Who is eligible for this scheme?'],
+  };
+
+  const attachFollowups = (botText, msgIdx) => {
+    if (!botText || botText.length < 20) return;
+    const text = botText.toLowerCase();
+    let questions;
+    if (text.includes('hous') || text.includes('awas') || text.includes('pmay'))                return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.housing }));
+    if (text.includes('health') || text.includes('ayushman') || text.includes('hospital'))      return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.health }));
+    if (text.includes('scholar') || text.includes('education') || text.includes('student'))     return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.education }));
+    if (text.includes('farm') || text.includes('crop') || text.includes('kisan'))               return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.agriculture }));
+    if (text.includes('pension') || text.includes('old age') || text.includes('retired'))       return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.pension }));
+    if (text.includes('job') || text.includes('employ') || text.includes('vacancy'))            return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.jobs }));
+    if (text.includes('bank') || text.includes('jan dhan') || text.includes('account'))         return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.banking }));
+    if (text.includes('lpg') || text.includes('gas') || text.includes('ujjwala'))               return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.lpg }));
+    if (text.includes('business') || text.includes('msme') || text.includes('entrepren'))       return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.business }));
+    if (text.includes('water') || text.includes('jal'))                                         return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.water }));
+    if (text.includes('electric') || text.includes('power') || text.includes('saubhagya'))      return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.electricity }));
+    if (text.includes('transport') || text.includes('driving') || text.includes('vehicle'))     return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.transport }));
+    if (text.includes('youth') || text.includes('skill') || text.includes('training'))          return setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.youth }));
+    setFollowups(prev => ({ ...prev, [msgIdx]: followupBank.default }));
+  };
+
+  // ── 3. SCHEME COMPARISON (no API) ───────────────────────────────
+  const toggleCompare = (scheme, label, msgIdx, schemeIdx) => {
+    const key = `${msgIdx}-${schemeIdx}`;
+    setCompareList(prev => {
+      const exists = prev.find(s => s.key === key);
+      if (exists) return prev.filter(s => s.key !== key);
+      if (prev.length >= 3) {
+        alert('You can compare up to 3 schemes. Remove one first.');
+        return prev;
+      }
+      return [...prev, { key, scheme, label }];
+    });
+  };
+
+  const isInCompare = (msgIdx, schemeIdx) =>
+    compareList.some(s => s.key === `${msgIdx}-${schemeIdx}`);
+
+  const runComparison = () => {
+    if (compareList.length < 2) return;
+    const schemes = compareList.map(s => s.scheme);
+    const allKeys = [...new Set(schemes.flatMap(s => Object.keys(s)))];
+    const rowKeys = allKeys.filter(k => !schemes.every(s => String(s[k] || '').startsWith('http')));
+    const headers = ['Feature', ...compareList.map(s => s.label || 'Scheme')];
+    const rows = rowKeys.map(key => [
+      key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+      ...schemes.map(s => s[key] || '—')
+    ]);
+    setCompareResult({ headers, rows });
+    setShowCompare(true);
+  };
 
   const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
@@ -2843,13 +3073,21 @@ export default function GovMithra() {
       setIsBotTyping(false);
 
       data.forEach(msg => {
-        setMessages(prev => [...prev, {
-          type: 'bot',
-          text: msg.text,
-          results: msg.custom ? msg.custom.data : null,
-          isResults: !!msg.custom,
-          timestamp: new Date()
-        }]);
+        setMessages(prev => {
+          const newMsgs = [...prev, {
+            type: 'bot',
+            text: msg.text,
+            results: msg.custom ? msg.custom.data : null,
+            isResults: !!msg.custom,
+            timestamp: new Date()
+          }];
+          // attach follow-up questions for plain text replies
+          if (msg.text && !msg.custom) {
+            const newIdx = newMsgs.length - 1;
+            setTimeout(() => attachFollowups(msg.text, newIdx), 100);
+          }
+          return newMsgs;
+        });
       });
     } catch (e) {
       setIsBotTyping(false);
@@ -3183,8 +3421,12 @@ export default function GovMithra() {
           padding: '20px 30px',
           background: 'white',
           borderBottom: '1px solid #e2e8f0',
-          boxShadow: '0 2px 8px rgba(0,0,0,0.05)'
+          boxShadow: '0 2px 8px rgba(0,0,0,0.05)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between'
         }}>
+          <div>
           <h1 style={{ 
             margin: 0, 
             fontSize: '1.5rem', 
@@ -3200,6 +3442,48 @@ export default function GovMithra() {
             Your AI-powered government services companion
           </p>
         </div>
+        <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+          <button
+            onClick={() => setShowSavedSchemes(!showSavedSchemes)}
+            title="Saved Schemes"
+            style={{
+              padding: '10px 16px',
+              borderRadius: '12px',
+              border: '2px solid #e2e8f0',
+              background: showSavedSchemes ? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' : 'white',
+              color: showSavedSchemes ? 'white' : '#64748b',
+              cursor: 'pointer',
+              fontWeight: '600',
+              fontSize: '0.9rem',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+          >
+            ⭐ Saved {savedSchemes.length > 0 && `(${savedSchemes.length})`}
+          </button>
+          <button
+            onClick={downloadChatPDF}
+            disabled={messages.length === 0}
+            title="Download Chat as PDF"
+            style={{
+              padding: '10px 16px',
+              borderRadius: '12px',
+              border: '2px solid #e2e8f0',
+              background: messages.length === 0 ? '#f8fafc' : 'white',
+              color: messages.length === 0 ? '#cbd5e1' : '#64748b',
+              cursor: messages.length === 0 ? 'not-allowed' : 'pointer',
+              fontWeight: '600',
+              fontSize: '0.9rem',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+          >
+            📥 Download PDF
+          </button>
+        </div>
+      </div>
 
         <div style={{
           flex: 1,
@@ -3209,7 +3493,69 @@ export default function GovMithra() {
           flexDirection: 'column',
           background: '#f8fafc'
         }}>
-          {messages.length === 0 && (
+          {/* SAVED SCHEMES PANEL */}
+          {showSavedSchemes && (
+            <div style={{
+              marginBottom: '20px',
+              background: 'white',
+              borderRadius: '16px',
+              border: '2px solid #667eea',
+              padding: '20px',
+              boxShadow: '0 4px 20px rgba(102,126,234,0.15)'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+                <h3 style={{ margin: 0, color: '#1e293b', fontSize: '1.1rem', fontWeight: 'bold' }}>
+                  ⭐ Saved Schemes ({savedSchemes.length})
+                </h3>
+                {savedSchemes.length > 0 && (
+                  <button
+                    onClick={() => { setSavedSchemes([]); localStorage.removeItem('govmithra_saved_schemes'); }}
+                    style={{ border: 'none', background: 'none', color: '#ef4444', cursor: 'pointer', fontSize: '0.85rem', fontWeight: '600' }}
+                  >
+                    🗑️ Clear All
+                  </button>
+                )}
+              </div>
+              {savedSchemes.length === 0 ? (
+                <p style={{ color: '#94a3b8', textAlign: 'center', margin: '20px 0', fontStyle: 'italic' }}>
+                  No saved schemes yet. Click ⭐ on any scheme card to save it!
+                </p>
+              ) : (
+                savedSchemes.map((item, idx) => (
+                  <div key={idx} style={{
+                    marginBottom: '12px',
+                    padding: '14px',
+                    background: '#f8fafc',
+                    borderRadius: '12px',
+                    border: '1px solid #e2e8f0',
+                    position: 'relative'
+                  }}>
+                    <p style={{ margin: '0 0 8px 0', fontSize: '0.75rem', color: '#94a3b8' }}>Saved on {item.savedAt}</p>
+                    {Object.entries(item.scheme).slice(0, 3).map(([k, v]) => (
+                      <div key={k} style={{ fontSize: '0.9rem', marginBottom: '4px' }}>
+                        <strong style={{ color: '#475569', textTransform: 'capitalize' }}>{k.replace(/_/g, ' ')}:</strong>{' '}
+                        {String(v).startsWith('http')
+                          ? <a href={v} target="_blank" rel="noopener noreferrer" style={{ color: '#667eea', textDecoration: 'none' }}>View ↗</a>
+                          : v}
+                      </div>
+                    ))}
+                    <div style={{ display: 'flex', gap: '8px', marginTop: '10px' }}>
+                      <button
+                        onClick={() => shareOnWhatsApp(item.scheme)}
+                        style={{ padding: '5px 10px', borderRadius: '8px', border: 'none', background: '#25D366', color: 'white', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
+                      >📤 Share</button>
+                      <button
+                        onClick={() => { const updated = savedSchemes.filter((_, i) => i !== idx); setSavedSchemes(updated); localStorage.setItem('govmithra_saved_schemes', JSON.stringify(updated)); }}
+                        style={{ padding: '5px 10px', borderRadius: '8px', border: '1px solid #e2e8f0', background: 'white', color: '#ef4444', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
+                      >Remove</button>
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+          )}
+
+          {messages.length === 0 && !showSavedSchemes && (
             <div style={{ textAlign: 'center', marginTop: '100px' }}>
               <div style={{ fontSize: '5rem', marginBottom: '20px' }}>🏛️</div>
               <h2 style={{ 
@@ -3233,7 +3579,8 @@ export default function GovMithra() {
             <div key={i} style={{
               marginBottom: '20px',
               display: 'flex',
-              justifyContent: m.type === 'user' ? 'flex-end' : 'flex-start'
+              flexDirection: 'column',
+              alignItems: m.type === 'user' ? 'flex-end' : 'flex-start'
             }}>
               <div style={{
                 maxWidth: '75%',
@@ -3245,7 +3592,8 @@ export default function GovMithra() {
                 color: m.type === 'user' ? 'white' : '#1e293b',
                 boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
                 fontSize: '1rem',
-                lineHeight: '1.6'
+                lineHeight: '1.6',
+                position: 'relative'
               }}>
                 <div>{m.text}</div>
 
@@ -3270,9 +3618,160 @@ export default function GovMithra() {
                           : v}
                       </div>
                     ))}
+                    {/* ── SCHEME ACTION BUTTONS ── */}
+                    <div style={{ display: 'flex', gap: '8px', marginTop: '12px', flexWrap: 'wrap' }}>
+                      <button
+                        onClick={() => { const isBookmarked = isSchemeBookmarked(i, idx); saveScheme(res, idx, i); }}
+                        style={{
+                          padding: '6px 12px',
+                          borderRadius: '8px',
+                          border: `2px solid ${isSchemeBookmarked(i, idx) ? '#f59e0b' : '#e2e8f0'}`,
+                          background: isSchemeBookmarked(i, idx) ? '#fef3c7' : 'white',
+                          color: isSchemeBookmarked(i, idx) ? '#d97706' : '#64748b',
+                          cursor: 'pointer',
+                          fontSize: '0.82rem',
+                          fontWeight: '700',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '4px',
+                          transition: 'all 0.2s'
+                        }}
+                      >
+                        {isSchemeBookmarked(i, idx) ? '⭐ Saved' : '☆ Save'}
+                      </button>
+                      <button
+                        onClick={() => shareOnWhatsApp(res)}
+                        style={{
+                          padding: '6px 12px',
+                          borderRadius: '8px',
+                          border: 'none',
+                          background: '#25D366',
+                          color: 'white',
+                          cursor: 'pointer',
+                          fontSize: '0.82rem',
+                          fontWeight: '700',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '4px'
+                        }}
+                      >
+                        📤 WhatsApp
+                      </button>
+                      {/* 🧠 EXPLAIN SIMPLY BUTTON */}
+                      <button
+                        onClick={() => explainSchemeSimply(res, i, idx)}
+                        style={{
+                          padding: '6px 12px',
+                          borderRadius: '8px',
+                          border: '2px solid #7c3aed',
+                          background: explanations[`${i}-${idx}`] ? '#ede9fe' : 'white',
+                          color: '#7c3aed',
+                          cursor: 'pointer',
+                          fontSize: '0.82rem',
+                          fontWeight: '700',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '4px',
+                          transition: 'all 0.2s'
+                        }}
+                      >
+                        🧠 {explanations[`${i}-${idx}`] ? 'Hide Explanation' : 'Explain Simply'}
+                      </button>
+                      {/* 🔄 COMPARE BUTTON */}
+                      <button
+                        onClick={() => toggleCompare(res, res.scheme_name || res.name || res.title || `Scheme ${idx + 1}`, i, idx)}
+                        style={{
+                          padding: '6px 12px',
+                          borderRadius: '8px',
+                          border: `2px solid ${isInCompare(i, idx) ? '#f59e0b' : '#e2e8f0'}`,
+                          background: isInCompare(i, idx) ? '#fef3c7' : 'white',
+                          color: isInCompare(i, idx) ? '#d97706' : '#64748b',
+                          cursor: 'pointer',
+                          fontSize: '0.82rem',
+                          fontWeight: '700',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '4px',
+                          transition: 'all 0.2s'
+                        }}
+                      >
+                        {isInCompare(i, idx) ? '✅ In Compare' : '🔄 Compare'}
+                      </button>
+                    </div>
+                    {/* 🧠 SIMPLE EXPLANATION BOX */}
+                    {explanations[`${i}-${idx}`] && (
+                      <div style={{
+                        marginTop: '12px',
+                        padding: '14px 16px',
+                        background: 'linear-gradient(135deg, #ede9fe, #f5f3ff)',
+                        borderRadius: '12px',
+                        border: '2px solid #7c3aed',
+                        fontSize: '0.9rem',
+                        color: '#3b0764',
+                        lineHeight: '1.7'
+                      }}>
+                        <div style={{ fontWeight: '700', marginBottom: '6px', fontSize: '0.85rem', color: '#7c3aed' }}>
+                          🧠 Simple Explanation
+                        </div>
+                        {explanations[`${i}-${idx}`]}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
+
+              {/* ── COPY BUTTON (bot messages only) ── */}
+              {m.type === 'bot' && m.text && (
+                <button
+                  onClick={() => copyToClipboard(m.text, i)}
+                  title="Copy to clipboard"
+                  style={{
+                    marginTop: '6px',
+                    padding: '4px 10px',
+                    borderRadius: '8px',
+                    border: '1px solid #e2e8f0',
+                    background: copiedMsgId === i ? '#f0fdf4' : 'white',
+                    color: copiedMsgId === i ? '#16a34a' : '#94a3b8',
+                    cursor: 'pointer',
+                    fontSize: '0.78rem',
+                    fontWeight: '600',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    transition: 'all 0.2s',
+                    alignSelf: 'flex-start'
+                  }}
+                >
+                  {copiedMsgId === i ? '✅ Copied!' : '📋 Copy'}
+                </button>
+              )}
+              {/* 💬 FOLLOW-UP QUESTION CHIPS */}
+              {m.type === 'bot' && followups[i] && (
+                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginTop: '8px', maxWidth: '80%' }}>
+                  {followups[i].map((q, qi) => (
+                    <button
+                      key={qi}
+                      onClick={() => { setInputText(q); inputRef.current?.focus(); }}
+                      style={{
+                        padding: '7px 14px',
+                        borderRadius: '20px',
+                        border: '2px solid #667eea',
+                        background: 'white',
+                        color: '#667eea',
+                        cursor: 'pointer',
+                        fontSize: '0.82rem',
+                        fontWeight: '600',
+                        transition: 'all 0.2s',
+                        whiteSpace: 'nowrap'
+                      }}
+                      onMouseEnter={e => { e.currentTarget.style.background = '#667eea'; e.currentTarget.style.color = 'white'; }}
+                      onMouseLeave={e => { e.currentTarget.style.background = 'white'; e.currentTarget.style.color = '#667eea'; }}
+                    >
+                      {q}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
 
@@ -3357,7 +3856,175 @@ export default function GovMithra() {
           0%, 100% { transform: translateY(0); }
           50% { transform: translateY(-20px); }
         }
+        @keyframes slideUp {
+          from { transform: translateY(20px); opacity: 0; }
+          to   { transform: translateY(0);    opacity: 1; }
+        }
       `}</style>
+
+      {/* 🔄 FLOATING COMPARE BAR */}
+      {compareList.length > 0 && (
+        <div style={{
+          position: 'fixed',
+          bottom: '30px',
+          right: '30px',
+          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          color: 'white',
+          padding: '16px 20px',
+          borderRadius: '18px',
+          boxShadow: '0 8px 32px rgba(102,126,234,0.55)',
+          zIndex: 1000,
+          minWidth: '230px',
+          animation: 'slideUp 0.3s ease'
+        }}>
+          <p style={{ margin: '0 0 8px 0', fontWeight: '700', fontSize: '1rem' }}>
+            🔄 Compare ({compareList.length}/3)
+          </p>
+          {compareList.map((s, ci) => (
+            <p key={ci} style={{ margin: '3px 0', fontSize: '0.82rem', opacity: 0.9 }}>
+              • {s.label}
+            </p>
+          ))}
+          <div style={{ display: 'flex', gap: '8px', marginTop: '12px' }}>
+            <button
+              onClick={runComparison}
+              disabled={compareList.length < 2}
+              style={{
+                flex: 1,
+                padding: '9px',
+                borderRadius: '10px',
+                border: 'none',
+                background: 'white',
+                color: '#667eea',
+                cursor: compareList.length < 2 ? 'not-allowed' : 'pointer',
+                fontWeight: '700',
+                fontSize: '0.88rem'
+              }}
+            >
+              Compare Now ▶
+            </button>
+            <button
+              onClick={() => { setCompareList([]); setCompareResult(null); setShowCompare(false); }}
+              style={{
+                padding: '9px 14px',
+                borderRadius: '10px',
+                border: '2px solid rgba(255,255,255,0.5)',
+                background: 'transparent',
+                color: 'white',
+                cursor: 'pointer',
+                fontWeight: '700',
+                fontSize: '0.88rem'
+              }}
+            >✕</button>
+          </div>
+        </div>
+      )}
+
+      {/* 🔄 COMPARE MODAL */}
+      {showCompare && (
+        <div style={{
+          position: 'fixed',
+          inset: 0,
+          background: 'rgba(0,0,0,0.6)',
+          zIndex: 2000,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '20px'
+        }}>
+          <div style={{
+            background: 'white',
+            borderRadius: '20px',
+            padding: '30px',
+            maxWidth: '850px',
+            width: '100%',
+            maxHeight: '85vh',
+            overflowY: 'auto',
+            boxShadow: '0 20px 60px rgba(0,0,0,0.35)'
+          }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
+              <h2 style={{ margin: 0, color: '#1e293b', fontSize: '1.4rem', fontWeight: 'bold' }}>
+                🔄 Scheme Comparison
+              </h2>
+              <button
+                onClick={() => setShowCompare(false)}
+                style={{
+                  border: 'none', background: '#f1f5f9',
+                  borderRadius: '50%', width: '36px', height: '36px',
+                  fontSize: '1.1rem', cursor: 'pointer', color: '#64748b',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center'
+                }}
+              >✕</button>
+            </div>
+
+            {compareResult ? (
+              <div style={{ overflowX: 'auto' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem' }}>
+                  <thead>
+                    <tr>
+                      {compareResult.headers.map((h, hi) => (
+                        <th key={hi} style={{
+                          padding: '13px 16px',
+                          textAlign: 'left',
+                          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                          color: 'white',
+                          fontWeight: '700',
+                          borderRight: hi < compareResult.headers.length - 1 ? '1px solid rgba(255,255,255,0.2)' : 'none',
+                          borderRadius: hi === 0 ? '10px 0 0 0' : hi === compareResult.headers.length - 1 ? '0 10px 0 0' : '0'
+                        }}>{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {compareResult.rows.map((row, ri) => (
+                      <tr key={ri} style={{ background: ri % 2 === 0 ? '#f8fafc' : 'white' }}>
+                        {row.map((cell, ci) => (
+                          <td key={ci} style={{
+                            padding: '12px 16px',
+                            border: '1px solid #e2e8f0',
+                            fontWeight: ci === 0 ? '700' : '400',
+                            color: ci === 0 ? '#475569' : '#1e293b',
+                            verticalAlign: 'top',
+                            lineHeight: '1.5'
+                          }}>
+                            {String(cell).startsWith('http')
+                              ? <a href={cell} target="_blank" rel="noopener noreferrer" style={{ color: '#667eea', textDecoration: 'none' }}>View ↗</a>
+                              : cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <p style={{ color: '#ef4444', textAlign: 'center', padding: '20px' }}>
+                Could not build comparison. Please try again.
+              </p>
+            )}
+
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px', gap: '10px' }}>
+              <button
+                onClick={() => { setCompareList([]); setCompareResult(null); setShowCompare(false); }}
+                style={{
+                  padding: '10px 20px', borderRadius: '10px',
+                  border: '2px solid #e2e8f0', background: 'white',
+                  color: '#64748b', cursor: 'pointer', fontWeight: '600'
+                }}
+              >Clear & Close</button>
+              <button
+                onClick={() => setShowCompare(false)}
+                style={{
+                  padding: '10px 20px', borderRadius: '10px',
+                  border: 'none',
+                  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                  color: 'white', cursor: 'pointer', fontWeight: '600'
+                }}
+              >Done</button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
