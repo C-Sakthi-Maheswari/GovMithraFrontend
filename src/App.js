@@ -360,7 +360,31 @@ const translations = {
       youth: "Skill development programs",
       bus: "Bus from Tambaram to Adyar"
     },
-    loading: {
+    // UI labels
+    save: "☆ Save",
+    saved: "⭐ Saved",
+    whatsapp: "{t.whatsapp}",
+    copy: "📋 Copy",
+    copied: "✅ Copied!",
+    explainSimply: "🧠 Explain Simply",
+    hideExplanation: "🧠 Hide Explanation",
+    simpleExplanation: "🧠 Simple Explanation",
+    compare: "🔄 Compare",
+    inCompare: "✅ In Compare",
+    compareNow: "{t.compareNow}",
+    compareTitle: "{t.compareTitle}",
+    clearClose: "Clear & Close",
+    done: "Done",
+    savedSchemes: "⭐ Saved",
+    savedHeader: "⭐ Saved Schemes",
+    clearAll: "🗑️ Clear All",
+    noSavedSchemes: "{t.noSavedSchemes}",
+    removeScheme: "Remove",
+    share: "📤 Share",
+    downloadPdf: "{t.downloadPdf}",
+    compareMax: "You can compare up to 3 schemes. Remove one first.",
+    followupLabel: "{t.followupLabel}",
+        loading: {
       caption1: "Bridging the gap between Citizens and Government...",
       caption2: "Finding the fastest MTC routes for you...",
       caption3: "Simplifying Governance, one query at a time...",
@@ -498,7 +522,31 @@ const translations = {
       youth: "திறன் மேம்பாட்டு திட்டங்கள்",
       bus: "தாம்பரம் முதல் அடையாறு பேருந்து"
     },
-    loading: {
+    // UI labels
+    save: "☆ சேமி",
+    saved: "⭐ சேமிக்கப்பட்டது",
+    whatsapp: "📤 வாட்சாப்",
+    copy: "📋 நகலெடு",
+    copied: "✅ நகலெடுக்கப்பட்டது!",
+    explainSimply: "🧠 எளிதாக விளக்கு",
+    hideExplanation: "🧠 விளக்கத்தை மறை",
+    simpleExplanation: "🧠 எளிய விளக்கம்",
+    compare: "🔄 ஒப்பிடு",
+    inCompare: "✅ ஒப்பீட்டில் உள்ளது",
+    compareNow: "இப்போது ஒப்பிடு ▶",
+    compareTitle: "🔄 திட்ட ஒப்பீடு",
+    clearClose: "அழி & மூடு",
+    done: "முடிந்தது",
+    savedSchemes: "⭐ சேமிக்கப்பட்டவை",
+    savedHeader: "⭐ சேமிக்கப்பட்ட திட்டங்கள்",
+    clearAll: "🗑️ அனைத்தும் அழி",
+    noSavedSchemes: "இன்னும் சேமிக்கப்பட்ட திட்டங்கள் இல்லை. ⭐ ஐ கிளிக் செய்து சேமிக்கவும்!",
+    removeScheme: "நீக்கு",
+    share: "📤 பகிர்",
+    downloadPdf: "📥 PDF பதிவிறக்கு",
+    compareMax: "அதிகபட்சம் 3 திட்டங்களை ஒப்பிடலாம். முதலில் ஒன்றை நீக்கவும்.",
+    followupLabel: "நீங்கள் கேட்கலாம்:",
+        loading: {
       caption1: "மக்களுக்கும் அரசுக்கும் இடைவெளியைக் குறைக்கிறது...",
       caption2: "வேகமான வழிகளைக் கண்டறிகிறது...",
       caption3: "ஆட்சியை எளிமைப்படுத்துகிறது...",
@@ -636,7 +684,31 @@ const translations = {
       youth: "कौशल विकास कार्यक्रम",
       bus: "तांबरम से अडयार तक बस"
     },
-    loading: {
+    // UI labels
+    save: "☆ सेव करें",
+    saved: "⭐ सेव हुआ",
+    whatsapp: "📤 व्हाट्सएप",
+    copy: "📋 कॉपी करें",
+    copied: "✅ कॉपी हो गया!",
+    explainSimply: "🧠 सरल भाषा में समझाएं",
+    hideExplanation: "🧠 विवरण छुपाएं",
+    simpleExplanation: "🧠 सरल विवरण",
+    compare: "🔄 तुलना करें",
+    inCompare: "✅ तुलना में जोड़ा",
+    compareNow: "अभी तुलना करें ▶",
+    compareTitle: "🔄 योजना तुलना",
+    clearClose: "साफ करें & बंद करें",
+    done: "हो गया",
+    savedSchemes: "⭐ सेव किए गए",
+    savedHeader: "⭐ सेव की गई योजनाएं",
+    clearAll: "🗑️ सब हटाएं",
+    noSavedSchemes: "अभी तक कोई योजना सेव नहीं है। किसी भी योजना कार्ड पर ⭐ क्लिक करें!",
+    removeScheme: "हटाएं",
+    share: "📤 शेयर",
+    downloadPdf: "📥 PDF डाउनलोड करें",
+    compareMax: "आप अधिकतम 3 योजनाओं की तुलना कर सकते हैं। पहले एक हटाएं।",
+    followupLabel: "आप यह भी पूछ सकते हैं:",
+        loading: {
       caption1: "नागरिकों और सरकार के बीच की दूरी कम करना...",
       caption2: "सबसे तेज़ बस मार्ग ढूँढना...",
       caption3: "शासन को सरल बनाना...",
@@ -774,7 +846,31 @@ const translations = {
       youth: "నైపుణ్య అభివృద్ధి కార్యక్రమాలు",
       bus: "తాంబరం నుండి అడయార్ బస్"
     },
-    loading: {
+    // UI labels
+    save: "☆ సేవ్ చేయి",
+    saved: "⭐ సేవ్ అయింది",
+    whatsapp: "📤 వాట్సాప్",
+    copy: "📋 కాపీ చేయి",
+    copied: "✅ కాపీ అయింది!",
+    explainSimply: "🧠 సరళంగా వివరించు",
+    hideExplanation: "🧠 వివరణ దాచు",
+    simpleExplanation: "🧠 సరళ వివరణ",
+    compare: "🔄 పోల్చు",
+    inCompare: "✅ పోలికలో ఉంది",
+    compareNow: "ఇప్పుడు పోల్చు ▶",
+    compareTitle: "🔄 పథకాల పోలిక",
+    clearClose: "తొలగించు & మూసు",
+    done: "పూర్తయింది",
+    savedSchemes: "⭐ సేవ్ చేసినవి",
+    savedHeader: "⭐ సేవ్ చేసిన పథకాలు",
+    clearAll: "🗑️ అన్నీ తొలగించు",
+    noSavedSchemes: "ఇంకా సేవ్ చేసిన పథకాలు లేవు. ⭐ క్లిక్ చేసి సేవ్ చేయండి!",
+    removeScheme: "తొలగించు",
+    share: "📤 షేర్",
+    downloadPdf: "📥 PDF డౌన్‌లోడ్",
+    compareMax: "మీరు గరిష్టంగా 3 పథకాలను పోల్చవచ్చు. ముందు ఒకటి తీసివేయండి.",
+    followupLabel: "మీరు ఇవి కూడా అడగవచ్చు:",
+        loading: {
       caption1: "పౌరులు మరియు ప్రభుత్వం మధ్య అంతరాన్ని తగ్గిస్తోంది...",
       caption2: "వేగవంతమైన మార్గాలను కనుగొంటోంది...",
       caption3: "పరిపాలనను సులభతరం చేస్తోంది...",
@@ -912,7 +1008,31 @@ const translations = {
       youth: "വൈദഗ്ധ്യ വികസന പരിപാടികൾ",
       bus: "താംബരം മുതൽ അടയാർ വരെ ബസ്"
     },
-    loading: {
+    // UI labels
+    save: "☆ സേവ് ചെയ്യുക",
+    saved: "⭐ സേവ് ചെയ്തു",
+    whatsapp: "📤 വാട്സ്ആപ്പ്",
+    copy: "📋 പകർത്തുക",
+    copied: "✅ പകർത്തി!",
+    explainSimply: "🧠 ലളിതമായി വിശദീകരിക്കുക",
+    hideExplanation: "🧠 വിശദീകരണം മറയ്ക്കുക",
+    simpleExplanation: "🧠 ലളിത വിശദീകരണം",
+    compare: "🔄 താരതമ്യം ചെയ്യുക",
+    inCompare: "✅ താരതമ്യത്തിൽ ഉണ്ട്",
+    compareNow: "ഇപ്പോൾ താരതമ്യം ▶",
+    compareTitle: "🔄 പദ്ധതി താരതമ്യം",
+    clearClose: "മായ്ക്കുക & അടയ്ക്കുക",
+    done: "പൂർത്തിയായി",
+    savedSchemes: "⭐ സേവ് ചെയ്തവ",
+    savedHeader: "⭐ സേവ് ചെയ്ത പദ്ധതികൾ",
+    clearAll: "🗑️ എല്ലാം മായ്ക്കുക",
+    noSavedSchemes: "ഇതുവരെ ഒന്നും സേവ് ചെയ്തിട്ടില്ല. ⭐ ക്ലിക്ക് ചെയ്ത് സേവ് ചെയ്യൂ!",
+    removeScheme: "നീക്കം ചെയ്യുക",
+    share: "📤 ഷെയർ",
+    downloadPdf: "📥 PDF ഡൗൺലോഡ്",
+    compareMax: "പരമാവധി 3 പദ്ധതികൾ താരതമ്യം ചെയ്യാം. ആദ്യം ഒന്ന് നീക്കം ചെയ്യുക.",
+    followupLabel: "നിങ്ങൾ ഇതും ചോദിക്കാം:",
+        loading: {
       caption1: "പൗരന്മാരും സർക്കാരും തമ്മിലുള്ള അന്തരം കുറയ്ക്കുന്നു...",
       caption2: "വേഗമേറിയ മാർഗ്ഗങ്ങൾ കണ്ടെത്തുന്നു...",
       caption3: "ഭരണം ലളിതമാക്കുന്നു...",
@@ -1050,7 +1170,31 @@ const translations = {
       youth: "ಕೌಶಲ್ಯ ಅಭಿವೃದ್ಧಿ ಕಾರ್ಯಕ್ರಮಗಳು",
       bus: "ತಾಂಬರಂ ನಿಂದ ಅಡಯಾರ್ ಬಸ್"
     },
-    loading: {
+    // UI labels
+    save: "☆ ಉಳಿಸಿ",
+    saved: "⭐ ಉಳಿಸಲಾಗಿದೆ",
+    whatsapp: "📤 ವಾಟ್ಸಾಪ್",
+    copy: "📋 ನಕಲಿಸಿ",
+    copied: "✅ ನಕಲಿಸಲಾಗಿದೆ!",
+    explainSimply: "🧠 ಸರಳವಾಗಿ ವಿವರಿಸಿ",
+    hideExplanation: "🧠 ವಿವರಣೆ ಮರೆಮಾಡಿ",
+    simpleExplanation: "🧠 ಸರಳ ವಿವರಣೆ",
+    compare: "🔄 ಹೋಲಿಕೆ",
+    inCompare: "✅ ಹೋಲಿಕೆಯಲ್ಲಿದೆ",
+    compareNow: "ಈಗ ಹೋಲಿಸಿ ▶",
+    compareTitle: "🔄 ಯೋಜನೆ ಹೋಲಿಕೆ",
+    clearClose: "ತೆರವು & ಮುಚ್ಚಿ",
+    done: "ಮುಗಿದಿದೆ",
+    savedSchemes: "⭐ ಉಳಿಸಿದವು",
+    savedHeader: "⭐ ಉಳಿಸಿದ ಯೋಜನೆಗಳು",
+    clearAll: "🗑️ ಎಲ್ಲ ತೆರವು",
+    noSavedSchemes: "ಇನ್ನೂ ಯಾವ ಯೋಜನೆಯೂ ಉಳಿಸಿಲ್ಲ. ⭐ ಕ್ಲಿಕ್ ಮಾಡಿ ಉಳಿಸಿ!",
+    removeScheme: "ತೆಗೆದುಹಾಕಿ",
+    share: "📤 ಶೇರ್",
+    downloadPdf: "📥 PDF ಡೌನ್‌ಲೋಡ್",
+    compareMax: "ಗರಿಷ್ಠ 3 ಯೋಜನೆಗಳನ್ನು ಹೋಲಿಸಬಹುದು. ಮೊದಲು ಒಂದನ್ನು ತೆಗೆದುಹಾಕಿ.",
+    followupLabel: "ನೀವು ಇದನ್ನೂ ಕೇಳಬಹುದು:",
+        loading: {
       caption1: "ನಾಗರಿಕರು ಮತ್ತು ಸರ್ಕಾರದ ನಡುವಿನ ಅಂತರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತಿದೆ...",
       caption2: "ವೇಗವಾದ ಮಾರ್ಗಗಳನ್ನು ಹುಡುಕುತ್ತಿದೆ...",
       caption3: "ಆಡಳಿತವನ್ನು ಸರಳೀಕರಿಸುತ್ತಿದೆ...",
@@ -1162,7 +1306,31 @@ const translations = {
       water: "পানির সংযোগের আবেদন", youth: "দক্ষতা উন্নয়ন কর্মসূচি",
       bus: "তাম্বরম থেকে অ্যাডায়ার বাস"
     },
-    loading: {
+    // UI labels
+    save: "☆ সেভ করুন",
+    saved: "⭐ সেভ হয়েছে",
+    whatsapp: "📤 হোয়াটসঅ্যাপ",
+    copy: "📋 কপি করুন",
+    copied: "✅ কপি হয়েছে!",
+    explainSimply: "🧠 সহজ ভাষায় বুঝান",
+    hideExplanation: "🧠 ব্যাখ্যা লুকান",
+    simpleExplanation: "🧠 সহজ ব্যাখ্যা",
+    compare: "🔄 তুলনা করুন",
+    inCompare: "✅ তুলনায় যোগ হয়েছে",
+    compareNow: "এখন তুলনা করুন ▶",
+    compareTitle: "🔄 প্রকল্প তুলনা",
+    clearClose: "মুছুন & বন্ধ করুন",
+    done: "সম্পন্ন",
+    savedSchemes: "⭐ সেভ করা",
+    savedHeader: "⭐ সেভ করা প্রকল্প",
+    clearAll: "🗑️ সব মুছুন",
+    noSavedSchemes: "এখনো কোনো প্রকল্প সেভ করা হয়নি। ⭐ ক্লিক করে সেভ করুন!",
+    removeScheme: "সরান",
+    share: "📤 শেয়ার",
+    downloadPdf: "📥 PDF ডাউনলোড",
+    compareMax: "সর্বোচ্চ ৩টি প্রকল্প তুলনা করা যাবে। আগে একটি সরান।",
+    followupLabel: "আপনি এটিও জিজ্ঞেস করতে পারেন:",
+        loading: {
       caption1: "নাগরিক ও সরকারের মধ্যে ব্যবধান কমাচ্ছে...",
       caption2: "দ্রুততম MTC পথ খুঁজে পাচ্ছে...",
       caption3: "শাসন সহজ করছে, একটি প্রশ্ন একসময়...",
@@ -1274,7 +1442,31 @@ const translations = {
       water: "पाणी जोडणीसाठी अर्ज", youth: "कौशल्य विकास कार्यक्रम",
       bus: "तांबरम ते अडयार बस"
     },
-    loading: {
+    // UI labels
+    save: "☆ जतन करा",
+    saved: "⭐ जतन केले",
+    whatsapp: "📤 व्हाट्सअप",
+    copy: "📋 कॉपी करा",
+    copied: "✅ कॉपी झाले!",
+    explainSimply: "🧠 सोप्या भाषेत सांगा",
+    hideExplanation: "🧠 स्पष्टीकरण लपवा",
+    simpleExplanation: "🧠 सोपे स्पष्टीकरण",
+    compare: "🔄 तुलना करा",
+    inCompare: "✅ तुलनेत आहे",
+    compareNow: "आता तुलना करा ▶",
+    compareTitle: "🔄 योजना तुलना",
+    clearClose: "साफ करा & बंद करा",
+    done: "झाले",
+    savedSchemes: "⭐ जतन केलेले",
+    savedHeader: "⭐ जतन केलेल्या योजना",
+    clearAll: "🗑️ सगळे काढा",
+    noSavedSchemes: "अजून कोणतीही योजना जतन केलेली नाही. ⭐ क्लिक करून जतन करा!",
+    removeScheme: "काढा",
+    share: "📤 शेअर",
+    downloadPdf: "📥 PDF डाउनलोड",
+    compareMax: "जास्तीत जास्त 3 योजनांची तुलना करता येते. आधी एक काढा.",
+    followupLabel: "तुम्ही हेही विचारू शकता:",
+        loading: {
       caption1: "नागरिक आणि सरकार यांच्यातील दरी कमी करत आहे...",
       caption2: "सर्वात जलद MTC मार्ग शोधत आहे...",
       caption3: "शासन सुलभ करत आहे...",
@@ -1386,7 +1578,31 @@ const translations = {
       water: "પાણી જોડાણ", youth: "કૌશલ્ય વિકાસ",
       bus: "તાંબરમ થી અડ્યયાર બસ"
     },
-    loading: {
+    // UI labels
+    save: "☆ સાચવો",
+    saved: "⭐ સાચવ્યું",
+    whatsapp: "📤 વ્હોટ્સએપ",
+    copy: "📋 કૉપિ કરો",
+    copied: "✅ કૉપિ થઈ ગઈ!",
+    explainSimply: "🧠 સરળ ભાષામાં સમજાવો",
+    hideExplanation: "🧠 સ્પષ્ટીકરણ છુપાવો",
+    simpleExplanation: "🧠 સરળ સ્પષ્ટીકરણ",
+    compare: "🔄 સરખામણી",
+    inCompare: "✅ સરખામણીમાં છે",
+    compareNow: "હવે સરખામણી ▶",
+    compareTitle: "🔄 યોજના સરખામણી",
+    clearClose: "સાફ & બંધ",
+    done: "થઈ ગયું",
+    savedSchemes: "⭐ સાચવ્યા",
+    savedHeader: "⭐ સાચવેલી યોજનાઓ",
+    clearAll: "🗑️ બધુ સાફ",
+    noSavedSchemes: "હજી કોઈ યોજના સાચવી નથી. ⭐ ક્લિક કરી સાચવો!",
+    removeScheme: "દૂર કરો",
+    share: "📤 શેર",
+    downloadPdf: "📥 PDF ડાઉનલોડ",
+    compareMax: "વધુમાં વધુ 3 યોજનાઓ સરખાવી શકાય. પહેલા એક દૂર કરો.",
+    followupLabel: "તમે આ પણ પૂછી શકો:",
+        loading: {
       caption1: "નાગરિક અને સરકાર વચ્ચેનો ભેદ ઘટાડી રહ્યું છે...",
       caption2: "સૌથી ઝડપી MTC માર્ગ શોધી રહ્યું છે...",
       caption3: "શાસન સરળ બનાવી રહ્યું છે...",
@@ -1498,7 +1714,31 @@ const translations = {
       water: "ਪਾਣੀ ਕੁਨੈਕਸ਼ਨ", youth: "ਹੁਨਰ ਵਿਕਾਸ ਪ੍ਰੋਗਰਾਮ",
       bus: "ਤਾਂਬਰਮ ਤੋਂ ਅਡਯਾਰ ਬੱਸ"
     },
-    loading: {
+    // UI labels
+    save: "☆ ਸੇਵ ਕਰੋ",
+    saved: "⭐ ਸੇਵ ਹੋਇਆ",
+    whatsapp: "📤 ਵਟਸਐਪ",
+    copy: "📋 ਕਾਪੀ ਕਰੋ",
+    copied: "✅ ਕਾਪੀ ਹੋ ਗਿਆ!",
+    explainSimply: "🧠 ਸਰਲ ਭਾਸ਼ਾ ਵਿੱਚ ਸਮਝਾਓ",
+    hideExplanation: "🧠 ਵਿਆਖਿਆ ਲੁਕਾਓ",
+    simpleExplanation: "🧠 ਸਰਲ ਵਿਆਖਿਆ",
+    compare: "🔄 ਤੁਲਨਾ ਕਰੋ",
+    inCompare: "✅ ਤੁਲਨਾ ਵਿੱਚ ਹੈ",
+    compareNow: "ਹੁਣੇ ਤੁਲਨਾ ▶",
+    compareTitle: "🔄 ਯੋਜਨਾ ਤੁਲਨਾ",
+    clearClose: "ਸਾਫ਼ & ਬੰਦ ਕਰੋ",
+    done: "ਹੋ ਗਿਆ",
+    savedSchemes: "⭐ ਸੇਵ ਕੀਤੇ",
+    savedHeader: "⭐ ਸੇਵ ਕੀਤੀਆਂ ਯੋਜਨਾਵਾਂ",
+    clearAll: "🗑️ ਸਭ ਹਟਾਓ",
+    noSavedSchemes: "ਅਜੇ ਕੋਈ ਯੋਜਨਾ ਸੇਵ ਨਹੀਂ। ⭐ ਕਲਿੱਕ ਕਰਕੇ ਸੇਵ ਕਰੋ!",
+    removeScheme: "ਹਟਾਓ",
+    share: "📤 ਸ਼ੇਅਰ",
+    downloadPdf: "📥 PDF ਡਾਊਨਲੋਡ",
+    compareMax: "ਵੱਧ ਤੋਂ ਵੱਧ 3 ਯੋਜਨਾਵਾਂ ਦੀ ਤੁਲਨਾ ਹੋ ਸਕਦੀ ਹੈ। ਪਹਿਲਾਂ ਇੱਕ ਹਟਾਓ।",
+    followupLabel: "ਤੁਸੀਂ ਇਹ ਵੀ ਪੁੱਛ ਸਕਦੇ ਹੋ:",
+        loading: {
       caption1: "ਨਾਗਰਿਕਾਂ ਅਤੇ ਸਰਕਾਰ ਵਿਚਕਾਰ ਦੂਰੀ ਘਟਾ ਰਿਹਾ ਹੈ...",
       caption2: "ਸਭ ਤੋਂ ਤੇਜ਼ MTC ਰੂਟ ਲੱਭ ਰਿਹਾ ਹੈ...",
       caption3: "ਪ੍ਰਸ਼ਾਸਨ ਨੂੰ ਸਰਲ ਬਣਾ ਰਿਹਾ ਹੈ...",
@@ -1610,7 +1850,31 @@ const translations = {
       water: "ପାଣି ସଂଯୋଗ", youth: "କୌଶଳ ବିକାଶ",
       bus: "ତାଂବ୍ରମ୍ ଠାରୁ ଆଡ୍ୟାର ବସ"
     },
-    loading: {
+    // UI labels
+    save: "☆ ସଞ୍ଚୟ କରନ୍ତୁ",
+    saved: "⭐ ସଞ୍ଚୟ ହେଲା",
+    whatsapp: "📤 ୱାଟ୍ସଆପ",
+    copy: "📋 କପି କରନ୍ତୁ",
+    copied: "✅ କପି ହେଲା!",
+    explainSimply: "🧠 ସରଳ ଭାଷାରେ ବୁଝାନ୍ତୁ",
+    hideExplanation: "🧠 ବ୍ୟାଖ୍ୟା ଲୁଚାନ୍ତୁ",
+    simpleExplanation: "🧠 ସରଳ ବ୍ୟାଖ୍ୟା",
+    compare: "🔄 ତୁଳନା",
+    inCompare: "✅ ତୁଳନାରେ ଅଛି",
+    compareNow: "ବର୍ତ୍ତମାନ ତୁଳନା ▶",
+    compareTitle: "🔄 ଯୋଜନା ତୁଳନା",
+    clearClose: "ସଫା & ବନ୍ଦ",
+    done: "ସମ୍ପୂର୍ଣ",
+    savedSchemes: "⭐ ସଞ୍ଚୟ",
+    savedHeader: "⭐ ସଞ୍ଚୟ ଯୋଜନା",
+    clearAll: "🗑️ ସବୁ ଦୂର",
+    noSavedSchemes: "ଏ ପର୍ଯ୍ୟନ୍ତ କିଛି ସଞ୍ଚୟ ହୋଇ ନାହିଁ। ⭐ କ୍ଲିକ କରି ସଞ୍ଚୟ କରନ୍ତୁ!",
+    removeScheme: "ହଟାନ୍ତୁ",
+    share: "📤 ଶେୟାର",
+    downloadPdf: "📥 PDF ଡାଉନଲୋଡ",
+    compareMax: "ସର୍ବାଧିକ 3ଟି ଯୋଜନା ତୁଳନା ହୋଇପାରିବ। ପ୍ରଥମେ ଗୋଟିଏ ହଟାନ୍ତୁ।",
+    followupLabel: "ଆପଣ ଏହା ମଧ୍ୟ ପଚାରି ପାରନ୍ତି:",
+        loading: {
       caption1: "ନାଗରିକ ଓ ସରକାର ମଧ୍ୟରେ ଦୂରତା କମ ହେଉଛି...",
       caption2: "ସବୁଠୁ ଶୀଘ୍ର MTC ରୁଟ ଖୋଜୁଛି...",
       caption3: "ଶାସନ ସହଜ କରୁଛି...",
@@ -1722,7 +1986,31 @@ const translations = {
       water: "পানী সংযোগ", youth: "দক্ষতা উন্নয়ন",
       bus: "তাম্বৰম পৰা আডয়াৰ বাছ"
     },
-    loading: {
+    // UI labels
+    save: "☆ সংৰক্ষণ কৰক",
+    saved: "⭐ সংৰক্ষিত",
+    whatsapp: "📤 হোৱাটছএপ",
+    copy: "📋 কপি কৰক",
+    copied: "✅ কপি হ'ল!",
+    explainSimply: "🧠 সহজ ভাষাত বুজাওক",
+    hideExplanation: "🧠 বিৱৰণ লুকুৱাওক",
+    simpleExplanation: "🧠 সহজ বিৱৰণ",
+    compare: "🔄 তুলনা কৰক",
+    inCompare: "✅ তুলনাত আছে",
+    compareNow: "এতিয়া তুলনা ▶",
+    compareTitle: "🔄 আঁচনি তুলনা",
+    clearClose: "পৰিষ্কাৰ & বন্ধ কৰক",
+    done: "সম্পন্ন",
+    savedSchemes: "⭐ সংৰক্ষিত",
+    savedHeader: "⭐ সংৰক্ষিত আঁচনিসমূহ",
+    clearAll: "🗑️ সকলো মচক",
+    noSavedSchemes: "এতিয়ালৈ কোনো আঁচনি সংৰক্ষণ হোৱা নাই। ⭐ ক্লিক কৰি সংৰক্ষণ কৰক!",
+    removeScheme: "আঁতৰাওক",
+    share: "📤 শ্বেয়াৰ",
+    downloadPdf: "📥 PDF ডাউনলোড",
+    compareMax: "সৰ্বোচ্চ ৩টা আঁচনি তুলনা কৰিব পাৰি। আগতে এটা আঁতৰাওক।",
+    followupLabel: "আপুনি এইটোও সুধিব পাৰে:",
+        loading: {
       caption1: "নাগৰিক আৰু চৰকাৰৰ মাজৰ দূৰত্ব কমাই আছে...",
       caption2: "দ্ৰুততম MTC পথ বিচাৰি আছে...",
       caption3: "শাসন সহজ কৰি আছে...",
@@ -1834,7 +2122,31 @@ const translations = {
       water: "پانی کا کنکشن", youth: "ہنر مندی ترقی",
       bus: "تامبرم سے آڈیار بس"
     },
-    loading: {
+    // UI labels
+    save: "☆ محفوظ کریں",
+    saved: "⭐ محفوظ ہوگیا",
+    whatsapp: "📤 واٹس ایپ",
+    copy: "📋 کاپی کریں",
+    copied: "✅ کاپی ہوگئی!",
+    explainSimply: "🧠 آسان زبان میں سمجھائیں",
+    hideExplanation: "🧠 وضاحت چھپائیں",
+    simpleExplanation: "🧠 سادہ وضاحت",
+    compare: "🔄 موازنہ کریں",
+    inCompare: "✅ موازنے میں شامل",
+    compareNow: "ابھی موازنہ ▶",
+    compareTitle: "🔄 اسکیم موازنہ",
+    clearClose: "صاف کریں & بند کریں",
+    done: "ہوگیا",
+    savedSchemes: "⭐ محفوظ شدہ",
+    savedHeader: "⭐ محفوظ اسکیمیں",
+    clearAll: "🗑️ سب ہٹائیں",
+    noSavedSchemes: "ابھی تک کوئی اسکیم محفوظ نہیں۔ ⭐ کلک کر کے محفوظ کریں!",
+    removeScheme: "ہٹائیں",
+    share: "📤 شیئر",
+    downloadPdf: "📥 PDF ڈاؤنلوڈ",
+    compareMax: "زیادہ سے زیادہ 3 اسکیموں کا موازنہ ہوسکتا ہے۔ پہلے ایک ہٹائیں۔",
+    followupLabel: "آپ یہ بھی پوچھ سکتے ہیں:",
+        loading: {
       caption1: "شہریوں اور حکومت کے درمیان فاصلہ کم کر رہا ہے...",
       caption2: "تیز ترین MTC راستے تلاش کر رہا ہے...",
       caption3: "حکمرانی کو آسان بنا رہا ہے...",
@@ -2861,42 +3173,235 @@ export default function GovMithra() {
       setExplanations(prev => { const n = { ...prev }; delete n[key]; return n; });
       return;
     }
-    const name    = scheme.scheme_name || scheme.name || scheme.title || 'This scheme';
-    const benefit = scheme.benefit || scheme.amount || scheme.benefits || '';
-    const who     = scheme.eligibility || scheme.who_can_apply || scheme.target_group || '';
-    const how     = scheme.how_to_apply || scheme.application_process || '';
-    const link    = Object.values(scheme).find(v => String(v).startsWith('http')) || '';
 
-    let text = `📌 "${name}" is a government program. `;
-    if (benefit)  text += `It gives ${benefit} to the people who qualify. `;
-    if (who)      text += `You can apply if you are: ${who}. `;
-    if (how)      text += `To apply: ${how}. `;
-    if (!how)     text += `Visit your nearest government office or Common Service Centre (CSC) to apply. `;
-    if (link)     text += `More info: ${link}`;
+    // ── Step 1: Separate URL fields from text fields ─────────────
+    const textFields = Object.entries(scheme).filter(
+      ([k, v]) => v && !String(v).startsWith('http') && String(v).trim().length > 0
+    );
+    const linkEntry = Object.entries(scheme).find(([k, v]) => String(v).startsWith('http'));
+    const link = linkEntry ? linkEntry[1] : '';
 
+    // ── Step 2: Smart field detection using keyword matching ──────
+    // Try to find the scheme name from common key patterns
+    const nameEntry = textFields.find(([k]) =>
+      /name|title|scheme|yojana|program/i.test(k)
+    );
+    // Benefit/amount field
+    const benefitEntry = textFields.find(([k]) =>
+      /benefit|amount|assist|subsid|grant|money|fund|support|help|aid/i.test(k)
+    );
+    // Eligibility/who can apply field
+    const whoEntry = textFields.find(([k]) =>
+      /eligib|who|qualif|criteria|target|applicant|age|income|caste/i.test(k)
+    );
+    // How to apply field
+    const howEntry = textFields.find(([k]) =>
+      /how|apply|process|step|procedure|register|enrol/i.test(k)
+    );
+    // Documents field
+    const docsEntry = textFields.find(([k]) =>
+      /doc|paper|certif|proof|id|aadhaar|aadhar/i.test(k)
+    );
+
+    const name    = nameEntry    ? nameEntry[1]    : null;
+    const benefit = benefitEntry ? benefitEntry[1] : null;
+    const who     = whoEntry     ? whoEntry[1]     : null;
+    const how     = howEntry     ? howEntry[1]     : null;
+    const docs    = docsEntry    ? docsEntry[1]    : null;
+
+    // ── Step 3: Collect remaining text fields not already used ────
+    const usedKeys = new Set([
+      nameEntry?.[0], benefitEntry?.[0], whoEntry?.[0],
+      howEntry?.[0], docsEntry?.[0]
+    ].filter(Boolean));
+
+    const extraFields = textFields.filter(([k]) => !usedKeys.has(k));
+
+    // ── Step 4: Build the simple explanation ──────────────────────
+    let parts = [];
+
+    if (name) {
+      parts.push(`📌 "${name}" is a government program.`);
+    } else {
+      // No name found — use first text field as name
+      const fallbackName = textFields[0]?.[1] || 'This program';
+      parts.push(`📌 "${fallbackName}" is a government program.`);
+    }
+
+    if (benefit) {
+      parts.push(`💰 What you get: ${benefit}`);
+    }
+
+    if (who) {
+      parts.push(`✅ Who can apply: ${who}`);
+    }
+
+    if (docs) {
+      parts.push(`📄 Documents needed: ${docs}`);
+    }
+
+    if (how) {
+      parts.push(`📝 How to apply: ${how}`);
+    }
+
+    // Add any remaining important fields as extra info
+    extraFields.slice(0, 2).forEach(([k, v]) => {
+      if (String(v).trim().length > 3) {
+        const label = k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+        parts.push(`ℹ️ ${label}: ${v}`);
+      }
+    });
+
+    // If we only got a name and nothing else, show all fields simply
+    if (parts.length <= 1 && textFields.length > 0) {
+      textFields.forEach(([k, v]) => {
+        const label = k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+        parts.push(`• ${label}: ${v}`);
+      });
+    }
+
+    if (!how) {
+      parts.push(`🏢 To apply: Visit your nearest government office or Common Service Centre (CSC).`);
+    }
+
+    if (link) {
+      parts.push(`🔗 More info: ${link}`);
+    }
+
+    // ── Step 5: Apply jargon simplification to full text ──────────
+    let text = parts.join('\n');
     Object.entries(jargonMap).forEach(([jargon, simple]) => {
       text = text.replace(new RegExp(`\\b${jargon}\\b`, 'gi'), simple);
     });
+
     setExplanations(prev => ({ ...prev, [key]: text }));
   };
 
   // ── 2. FOLLOW-UP QUESTION SUGGESTIONS (no API) ──────────────────
-  const followupBank = {
-    housing:     ['How to apply for PM Awas Yojana?', 'Documents needed for housing scheme?', 'Check my housing application status'],
-    health:      ['How to get Ayushman Bharat card?', 'Which hospitals are covered?', 'How to add family members to health scheme?'],
-    education:   ['How to apply for this scholarship?', 'What is the last date to apply?', 'What is the scholarship amount?'],
-    agriculture: ['How to register for crop insurance?', 'When will I receive the benefit?', 'Helpline number for farming schemes?'],
-    pension:     ['How to apply for old age pension?', 'What is the monthly pension amount?', 'Documents needed for pension?'],
-    jobs:        ['How to apply for this government job?', 'What is the eligibility criteria?', 'When is the application deadline?'],
-    banking:     ['How to open a zero balance account?', 'What is Jan Dhan Yojana benefit?', 'Nearest bank for this scheme?'],
-    lpg:         ['How to apply for new LPG connection?', 'What is the Ujjwala Yojana subsidy?', 'Check my LPG application status'],
-    business:    ['How to register my small business?', 'What loans are available for MSME?', 'How to apply for MSME certificate?'],
-    water:       ['How to apply for new water connection?', 'What is the water scheme subsidy?', 'Contact number for water department?'],
-    electricity: ['How to apply for new electricity connection?', 'What is the electricity subsidy?', 'How to check application status?'],
-    transport:   ['How to apply for driving licence?', 'Documents needed for vehicle registration?', 'Nearest RTO office location?'],
-    youth:       ['What skill development courses are available?', 'How to enrol in a skill program?', 'Is there any stipend during training?'],
-    default:     ['How do I apply for this?', 'What documents do I need?', 'Who is eligible for this scheme?'],
+  // Multilingual follow-up question bank — keyed by language then topic
+  const allFollowupBanks = {
+    en: {
+      housing:     ['How to apply for PM Awas Yojana?', 'Documents needed for housing scheme?', 'Check my housing application status'],
+      health:      ['How to get Ayushman Bharat card?', 'Which hospitals are covered?', 'How to add family members to health scheme?'],
+      education:   ['How to apply for this scholarship?', 'What is the last date to apply?', 'What is the scholarship amount?'],
+      agriculture: ['How to register for crop insurance?', 'When will I receive the benefit?', 'Helpline number for farming schemes?'],
+      pension:     ['How to apply for old age pension?', 'What is the monthly pension amount?', 'Documents needed for pension?'],
+      jobs:        ['How to apply for this government job?', 'What is the eligibility criteria?', 'When is the application deadline?'],
+      banking:     ['How to open a zero balance account?', 'What is Jan Dhan Yojana benefit?', 'Nearest bank for this scheme?'],
+      lpg:         ['How to apply for new LPG connection?', 'What is the Ujjwala Yojana subsidy?', 'Check my LPG application status'],
+      business:    ['How to register my small business?', 'What loans are available for MSME?', 'How to apply for MSME certificate?'],
+      water:       ['How to apply for new water connection?', 'What is the water scheme subsidy?', 'Contact number for water department?'],
+      electricity: ['How to apply for new electricity connection?', 'What is the electricity subsidy?', 'How to check application status?'],
+      transport:   ['How to apply for driving licence?', 'Documents needed for vehicle registration?', 'Nearest RTO office location?'],
+      youth:       ['What skill development courses are available?', 'How to enrol in a skill program?', 'Is there any stipend during training?'],
+      default:     ['How do I apply for this?', 'What documents do I need?', 'Who is eligible for this scheme?'],
+    },
+    ta: {
+      housing:     ['PM Awas Yojana விண்ணப்பிப்பது எப்படி?', 'வீட்டு திட்டத்திற்கு தேவையான ஆவணங்கள்?', 'என் வீட்டு விண்ணப்ப நிலையை சரிபார்க்க'],
+      health:      ['Ayushman Bharat அட்டை எப்படி பெறுவது?', 'எந்த மருத்துவமனைகள் உள்ளடங்கும்?', 'குடும்ப உறுப்பினர்களை சேர்ப்பது எப்படி?'],
+      education:   ['இந்த உதவித்தொகைக்கு விண்ணப்பிக்க எப்படி?', 'விண்ணப்பிக்க கடைசி தேதி என்ன?', 'உதவித்தொகை தொகை என்ன?'],
+      agriculture: ['பயிர் காப்பீட்டில் பதிவு செய்வது எப்படி?', 'பலன் எப்போது கிடைக்கும்?', 'விவசாய திட்டங்களுக்கான helpline?'],
+      pension:     ['முதியோர் ஓய்வூதியத்திற்கு விண்ணப்பிக்க?', 'மாதாந்திர ஓய்வூதியம் எவ்வளவு?', 'ஓய்வூதியத்திற்கு தேவையான ஆவணங்கள்?'],
+      jobs:        ['இந்த அரசு வேலைக்கு விண்ணப்பிக்க எப்படி?', 'தகுதி நிபந்தனைகள் என்ன?', 'விண்ணப்ப கடைசி தேதி எப்போது?'],
+      banking:     ['ஜீரோ பேலன்ஸ் கணக்கு திறப்பது எப்படி?', 'Jan Dhan Yojana பலன் என்ன?', 'அருகில் உள்ள வங்கி எங்கே?'],
+      lpg:         ['புதிய LPG இணைப்புக்கு விண்ணப்பிக்க?', 'Ujjwala Yojana மானியம் என்ன?', 'LPG விண்ணப்ப நிலை சரிபார்க்க'],
+      business:    ['என் சிறு தொழிலை பதிவு செய்வது எப்படி?', 'MSME கடன் கிடைக்குமா?', 'MSME சான்றிதழ் எப்படி பெறுவது?'],
+      water:       ['புதிய தண்ணீர் இணைப்புக்கு விண்ணப்பிக்க?', 'தண்ணீர் திட்ட மானியம் என்ன?', 'தண்ணீர் துறை தொடர்பு எண்?'],
+      electricity: ['புதிய மின் இணைப்புக்கு விண்ணப்பிக்க?', 'மின்சார மானியம் என்ன?', 'விண்ணப்ப நிலையை எப்படி சரிபார்க்க?'],
+      transport:   ['ஓட்டுநர் உரிமம் எப்படி விண்ணப்பிக்க?', 'வாகன பதிவுக்கு தேவையான ஆவணங்கள்?', 'அருகில் உள்ள RTO அலுவலகம்?'],
+      youth:       ['என்ன திறன் வளர்ச்சி படிப்புகள் உள்ளன?', 'திறன் திட்டத்தில் சேருவது எப்படி?', 'பயிற்சியில் stipend கிடைக்குமா?'],
+      default:     ['இதற்கு விண்ணப்பிப்பது எப்படி?', 'என்ன ஆவணங்கள் தேவை?', 'யார் இதற்கு தகுதியானவர்?'],
+    },
+    hi: {
+      housing:     ['PM Awas Yojana के लिए कैसे आवेदन करें?', 'आवास योजना के लिए कौन से दस्तावेज चाहिए?', 'अपने आवेदन की स्थिति जांचें'],
+      health:      ['Ayushman Bharat कार्ड कैसे मिलेगा?', 'कौन से अस्पताल इसमें शामिल हैं?', 'परिवार के सदस्यों को कैसे जोड़ें?'],
+      education:   ['इस छात्रवृत्ति के लिए आवेदन कैसे करें?', 'आवेदन की अंतिम तिथि क्या है?', 'छात्रवृत्ति की राशि कितनी है?'],
+      agriculture: ['फसल बीमा में पंजीकरण कैसे करें?', 'लाभ कब मिलेगा?', 'कृषि योजनाओं का हेल्पलाइन नंबर?'],
+      pension:     ['वृद्धावस्था पेंशन के लिए आवेदन कैसे करें?', 'मासिक पेंशन राशि कितनी है?', 'पेंशन के लिए कौन से दस्तावेज चाहिए?'],
+      jobs:        ['इस सरकारी नौकरी के लिए कैसे आवेदन करें?', 'पात्रता मानदंड क्या हैं?', 'आवेदन की अंतिम तिथि कब है?'],
+      banking:     ['जीरो बैलेंस खाता कैसे खोलें?', 'Jan Dhan Yojana का फायदा क्या है?', 'नजदीकी बैंक कहां है?'],
+      lpg:         ['नया LPG कनेक्शन कैसे लें?', 'Ujjwala Yojana सब्सिडी कितनी है?', 'LPG आवेदन की स्थिति जांचें'],
+      business:    ['अपना छोटा व्यवसाय कैसे पंजीकृत करें?', 'MSME के लिए कौन से लोन उपलब्ध हैं?', 'MSME प्रमाणपत्र कैसे पाएं?'],
+      water:       ['नया पानी का कनेक्शन कैसे लें?', 'पानी योजना की सब्सिडी क्या है?', 'जल विभाग का संपर्क नंबर?'],
+      electricity: ['नया बिजली कनेक्शन कैसे लें?', 'बिजली सब्सिडी क्या है?', 'आवेदन की स्थिति कैसे जांचें?'],
+      transport:   ['ड्राइविंग लाइसेंस के लिए कैसे आवेदन करें?', 'वाहन पंजीकरण के लिए कौन से दस्तावेज?', 'नजदीकी RTO कार्यालय कहां है?'],
+      youth:       ['कौन से कौशल विकास कोर्स हैं?', 'कौशल कार्यक्रम में कैसे दाखिला लें?', 'प्रशिक्षण के दौरान वजीफा मिलेगा?'],
+      default:     ['इसके लिए कैसे आवेदन करें?', 'कौन से दस्तावेज चाहिए?', 'इस योजना के लिए कौन पात्र है?'],
+    },
+    te: {
+      housing:     ['PM Awas Yojana కి ఎలా దరఖాస్తు చేయాలి?', 'ఇంటి పథకానికి ఏ పత్రాలు కావాలి?', 'నా దరఖాస్తు స్థితి తనిఖీ చేయండి'],
+      health:      ['Ayushman Bharat కార్డ్ ఎలా పొందాలి?', 'ఏ ఆసుపత్రులు చేర్చబడ్డాయి?', 'కుటుంబ సభ్యులను ఎలా చేర్చాలి?'],
+      education:   ['ఈ స్కాలర్‌షిప్‌కి ఎలా దరఖాస్తు చేయాలి?', 'చివరి తేదీ ఎప్పుడు?', 'స్కాలర్‌షిప్ మొత్తం ఎంత?'],
+      agriculture: ['పంట బీమాలో నమోదు ఎలా చేయాలి?', 'ప్రయోజనం ఎప్పుడు వస్తుంది?', 'వ్యవసాయ పథకాల helpline?'],
+      pension:     ['వృద్ధాప్య పెన్షన్‌కి దరఖాస్తు ఎలా?', 'నెలవారీ పెన్షన్ ఎంత?', 'పెన్షన్‌కి కావలసిన పత్రాలు?'],
+      jobs:        ['ఈ ప్రభుత్వ ఉద్యోగానికి ఎలా దరఖాస్తు చేయాలి?', 'అర్హత ప్రమాణాలు ఏంటి?', 'దరఖాస్తు చివరి తేదీ?'],
+      banking:     ['జీరో బ్యాలెన్స్ అకౌంట్ ఎలా తెరవాలి?', 'Jan Dhan Yojana ప్రయోజనం ఏంటి?', 'దగ్గరలో బ్యాంకు ఎక్కడ?'],
+      lpg:         ['కొత్త LPG కనెక్షన్‌కి ఎలా దరఖాస్తు?', 'Ujjwala Yojana సబ్సిడీ ఎంత?', 'LPG దరఖాస్తు స్థితి తనిఖీ'],
+      business:    ['నా చిన్న వ్యాపారాన్ని ఎలా నమోదు చేయాలి?', 'MSME రుణాలు అందుబాటులో ఉన్నాయా?', 'MSME సర్టిఫికెట్ ఎలా పొందాలి?'],
+      water:       ['కొత్త నీటి కనెక్షన్‌కి ఎలా దరఖాస్తు?', 'నీటి పథకం సబ్సిడీ ఏంటి?', 'నీటి శాఖ సంప్రదింపు నంబర్?'],
+      electricity: ['కొత్త విద్యుత్ కనెక్షన్‌కి ఎలా దరఖాస్తు?', 'విద్యుత్ సబ్సిడీ ఏంటి?', 'దరఖాస్తు స్థితి ఎలా తనిఖీ చేయాలి?'],
+      transport:   ['డ్రైవింగ్ లైసెన్స్‌కి ఎలా దరఖాస్తు చేయాలి?', 'వాహన నమోదుకు కావలసిన పత్రాలు?', 'దగ్గరలో RTO కార్యాలయం ఎక్కడ?'],
+      youth:       ['ఏ నైపుణ్య అభివృద్ధి కోర్సులు అందుబాటులో ఉన్నాయి?', 'నైపుణ్య కార్యక్రమంలో ఎలా చేరాలి?', 'శిక్షణలో stipend ఉంటుందా?'],
+      default:     ['దీనికి ఎలా దరఖాస్తు చేయాలి?', 'ఏ పత్రాలు కావాలి?', 'ఈ పథకానికి ఎవరు అర్హులు?'],
+    },
+    ml: {
+      housing:     ['PM Awas Yojana ൽ എങ്ങനെ അപേക്ഷിക്കാം?', 'ഭവന പദ്ധതിക്ക് ആവശ്യമായ രേഖകൾ?', 'എന്റെ അപേക്ഷ സ്ഥിതി പരിശോധിക്കുക'],
+      health:      ['Ayushman Bharat കാർഡ് എങ്ങനെ ലഭിക്കും?', 'ഏത് ആശുപത്രികൾ ഉൾപ്പെടുന്നു?', 'കുടുംബാംഗങ്ങളെ എങ്ങനെ ചേർക്കാം?'],
+      education:   ['ഈ സ്കോളർഷിപ്പിന് എങ്ങനെ അപേക്ഷിക്കാം?', 'അവസാന തീയതി എന്ന്?', 'സ്കോളർഷിപ്പ് തുക എത്ര?'],
+      agriculture: ['വിള ഇൻഷുറൻസ് രജിസ്ട്രേഷൻ എങ്ങനെ?', 'ആനുകൂല്യം എപ്പോൾ ലഭിക്കും?', 'കൃഷി പദ്ധതി helpline?'],
+      pension:     ['വൃദ്ധ പെൻഷനുള്ള അപേക്ഷ?', 'പ്രതിമാസ പെൻഷൻ തുക?', 'പെൻഷന് ആവശ്യമായ രേഖകൾ?'],
+      jobs:        ['ഈ ഗവൺമെൻ്റ് ജോലിക്ക് അപേക്ഷ?', 'യോഗ്യതാ മാനദണ്ഡങ്ങൾ?', 'അവസാന അപേക്ഷ തീയതി?'],
+      banking:     ['സീറോ ബാലൻസ് അക്കൗണ്ട് തുറക്കാൻ?', 'Jan Dhan ആനുകൂല്യം?', 'അടുത്തുള്ള ബാങ്ക്?'],
+      lpg:         ['പുതിയ LPG കണക്ഷൻ?', 'Ujjwala Yojana സബ്സിഡി?', 'LPG അപേക്ഷ നില'],
+      business:    ['ബിസിനസ്സ് രജിസ്ട്രേഷൻ?', 'MSME ലോൺ?', 'MSME സർട്ടിഫിക്കറ്റ്?'],
+      water:       ['പുതിയ ജല കണക്ഷൻ?', 'ജല സബ്സിഡി?', 'ജലവിഭാഗ ഫോൺ?'],
+      electricity: ['പുതിയ വൈദ്യുതി കണക്ഷൻ?', 'വൈദ്യുതി സബ്സിഡി?', 'അപേക്ഷ നില?'],
+      transport:   ['ഡ്രൈവിംഗ് ലൈസൻസ്?', 'വാഹന രേഖകൾ?', 'RTO ഓഫീസ്?'],
+      youth:       ['ലഭ്യമായ കോഴ്സുകൾ?', 'പ്രോഗ്രാം ചേരാൻ?', 'stipend ഉണ്ടോ?'],
+      default:     ['ഇതിന് അപേക്ഷ?', 'ആവശ്യമായ രേഖകൾ?', 'ആർക്ക് യോഗ്യതയുണ്ട്?'],
+    },
+    kn: {
+      housing:     ['PM Awas Yojana ಗೆ ಅರ್ಜಿ ಹೇಗೆ?', 'ವಸತಿ ಯೋಜನೆಗೆ ಯಾವ ದಾಖಲೆಗಳು?', 'ಅರ್ಜಿ ಸ್ಥಿತಿ ಪರಿಶೀಲಿಸಿ'],
+      health:      ['Ayushman Bharat ಕಾರ್ಡ್ ಹೇಗೆ ಪಡೆಯುವುದು?', 'ಯಾವ ಆಸ್ಪತ್ರೆಗಳು ಸೇರಿವೆ?', 'ಕುಟುಂಬ ಸದಸ್ಯರನ್ನು ಸೇರಿಸುವುದು?'],
+      education:   ['ಈ ವಿದ್ಯಾರ್ಥಿ ವೇತನಕ್ಕೆ ಅರ್ಜಿ ಹೇಗೆ?', 'ಕೊನೆಯ ದಿನಾಂಕ ಯಾವಾಗ?', 'ಮೊತ್ತ ಎಷ್ಟು?'],
+      agriculture: ['ಬೆಳೆ ವಿಮೆ ನೋಂದಣಿ ಹೇಗೆ?', 'ಲಾಭ ಯಾವಾಗ ಸಿಗುತ್ತದೆ?', 'ಕೃಷಿ helpline?'],
+      pension:     ['ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ ಅರ್ಜಿ?', 'ಮಾಸಿಕ ಪಿಂಚಣಿ ಮೊತ್ತ?', 'ಅಗತ್ಯ ದಾಖಲೆಗಳು?'],
+      jobs:        ['ಸರ್ಕಾರಿ ನೌಕರಿ ಅರ್ಜಿ?', 'ಅರ್ಹತೆ ಮಾನದಂಡ?', 'ಕೊನೆಯ ದಿನಾಂಕ?'],
+      banking:     ['ಶೂನ್ಯ ಬ್ಯಾಲೆನ್ಸ್ ಖಾತೆ ತೆರೆಯಲು?', 'Jan Dhan ಪ್ರಯೋಜನ?', 'ಹತ್ತಿರದ ಬ್ಯಾಂಕ್?'],
+      lpg:         ['LPG ಸಂಪರ್ಕ ಅರ್ಜಿ?', 'Ujjwala ಸಬ್ಸಿಡಿ?', 'ಅರ್ಜಿ ಸ್ಥಿತಿ?'],
+      business:    ['ಉದ್ಯಮ ನೋಂದಣಿ?', 'MSME ಸಾಲ?', 'MSME ಪ್ರಮಾಣಪತ್ರ?'],
+      water:       ['ನೀರು ಸಂಪರ್ಕ ಅರ್ಜಿ?', 'ಸಬ್ಸಿಡಿ ಏನು?', 'ಜಲ ಇಲಾಖೆ ಸಂಪರ್ಕ?'],
+      electricity: ['ವಿದ್ಯುತ್ ಸಂಪರ್ಕ ಅರ್ಜಿ?', 'ವಿದ್ಯುತ್ ಸಬ್ಸಿಡಿ?', 'ಅರ್ಜಿ ಸ್ಥಿತಿ?'],
+      transport:   ['ಚಾಲನಾ ಪರವಾನಗಿ?', 'ವಾಹನ ಅಗತ್ಯ ದಾಖಲೆ?', 'RTO ಕಚೇರಿ?'],
+      youth:       ['ಕೌಶಲ್ಯ ಕೋರ್ಸ್‌ಗಳು?', 'ತರಬೇತಿ ಸೇರಲು?', 'stipend ಸಿಗುತ್ತಾ?'],
+      default:     ['ಅರ್ಜಿ ಹೇಗೆ?', 'ಯಾವ ದಾಖಲೆ?', 'ಯಾರು ಅರ್ಹರು?'],
+    },
+    bn: {
+      housing:     ['PM Awas Yojana এ আবেদন করব কীভাবে?', 'আবাসন প্রকল্পে কী কী কাগজ লাগবে?', 'আবেদনের অবস্থা যাচাই করুন'],
+      health:      ['Ayushman Bharat কার্ড কীভাবে পাব?', 'কোন হাসপাতাল অন্তর্ভুক্ত?', 'পরিবারের সদস্য কীভাবে যোগ করব?'],
+      education:   ['এই বৃত্তির জন্য কীভাবে আবেদন করব?', 'শেষ তারিখ কবে?', 'বৃত্তির পরিমাণ কত?'],
+      agriculture: ['ফসল বীমায় নিবন্ধন কীভাবে?', 'সুবিধা কবে পাব?', 'কৃষি যোজনার helpline?'],
+      pension:     ['বৃদ্ধ বয়স পেনশনে আবেদন কীভাবে?', 'মাসিক পেনশন কত?', 'পেনশনের কাগজপত্র?'],
+      jobs:        ['সরকারি চাকরির আবেদন কীভাবে?', 'যোগ্যতার মানদণ্ড কী?', 'আবেদনের শেষ তারিখ?'],
+      banking:     ['জিরো ব্যালেন্স অ্যাকাউন্ট খুলব কীভাবে?', 'Jan Dhan সুবিধা কী?', 'কাছের ব্যাংক কোথায়?'],
+      lpg:         ['নতুন LPG সংযোগ কীভাবে নেব?', 'Ujjwala ভর্তুকি কত?', 'LPG আবেদনের অবস্থা'],
+      business:    ['ছোট ব্যবসা নিবন্ধন?', 'MSME ঋণ পাব কীভাবে?', 'MSME সার্টিফিকেট?'],
+      water:       ['পানির সংযোগ কীভাবে নেব?', 'পানি প্রকল্পের ভর্তুকি?', 'জল বিভাগের নম্বর?'],
+      electricity: ['বিদ্যুৎ সংযোগ কীভাবে?', 'বিদ্যুৎ ভর্তুকি?', 'আবেদনের অবস্থা?'],
+      transport:   ['ড্রাইভিং লাইসেন্সের আবেদন?', 'যানবাহন নিবন্ধনের কাগজ?', 'নিকটতম RTO?'],
+      youth:       ['দক্ষতা উন্নয়ন কোর্স কী কী?', 'কোর্সে ভর্তি কীভাবে?', 'প্রশিক্ষণে stipend?'],
+      default:     ['এর জন্য আবেদন কীভাবে?', 'কী কী কাগজ দরকার?', 'কারা যোগ্য?'],
+    },
+    mr: { housing: ['PM Awas Yojana साठी अर्ज कसा करायचा?','आवास योजनेसाठी कोणते दस्तऐवज लागतात?','अर्जाची स्थिती तपासा'], health: ['Ayushman Bharat कार्ड कसे मिळवायचे?','कोणते रुग्णालय समाविष्ट आहे?','कुटुंब सदस्य कसे जोडायचे?'], education: ['या शिष्यवृत्तीसाठी अर्ज कसा?','अर्जाची अंतिम तारीख?','शिष्यवृत्तीची रक्कम किती?'], agriculture: ['पीक विमा नोंदणी कशी?','लाभ कधी मिळेल?','कृषी helpline?'], pension: ['वृद्धापकाळ पेन्शनसाठी अर्ज?','मासिक पेन्शन किती?','पेन्शनसाठी दस्तऐवज?'], jobs: ['सरकारी नोकरीसाठी अर्ज?','पात्रता निकष काय?','अर्जाची अंतिम तारीख?'], banking: ['शून्य शिल्लक खाते कसे उघडायचे?','Jan Dhan फायदा?','जवळील बँक?'], lpg: ['नवीन LPG जोडणी?','Ujjwala अनुदान?','LPG अर्ज स्थिती'], business: ['व्यवसाय नोंदणी?','MSME कर्ज?','MSME प्रमाणपत्र?'], water: ['पाणी जोडणी?','पाणी अनुदान?','जल विभाग संपर्क?'], electricity: ['वीज जोडणी?','वीज अनुदान?','अर्ज स्थिती?'], transport: ['वाहन परवाना?','वाहन कागदपत्रे?','RTO कार्यालय?'], youth: ['कौशल्य कोर्स?','नोंदणी कशी?','stipend मिळेल?'], default: ['अर्ज कसा करायचा?','कोणते दस्तऐवज?','कोण पात्र?'] },
+    gu: { housing: ['PM Awas Yojana માટે અરજી?','દસ્તાવેજો?','અરજી સ્થિતિ'], health: ['Ayushman Bharat કાર્ડ?','હોસ્પિટલ?','સભ્ય ઉમેરો?'], education: ['શિષ્યવૃત્તિ?','છેલ્લી તારીખ?','રકમ?'], agriculture: ['પાક વીમો?','ફાયદો ક્યારે?','helpline?'], pension: ['પેન્શન?','રકમ?','દસ્તાવેજ?'], jobs: ['નોકરી?','લાયકાત?','છેલ્લી તારીખ?'], banking: ['ઝીરો બૅલેન્સ?','Jan Dhan?','બૅંક?'], lpg: ['LPG?','સબ્સિડી?','સ્થિતિ?'], business: ['નોંધણી?','MSME?','પ્રમાણપત્ર?'], water: ['જળ જોડાણ?','સબ્સિડી?','ફોન?'], electricity: ['વીજ જોડાણ?','સબ્સિડી?','સ્થિતિ?'], transport: ['લાઇસન્સ?','દસ્તાવેજ?','RTO?'], youth: ['કૌશલ્ય?','નોંધણી?','stipend?'], default: ['અરજી?','દસ્તાવેજ?','પાત્ર?'] },
+    pa: { housing: ['PM Awas Yojana ਲਈ ਅਰਜ਼ੀ?','ਦਸਤਾਵੇਜ਼?','ਅਰਜ਼ੀ ਸਥਿਤੀ'], health: ['Ayushman Bharat ਕਾਰਡ?','ਹਸਪਤਾਲ?','ਮੈਂਬਰ ਜੋੜੋ?'], education: ['ਵਜ਼ੀਫ਼ਾ?','ਆਖਰੀ ਤਾਰੀਖ਼?','ਰਕਮ?'], agriculture: ['ਫ਼ਸਲ ਬੀਮਾ?','ਕਦੋਂ ਮਿਲੇਗਾ?','helpline?'], pension: ['ਪੈਨਸ਼ਨ?','ਰਕਮ?','ਦਸਤਾਵੇਜ਼?'], jobs: ['ਨੌਕਰੀ?','ਯੋਗਤਾ?','ਆਖਰੀ ਤਾਰੀਖ਼?'], banking: ['ਖ਼ਾਤਾ?','Jan Dhan?','ਬੈਂਕ?'], lpg: ['LPG?','ਸਬਸਿਡੀ?','ਸਥਿਤੀ?'], business: ['ਕਾਰੋਬਾਰ?','MSME?','ਸਰਟੀਫ਼ਿਕੇਟ?'], water: ['ਪਾਣੀ?','ਸਬਸਿਡੀ?','ਫ਼ੋਨ?'], electricity: ['ਬਿਜਲੀ?','ਸਬਸਿਡੀ?','ਸਥਿਤੀ?'], transport: ['ਲਾਇਸੈਂਸ?','ਦਸਤਾਵੇਜ਼?','RTO?'], youth: ['ਕੋਰਸ?','ਦਾਖ਼ਲਾ?','stipend?'], default: ['ਅਰਜ਼ੀ?','ਦਸਤਾਵੇਜ਼?','ਯੋਗ?'] },
+    or: { housing: ['PM Awas Yojana?','ଦଲିଲ?','ଆବେଦନ ସ୍ଥିତି'], health: ['Ayushman Bharat?','ଡାକ୍ତରଖାନା?','ସଦସ୍ୟ?'], education: ['ବୃତ୍ତି?','ଶେଷ ତାରିଖ?','ପ୍ରମାଣ?'], agriculture: ['ଫସଲ ବୀମା?','ଲାଭ?','helpline?'], pension: ['ପେନ୍‌ଶନ?','ଟଙ୍କା?','ଦଲିଲ?'], jobs: ['ଚାକିରି?','ଯୋଗ୍ୟତା?','ତାରିଖ?'], banking: ['ଖାତା?','Jan Dhan?','ବ୍ୟାଙ୍କ?'], lpg: ['LPG?','ଭର୍ତୁକି?','ସ୍ଥିତି?'], business: ['ପଞ୍ଜୀକରଣ?','MSME?','ସାର୍ଟ?'], water: ['ଜଳ?','ଭର୍ତୁକି?','ଫୋନ?'], electricity: ['ବିଦ୍ୟୁତ?','ଭର୍ତୁକି?','ସ୍ଥିତି?'], transport: ['ଲାଇସେନ୍ସ?','ଦଲିଲ?','RTO?'], youth: ['ଶ୍ରମ?','ଯୋଗ?','stipend?'], default: ['ଆବେଦନ?','ଦଲିଲ?','ଯୋଗ୍ୟ?'] },
+    as: { housing: ['PM Awas Yojana?','কাগজপত্ৰ?','আবেদনৰ অৱস্থা'], health: ['Ayushman Bharat?','চিকিৎসালয়?','সদস্য?'], education: ['বৃত্তি?','শেষ তাৰিখ?','পৰিমাণ?'], agriculture: ['শস্য বীমা?','সুবিধা?','helpline?'], pension: ['পেঞ্চন?','পৰিমাণ?','কাগজপত্ৰ?'], jobs: ['চাকৰি?','যোগ্যতা?','তাৰিখ?'], banking: ['একাউণ্ট?','Jan Dhan?','বেংক?'], lpg: ['LPG?','ৰাজসাহায্য?','অৱস্থা?'], business: ['পঞ্জীয়ন?','MSME?','প্ৰমাণপত্ৰ?'], water: ['পানী?','ৰাজসাহায্য?','ফোন?'], electricity: ['বিদ্যুৎ?','ৰাজসাহায্য?','অৱস্থা?'], transport: ['লাইচেন্স?','কাগজপত্ৰ?','RTO?'], youth: ['পাঠ্যক্ৰম?','নামভৰ্তি?','stipend?'], default: ['আবেদন?','কাগজপত্ৰ?','যোগ্য?'] },
+    ur: { housing: ['PM Awas Yojana?','دستاویزات?','درخواست کی حیثیت'], health: ['Ayushman Bharat?','ہسپتال?','خاندان؟'], education: ['وظیفہ?','آخری تاریخ?','رقم?'], agriculture: ['فصل بیمہ?','فائدہ?','helpline?'], pension: ['پنشن?','رقم?','دستاویز?'], jobs: ['نوکری?','اہلیت?','تاریخ?'], banking: ['اکاؤنٹ?','Jan Dhan?','بینک?'], lpg: ['LPG?','سبسڈی?','حیثیت?'], business: ['رجسٹریشن?','MSME?','سرٹیفیکیٹ?'], water: ['پانی?','سبسڈی?','فون?'], electricity: ['بجلی?','سبسڈی?','حیثیت?'], transport: ['لائسنس?','دستاویز?','RTO?'], youth: ['کورس?','داخلہ?','stipend?'], default: ['درخواست?','دستاویزات?','اہل?'] },
   };
+
+  // Pick the bank for current language, fallback to English
+  const followupBank = allFollowupBanks[selectedLanguage] || allFollowupBanks['en'];
 
   const attachFollowups = (botText, msgIdx) => {
     if (!botText || botText.length < 20) return;
@@ -2925,7 +3430,7 @@ export default function GovMithra() {
       const exists = prev.find(s => s.key === key);
       if (exists) return prev.filter(s => s.key !== key);
       if (prev.length >= 3) {
-        alert('You can compare up to 3 schemes. Remove one first.');
+        alert(t.compareMax);
         return prev;
       }
       return [...prev, { key, scheme, label }];
@@ -3460,7 +3965,7 @@ export default function GovMithra() {
               gap: '6px'
             }}
           >
-            ⭐ Saved {savedSchemes.length > 0 && `(${savedSchemes.length})`}
+            {t.savedSchemes} {savedSchemes.length > 0 && `(${savedSchemes.length})`}
           </button>
           <button
             onClick={downloadChatPDF}
@@ -3480,7 +3985,7 @@ export default function GovMithra() {
               gap: '6px'
             }}
           >
-            📥 Download PDF
+            {t.downloadPdf}
           </button>
         </div>
       </div>
@@ -3505,20 +4010,20 @@ export default function GovMithra() {
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
                 <h3 style={{ margin: 0, color: '#1e293b', fontSize: '1.1rem', fontWeight: 'bold' }}>
-                  ⭐ Saved Schemes ({savedSchemes.length})
+                  {t.savedHeader} ({savedSchemes.length})
                 </h3>
                 {savedSchemes.length > 0 && (
                   <button
                     onClick={() => { setSavedSchemes([]); localStorage.removeItem('govmithra_saved_schemes'); }}
                     style={{ border: 'none', background: 'none', color: '#ef4444', cursor: 'pointer', fontSize: '0.85rem', fontWeight: '600' }}
                   >
-                    🗑️ Clear All
+                    {t.clearAll}
                   </button>
                 )}
               </div>
               {savedSchemes.length === 0 ? (
                 <p style={{ color: '#94a3b8', textAlign: 'center', margin: '20px 0', fontStyle: 'italic' }}>
-                  No saved schemes yet. Click ⭐ on any scheme card to save it!
+                  {t.noSavedSchemes}
                 </p>
               ) : (
                 savedSchemes.map((item, idx) => (
@@ -3543,11 +4048,11 @@ export default function GovMithra() {
                       <button
                         onClick={() => shareOnWhatsApp(item.scheme)}
                         style={{ padding: '5px 10px', borderRadius: '8px', border: 'none', background: '#25D366', color: 'white', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
-                      >📤 Share</button>
+                      >{t.share}</button>
                       <button
                         onClick={() => { const updated = savedSchemes.filter((_, i) => i !== idx); setSavedSchemes(updated); localStorage.setItem('govmithra_saved_schemes', JSON.stringify(updated)); }}
                         style={{ padding: '5px 10px', borderRadius: '8px', border: '1px solid #e2e8f0', background: 'white', color: '#ef4444', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
-                      >Remove</button>
+                      >{t.removeScheme}</button>
                     </div>
                   </div>
                 ))
@@ -3637,7 +4142,7 @@ export default function GovMithra() {
                           transition: 'all 0.2s'
                         }}
                       >
-                        {isSchemeBookmarked(i, idx) ? '⭐ Saved' : '☆ Save'}
+                        {isSchemeBookmarked(i, idx) ? t.saved : t.save}
                       </button>
                       <button
                         onClick={() => shareOnWhatsApp(res)}
@@ -3655,7 +4160,7 @@ export default function GovMithra() {
                           gap: '4px'
                         }}
                       >
-                        📤 WhatsApp
+                        {t.whatsapp}
                       </button>
                       {/* 🧠 EXPLAIN SIMPLY BUTTON */}
                       <button
@@ -3675,7 +4180,7 @@ export default function GovMithra() {
                           transition: 'all 0.2s'
                         }}
                       >
-                        🧠 {explanations[`${i}-${idx}`] ? 'Hide Explanation' : 'Explain Simply'}
+                        {explanations[`${i}-${idx}`] ? t.hideExplanation : t.explainSimply}
                       </button>
                       {/* 🔄 COMPARE BUTTON */}
                       <button
@@ -3695,7 +4200,7 @@ export default function GovMithra() {
                           transition: 'all 0.2s'
                         }}
                       >
-                        {isInCompare(i, idx) ? '✅ In Compare' : '🔄 Compare'}
+                        {isInCompare(i, idx) ? t.inCompare : t.compare}
                       </button>
                     </div>
                     {/* 🧠 SIMPLE EXPLANATION BOX */}
@@ -3708,12 +4213,14 @@ export default function GovMithra() {
                         border: '2px solid #7c3aed',
                         fontSize: '0.9rem',
                         color: '#3b0764',
-                        lineHeight: '1.7'
+                        lineHeight: '1.8'
                       }}>
-                        <div style={{ fontWeight: '700', marginBottom: '6px', fontSize: '0.85rem', color: '#7c3aed' }}>
-                          🧠 Simple Explanation
+                        <div style={{ fontWeight: '700', marginBottom: '10px', fontSize: '0.85rem', color: '#7c3aed' }}>
+                          {t.simpleExplanation}
                         </div>
-                        {explanations[`${i}-${idx}`]}
+                        {explanations[`${i}-${idx}`].split('\n').map((line, li) => (
+                          <div key={li} style={{ marginBottom: '6px' }}>{line}</div>
+                        ))}
                       </div>
                     )}
                   </div>
@@ -3742,7 +4249,7 @@ export default function GovMithra() {
                     alignSelf: 'flex-start'
                   }}
                 >
-                  {copiedMsgId === i ? '✅ Copied!' : '📋 Copy'}
+                  {copiedMsgId === i ? t.copied : t.copy}
                 </button>
               )}
               {/* 💬 FOLLOW-UP QUESTION CHIPS */}
@@ -3901,7 +4408,7 @@ export default function GovMithra() {
                 fontSize: '0.88rem'
               }}
             >
-              Compare Now ▶
+              {t.compareNow}
             </button>
             <button
               onClick={() => { setCompareList([]); setCompareResult(null); setShowCompare(false); }}
@@ -3944,7 +4451,7 @@ export default function GovMithra() {
           }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
               <h2 style={{ margin: 0, color: '#1e293b', fontSize: '1.4rem', fontWeight: 'bold' }}>
-                🔄 Scheme Comparison
+                {t.compareTitle}
               </h2>
               <button
                 onClick={() => setShowCompare(false)}
@@ -4011,7 +4518,7 @@ export default function GovMithra() {
                   border: '2px solid #e2e8f0', background: 'white',
                   color: '#64748b', cursor: 'pointer', fontWeight: '600'
                 }}
-              >Clear & Close</button>
+              >{t.clearClose}</button>
               <button
                 onClick={() => setShowCompare(false)}
                 style={{
@@ -4020,7 +4527,7 @@ export default function GovMithra() {
                   background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
                   color: 'white', cursor: 'pointer', fontWeight: '600'
                 }}
-              >Done</button>
+              >{t.done}</button>
             </div>
           </div>
         </div>
