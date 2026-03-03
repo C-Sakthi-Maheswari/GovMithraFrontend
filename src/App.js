@@ -363,7 +363,7 @@ const translations = {
     // UI labels
     save: "☆ Save",
     saved: "⭐ Saved",
-    whatsapp: "{t.whatsapp}",
+    whatsapp: "Share Via Whatsapp",
     copy: "📋 Copy",
     copied: "✅ Copied!",
     explainSimply: "🧠 Explain Simply",
@@ -371,7 +371,7 @@ const translations = {
     simpleExplanation: "🧠 Simple Explanation",
     compare: "🔄 Compare",
     inCompare: "✅ In Compare",
-    compareNow: "{t.compareNow}",
+    compareNow: "Compare Now",
     compareTitle: "{t.compareTitle}",
     clearClose: "Clear & Close",
     done: "Done",
@@ -381,7 +381,7 @@ const translations = {
     noSavedSchemes: "{t.noSavedSchemes}",
     removeScheme: "Remove",
     share: "📤 Share",
-    downloadPdf: "{t.downloadPdf}",
+    downloadPdf: "Download PDF",
     compareMax: "You can compare up to 3 schemes. Remove one first.",
     followupLabel: "{t.followupLabel}",
         loading: {
