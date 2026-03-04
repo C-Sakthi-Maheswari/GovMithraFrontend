@@ -372,7 +372,7 @@ const translations = {
     compare: "🔄 Compare",
     inCompare: "✅ In Compare",
     compareNow: "Compare Now",
-    compareTitle: "{t.compareTitle}",
+    compareTitle: "Comparing 3 Schemes",
     clearClose: "Clear & Close",
     done: "Done",
     savedSchemes: "⭐ Saved",
@@ -3168,114 +3168,92 @@ export default function GovMithra() {
   };
 
   const explainSchemeSimply = (scheme, msgIdx, schemeIdx) => {
-    const key = `${msgIdx}-${schemeIdx}`;
-    if (explanations[key]) {
-      setExplanations(prev => { const n = { ...prev }; delete n[key]; return n; });
-      return;
-    }
+  const key = `${msgIdx}-${schemeIdx}`;
+  if (explanations[key]) {
+    setExplanations(prev => { const n = { ...prev }; delete n[key]; return n; });
+    return;
+  }
 
-    // ── Step 1: Separate URL fields from text fields ─────────────
-    const textFields = Object.entries(scheme).filter(
-      ([k, v]) => v && !String(v).startsWith('http') && String(v).trim().length > 0
-    );
-    const linkEntry = Object.entries(scheme).find(([k, v]) => String(v).startsWith('http'));
-    const link = linkEntry ? linkEntry[1] : '';
+  const textFields = Object.entries(scheme).filter(
+    ([k, v]) => v && !String(v).startsWith('http') && String(v).trim().length > 0
+  );
+  const linkEntry = Object.entries(scheme).find(([k, v]) => String(v).startsWith('http'));
+  const link = linkEntry ? linkEntry[1] : '';
 
-    // ── Step 2: Smart field detection using keyword matching ──────
-    // Try to find the scheme name from common key patterns
-    const nameEntry = textFields.find(([k]) =>
-      /name|title|scheme|yojana|program/i.test(k)
-    );
-    // Benefit/amount field
-    const benefitEntry = textFields.find(([k]) =>
-      /benefit|amount|assist|subsid|grant|money|fund|support|help|aid/i.test(k)
-    );
-    // Eligibility/who can apply field
-    const whoEntry = textFields.find(([k]) =>
-      /eligib|who|qualif|criteria|target|applicant|age|income|caste/i.test(k)
-    );
-    // How to apply field
-    const howEntry = textFields.find(([k]) =>
-      /how|apply|process|step|procedure|register|enrol/i.test(k)
-    );
-    // Documents field
-    const docsEntry = textFields.find(([k]) =>
-      /doc|paper|certif|proof|id|aadhaar|aadhar/i.test(k)
-    );
+  const find = (regex) => textFields.find(([k]) => regex.test(k))?.[1] || null;
 
-    const name    = nameEntry    ? nameEntry[1]    : null;
-    const benefit = benefitEntry ? benefitEntry[1] : null;
-    const who     = whoEntry     ? whoEntry[1]     : null;
-    const how     = howEntry     ? howEntry[1]     : null;
-    const docs    = docsEntry    ? docsEntry[1]    : null;
+  const name    = find(/name|title|scheme|yojana|program/i);
+  const benefit = find(/benefit|amount|assist|subsid|grant|money|fund|support|help|aid|pension|incentive|award/i);
+  const who     = find(/eligib|who|qualif|criteria|target|applicant|age|income|caste|beneficiar/i);
+  const how     = find(/how|apply|process|step|procedure|register|enrol|mode|method/i);
+  const docs    = find(/doc|paper|certif|proof|id|aadhaar|aadhar|required/i);
+  const dept    = find(/dept|department|ministry|office|authority|nodal/i);
+  const desc    = find(/desc|detail|about|overview|objective|purpose|info/i);
 
-    // ── Step 3: Collect remaining text fields not already used ────
-    const usedKeys = new Set([
-      nameEntry?.[0], benefitEntry?.[0], whoEntry?.[0],
-      howEntry?.[0], docsEntry?.[0]
-    ].filter(Boolean));
+  // Detect scheme category for context-specific 5th document
+  const allText = textFields.map(([k, v]) => `${k} ${v}`).join(' ').toLowerCase();
+  let extraDoc = 'Income Certificate (issued by Tehsildar/SDM)';
+  if (/student|scholar|education|school|college|study/i.test(allText))
+    extraDoc = 'Bonafide Student Certificate / School Enrollment Proof';
+  else if (/farmer|agricultur|kisan|crop|land/i.test(allText))
+    extraDoc = 'Land Ownership Document / Khasra-Khatauni';
+  else if (/disab|handicap|divyang/i.test(allText))
+    extraDoc = 'Disability Certificate (issued by CMO)';
+  else if (/widow|woman|female|mahila|girl/i.test(allText))
+    extraDoc = 'Marriage Certificate / Death Certificate of Spouse (if widow)';
+  else if (/sc|st|obc|caste|tribal|dalit/i.test(allText))
+    extraDoc = 'Caste Certificate (issued by competent authority)';
+  else if (/health|medical|hospital|treatment|insurance/i.test(allText))
+    extraDoc = 'Medical Certificate / Health Card';
+  else if (/house|housing|awas|shelter|construction/i.test(allText))
+    extraDoc = 'Site Plan / Land Possession Certificate';
+  else if (/business|enterprise|msme|loan|entrepreneur/i.test(allText))
+    extraDoc = 'Business Registration Certificate / Project Report';
+  else if (/employ|job|skill|training|worker/i.test(allText))
+    extraDoc = 'Employment Registration Card / Skill Certificate';
 
-    const extraFields = textFields.filter(([k]) => !usedKeys.has(k));
+  const schemeName = name || textFields[0]?.[1] || 'This Scheme';
 
-    // ── Step 4: Build the simple explanation ──────────────────────
-    let parts = [];
+  const parts = [];
 
-    if (name) {
-      parts.push(`📌 "${name}" is a government program.`);
-    } else {
-      // No name found — use first text field as name
-      const fallbackName = textFields[0]?.[1] || 'This program';
-      parts.push(`📌 "${fallbackName}" is a government program.`);
-    }
+  parts.push(`📌 Scheme Name: ${schemeName}`);
 
-    if (benefit) {
-      parts.push(`💰 What you get: ${benefit}`);
-    }
+  if (desc) {
+    parts.push(`💡 What is it: ${desc}`);
+  } else if (benefit) {
+    parts.push(`💡 What is it: A government scheme that provides ${benefit} to eligible citizens.`);
+  } else {
+    parts.push(`💡 What is it: A government welfare scheme for eligible citizens.`);
+  }
 
-    if (who) {
-      parts.push(`✅ Who can apply: ${who}`);
-    }
+  parts.push(`💰 What you get: ${benefit || 'Financial assistance / benefits as per scheme guidelines.'}`);
 
-    if (docs) {
-      parts.push(`📄 Documents needed: ${docs}`);
-    }
+  parts.push(`✅ Who can apply: ${who || 'Indian citizens who meet the eligibility criteria set by the concerned department.'}`);
 
-    if (how) {
-      parts.push(`📝 How to apply: ${how}`);
-    }
+  parts.push(
+    `📄 Documents needed:\n` +
+    `  1. Aadhaar Card (mandatory for identity proof)\n` +
+    `  2. Ration Card or BPL Certificate (for income/residence proof)\n` +
+    `  3. Bank Passbook – first page (for direct benefit transfer)\n` +
+    `  4. Passport-size Photograph (recent, colour)\n` +
+    `  5. ${docs ? docs : extraDoc}`
+  );
 
-    // Add any remaining important fields as extra info
-    extraFields.slice(0, 2).forEach(([k, v]) => {
-      if (String(v).trim().length > 3) {
-        const label = k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-        parts.push(`ℹ️ ${label}: ${v}`);
-      }
-    });
+  parts.push(
+    `📝 How to apply: ${
+      how ||
+      `Visit your nearest Common Service Centre (CSC) or the official government portal. ` +
+      `Fill the application form, attach required documents, and submit. ` +
+      `You will receive an acknowledgement slip after submission.`
+    }`
+  );
 
-    // If we only got a name and nothing else, show all fields simply
-    if (parts.length <= 1 && textFields.length > 0) {
-      textFields.forEach(([k, v]) => {
-        const label = k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-        parts.push(`• ${label}: ${v}`);
-      });
-    }
+  if (dept) parts.push(`🏢 Managed by: ${dept}`);
 
-    if (!how) {
-      parts.push(`🏢 To apply: Visit your nearest government office or Common Service Centre (CSC).`);
-    }
+  parts.push(link ? `🔗 More info: ${link}` : `🏢 Visit: Your nearest Common Service Centre (CSC) or District Collectorate office.`);
 
-    if (link) {
-      parts.push(`🔗 More info: ${link}`);
-    }
-
-    // ── Step 5: Apply jargon simplification to full text ──────────
-    let text = parts.join('\n');
-    Object.entries(jargonMap).forEach(([jargon, simple]) => {
-      text = text.replace(new RegExp(`\\b${jargon}\\b`, 'gi'), simple);
-    });
-
-    setExplanations(prev => ({ ...prev, [key]: text }));
-  };
+  setExplanations(prev => ({ ...prev, [key]: parts.join('\n\n') }));
+};
 
   // ── 2. FOLLOW-UP QUESTION SUGGESTIONS (no API) ──────────────────
   // Multilingual follow-up question bank — keyed by language then topic
