@@ -445,6 +445,10 @@ LANGUAGE_KEYWORDS = {
 # Keys whose VALUES should not be translated (proper nouns / IDs)
 NO_TRANSLATE_VALUE_KEYS = {'id', 'url', 'bus_number', 'source', 'destination', 'via'}
 
+# Only these fields are worth the googletrans API call for value translation.
+# All other fields just get their label translated — no API call for the value.
+TRANSLATE_VALUE_KEYS = {'name', 'description', 'eligibility', 'tags', 'service_type'}
+
 
 # --------------------------------------------------
 # UTILITY FUNCTIONS
@@ -463,32 +467,24 @@ def safe_translate_to_english(text):
 def safe_translate_from_english(text, lang):
     if not text or lang == 'en':
         return text
+    # Truncate very long values before translating to avoid timeouts
+    text_str = str(text)
+    if len(text_str) > 300:
+        text_str = text_str[:300] + '...'
     try:
-        result = translator_instance.translate_from_english(str(text), lang)
+        result = translator_instance.translate_from_english(text_str, lang)
         return result if result else text
     except Exception as e:
         logger.error(f"safe_translate_from_english error: {e}")
-        return text
+        return text  # Fall back to English value on failure
 
 
 def get_user_language(tracker):
     try:
-        # Priority 1: metadata from current message (frontend always sends this)
-        metadata = tracker.latest_message.get('metadata', {}) or {}
-        meta_lang = metadata.get('language')
-        if meta_lang and meta_lang in FIELD_LABELS:
-            return meta_lang
-        # Priority 2: 'language' slot pushed by frontend dropdown
-        lang = tracker.get_slot('language')
-        if lang and lang in FIELD_LABELS:
-            return lang
-        # Priority 3: 'user_language' set when user types language name in chat
-        lang = tracker.get_slot('user_language')
-        if lang and lang in FIELD_LABELS:
-            return lang
-        return 'en'
+        lang = tracker.get_slot("user_language")
+        return lang if lang in FIELD_LABELS else 'en'
     except Exception as e:
-        logger.error(f'Error getting user language: {e}')
+        logger.error(f"Error getting user language: {e}")
         return 'en'
 
 
@@ -554,10 +550,19 @@ def translate_card_results(results: list, lang: str) -> list:
         for key, value in item.items():
             translated_key = translate_field_label(key, lang)
             key_lower = key.lower().strip()
-            if key_lower in NO_TRANSLATE_VALUE_KEYS or not str(value).strip():
+            val_str = str(value).strip()
+            if not val_str or key_lower in NO_TRANSLATE_VALUE_KEYS:
+                # Skip: no value or it's a proper noun/URL
                 new_item[translated_key] = value
+            elif key_lower in TRANSLATE_VALUE_KEYS:
+                # Only translate high-value fields via API
+                if isinstance(value, list):
+                    new_item[translated_key] = [safe_translate_from_english(str(v), lang) for v in value]
+                else:
+                    new_item[translated_key] = safe_translate_from_english(val_str, lang)
             else:
-                new_item[translated_key] = safe_translate_from_english(str(value), lang)
+                # For all other fields, just use the translated label — skip value translation
+                new_item[translated_key] = value
         translated.append(new_item)
     return translated
 
