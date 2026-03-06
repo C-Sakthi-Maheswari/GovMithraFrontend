@@ -64,6 +64,12 @@ slots:
     initial_value: "en"
     mappings:
       - type: custom
+
+  language:
+    type: text
+    initial_value: "en"
+    mappings:
+      - type: custom
 intents:
   - get_schemes_by_profile
   - tax

@@ -473,10 +473,22 @@ def safe_translate_from_english(text, lang):
 
 def get_user_language(tracker):
     try:
-        lang = tracker.get_slot("user_language")
-        return lang if lang in FIELD_LABELS else 'en'
+        # Priority 1: metadata from current message (frontend always sends this)
+        metadata = tracker.latest_message.get('metadata', {}) or {}
+        meta_lang = metadata.get('language')
+        if meta_lang and meta_lang in FIELD_LABELS:
+            return meta_lang
+        # Priority 2: 'language' slot pushed by frontend dropdown
+        lang = tracker.get_slot('language')
+        if lang and lang in FIELD_LABELS:
+            return lang
+        # Priority 3: 'user_language' set when user types language name in chat
+        lang = tracker.get_slot('user_language')
+        if lang and lang in FIELD_LABELS:
+            return lang
+        return 'en'
     except Exception as e:
-        logger.error(f"Error getting user language: {e}")
+        logger.error(f'Error getting user language: {e}')
         return 'en'
 
 

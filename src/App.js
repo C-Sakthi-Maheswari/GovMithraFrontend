@@ -3020,7 +3020,7 @@ export default function GovMithra() {
   const [isEditingProfile, setIsEditingProfile] = useState(false);
   const [user, setUser] = useState(null);
   const [userProfile, setUserProfile] = useState(null);
-  const [selectedLanguage, setSelectedLanguage] = useState(() => localStorage.getItem('govmithra_lang') || 'en');
+  const [selectedLanguage, setSelectedLanguage] = useState('en');
   const [showLanguageMenu, setShowLanguageMenu] = useState(false);
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState('');
@@ -3538,6 +3538,16 @@ export default function GovMithra() {
     setInputText('');
     setIsBotTyping(true);
 
+    // Sync current language slot to Rasa before every message
+    const convId = user?.email || "user_session";
+    try {
+      await fetch(`${RASA_URL}/conversations/${convId}/tracker/events`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify([{ event: 'slot', name: 'language', value: selectedLanguage }])
+      });
+    } catch (_) {}
+
     try {
       const response = await fetch('http://localhost:5005/webhooks/rest/webhook', {
         method: 'POST',
@@ -3812,8 +3822,16 @@ export default function GovMithra() {
           <select
             value={selectedLanguage}
             onChange={(e) => {
-              localStorage.setItem('govmithra_lang', e.target.value);
-              setSelectedLanguage(e.target.value);
+              const newLang = e.target.value;
+              setSelectedLanguage(newLang);
+              localStorage.setItem('govmithra_lang', newLang);
+              // Push updated language slot to Rasa immediately
+              const convId = user?.email || "user_session";
+              fetch(`${RASA_URL}/conversations/${convId}/tracker/events`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify([{ event: 'slot', name: 'language', value: newLang }])
+              }).catch(() => {});
             }}
             style={{
               width: '100%',

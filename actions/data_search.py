@@ -152,12 +152,15 @@ def search(query_text, json_file):
             matches = count_keyword_matches(rec_text, original_keywords)
             if matches >= MIN_KEYWORDS_MATCHED:
                 filtered_results.append((score, rec))
-        if filtered_results:
-            scored_results = filtered_results
-        else:
-            scored_results = [(s, r) for s, r, _ in scored_results]
+        # Only apply the keyword filter if it still returns results
+        # Otherwise fall back to all scored results (avoids empty output)
+        scored_results = filtered_results if filtered_results else [(s, r) for s, r, _ in scored_results]
     else:
+        # Short query (1-2 words like "health", "justice") — skip strict filter
         scored_results = [(s, r) for s, r, _ in scored_results]
+
+    if not scored_results:
+        return []
 
     scored_results.sort(key=lambda x: x[0], reverse=True)
     best_score, best_record = scored_results[0]
