@@ -3641,7 +3641,7 @@ export default function GovMithra() {
       await fetch(`${RASA_URL}/conversations/${convId}/tracker/events`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify([{ event: 'slot', name: 'language', value: selectedLanguage }])
+        body: JSON.stringify([{ event: 'slot', name: 'user_language', value: selectedLanguage }])
       });
     } catch (_) {}
 
@@ -3927,7 +3927,7 @@ export default function GovMithra() {
               fetch(`${RASA_URL}/conversations/${convId}/tracker/events`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify([{ event: 'slot', name: 'language', value: newLang }])
+                body: JSON.stringify([{ event: 'slot', name: 'user_language', value: newLang }])
               }).catch(() => {});
             }}
             style={{

@@ -231,7 +231,7 @@ CATEGORY_LABELS = {
     'Money Tax':      {'ta': 'வரி சேவைகள்',                   'hi': 'कर सेवाएं',        'te': 'పన్ను సేవలు',    'ml': 'നികുതി സേവനങ്ങൾ',  'kn': 'ತೆರಿಗೆ ಸೇವೆಗಳು', 'bn': 'কর সেবা',       'mr': 'कर सेवा',      'gu': 'કર સેવા',      'pa': 'ਟੈਕਸ ਸੇਵਾਵਾਂ', 'or': 'କର ସେବା',      'as': 'কৰ সেৱা',        'ur': 'ٹیکس خدمات',    'mai': 'कर सेवा',     'kok': 'कर सेवा',     'sd': 'ٽيڪس خدمت'},
     'Pension':        {'ta': 'ஓய்வூதியம்',                    'hi': 'पेंशन',            'te': 'పెన్షన్',        'ml': 'പെൻഷൻ',            'kn': 'ಪಿಂಚಣಿ',        'bn': 'পেনশন',          'mr': 'पेन्शन',       'gu': 'પેન્શન',       'pa': 'ਪੈਨਸ਼ਨ',       'or': 'ପେନ୍‌ସନ',       'as': 'পেঞ্চন',         'ur': 'پنشن',           'mai': 'पेंशन',       'kok': 'पेन्शन',      'sd': 'پينشن'},
     'Science IT':     {'ta': 'அறிவியல் தகவல் தொழில்நுட்பம்', 'hi': 'विज्ञान और आईटी', 'te': 'సైన్స్ ఐటీ',     'ml': 'ശാസ്ത്ര ഐടി',      'kn': 'ವಿಜ್ಞಾನ ಐಟಿ',   'bn': 'বিজ্ঞান ও আইটি', 'mr': 'विज्ञान आयटी', 'gu': 'વિજ્ઞાન આઈટી',  'pa': 'ਵਿਗਿਆਨ ਆਈਟੀ', 'or': 'ବିଜ୍ଞାନ ଆଇଟି',  'as': 'বিজ্ঞান আইটি',  'ur': 'سائنس آئی ٹی',  'mai': 'विज्ञान आईटी', 'kok': 'विज्ञान आयटी', 'sd': 'سائنس آئي ٽي'},
-    'Transport':      {'ta': 'போக்குவரத்து',                   'hi': 'परिवहन',           'te': 'రవాణా',          'ml': 'ഗതാഗതം',           'kn': 'ಸಾರಿಗೆ',        'bn': 'পরিবহন',         'mr': 'परिवहन',       'gu': 'પરિવહન',       'pa': 'ਆਵਾਜਾਈ',       'or': 'ପରିବହନ',       'as': 'পৰিবহন',         'ur': 'نقل و حمل',      'mai': 'परिवहन',      'kok': 'वाहतूक',      'sd': 'ٽرانسپورٽ'},
+    'Transport':      {'ta': 'போக்குவரத்து',                   'hi': 'परिवहन',           'te': 'రవాణా',          'ml': 'ഗതാഗതം',           'kn': 'ಸಾರಿಗೆ',        'bn': 'পরিবহন',         'mr': 'परिवहन',       'gu': 'પરિવહन',       'pa': 'ਆਵਾਜਾਈ',       'or': 'ପରିବହନ',       'as': 'পৰিবহন',         'ur': 'نقل و حمل',      'mai': 'परिवहन',      'kok': 'वाहतूक',      'sd': 'ٽرانسپورٽ'},
     'Travel Tourism': {'ta': 'சுற்றுலா',                       'hi': 'पर्यटन',           'te': 'పర్యటన',         'ml': 'ടൂറിസം',           'kn': 'ಪ್ರವಾಸೋದ್ಯಮ',  'bn': 'পর্যটন',         'mr': 'पर्यटन',       'gu': 'પ્રવાસ',       'pa': 'ਸੈਰ-ਸਪਾਟਾ',    'or': 'ପ୍ରବାସ',        'as': 'পৰ্যটন',         'ur': 'سیاحت',          'mai': 'पर्यटन',      'kok': 'पर्यटन',      'sd': 'سياحت'},
     'Water':          {'ta': 'நீர் சேவைகள்',                   'hi': 'जल सेवाएं',        'te': 'నీటి సేవలు',     'ml': 'ജല സേവനങ്ങൾ',      'kn': 'ನೀರಿನ ಸೇವೆಗಳು', 'bn': 'জল সেবা',        'mr': 'जल सेवा',      'gu': 'જળ સેવા',      'pa': 'ਪਾਣੀ ਸੇਵਾਵਾਂ', 'or': 'ଜଳ ସେବା',      'as': 'জল সেৱা',        'ur': 'پانی کی خدمات', 'mai': 'जल सेवा',     'kok': 'जल सेवा',     'sd': 'پاڻي خدمت'},
     'Youth':          {'ta': 'இளைஞர்',                         'hi': 'युवा',              'te': 'యువత',           'ml': 'യുവജനം',           'kn': 'ಯುವಜನ',         'bn': 'যুব',            'mr': 'युवा',         'gu': 'યુવા',         'pa': 'ਨੌਜਵਾਨ',       'or': 'ଯୁବ',           'as': 'যুৱ',            'ur': 'نوجوان',         'mai': 'युवा',        'kok': 'युवा',        'sd': 'نوجوان'},
@@ -262,11 +262,11 @@ UI_MESSAGES = {
         'ta':  "❌ '{query}' க்கான {category} தகவல் எதுவும் கிடைக்கவில்லை.",
         'hi':  "❌ '{query}' के लिए {category} में कोई जानकारी नहीं मिली।",
         'te':  "❌ '{query}' కోసం {category} సమాచారం ఏదీ కనుగొనలేదు.",
-        'ml':  "❌ '{query}' నায i {category} వివรారం ఏదీ కనుగొనలేదు.",
+        'ml':  "❌ '{query}' నây i {category} వివరారం ఏదీ కనుగొనలేదు.",
         'kn':  "❌ '{query}' ಗಾಗಿ {category} ಮಾಹಿತಿ ಏನೂ ಸಿಗಲಿಲ್ಲ.",
         'bn':  "❌ '{query}' এর জন্য {category} তথ্য পাওয়া যায়নি।",
         'mr':  "❌ '{query}' साठी {category} माहिती आढळली नाही.",
-        'gu':  "❌ '{query}' માટે {category} માહિતી મળી નથી.",
+        'gu':  "❌ '{query}' માટे {category} માহિती મળી નથી.",
         'pa':  "❌ '{query}' ਲਈ {category} ਜਾਣਕਾਰੀ ਨਹੀਂ ਮਿਲੀ।",
         'or':  "❌ '{query}' ପାଇଁ {category} ତଥ୍ୟ ମିଳିଲା ନାହିଁ।",
         'as':  "❌ '{query}' ৰ বাবে {category} তথ্য পোৱা নগ'ল।",
@@ -302,7 +302,7 @@ UI_MESSAGES = {
         'kn':  "🧐 '{query}' ಗೆ ನೇರ ಹೊಂದಾಣಿಕೆ ಸಿಗಲಿಲ್ಲ. ಕಾಗುಣಿತ ಪರಿಶೀಲಿಸಿ ಅಥವಾ CMBT, ಗಿಂಡಿ, ಸೆಂಟ್ರಲ್ ನಂತಹ ಪ್ರಮುಖ ನಿಲ್ದಾಣಗಳನ್ನು ಬಳಸಿ.",
         'bn':  "🧐 '{query}' এর জন্য কোনো সরাসরি মিল পাওয়া যায়নি। বানান পরীক্ষা করুন বা CMBT, Guindy বা Central এর মতো প্রধান স্টপ ব্যবহার করুন।",
         'mr':  "🧐 '{query}' साठी थेट जुळणी सापडली नाही। स्पेलिंग तपासा किंवा CMBT, Guindy किंवा Central सारखे प्रमुख थांबे वापरा।",
-        'gu':  "🧐 '{query}' માટે સીધો મેળ મળ્યો નહિ. સ્પેલિંગ તપાસો અથવા CMBT, Guindy અથવા Central જેવા મુખ્ય સ્ટોપ વાપરો.",
+        'gu':  "🧐 '{query}' માટે સીધો મેળ મળ્યો નહિ. સ્પેલિંગ તपासો અথवा CMBT, Guindy અথवा Central जेवा मुख्य स्टोप वापरो.",
         'pa':  "🧐 '{query}' ਲਈ ਸਿੱਧਾ ਮੇਲ ਨਹੀਂ ਮਿਲਿਆ। ਸਪੈਲਿੰਗ ਜਾਂਚੋ ਜਾਂ CMBT, Guindy ਜਾਂ Central ਵਰਗੇ ਮੁੱਖ ਸਟਾਪ ਵਰਤੋ।",
         'or':  "🧐 '{query}' ପାଇଁ ସିଧା ମିଳ ମିଳିଲା ନାହିଁ। ବନାନ ଯାଞ୍ଚ କରନ୍ତୁ ବା CMBT, Guindy ବା Central ଭଳି ମୁଖ୍ୟ ଷ୍ଟପ ବ୍ୟବହାର କରନ୍ତୁ।",
         'as':  "🧐 '{query}' ৰ বাবে প্ৰত্যক্ষ মিল পোৱা নগ'ল। বানান পৰীক্ষা কৰক বা CMBT, Guindy বা Central ৰ দৰে মুখ্য ষ্টপ ব্যৱহাৰ কৰক।",
@@ -320,7 +320,7 @@ UI_MESSAGES = {
         'kn':  "⚠️ ಬಸ್ ಡೇಟಾಬೇಸ್ ಲೋಡ್ ಆಗಲಿಲ್ಲ.",
         'bn':  "⚠️ বাস ডেটাবেস লোড হয়নি।",
         'mr':  "⚠️ बस डेटाबेस लोड झाला नाही.",
-        'gu':  "⚠️ બસ ડેટાબેઝ લોડ થઈ નથી.",
+        'gu':  "⚠️ બસ ડેટાبেઝ लोड थई नथी.",
         'pa':  "⚠️ ਬੱਸ ਡੇਟਾਬੇਸ ਲੋਡ ਨਹੀਂ ਹੋਇਆ।",
         'or':  "⚠️ ବସ ଡାଟାବେସ ଲୋଡ ହୋଇନାହିଁ।",
         'as':  "⚠️ বাছ ডেটাবেছ লোড হোৱা নাই।",
@@ -330,7 +330,7 @@ UI_MESSAGES = {
         'sd':  "⚠️ بس ڊيٽابيس لوڊ نه ٿيو.",
     },
     'frequency_high':   {'en': 'High',   'ta': 'உயர்',        'hi': 'उच्च',     'te': 'అధిక',    'ml': 'ഉയർന്ന',   'kn': 'ಉನ್ನತ',    'bn': 'উচ্চ',     'mr': 'उच्च',     'gu': 'ઉચ્ચ',     'pa': 'ਉੱਚ',      'or': 'ଉଚ୍ଚ',     'as': 'উচ্চ',      'ur': 'زیادہ',    'mai': 'उच्च',    'kok': 'उच्च',    'sd': 'اعلي'},
-    'frequency_normal': {'en': 'Normal', 'ta': 'இயல்பானது',  'hi': 'सामान्य',  'te': 'సాధారణ',  'ml': 'സാധാരണ',  'kn': 'ಸಾಮಾನ್ಯ', 'bn': 'স্বাভাবিক', 'mr': 'सामान्य',  'gu': 'સામાન્ય',  'pa': 'ਸਾਧਾਰਨ',   'or': 'ସ୍ୱାଭାବିକ', 'as': 'সাধাৰণ',   'ur': 'معمول',    'mai': 'सामान्य', 'kok': 'सामान्य', 'sd': 'عام'},
+    'frequency_normal': {'en': 'Normal', 'ta': 'இயல்பானது',  'hi': 'सामान्य',  'te': 'సాధారణ',  'ml': 'സാധാരണ',  'kn': 'ಸಾಮಾನ್ಯ', 'bn': 'স্বাভাবিক', 'mr': 'सामान्य',  'gu': 'સામान্ય',  'pa': 'ਸਾਧਾਰਨ',   'or': 'ସ୍ୱାଭାବିକ', 'as': 'সাধাৰণ',   'ur': 'معمول',    'mai': 'सामान्य', 'kok': 'सामान्य', 'sd': 'عام'},
     'language_set': {
         'en':  "✅ Language set to {lang_name}. How can I help you?",
         'ta':  "✅ மொழி {lang_name} ஆக அமைக்கப்பட்டது. நான் எவ்வாறு உதவலாம்?",
@@ -340,9 +340,9 @@ UI_MESSAGES = {
         'kn':  "✅ ಭಾಷೆ {lang_name} ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ. ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಲಿ?",
         'bn':  "✅ ভাষা {lang_name} এ সেট করা হয়েছে। আমি কীভাবে সাহায্য করতে পারি?",
         'mr':  "✅ भाषा {lang_name} वर सेट केली. मी तुम्हाला कशी मदत करू?",
-        'gu':  "✅ ભાષા {lang_name} પર સેટ કરવામાં આવી. હું કેવી રીતે મદદ કરી શકું?",
+        'gu':  "✅ ભाষा {lang_name} पर सेट करवामां आवी. हु केवी रीते मदद करी शकु?",
         'pa':  "✅ ਭਾਸ਼ਾ {lang_name} 'ਤੇ ਸੈੱਟ ਕੀਤੀ ਗਈ। ਮੈਂ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ?",
-        'or':  "✅ ଭାଷା {lang_name} ରେ ସେଟ ହେଲା। ମୁଁ ଆପଣଙ୍କୁ କିପରି ସାହାଯ୍ୟ କରିପାରିବି?",
+        'or':  "✅ ভাষা {lang_name} ରেte সেট হেলা। ਮੁਁ ਆਪਣਕੁ ਕਿਪਰਿ ਸਾਹਾਯ୍ਯ ਕਰਿਪਾਰਿਬਿ?",
         'as':  "✅ ভাষা {lang_name} ত সেট কৰা হৈছে। মই কেনেকৈ সহায় কৰিব পাৰোঁ?",
         'ur':  "✅ زبان {lang_name} پر سیٹ کر دی گئی۔ میں آپ کی کیسے مدد کر سکتا ہوں؟",
         'mai': "✅ भाषा {lang_name} पर सेट भेल। हम अहाँक केना सहायता क' सकैत छी?",
@@ -352,22 +352,22 @@ UI_MESSAGES = {
 }
 
 LANGUAGE_DISPLAY_NAMES = {
-    'en':  {'en': 'English',   'ta': 'ஆங்கிலம்', 'hi': 'अंग्रेजी', 'te': 'ఇంగ్లీష్',  'ml': 'ഇംഗ്ലീഷ്',  'kn': 'ಇಂಗ್ಲಿಷ್',  'bn': 'ইংরেজি',    'mr': 'इंग्रजी',   'gu': 'અંગ્રેજી',  'pa': 'ਅੰਗਰੇਜ਼ੀ',  'or': 'ଇଂରାଜୀ',   'as': 'ইংৰাজী',    'ur': 'انگریزی',   'mai': 'अंग्रेजी', 'kok': 'इंग्रजी',  'sd': 'انگريزي'},
-    'ta':  {'en': 'Tamil',     'ta': 'தமிழ்',    'hi': 'तमिल',     'te': 'తమిళం',     'ml': 'തമിഴ്',     'kn': 'ತಮಿಳು',     'bn': 'তামিল',     'mr': 'तमिळ',      'gu': 'તમિળ',      'pa': 'ਤਮਿਲ',      'or': 'ତାମିଲ',    'as': 'তামিল',     'ur': 'تامل',      'mai': 'तमिल',     'kok': 'तमीळ',     'sd': 'تامل'},
-    'hi':  {'en': 'Hindi',     'ta': 'இந்தி',    'hi': 'हिंदी',    'te': 'హిందీ',     'ml': 'ഹിന്ദി',    'kn': 'ಹಿಂದಿ',     'bn': 'হিন্দি',    'mr': 'हिंदी',     'gu': 'હિન્દી',    'pa': 'ਹਿੰਦੀ',     'or': 'ହିନ୍ଦୀ',   'as': 'হিন্দী',    'ur': 'ہندی',      'mai': 'हिंदी',    'kok': 'हिंदी',    'sd': 'هندي'},
-    'te':  {'en': 'Telugu',    'ta': 'தெலுங்கு', 'hi': 'तेलुगु',   'te': 'తెలుగు',    'ml': 'തെലുഗു',    'kn': 'ತೆಲುಗು',    'bn': 'তেলুগু',    'mr': 'तेलुगू',    'gu': 'તેલુગુ',    'pa': 'ਤੇਲੁਗੂ',    'or': 'ତେଲୁଗୁ',   'as': 'তেলুগু',    'ur': 'تیلگو',     'mai': 'तेलुगु',   'kok': 'तेलुगू',   'sd': 'تيلگو'},
-    'ml':  {'en': 'Malayalam', 'ta': 'மலையாளம்', 'hi': 'मलयालम',   'te': 'మలయాళం',   'ml': 'മലയാളം',    'kn': 'ಮಲಯಾಳಂ',   'bn': 'মালায়ালাম', 'mr': 'मल्याळम',   'gu': 'મલયાળમ',    'pa': 'ਮਲਿਆਲਮ',    'or': 'ମଲୟାଳମ',   'as': 'মালায়ালম',  'ur': 'ملیالم',    'mai': 'मलयालम',   'kok': 'मल्याळम',  'sd': 'مليالم'},
-    'kn':  {'en': 'Kannada',   'ta': 'கன்னடம்',  'hi': 'कन्नड़',   'te': 'కన్నడం',    'ml': 'കന്നഡ',     'kn': 'ಕನ್ನಡ',     'bn': 'কন্নড়',    'mr': 'कन्नड',     'gu': 'કન્નડ',     'pa': 'ਕੰਨੜ',      'or': 'କନ୍ନଡ',    'as': 'কন্নড়',    'ur': 'کنڑ',       'mai': 'कन्नड',    'kok': 'कन्नड',    'sd': 'ڪنڊا'},
-    'bn':  {'en': 'Bengali',   'ta': 'வங்காளம்', 'hi': 'बंगाली',   'te': 'బెంగాలీ',   'ml': 'ബംഗാളി',   'kn': 'ಬಂಗಾಳಿ',   'bn': 'বাংলা',     'mr': 'बंगाली',    'gu': 'બંગાળી',    'pa': 'ਬੰਗਾਲੀ',    'or': 'ବଙ୍ଗଳା',   'as': 'বাংলা',     'ur': 'بنگالی',    'mai': 'बंगाली',   'kok': 'बंगाली',   'sd': 'بنگالي'},
-    'mr':  {'en': 'Marathi',   'ta': 'மராத்தி',  'hi': 'मराठी',    'te': 'మరాఠీ',     'ml': 'മറാഠി',     'kn': 'ಮರಾಠಿ',    'bn': 'মারাঠি',    'mr': 'मराठी',     'gu': 'મરાઠી',     'pa': 'ਮਰਾਠੀ',     'or': 'ମରାଠୀ',    'as': 'মাৰাঠী',    'ur': 'مراٹھی',    'mai': 'मराठी',    'kok': 'मराठी',    'sd': 'مراٺي'},
-    'gu':  {'en': 'Gujarati',  'ta': 'குஜராத்தி','hi': 'गुजराती',  'te': 'గుజరాతీ',   'ml': 'ഗുജറാത്തി', 'kn': 'ಗುಜರಾತಿ',  'bn': 'গুজরাটি',   'mr': 'गुजराती',   'gu': 'ગુજરાતી',   'pa': 'ਗੁਜਰਾਤੀ',   'or': 'ଗୁଜୁରାଟୀ', 'as': 'গুজৰাটী',   'ur': 'گجراتی',    'mai': 'गुजराती',  'kok': 'गुजराती',  'sd': 'گجراتي'},
-    'pa':  {'en': 'Punjabi',   'ta': 'பஞ்சாபி',  'hi': 'पंजाबी',   'te': 'పంజాబీ',    'ml': 'പഞ്ചാബി',   'kn': 'ಪಂಜಾಬಿ',   'bn': 'পাঞ্জাবি',  'mr': 'पंजाबी',    'gu': 'પંજાબી',    'pa': 'ਪੰਜਾਬੀ',    'or': 'ପଞ୍ଜାବୀ',  'as': 'পঞ্জাবী',   'ur': 'پنجابی',    'mai': 'पंजाबी',   'kok': 'पंजाबी',   'sd': 'پنجابي'},
-    'or':  {'en': 'Odia',      'ta': 'ஒடியா',    'hi': 'ओडिया',    'te': 'ఒడియా',     'ml': 'ഒഡിയ',      'kn': 'ಒಡಿಯಾ',    'bn': 'ওড়িয়া',   'mr': 'ओडिया',     'gu': 'ઓડિયા',     'pa': 'ਓਡੀਆ',      'or': 'ଓଡ଼ିଆ',    'as': 'ওড়িয়া',   'ur': 'اڈیہ',      'mai': 'ओडिया',    'kok': 'ओडिया',    'sd': 'اوڊيا'},
-    'as':  {'en': 'Assamese',  'ta': 'அசாமி',    'hi': 'असमिया',   'te': 'అస్సామీ',   'ml': 'അസ്സാമീസ്', 'kn': 'ಅಸ್ಸಾಮಿ',  'bn': 'অসমীয়া',   'mr': 'आसामी',     'gu': 'આસામી',     'pa': 'ਅਸਾਮੀ',     'or': 'ଅସମୀୟା',   'as': 'অসমীয়া',   'ur': 'آسامی',     'mai': 'असमिया',   'kok': 'आसामी',    'sd': 'آسامي'},
-    'ur':  {'en': 'Urdu',      'ta': 'உர்து',    'hi': 'उर्दू',    'te': 'ఉర్దూ',     'ml': 'ഉറുദു',     'kn': 'ಉರ್ದು',    'bn': 'উর্দু',     'mr': 'उर्दू',     'gu': 'ઉર્દૂ',     'pa': 'ਉਰਦੂ',      'or': 'ଉର୍ଦୁ',    'as': 'উৰ্দু',     'ur': 'اردو',      'mai': 'उर्दू',    'kok': 'उर्दू',    'sd': 'اردو'},
-    'mai': {'en': 'Maithili',  'ta': 'மைதிலி',  'hi': 'मैथिली',   'te': 'మైథిలీ',    'ml': 'മൈഥിലി',   'kn': 'ಮೈಥಿಲಿ',   'bn': 'মৈথিলী',    'mr': 'मैथिली',    'gu': 'મૈથિલી',    'pa': 'ਮੈਥਿਲੀ',    'or': 'ମୈଥିଲୀ',   'as': 'মৈথিলী',    'ur': 'میتھلی',    'mai': 'मैथिली',   'kok': 'मैथिली',   'sd': 'ميٿلي'},
-    'kok': {'en': 'Konkani',   'ta': 'கொங்கணி', 'hi': 'कोंकणी',   'te': 'కొంకణి',    'ml': 'കൊങ്കണി',  'kn': 'ಕೊಂಕಣಿ',   'bn': 'কোঙ্কণি',   'mr': 'कोंकणी',    'gu': 'કોંકણી',    'pa': 'ਕੋਂਕਣੀ',    'or': 'କୋଙ୍କଣୀ',  'as': 'কোংকণী',    'ur': 'کونکنی',    'mai': 'कोंकणी',   'kok': 'कोंकणी',   'sd': 'ڪونڪاني'},
-    'sd':  {'en': 'Sindhi',    'ta': 'சிந்தி',   'hi': 'सिंधी',    'te': 'సింధీ',     'ml': 'സിന്ധി',   'kn': 'ಸಿಂಧಿ',    'bn': 'সিন্ধি',    'mr': 'सिंधी',     'gu': 'સિંધી',     'pa': 'ਸਿੰਧੀ',     'or': 'ସିନ୍ଧୀ',   'as': 'সিন্ধী',    'ur': 'سندھی',     'mai': 'सिंधी',    'kok': 'सिंधी',    'sd': 'سنڌي'},
+    'en':  {'en': 'English',   'ta': 'ஆங்கிலம்', 'hi': 'अंग्रेजी', 'te': 'ఇంగ్లీష్',  'ml': 'ഇംഗ്ലീഷ്',  'kn': 'ಇಂಗ್ಲಿಷ್',  'bn': 'ইংরেজি',    'mr': 'इंग्रजी',   'gu': 'અংग्रेजी',  'pa': 'ਅੰਗਰੇਜ਼ੀ',  'or': 'ଇଂରାଜୀ',   'as': 'ইংৰাজী',    'ur': 'انگریزی',   'mai': 'अंग्रेजी', 'kok': 'इंग्रजी',  'sd': 'انگريزي'},
+    'ta':  {'en': 'Tamil',     'ta': 'தமிழ்',    'hi': 'तमिल',     'te': 'తమిళం',     'ml': 'തമിഴ്',     'kn': 'ತಮಿಳು',     'bn': 'তামিল',     'mr': 'तमिळ',      'gu': 'તमिळ',      'pa': 'ਤਮਿਲ',      'or': 'ତାମିଲ',    'as': 'তামিল',     'ur': 'تامل',      'mai': 'तमिल',     'kok': 'तमीळ',     'sd': 'تامل'},
+    'hi':  {'en': 'Hindi',     'ta': 'இந்தி',    'hi': 'हिंदी',    'te': 'హిందీ',     'ml': 'ഹിന്ദി',    'kn': 'ಹಿಂದಿ',     'bn': 'হিন্দি',    'mr': 'हिंदी',     'gu': 'હિन्दी',    'pa': 'ਹਿੰਦੀ',     'or': 'ହିନ୍ଦୀ',   'as': 'হিন্দী',    'ur': 'ہندی',      'mai': 'हिंदी',    'kok': 'हिंदी',    'sd': 'هندي'},
+    'te':  {'en': 'Telugu',    'ta': 'தெலுங்கு', 'hi': 'तेलुगु',   'te': 'తెలుగు',    'ml': 'തെലുഗു',    'kn': 'ತೆಲುಗು',    'bn': 'তেলুগু',    'mr': 'तेलुगू',    'gu': 'તेलुगु',    'pa': 'ਤੇਲੁਗੂ',    'or': 'ତେଲୁଗୁ',   'as': 'তেলুগু',    'ur': 'تیلگو',     'mai': 'तेलुगु',   'kok': 'तेलुगू',   'sd': 'تيلگو'},
+    'ml':  {'en': 'Malayalam', 'ta': 'மலையாளம்', 'hi': 'मलयालम',   'te': 'మలయాళం',   'ml': 'മലയാളം',    'kn': 'ಮಲಯಾಳಂ',   'bn': 'মালায়ালাম', 'mr': 'मल्याळम',   'gu': 'મलयाळम',    'pa': 'ਮਲਿਆਲਮ',    'or': 'ମଲୟାଳମ',   'as': 'মালায়ালম',  'ur': 'ملیالم',    'mai': 'मलयालम',   'kok': 'मल्याळम',  'sd': 'مليالم'},
+    'kn':  {'en': 'Kannada',   'ta': 'கன்னடம்',  'hi': 'कन्नड़',   'te': 'కన్నడం',    'ml': 'കന്നഡ',     'kn': 'ಕನ್ನಡ',     'bn': 'কন্নড়',    'mr': 'कन्नड',     'gu': 'કन्नड',     'pa': 'ਕੰਨੜ',      'or': 'କନ୍ନଡ',    'as': 'কন্নড়',    'ur': 'کنڑ',       'mai': 'कन्नड',    'kok': 'कन्नड',    'sd': 'ڪنڊا'},
+    'bn':  {'en': 'Bengali',   'ta': 'வங்காளம்', 'hi': 'बंगाली',   'te': 'బెంగాలీ',   'ml': 'ബംഗാളി',   'kn': 'ಬಂಗಾಳಿ',   'bn': 'বাংলা',     'mr': 'बंगाली',    'gu': 'બंगाळी',    'pa': 'ਬੰਗਾਲੀ',    'or': 'ବଙ୍ଗଳା',   'as': 'বাংলা',     'ur': 'بنگالی',    'mai': 'बंगाली',   'kok': 'बंगाली',   'sd': 'بنگالي'},
+    'mr':  {'en': 'Marathi',   'ta': 'மராத்தி',  'hi': 'मराठी',    'te': 'మరాఠీ',     'ml': 'മറാഠി',     'kn': 'ಮರಾಠಿ',    'bn': 'মারাঠি',    'mr': 'मराठी',     'gu': 'મराठी',     'pa': 'ਮਰਾਠੀ',     'or': 'ମରାଠୀ',    'as': 'মাৰাঠী',    'ur': 'مراٹھی',    'mai': 'मराठी',    'kok': 'मराठी',    'sd': 'مراٺي'},
+    'gu':  {'en': 'Gujarati',  'ta': 'குஜராத்தி','hi': 'गुजराती',  'te': 'గుజరాతీ',   'ml': 'ഗുജറാത്തി', 'kn': 'ಗುಜರಾತಿ',  'bn': 'গুজরাটি',   'mr': 'गुजराती',   'gu': 'ગुजराती',   'pa': 'ਗੁਜਰਾਤੀ',   'or': 'ଗୁଜୁରାଟୀ', 'as': 'গুজৰাটী',   'ur': 'گجراتی',    'mai': 'गुजराती',  'kok': 'गुजराती',  'sd': 'گجراتي'},
+    'pa':  {'en': 'Punjabi',   'ta': 'பஞ்சாபி',  'hi': 'पंजाबी',   'te': 'పంజాబీ',    'ml': 'പഞ്ചാബി',   'kn': 'ಪಂಜಾಬಿ',   'bn': 'পাঞ্জাবি',  'mr': 'पंजाबी',    'gu': 'પंजाबी',    'pa': 'ਪੰਜਾਬੀ',    'or': 'ପଞ୍ଜାବୀ',  'as': 'পঞ্জাবী',   'ur': 'پنجابی',    'mai': 'पंजाबी',   'kok': 'पंजाबी',   'sd': 'پنجابي'},
+    'or':  {'en': 'Odia',      'ta': 'ஒடியா',    'hi': 'ओडिया',    'te': 'ఒడియా',     'ml': 'ഒഡിയ',      'kn': 'ಒಡಿಯಾ',    'bn': 'ওড়িয়া',   'mr': 'ओडिया',     'gu': 'ઓडिया',     'pa': 'ਓਡੀਆ',      'or': 'ଓଡ଼ିଆ',    'as': 'ওড়িয়া',   'ur': 'اڈیہ',      'mai': 'ओडिया',    'kok': 'ओडिया',    'sd': 'اوڊيا'},
+    'as':  {'en': 'Assamese',  'ta': 'அசாமி',    'hi': 'असमिया',   'te': 'అస్సామీ',   'ml': 'അസ്സാമീസ്', 'kn': 'ಅಸ್ಸಾಮಿ',  'bn': 'অসমীয়া',   'mr': 'आसामी',     'gu': 'આसामी',     'pa': 'ਅਸਾਮੀ',     'or': 'ଅସମୀୟା',   'as': 'অসমীয়া',   'ur': 'آسامی',     'mai': 'असमिया',   'kok': 'आसामी',    'sd': 'آسامي'},
+    'ur':  {'en': 'Urdu',      'ta': 'உர்து',    'hi': 'उर्दू',    'te': 'ఉర్దూ',     'ml': 'ഉറുദു',     'kn': 'ಉರ್ದು',    'bn': 'উর্দু',     'mr': 'उर्दू',     'gu': 'ઉर्दू',     'pa': 'ਉਰਦੂ',      'or': 'ଉର୍ଦୁ',    'as': 'উৰ্দু',     'ur': 'اردو',      'mai': 'उर्दू',    'kok': 'उर्दू',    'sd': 'اردو'},
+    'mai': {'en': 'Maithili',  'ta': 'மைதிலி',  'hi': 'मैथिली',   'te': 'మైథిలీ',    'ml': 'മൈഥിലി',   'kn': 'ಮೈಥಿಲಿ',   'bn': 'মৈথিলী',    'mr': 'मैथिली',    'gu': 'મैथिली',    'pa': 'ਮੈਥਿਲੀ',    'or': 'ମୈଥିଲୀ',   'as': 'মৈথিলী',    'ur': 'میتھلی',    'mai': 'मैथिली',   'kok': 'मैथिली',   'sd': 'ميٿلي'},
+    'kok': {'en': 'Konkani',   'ta': 'கொங்கணி', 'hi': 'कोंकणी',   'te': 'కొంకణి',    'ml': 'കൊങ്കണി',  'kn': 'ಕೊಂಕಣಿ',   'bn': 'কোঙ্কণি',   'mr': 'कोंकणी',    'gu': 'કોंकणी',    'pa': 'ਕੋਂਕਣੀ',    'or': 'କୋଙ୍କଣୀ',  'as': 'কোংকণী',    'ur': 'کونکنی',    'mai': 'कोंकणी',   'kok': 'कोंकणी',   'sd': 'ڪونڪاني'},
+    'sd':  {'en': 'Sindhi',    'ta': 'சிந்தி',   'hi': 'सिंधी',    'te': 'సింధీ',     'ml': 'സിന്ധി',   'kn': 'ಸಿಂಧಿ',    'bn': 'সিন্ধি',    'mr': 'सिंधी',     'gu': 'સिंधी',     'pa': 'ਸਿੰਧੀ',     'or': 'ସିନ୍ଧୀ',   'as': 'সিন্ধী',    'ur': 'سندھی',     'mai': 'सिंधी',    'kok': 'सिंधी',    'sd': 'سنڌي'},
 }
 
 # All language-change trigger keywords across all scripts
@@ -421,12 +421,12 @@ LANGUAGE_KEYWORDS = {
     'উর্দু': 'ur',     'মৈথিলী': 'mai',  'কোঙ্কণি': 'kok',
     'সিন্ধি': 'sd',
     # Gujarati script
-    'અંગ્રેજી': 'en',  'તમિળ': 'ta',     'હિન્દી': 'hi',
-    'તેલુગુ': 'te',    'મલયાળમ': 'ml',   'કન્નડ': 'kn',
-    'બંગાળી': 'bn',    'મરાઠી': 'mr',    'ગુજરાતી': 'gu',
-    'પંજાબી': 'pa',    'ઓડિયા': 'or',    'આસામી': 'as',
-    'ઉર્દૂ': 'ur',     'મૈથિલી': 'mai',  'કોંકણી': 'kok',
-    'સિંધી': 'sd',
+    'અંগ્રેજી': 'en',  'તमिళ': 'ta',     'હિन્દी': 'hi',
+    'તেলुगु': 'te',    'મलयाळम': 'ml',   'કన્નड': 'kn',
+    'બंगाళী': 'bn',    'મराठी': 'mr',    'ગुजराती': 'gu',
+    'પंजाबी': 'pa',    'ઓडिया': 'or',    'આसामी': 'as',
+    'ઉर्दू': 'ur',     'મैथिली': 'mai',  'કોंकणी': 'kok',
+    'સिंधी': 'sd',
     # Punjabi (Gurmukhi) script
     'ਅੰਗਰੇਜ਼ੀ': 'en',  'ਤਮਿਲ': 'ta',     'ਹਿੰਦੀ': 'hi',
     'ਤੇਲੁਗੂ': 'te',    'ਮਲਿਆਲਮ': 'ml',   'ਕੰਨੜ': 'kn',
@@ -442,11 +442,11 @@ LANGUAGE_KEYWORDS = {
     'اردو': 'ur',      'میتھلی': 'mai',  'کونکنی': 'kok',
     'سندھی': 'sd',
 }
+
 # Keys whose VALUES should not be translated (proper nouns / IDs)
 NO_TRANSLATE_VALUE_KEYS = {'id', 'url', 'bus_number', 'source', 'destination', 'via'}
 
 # Only these fields are worth the googletrans API call for value translation.
-# All other fields just get their label translated — no API call for the value.
 TRANSLATE_VALUE_KEYS = {'name', 'description', 'eligibility', 'tags', 'service_type'}
 
 
@@ -467,7 +467,6 @@ def safe_translate_to_english(text):
 def safe_translate_from_english(text, lang):
     if not text or lang == 'en':
         return text
-    # Truncate very long values before translating to avoid timeouts
     text_str = str(text)
     if len(text_str) > 300:
         text_str = text_str[:300] + '...'
@@ -476,10 +475,15 @@ def safe_translate_from_english(text, lang):
         return result if result else text
     except Exception as e:
         logger.error(f"safe_translate_from_english error: {e}")
-        return text  # Fall back to English value on failure
+        return text
 
 
 def get_user_language(tracker):
+    """
+    Returns the language from the user_language slot.
+    This is the SINGLE SOURCE OF TRUTH — set only by ActionSetLanguage (dropdown).
+    Auto-detection in search actions must NEVER override this.
+    """
     try:
         lang = tracker.get_slot("user_language")
         return lang if lang in FIELD_LABELS else 'en'
@@ -552,16 +556,13 @@ def translate_card_results(results: list, lang: str) -> list:
             key_lower = key.lower().strip()
             val_str = str(value).strip()
             if not val_str or key_lower in NO_TRANSLATE_VALUE_KEYS:
-                # Skip: no value or it's a proper noun/URL
                 new_item[translated_key] = value
             elif key_lower in TRANSLATE_VALUE_KEYS:
-                # Only translate high-value fields via API
                 if isinstance(value, list):
                     new_item[translated_key] = [safe_translate_from_english(str(v), lang) for v in value]
                 else:
                     new_item[translated_key] = safe_translate_from_english(val_str, lang)
             else:
-                # For all other fields, just use the translated label — skip value translation
                 new_item[translated_key] = value
         translated.append(new_item)
     return translated
@@ -600,26 +601,17 @@ class ActionSetLanguage(Action):
         user_message = tracker.latest_message.get("text", "").strip()
         user_message_lower = user_message.lower()
 
-        # --- FIX 1: Longest-match first to avoid partial keyword collisions ---
-        # Sort keywords by length descending so longer/more specific keywords
-        # are checked before shorter ones (e.g. "english" before "en")
         sorted_keywords = sorted(LANGUAGE_KEYWORDS.items(), key=lambda x: len(x[0]), reverse=True)
 
         selected_lang = None
         for keyword, lang_code in sorted_keywords:
-            # --- FIX 2: Whole-word / exact match check ---
-            # Avoids "english" accidentally matching a substring of another word
             if keyword.lower() == user_message_lower:
-                # Exact match — highest priority
                 selected_lang = lang_code
                 break
             if keyword.lower() in user_message_lower:
                 selected_lang = lang_code
-                # Don't break yet — keep looking for a longer/exact match
-                # Actually since we're sorted by length desc, first hit is best
                 break
 
-        # --- FIX 3: Fallback to English if nothing matched ---
         if selected_lang is None:
             selected_lang = 'en'
 
@@ -647,19 +639,17 @@ class ActionSearchBus(Action):
     def run(self, dispatcher, tracker, domain):
         try:
             user_query = tracker.latest_message.get("text", "")
-            user_lang  = get_user_language(tracker)
-            events     = []
 
-            english_query, detected_lang = safe_translate_to_english(user_query)
+            # ✅ FIX: Always use the slot as the single source of truth.
+            # Never override user_language from auto-detection here.
+            user_lang = get_user_language(tracker)
 
-            if detected_lang and detected_lang in FIELD_LABELS and detected_lang != 'en':
-                if user_lang != detected_lang:
-                    events.append(SlotSet("user_language", detected_lang))
-                    user_lang = detected_lang
+            # Translate query to English for search only — discard detected lang.
+            english_query, _ = safe_translate_to_english(user_query)
 
             if bus_data.empty:
                 dispatcher.utter_message(text=get_ui_message('bus_db_error', user_lang))
-                return events
+                return []
 
             ent = extract_entities(english_query)
             df  = bus_data.copy()
@@ -689,7 +679,7 @@ class ActionSearchBus(Action):
                 dispatcher.utter_message(
                     text=get_ui_message('bus_not_found', user_lang, query=user_query)
                 )
-                return events
+                return []
 
             freq_high   = UI_MESSAGES['frequency_high'].get(user_lang, 'High')
             freq_normal = UI_MESSAGES['frequency_normal'].get(user_lang, 'Normal')
@@ -710,7 +700,7 @@ class ActionSearchBus(Action):
                 "data": translate_card_results(results, user_lang),
                 "language": user_lang
             })
-            return events
+            return []
 
         except Exception as e:
             logger.error(f"ActionSearchBus error: {e}")
@@ -728,15 +718,14 @@ def _make_search_action(action_name, json_file, category_label_en):
 
         def run(self, dispatcher, tracker, domain):
             try:
-                user_query    = tracker.latest_message.get("text", "")
-                user_lang     = get_user_language(tracker)
-                english_query, detected_lang = safe_translate_to_english(user_query)
+                user_query = tracker.latest_message.get("text", "")
 
-                events = []
-                if detected_lang and detected_lang in FIELD_LABELS and detected_lang != 'en':
-                    if user_lang != detected_lang:
-                        events.append(SlotSet("user_language", detected_lang))
-                        user_lang = detected_lang
+                # ✅ FIX: Always use the slot as the single source of truth.
+                # Never override user_language from auto-detection here.
+                user_lang = get_user_language(tracker)
+
+                # Translate query to English for search only — discard detected lang.
+                english_query, _ = safe_translate_to_english(user_query)
 
                 results = search(english_query, json_file)
                 return send_card_results(
@@ -746,7 +735,7 @@ def _make_search_action(action_name, json_file, category_label_en):
                     results=results,
                     category_en=category_label_en,
                     lang=user_lang
-                ) + events
+                )
 
             except Exception as e:
                 logger.error(f"{action_name} error: {e}")
@@ -761,6 +750,7 @@ def _make_search_action(action_name, json_file, category_label_en):
     GenericSearchAction.__name__ = action_name
     return GenericSearchAction
 
+
 class ActionGetSchemesByProfile(Action):
     def name(self):
         return "action_get_schemes_by_profile"
@@ -768,7 +758,6 @@ class ActionGetSchemesByProfile(Action):
     def run(self, dispatcher, tracker, domain):
         lang = tracker.get_slot("user_language") or "en"
 
-        # Read all profile slots
         age            = tracker.get_slot("user_age")
         gender         = tracker.get_slot("user_gender")
         caste          = tracker.get_slot("user_caste")
@@ -782,7 +771,6 @@ class ActionGetSchemesByProfile(Action):
         ration_card    = tracker.get_slot("user_ration_card")
         land_ownership = tracker.get_slot("user_land_ownership")
 
-        # Check at least some profile info exists
         profile_values = [age, gender, caste, state, occupation,
                           income, education, marital_status,
                           disability, ration_card, land_ownership]
@@ -793,13 +781,8 @@ class ActionGetSchemesByProfile(Action):
             )
             return []
 
-        # ----------------------------------------------------------
-        # BUILD SMART QUERY from profile
-        # Maps slot values to search-friendly keywords
-        # ----------------------------------------------------------
         query_parts = []
 
-        # Occupation → drives which categories to search
         occupation_keywords = {
             "student":       "student scholarship education",
             "employed":      "employee welfare job",
@@ -810,7 +793,6 @@ class ActionGetSchemesByProfile(Action):
         if occupation:
             query_parts.append(occupation_keywords.get(occupation.lower(), occupation))
 
-        # Caste
         caste_keywords = {
             "sc":      "scheduled caste SC dalit",
             "st":      "scheduled tribe ST tribal",
@@ -820,7 +802,6 @@ class ActionGetSchemesByProfile(Action):
         if caste:
             query_parts.append(caste_keywords.get(caste.lower(), caste))
 
-        # Income
         income_keywords = {
             "below2lakh": "below poverty BPL low income subsidy",
             "lakh25":     "low income subsidy welfare",
@@ -830,13 +811,11 @@ class ActionGetSchemesByProfile(Action):
         if income:
             query_parts.append(income_keywords.get(income.lower(), income))
 
-        # Gender
         if gender and gender.lower() == "female":
             query_parts.append("women female girl mahila")
         elif gender and gender.lower() == "male":
             query_parts.append("male men")
 
-        # Disability
         disability_keywords = {
             "physical": "physically disabled divyang handicap",
             "visual":   "visually impaired blind",
@@ -846,7 +825,6 @@ class ActionGetSchemesByProfile(Action):
         if disability and disability.lower() != "none":
             query_parts.append(disability_keywords.get(disability.lower(), disability))
 
-        # Ration card
         ration_keywords = {
             "bpl":       "BPL below poverty line ration",
             "antyodaya": "antyodaya AAY poorest",
@@ -855,7 +833,6 @@ class ActionGetSchemesByProfile(Action):
         if ration_card and ration_card.lower() != "nocard":
             query_parts.append(ration_keywords.get(ration_card.lower(), ration_card))
 
-        # Land ownership → agriculture schemes
         land_keywords = {
             "marginal": "marginal farmer small farmer subsidy",
             "small":    "small farmer kisan subsidy",
@@ -865,7 +842,6 @@ class ActionGetSchemesByProfile(Action):
         if land_ownership and land_ownership.lower() != "noland":
             query_parts.append(land_keywords.get(land_ownership.lower(), land_ownership))
 
-        # Education level
         education_keywords = {
             "belowHighSchool": "primary education school dropout",
             "highSchool":      "high school diploma vocational",
@@ -875,17 +851,14 @@ class ActionGetSchemesByProfile(Action):
         if education:
             query_parts.append(education_keywords.get(education, education))
 
-        # Marital status
         if marital_status and marital_status.lower() == "widowed":
             query_parts.append("widow widowed pension welfare")
 
-        # State/City
         if state:
             query_parts.append(state)
         if city:
             query_parts.append(city)
 
-        # Age-based keywords
         try:
             age_int = int(age) if age else None
             if age_int:
@@ -902,16 +875,10 @@ class ActionGetSchemesByProfile(Action):
 
         query = " ".join(filter(None, query_parts))
 
-        # ----------------------------------------------------------
-        # DECIDE WHICH JSON FILES TO SEARCH based on profile
-        # ----------------------------------------------------------
         json_files = []
-
-        # Always search these
         json_files.append(("actions/health_structured.json",   "Health"))
         json_files.append(("actions/housing_structured.json",  "Housing"))
 
-        # Occupation-based
         if occupation:
             occ = occupation.lower()
             if occ == "student":
@@ -925,25 +892,20 @@ class ActionGetSchemesByProfile(Action):
             if occ == "unemployed":
                 json_files.append(("actions/jobs_structured.json", "Jobs"))
 
-        # Land ownership → agriculture
         if land_ownership and land_ownership.lower() != "noland":
             json_files.append(("actions/agriculture_structured.json", "Agriculture"))
 
-        # Low income → banking/welfare
         if income and income.lower() in ["below2lakh", "lakh25"]:
             json_files.append(("actions/money_banking_structured.json", "Money Banking"))
             json_files.append(("actions/pension_structured.json", "Pension"))
 
-        # Widow
         if marital_status and marital_status.lower() == "widowed":
             json_files.append(("actions/pension_structured.json", "Pension"))
 
-        # Disability
         if disability and disability.lower() != "none":
             json_files.append(("actions/pension_structured.json", "Pension"))
             json_files.append(("actions/health_structured.json",  "Health"))
 
-        # Deduplicate json_files
         seen = set()
         unique_json_files = []
         for item in json_files:
@@ -951,16 +913,13 @@ class ActionGetSchemesByProfile(Action):
                 seen.add(item[0])
                 unique_json_files.append(item)
 
-        # ----------------------------------------------------------
-        # SEARCH across selected JSON files
-        # ----------------------------------------------------------
         all_results = []
         for json_path, category in unique_json_files:
             try:
                 results = search(query, json_path)
                 for r in results:
                     r["_category"] = category
-                all_results.extend(results[:3])  # top 3 per category
+                all_results.extend(results[:3])
             except Exception as e:
                 print(f"Error searching {json_path}: {e}")
                 continue
@@ -971,7 +930,6 @@ class ActionGetSchemesByProfile(Action):
             )
             return []
 
-        # Build profile summary to show user
         profile_summary_parts = []
         if occupation:     profile_summary_parts.append(occupation.title())
         if caste:          profile_summary_parts.append(caste.upper())
@@ -985,10 +943,12 @@ class ActionGetSchemesByProfile(Action):
         )
         dispatcher.utter_message(json_message={
             "display_type": "card_list",
-            "data": all_results[:10]  # show top 10 overall
+            "data": all_results[:10]
         })
 
         return []
+
+
 # --------------------------------------------------
 # ACTION REGISTRATIONS
 # --------------------------------------------------
