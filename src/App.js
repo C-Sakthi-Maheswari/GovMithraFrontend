@@ -3037,6 +3037,11 @@ export default function GovMithra() {
   const [compareList, setCompareList] = useState([]);
   const [showCompare, setShowCompare] = useState(false);
   const [compareResult, setCompareResult] = useState(null);
+  const [recentSearches, setRecentSearches] = useState(() => {
+    try { return JSON.parse(localStorage.getItem("govmithra_recent_searches") || "[]"); } catch { return []; }
+  });
+  const [showRecentSearches, setShowRecentSearches] = useState(false);
+  const [savedSchemesSearch, setSavedSchemesSearch] = useState("");
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -3048,6 +3053,51 @@ export default function GovMithra() {
       setCopiedMsgId(msgId);
       setTimeout(() => setCopiedMsgId(null), 2000);
     });
+  };
+
+  // ── ELIGIBILITY MATCH SCORE ─────────────────────────────────────
+  const getEligibilityScore = (scheme) => {
+    if (!userProfile) return null;
+    let matched = 0, total = 0;
+
+    // 1. State match
+    const schemeState = String(scheme.state || '').trim();
+    if (schemeState && schemeState !== 'ANY' && schemeState !== 'Central') {
+      total++;
+      if ((userProfile.state || '').toLowerCase() === schemeState.toLowerCase()) matched++;
+    } else {
+      // Central / ANY / missing state = open to all, give full credit
+      total++; matched++;
+    }
+
+    // 2. Target roles match
+    const roles = Array.isArray(scheme.target_roles)
+      ? scheme.target_roles.join(' ')
+      : String(scheme.target_roles || '');
+    const roleStr = roles.toLowerCase();
+    total++;
+    if (!roleStr || roleStr.includes('any') || roleStr.includes('all') || roleStr.includes('citizen')) {
+      matched++;
+    } else {
+      const occ = (userProfile.occupation || '').toLowerCase();
+      const age = parseInt(userProfile.age) || 0;
+      if (occ && roleStr.includes(occ)) matched++;
+      else if (roleStr.includes('parent') || roleStr.includes('guardian')) matched++;
+      else if (age >= 60 && roleStr.includes('senior')) matched++;
+      else if (age < 30 && (roleStr.includes('youth') || roleStr.includes('student'))) matched++;
+    }
+
+    // 3. Eligible categories / caste
+    const cats = String(scheme.eligible_categories || '').trim();
+    total++;
+    if (!cats || cats === 'ANY') {
+      matched++;
+    } else {
+      const caste = (userProfile.caste || '').toLowerCase();
+      if (cats.toLowerCase().includes(caste) || cats.toLowerCase().includes('all')) matched++;
+    }
+
+    return Math.round((matched / total) * 100);
   };
 
   // ── SAVE / BOOKMARK SCHEME ───────────────────────────────────────
@@ -3576,7 +3626,14 @@ export default function GovMithra() {
 
     setMessages(prev => [...prev, { type: 'user', text: query, timestamp: new Date() }]);
     setInputText('');
+    setShowRecentSearches(false);
     setIsBotTyping(true);
+    // Save to recent searches (max 8, no duplicates)
+    setRecentSearches(prev => {
+      const updated = [query, ...prev.filter(q => q !== query)].slice(0, 8);
+      localStorage.setItem('govmithra_recent_searches', JSON.stringify(updated));
+      return updated;
+    });
 
     // Sync current language slot to Rasa before every message
     const convId = user?.email || "user_session";
@@ -4044,54 +4101,98 @@ export default function GovMithra() {
               padding: '20px',
               boxShadow: '0 4px 20px rgba(102,126,234,0.15)'
             }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
                 <h3 style={{ margin: 0, color: '#1e293b', fontSize: '1.1rem', fontWeight: 'bold' }}>
                   {t.savedHeader} ({savedSchemes.length})
                 </h3>
                 {savedSchemes.length > 0 && (
                   <button
-                    onClick={() => { setSavedSchemes([]); localStorage.removeItem('govmithra_saved_schemes'); }}
+                    onClick={() => { setSavedSchemes([]); localStorage.removeItem('govmithra_saved_schemes'); setSavedSchemesSearch(''); }}
                     style={{ border: 'none', background: 'none', color: '#ef4444', cursor: 'pointer', fontSize: '0.85rem', fontWeight: '600' }}
                   >
                     {t.clearAll}
                   </button>
                 )}
               </div>
+              {/* ── SEARCH BAR ── */}
+              {savedSchemes.length > 0 && (
+                <div style={{ marginBottom: '12px', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', fontSize: '0.9rem', color: '#94a3b8' }}>🔍</span>
+                  <input
+                    type="text"
+                    value={savedSchemesSearch}
+                    onChange={e => setSavedSchemesSearch(e.target.value)}
+                    placeholder="Search saved schemes..."
+                    style={{ width: '100%', padding: '9px 12px 9px 34px', borderRadius: '10px',
+                             border: '1px solid #e2e8f0', fontSize: '0.88rem', outline: 'none',
+                             background: '#f8fafc', boxSizing: 'border-box' }}
+                  />
+                  {savedSchemesSearch && (
+                    <button onClick={() => setSavedSchemesSearch('')}
+                      style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)',
+                               border: 'none', background: 'none', color: '#94a3b8', cursor: 'pointer', fontSize: '1rem' }}>✕</button>
+                  )}
+                </div>
+              )}
               {savedSchemes.length === 0 ? (
                 <p style={{ color: '#94a3b8', textAlign: 'center', margin: '20px 0', fontStyle: 'italic' }}>
                   {t.noSavedSchemes}
                 </p>
               ) : (
-                savedSchemes.map((item, idx) => (
-                  <div key={idx} style={{
-                    marginBottom: '12px',
-                    padding: '14px',
-                    background: '#f8fafc',
-                    borderRadius: '12px',
-                    border: '1px solid #e2e8f0',
-                    position: 'relative'
-                  }}>
-                    <p style={{ margin: '0 0 8px 0', fontSize: '0.75rem', color: '#94a3b8' }}>Saved on {item.savedAt}</p>
-                    {Object.entries(item.scheme).slice(0, 3).map(([k, v]) => (
-                      <div key={k} style={{ fontSize: '0.9rem', marginBottom: '4px' }}>
-                        <strong style={{ color: '#475569', textTransform: 'capitalize' }}>{k.replace(/_/g, ' ')}:</strong>{' '}
-                        {String(v).startsWith('http')
-                          ? <a href={v} target="_blank" rel="noopener noreferrer" style={{ color: '#667eea', textDecoration: 'none' }}>View ↗</a>
-                          : v}
-                      </div>
-                    ))}
-                    <div style={{ display: 'flex', gap: '8px', marginTop: '10px' }}>
-                      <button
-                        onClick={() => shareOnWhatsApp(item.scheme)}
-                        style={{ padding: '5px 10px', borderRadius: '8px', border: 'none', background: '#25D366', color: 'white', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
-                      >{t.share}</button>
-                      <button
-                        onClick={() => { const updated = savedSchemes.filter((_, i) => i !== idx); setSavedSchemes(updated); localStorage.setItem('govmithra_saved_schemes', JSON.stringify(updated)); }}
-                        style={{ padding: '5px 10px', borderRadius: '8px', border: '1px solid #e2e8f0', background: 'white', color: '#ef4444', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
-                      >{t.removeScheme}</button>
-                    </div>
-                  </div>
-                ))
+                savedSchemes
+                  .filter(item => {
+                    if (!savedSchemesSearch.trim()) return true;
+                    const q = savedSchemesSearch.toLowerCase();
+                    const s = item.scheme;
+                    return (s.name || s.scheme_name || s.title || '').toLowerCase().includes(q) ||
+                           (Array.isArray(s.tags) ? s.tags.join(' ') : String(s.tags || '')).toLowerCase().includes(q) ||
+                           (s.domain || '').toLowerCase().includes(q) ||
+                           (s.state || '').toLowerCase().includes(q);
+                  })
+                  .length === 0
+                  ? <p style={{ color: '#94a3b8', textAlign: 'center', margin: '20px 0', fontStyle: 'italic' }}>
+                      No saved schemes match &ldquo;{savedSchemesSearch}&rdquo;
+                    </p>
+                  : savedSchemes
+                      .filter(item => {
+                        if (!savedSchemesSearch.trim()) return true;
+                        const q = savedSchemesSearch.toLowerCase();
+                        const s = item.scheme;
+                        return (s.name || s.scheme_name || s.title || '').toLowerCase().includes(q) ||
+                               (Array.isArray(s.tags) ? s.tags.join(' ') : String(s.tags || '')).toLowerCase().includes(q) ||
+                               (s.domain || '').toLowerCase().includes(q) ||
+                               (s.state || '').toLowerCase().includes(q);
+                      })
+                      .map((item, idx) => (
+                        <div key={idx} style={{
+                          marginBottom: '12px',
+                          padding: '14px',
+                          background: '#f8fafc',
+                          borderRadius: '12px',
+                          border: '1px solid #e2e8f0',
+                          position: 'relative'
+                        }}>
+                          <p style={{ margin: '0 0 8px 0', fontSize: '0.75rem', color: '#94a3b8' }}>Saved on {item.savedAt}</p>
+                          {Object.entries(item.scheme).slice(0, 3).map(([k, v]) => (
+                            <div key={k} style={{ fontSize: '0.9rem', marginBottom: '4px' }}>
+                              <strong style={{ color: '#475569', textTransform: 'capitalize' }}>{k.replace(/_/g, ' ')}:</strong>{' '}
+                              {String(v).startsWith('http')
+                                ? <a href={v} target="_blank" rel="noopener noreferrer" style={{ color: '#667eea', textDecoration: 'none' }}>View ↗</a>
+                                : v}
+                            </div>
+                          ))}
+                          <div style={{ display: 'flex', gap: '8px', marginTop: '10px' }}>
+                            <button
+                              onClick={() => shareOnWhatsApp(item.scheme)}
+                              style={{ padding: '5px 10px', borderRadius: '8px', border: 'none', background: '#25D366', color: 'white', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
+                            >{t.share}</button>
+                            <button
+                              onClick={() => { const updated = savedSchemes.filter((_, i) => i !== idx); setSavedSchemes(updated); localStorage.setItem('govmithra_saved_schemes', JSON.stringify(updated)); }}
+                              style={{ padding: '5px 10px', borderRadius: '8px', border: '1px solid #e2e8f0', background: 'white', color: '#ef4444', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '600' }}
+                            >{t.removeScheme}</button>
+                          </div>
+                        </div>
+                      ))
               )}
             </div>
           )}
@@ -4149,8 +4250,29 @@ export default function GovMithra() {
                     {/* ── SCHEME HEADER ── */}
                     {(res.name || res.scheme_name || res.title) && (
                       <div style={{ marginBottom: '14px' }}>
-                        <div style={{ fontSize: '1.05rem', fontWeight: '700', color: '#1e293b', lineHeight: '1.4' }}>
-                          🏛️ {res.name || res.scheme_name || res.title}
+                        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '10px' }}>
+                          <div style={{ fontSize: '1.05rem', fontWeight: '700', color: '#1e293b', lineHeight: '1.4' }}>
+                            🏛️ {res.name || res.scheme_name || res.title}
+                          </div>
+                          {/* ── ELIGIBILITY BADGE ── */}
+                          {(() => {
+                            const score = getEligibilityScore(res);
+                            if (score === null) return null;
+                            const color = score >= 80 ? '#16a34a' : score >= 50 ? '#d97706' : '#dc2626';
+                            const bg    = score >= 80 ? '#dcfce7' : score >= 50 ? '#fef3c7' : '#fee2e2';
+                            const label = score >= 80 ? 'Great match' : score >= 50 ? 'Partial match' : 'Low match';
+                            return (
+                              <div style={{ flexShrink: 0, textAlign: 'center' }}>
+                                <div style={{
+                                  background: bg, color, border: `2px solid ${color}`,
+                                  borderRadius: '12px', padding: '4px 10px',
+                                  fontSize: '0.78rem', fontWeight: '700', whiteSpace: 'nowrap'
+                                }}>
+                                  {score}% {label}
+                                </div>
+                              </div>
+                            );
+                          })()}
                         </div>
                         {res.id && (
                           <div style={{ fontSize: '0.75rem', color: '#94a3b8', marginTop: '3px' }}>
@@ -4442,20 +4564,36 @@ export default function GovMithra() {
           <div ref={messagesEndRef} />
         </div>
 
-        <div style={{
-          padding: '25px 30px',
-          background: 'white',
-          borderTop: '1px solid #e2e8f0',
-          display: 'flex',
-          gap: '15px',
-          alignItems: 'center',
-          boxShadow: '0 -2px 10px rgba(0,0,0,0.05)'
-        }}>
+        <div style={{ background: 'white', borderTop: '1px solid #e2e8f0', boxShadow: '0 -2px 10px rgba(0,0,0,0.05)' }}>
+          {/* ── RECENT SEARCHES DROPDOWN ── */}
+          {showRecentSearches && recentSearches.length > 0 && (
+            <div style={{ padding: '10px 30px 4px', borderBottom: '1px solid #f1f5f9' }}>
+              <div style={{ fontSize: '0.75rem', color: '#94a3b8', fontWeight: '600', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>🕘 Recent Searches</div>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                {recentSearches.map((q, qi) => (
+                  <button key={qi} onClick={() => { setInputText(q); setShowRecentSearches(false); inputRef.current?.focus(); }}
+                    style={{ padding: '5px 12px', borderRadius: '16px', border: '1px solid #e2e8f0', background: '#f8fafc',
+                             color: '#475569', cursor: 'pointer', fontSize: '0.82rem', fontWeight: '500',
+                             display: 'flex', alignItems: 'center', gap: '5px' }}>
+                    <span style={{ color: '#94a3b8' }}>🕘</span> {q}
+                  </button>
+                ))}
+                <button onClick={() => { setRecentSearches([]); localStorage.removeItem('govmithra_recent_searches'); setShowRecentSearches(false); }}
+                  style={{ padding: '5px 10px', borderRadius: '16px', border: 'none', background: 'none',
+                           color: '#ef4444', cursor: 'pointer', fontSize: '0.78rem', fontWeight: '600' }}>
+                  Clear
+                </button>
+              </div>
+            </div>
+          )}
+          <div style={{ padding: '25px 30px', display: 'flex', gap: '15px', alignItems: 'center' }}>
           <input
             ref={inputRef}
             type="text"
             value={inputText}
             onChange={e => setInputText(e.target.value)}
+            onFocus={() => setShowRecentSearches(true)}
+            onBlur={() => setTimeout(() => setShowRecentSearches(false), 150)}
             onKeyDown={e => e.key === 'Enter' && handleSend()}
             style={{
               flex: 1,
@@ -4484,6 +4622,7 @@ export default function GovMithra() {
           >
             {t.send} ✈️
           </button>
+          </div>
         </div>
       </div>
 
