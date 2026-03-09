@@ -3421,14 +3421,55 @@ export default function GovMithra() {
   const runComparison = () => {
     if (compareList.length < 2) return;
     const schemes = compareList.map(s => s.scheme);
+
+    // Separate URL keys from text keys
     const allKeys = [...new Set(schemes.flatMap(s => Object.keys(s)))];
-    const rowKeys = allKeys.filter(k => !schemes.every(s => String(s[k] || '').startsWith('http')));
+    const textKeys = allKeys.filter(k =>
+      !schemes.every(s => String(s[k] || '').startsWith('http'))
+    );
+    const linkKeys = allKeys.filter(k =>
+      schemes.some(s => String(s[k] || '').startsWith('http'))
+    );
+
+    // Priority field ordering: name/title first, benefit/amount second, eligibility third, rest alphabetically
+    const priorityOrder = [
+      /name|title|scheme|yojana|program/i,
+      /benefit|amount|assist|grant|fund|money|pension|award/i,
+      /eligib|who|criteria|target|income|caste/i,
+      /how|apply|process|step/i,
+      /doc|paper|certif|proof/i,
+      /dept|ministry|office/i,
+    ];
+    const sortedKeys = [...textKeys].sort((a, b) => {
+      const ai = priorityOrder.findIndex(r => r.test(a));
+      const bi = priorityOrder.findIndex(r => r.test(b));
+      if (ai === -1 && bi === -1) return a.localeCompare(b);
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
+
     const headers = ['Feature', ...compareList.map(s => s.label || 'Scheme')];
-    const rows = rowKeys.map(key => [
-      key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
-      ...schemes.map(s => s[key] || '—')
-    ]);
-    setCompareResult({ headers, rows });
+
+    // Build rows: highlight differing cells
+    const rows = sortedKeys.map(key => {
+      const cells = schemes.map(s => s[key] || '—');
+      const allSame = cells.every(c => c === cells[0]);
+      return {
+        label: key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+        cells,
+        isDiff: !allSame,
+      };
+    });
+
+    // Build link rows separately
+    const linkRows = linkKeys.map(key => ({
+      label: key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+      cells: schemes.map(s => s[key] || ''),
+      isLink: true,
+    }));
+
+    setCompareResult({ headers, rows, linkRows });
     setShowCompare(true);
   };
 
@@ -4105,19 +4146,112 @@ export default function GovMithra() {
                     borderRadius: '15px',
                     border: '1px solid #e2e8f0'
                   }}>
-                    {Object.entries(res).map(([k, v]) => (
-                      <div key={k} style={{ marginBottom: '10px', fontSize: '0.95rem' }}>
-                        <strong style={{ color: '#475569', textTransform: 'capitalize' }}>
-                          {k.replace(/_/g, ' ')}:
-                        </strong>{' '}
-                        {String(v).startsWith('http') ?
-                          <a href={v} target="_blank" rel="noopener noreferrer" 
-                             style={{ color: '#667eea', fontWeight: '500', textDecoration: 'none' }}>
-                            View Details ↗
-                          </a>
-                          : v}
+                    {/* ── SCHEME HEADER ── */}
+                    {(res.name || res.scheme_name || res.title) && (
+                      <div style={{ marginBottom: '14px' }}>
+                        <div style={{ fontSize: '1.05rem', fontWeight: '700', color: '#1e293b', lineHeight: '1.4' }}>
+                          🏛️ {res.name || res.scheme_name || res.title}
+                        </div>
+                        {res.id && (
+                          <div style={{ fontSize: '0.75rem', color: '#94a3b8', marginTop: '3px' }}>
+                            Scheme ID: {res.id}
+                          </div>
+                        )}
                       </div>
-                    ))}
+                    )}
+                    {/* ── DESCRIPTION SENTENCES ── */}
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.9rem', color: '#374151' }}>
+                      {/* Service type */}
+                      {res.service_type && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>🔖</span>
+                          <span>This is a <strong>{res.service_type.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</strong> service.</span>
+                        </div>
+                      )}
+                      {/* Domain */}
+                      {res.domain && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>🗂️</span>
+                          <span>It falls under the <strong>{res.domain.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</strong> department.</span>
+                        </div>
+                      )}
+                      {/* State */}
+                      {res.state && res.state !== 'ANY' && res.state !== 'Central' && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>📍</span>
+                          <span>This service is available in <strong>{res.state}</strong>.</span>
+                        </div>
+                      )}
+                      {res.state === 'Central' && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>🇮🇳</span>
+                          <span>This is a <strong>Central Government</strong> scheme available across India.</span>
+                        </div>
+                      )}
+                      {/* Target roles */}
+                      {res.target_roles && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>👥</span>
+                          <span>It is meant for: <strong>{
+                            (Array.isArray(res.target_roles)
+                              ? res.target_roles.join(', ')
+                              : String(res.target_roles)
+                                  .replace(/([a-z])([A-Z])/g, '$1, $2')
+                                  .replace(/_/g, ', ')
+                            ).replace(/\b\w/g, c => c.toUpperCase())
+                          }</strong>.</span>
+                        </div>
+                      )}
+                      {/* Eligible categories */}
+                      {res.eligible_categories && res.eligible_categories !== 'ANY' && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>✅</span>
+                          <span>Eligible for: <strong>{res.eligible_categories}</strong>.</span>
+                        </div>
+                      )}
+                      {res.eligible_categories === 'ANY' && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>✅</span>
+                          <span>Open to <strong>all eligible citizens</strong> — no category restriction.</span>
+                        </div>
+                      )}
+                      {/* Tags */}
+                      {res.tags && (
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>🏷️</span>
+                          <span style={{ display: 'flex', flexWrap: 'wrap', gap: '5px', alignItems: 'center' }}>
+                            <span style={{ marginRight: '4px' }}>Related topics:</span>
+                            {(Array.isArray(res.tags)
+                              ? res.tags
+                              : String(res.tags).match(/[A-Z][a-z]+|[a-z]+/g) || []
+                            ).filter((t,i,a) => a.indexOf(t) === i).map((tag, ti) => (
+                              <span key={ti} style={{
+                                background: '#ede9fe', color: '#6d28d9',
+                                borderRadius: '20px', padding: '2px 10px',
+                                fontSize: '0.78rem', fontWeight: '600'
+                              }}>{tag.charAt(0).toUpperCase() + tag.slice(1)}</span>
+                            ))}
+                          </span>
+                        </div>
+                      )}
+                      {/* URL */}
+                      {Object.entries(res).filter(([k, v]) => String(v).startsWith('http')).map(([k, v]) => (
+                        <div key={k} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginTop: '4px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>🔗</span>
+                          <a href={v} target="_blank" rel="noopener noreferrer"
+                             style={{ color: '#667eea', fontWeight: '600', textDecoration: 'none', fontSize: '0.88rem' }}>
+                            Apply / View Official Details ↗
+                          </a>
+                        </div>
+                      ))}
+                      {/* Any other fields not yet handled */}
+                      {Object.entries(res).filter(([k]) => !['id','name','scheme_name','title','service_type','domain','state','target_roles','eligible_categories','tags'].includes(k) && !String(res[k]).startsWith('http')).map(([k, v]) => v ? (
+                        <div key={k} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                          <span style={{ fontSize: '1rem', flexShrink: 0 }}>📌</span>
+                          <span><strong style={{ textTransform: 'capitalize' }}>{k.replace(/_/g, ' ')}:</strong> {v}</span>
+                        </div>
+                      ) : null)}
+                    </div>
                     {/* ── SCHEME ACTION BUTTONS ── */}
                     <div style={{ display: 'flex', gap: '8px', marginTop: '12px', flexWrap: 'wrap' }}>
                       <button
@@ -4376,16 +4510,39 @@ export default function GovMithra() {
           borderRadius: '18px',
           boxShadow: '0 8px 32px rgba(102,126,234,0.55)',
           zIndex: 1000,
-          minWidth: '230px',
+          minWidth: '240px',
+          maxWidth: '280px',
           animation: 'slideUp 0.3s ease'
         }}>
-          <p style={{ margin: '0 0 8px 0', fontWeight: '700', fontSize: '1rem' }}>
+          <p style={{ margin: '0 0 10px 0', fontWeight: '700', fontSize: '1rem' }}>
             🔄 Compare ({compareList.length}/3)
           </p>
           {compareList.map((s, ci) => (
-            <p key={ci} style={{ margin: '3px 0', fontSize: '0.82rem', opacity: 0.9 }}>
-              • {s.label}
-            </p>
+            <div key={ci} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', margin: '4px 0' }}>
+              <p style={{ margin: 0, fontSize: '0.82rem', opacity: 0.9, flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                • {s.label}
+              </p>
+              <button
+                onClick={() => setCompareList(prev => prev.filter((_, i) => i !== ci))}
+                style={{
+                  marginLeft: '8px',
+                  background: 'rgba(255,255,255,0.25)',
+                  border: 'none',
+                  borderRadius: '50%',
+                  width: '18px',
+                  height: '18px',
+                  color: 'white',
+                  cursor: 'pointer',
+                  fontSize: '0.65rem',
+                  fontWeight: '700',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  flexShrink: 0,
+                  lineHeight: 1
+                }}
+              >✕</button>
+            </div>
           ))}
           <div style={{ display: 'flex', gap: '8px', marginTop: '12px' }}>
             <button
@@ -4396,8 +4553,8 @@ export default function GovMithra() {
                 padding: '9px',
                 borderRadius: '10px',
                 border: 'none',
-                background: 'white',
-                color: '#667eea',
+                background: compareList.length < 2 ? 'rgba(255,255,255,0.3)' : 'white',
+                color: compareList.length < 2 ? 'rgba(255,255,255,0.5)' : '#667eea',
                 cursor: compareList.length < 2 ? 'not-allowed' : 'pointer',
                 fontWeight: '700',
                 fontSize: '0.88rem'
@@ -4438,25 +4595,76 @@ export default function GovMithra() {
             background: 'white',
             borderRadius: '20px',
             padding: '30px',
-            maxWidth: '850px',
+            maxWidth: '920px',
             width: '100%',
-            maxHeight: '85vh',
+            maxHeight: '88vh',
             overflowY: 'auto',
             boxShadow: '0 20px 60px rgba(0,0,0,0.35)'
           }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-              <h2 style={{ margin: 0, color: '#1e293b', fontSize: '1.4rem', fontWeight: 'bold' }}>
-                {t.compareTitle}
-              </h2>
-              <button
-                onClick={() => setShowCompare(false)}
-                style={{
-                  border: 'none', background: '#f1f5f9',
-                  borderRadius: '50%', width: '36px', height: '36px',
-                  fontSize: '1.1rem', cursor: 'pointer', color: '#64748b',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center'
-                }}
-              >✕</button>
+            {/* Modal Header */}
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+              <div>
+                <h2 style={{ margin: 0, color: '#1e293b', fontSize: '1.4rem', fontWeight: 'bold' }}>
+                  🔄 {compareList.length === 2 ? 'Comparing 2 Schemes' : 'Comparing 3 Schemes'}
+                </h2>
+                <p style={{ margin: '4px 0 0', fontSize: '0.82rem', color: '#94a3b8' }}>
+                  🟡 Highlighted rows show differences between schemes
+                </p>
+              </div>
+              <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+                {/* Export Button */}
+                <button
+                  onClick={() => {
+                    if (!compareResult) return;
+                    const { headers, rows, linkRows } = compareResult;
+                    const htmlRows = rows.map(r =>
+                      `<tr style="background:${r.isDiff ? '#fffbeb' : 'white'}">
+                        <td style="padding:10px 14px;font-weight:600;color:#475569;border:1px solid #e2e8f0">${r.label}</td>
+                        ${r.cells.map(c => `<td style="padding:10px 14px;border:1px solid #e2e8f0">${c}</td>`).join('')}
+                      </tr>`
+                    ).join('');
+                    const linkRowsHtml = (linkRows || []).map(r =>
+                      `<tr><td style="padding:10px 14px;font-weight:600;color:#475569;border:1px solid #e2e8f0">${r.label}</td>
+                        ${r.cells.map(c => c ? `<td style="padding:10px 14px;border:1px solid #e2e8f0"><a href="${c}" style="color:#667eea">View ↗</a></td>` : `<td style="padding:10px 14px;border:1px solid #e2e8f0">—</td>`).join('')}
+                      </tr>`
+                    ).join('');
+                    const headerHtml = headers.map((h, hi) =>
+                      `<th style="padding:12px 14px;text-align:left;background:linear-gradient(135deg,#667eea,#764ba2);color:white;border-right:1px solid rgba(255,255,255,0.2)">${h}</th>`
+                    ).join('');
+                    const content = `<html><head><title>Scheme Comparison</title></head><body style="font-family:sans-serif;padding:30px">
+                      <h1 style="color:#667eea">🔄 GovMithra Scheme Comparison</h1>
+                      <p style="color:#94a3b8">Generated on ${new Date().toLocaleString()}</p>
+                      <table style="width:100%;border-collapse:collapse;margin-top:20px">
+                        <thead><tr>${headerHtml}</tr></thead>
+                        <tbody>${htmlRows}${linkRowsHtml}</tbody>
+                      </table>
+                    </body></html>`;
+                    const w = window.open('', '_blank');
+                    w.document.write(content);
+                    w.document.close();
+                    setTimeout(() => { w.print(); }, 500);
+                  }}
+                  style={{
+                    padding: '8px 14px',
+                    borderRadius: '10px',
+                    border: '2px solid #e2e8f0',
+                    background: 'white',
+                    color: '#64748b',
+                    cursor: 'pointer',
+                    fontWeight: '600',
+                    fontSize: '0.82rem'
+                  }}
+                >📥 Export</button>
+                <button
+                  onClick={() => setShowCompare(false)}
+                  style={{
+                    border: 'none', background: '#f1f5f9',
+                    borderRadius: '50%', width: '36px', height: '36px',
+                    fontSize: '1.1rem', cursor: 'pointer', color: '#64748b',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center'
+                  }}
+                >✕</button>
+              </div>
             </div>
 
             {compareResult ? (
@@ -4472,32 +4680,88 @@ export default function GovMithra() {
                           color: 'white',
                           fontWeight: '700',
                           borderRight: hi < compareResult.headers.length - 1 ? '1px solid rgba(255,255,255,0.2)' : 'none',
-                          borderRadius: hi === 0 ? '10px 0 0 0' : hi === compareResult.headers.length - 1 ? '0 10px 0 0' : '0'
+                          borderRadius: hi === 0 ? '10px 0 0 0' : hi === compareResult.headers.length - 1 ? '0 10px 0 0' : '0',
+                          whiteSpace: 'nowrap'
                         }}>{h}</th>
                       ))}
                     </tr>
                   </thead>
                   <tbody>
+                    {/* Text rows with diff highlighting */}
                     {compareResult.rows.map((row, ri) => (
-                      <tr key={ri} style={{ background: ri % 2 === 0 ? '#f8fafc' : 'white' }}>
-                        {row.map((cell, ci) => (
+                      <tr key={ri} style={{ background: row.isDiff ? '#fffbeb' : (ri % 2 === 0 ? '#f8fafc' : 'white') }}>
+                        <td style={{
+                          padding: '11px 16px',
+                          border: '1px solid #e2e8f0',
+                          fontWeight: '700',
+                          color: '#475569',
+                          verticalAlign: 'top',
+                          lineHeight: '1.5',
+                          minWidth: '140px'
+                        }}>
+                          {row.isDiff && <span style={{ color: '#f59e0b', marginRight: '6px', fontSize: '0.8rem' }}>◆</span>}
+                          {row.label}
+                        </td>
+                        {row.cells.map((cell, ci) => (
                           <td key={ci} style={{
-                            padding: '12px 16px',
+                            padding: '11px 16px',
                             border: '1px solid #e2e8f0',
-                            fontWeight: ci === 0 ? '700' : '400',
-                            color: ci === 0 ? '#475569' : '#1e293b',
+                            color: '#1e293b',
                             verticalAlign: 'top',
-                            lineHeight: '1.5'
+                            lineHeight: '1.5',
+                            background: row.isDiff ? '#fffbeb' : 'inherit'
                           }}>
-                            {String(cell).startsWith('http')
-                              ? <a href={cell} target="_blank" rel="noopener noreferrer" style={{ color: '#667eea', textDecoration: 'none' }}>View ↗</a>
+                            {cell === '—'
+                              ? <span style={{ color: '#cbd5e1' }}>—</span>
                               : cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                    {/* Link rows at the bottom */}
+                    {(compareResult.linkRows || []).length > 0 && (
+                      <tr>
+                        <td colSpan={compareResult.headers.length} style={{
+                          padding: '10px 16px',
+                          background: '#f1f5f9',
+                          fontWeight: '700',
+                          color: '#475569',
+                          fontSize: '0.82rem',
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.5px',
+                          border: '1px solid #e2e8f0'
+                        }}>
+                          🔗 Official Links
+                        </td>
+                      </tr>
+                    )}
+                    {(compareResult.linkRows || []).map((row, ri) => (
+                      <tr key={`link-${ri}`} style={{ background: ri % 2 === 0 ? '#f8fafc' : 'white' }}>
+                        <td style={{
+                          padding: '11px 16px',
+                          border: '1px solid #e2e8f0',
+                          fontWeight: '700',
+                          color: '#475569',
+                          verticalAlign: 'top',
+                          minWidth: '140px'
+                        }}>{row.label}</td>
+                        {row.cells.map((cell, ci) => (
+                          <td key={ci} style={{ padding: '11px 16px', border: '1px solid #e2e8f0', verticalAlign: 'top' }}>
+                            {cell
+                              ? <a href={cell} target="_blank" rel="noopener noreferrer" style={{ color: '#667eea', textDecoration: 'none', fontWeight: '500' }}>View ↗</a>
+                              : <span style={{ color: '#cbd5e1' }}>—</span>}
                           </td>
                         ))}
                       </tr>
                     ))}
                   </tbody>
                 </table>
+
+                {/* Legend */}
+                <div style={{ marginTop: '14px', display: 'flex', alignItems: 'center', gap: '16px', fontSize: '0.8rem', color: '#94a3b8' }}>
+                  <span><span style={{ color: '#f59e0b' }}>◆</span> = Fields that differ between schemes</span>
+                  <span style={{ background: '#fffbeb', padding: '2px 8px', borderRadius: '6px', border: '1px solid #fde68a', color: '#92400e' }}>Yellow = different values</span>
+                </div>
               </div>
             ) : (
               <p style={{ color: '#ef4444', textAlign: 'center', padding: '20px' }}>
