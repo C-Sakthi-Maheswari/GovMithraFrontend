@@ -3042,6 +3042,7 @@ export default function GovMithra() {
   });
   const [showRecentSearches, setShowRecentSearches] = useState(false);
   const [savedSchemesSearch, setSavedSchemesSearch] = useState("");
+  const [speakingKey, setSpeakingKey] = useState(null);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -3053,6 +3054,36 @@ export default function GovMithra() {
       setCopiedMsgId(msgId);
       setTimeout(() => setCopiedMsgId(null), 2000);
     });
+  };
+
+  // ── READ SCHEME ALOUD ────────────────────────────────────────────
+  const langToSpeechCode = {
+    en: 'en-IN', hi: 'hi-IN', ta: 'ta-IN', te: 'te-IN',
+    ml: 'ml-IN', kn: 'kn-IN', bn: 'bn-IN', mr: 'mr-IN',
+    gu: 'gu-IN', pa: 'pa-IN', or: 'or-IN', as: 'as-IN', ur: 'ur-IN'
+  };
+
+  const readSchemeAloud = (scheme, msgIdx, schemeIdx) => {
+    const key = `${msgIdx}-${schemeIdx}`;
+    if (speakingKey === key) {
+      window.speechSynthesis.cancel();
+      setSpeakingKey(null);
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const schemeName = scheme.scheme_name || scheme.name || scheme.title || 'Government Scheme';
+    const textParts = Object.entries(scheme)
+      .filter(([k, v]) => v && !String(v).startsWith('http') && String(v).trim().length > 0)
+      .map(([k, v]) => `${k.replace(/_/g, ' ')}: ${v}`)
+      .join('. ');
+    const fullText = `${schemeName}. ${textParts}`;
+    const utterance = new SpeechSynthesisUtterance(fullText);
+    utterance.lang = langToSpeechCode[selectedLanguage] || 'en-IN';
+    utterance.rate = 0.9;
+    utterance.onend = () => setSpeakingKey(null);
+    utterance.onerror = () => setSpeakingKey(null);
+    setSpeakingKey(key);
+    window.speechSynthesis.speak(utterance);
   };
 
   // ── ELIGIBILITY MATCH SCORE ─────────────────────────────────────
@@ -4453,6 +4484,28 @@ export default function GovMithra() {
                       >
                         {isInCompare(i, idx) ? t.inCompare : t.compare}
                       </button>
+                      {/* 🔊 READ ALOUD BUTTON */}
+                      <button
+                        onClick={() => readSchemeAloud(res, i, idx)}
+                        title={speakingKey === `${i}-${idx}` ? 'Stop reading' : 'Read aloud'}
+                        style={{
+                          padding: '6px 12px',
+                          borderRadius: '8px',
+                          border: `2px solid ${speakingKey === `${i}-${idx}` ? '#667eea' : '#e2e8f0'}`,
+                          background: speakingKey === `${i}-${idx}` ? '#ede9fe' : 'white',
+                          color: speakingKey === `${i}-${idx}` ? '#667eea' : '#64748b',
+                          cursor: 'pointer',
+                          fontSize: '0.82rem',
+                          fontWeight: '700',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '4px',
+                          transition: 'all 0.2s',
+                          animation: speakingKey === `${i}-${idx}` ? 'pulse 1.5s infinite' : 'none'
+                        }}
+                      >
+                        {speakingKey === `${i}-${idx}` ? '⏹ Stop' : '🔊 Read'}
+                      </button>
                     </div>
                     {/* 🧠 SIMPLE EXPLANATION BOX */}
                     {explanations[`${i}-${idx}`] && (
@@ -4634,6 +4687,10 @@ export default function GovMithra() {
         @keyframes slideUp {
           from { transform: translateY(20px); opacity: 0; }
           to   { transform: translateY(0);    opacity: 1; }
+        }
+        @keyframes pulse {
+          0%, 100% { box-shadow: 0 0 0 0 rgba(102,126,234,0.4); }
+          50% { box-shadow: 0 0 0 6px rgba(102,126,234,0); }
         }
       `}</style>
 
